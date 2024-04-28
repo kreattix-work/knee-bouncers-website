@@ -5668,3 +5668,15 @@ progress {
 .banner-section .awards-img {
   max-width: 285px;
 }
+
+.brand-items {
+  padding: 60px 0;
+}
+.brand-items .slick-slide img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  padding: 0 10px;
+  height: 50px;
+}

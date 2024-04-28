@@ -4,3 +4,13 @@
     max-width: 285px;
   }
 }
+
+.brand-items {
+  padding: 60px 0;
+  .slick-slide img {
+    object-fit: contain;
+    object-position: center;
+    padding: 0 10px;
+    height: 50px;
+  }
+}
