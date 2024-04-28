@@ -95,13 +95,13 @@ $text-colors: (
 
 @each $size, $value in $text-sizes {
   .text-active-#{$size}:active {
-    font-size: $value !important;
+    font-size: clamp($value - 12px, 4.5vw, $value) !important;
   }
   .text-hover-#{$size}:hover:not(:active) {
-    font-size: $value !important;
+    font-size: clamp($value - 12px, 4.5vw, $value) !important;
   }
   .text-#{$size} {
-    font-size: $value !important;
+    font-size: clamp($value - 12px, 4.5vw, $value) !important;
   }
 }
 
