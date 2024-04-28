@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'kneebouncers';
-  src:  url('../fonts/kneebouncers.eot?qrnmzi');
-  src:  url('../fonts/kneebouncers.eot?qrnmzi#iefix') format('embedded-opentype'),
-    url('../fonts/kneebouncers.ttf?qrnmzi') format('truetype'),
-    url('../fonts/kneebouncers.woff?qrnmzi') format('woff'),
-    url('../fonts/kneebouncers.svg?qrnmzi#kneebouncers') format('svg');
+  src:  url('../fonts/kneebouncers.eot?9hem8f');
+  src:  url('../fonts/kneebouncers.eot?9hem8f#iefix') format('embedded-opentype'),
+    url('../fonts/kneebouncers.ttf?9hem8f') format('truetype'),
+    url('../fonts/kneebouncers.woff?9hem8f') format('woff'),
+    url('../fonts/kneebouncers.svg?9hem8f#kneebouncers') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -31,24 +31,24 @@
 .kneeicons-fb:before {
   content: "\e901";
 }
-.kneeicons-x:before {
+.kneeicons-ig:before {
   content: "\e902";
 }
-.kneeicons-yt:before {
+.kneeicons-menu:before {
   content: "\e903";
 }
-.kneeicons-tiktok:before {
+.kneeicons-pinterest:before {
   content: "\e904";
 }
-.kneeicons-pinterest:before {
+.kneeicons-remove:before {
   content: "\e905";
 }
-.kneeicons-ig:before {
+.kneeicons-tiktok:before {
   content: "\e906";
 }
-.kneeicons-remove:before {
+.kneeicons-X:before {
   content: "\e907";
 }
-.kneeicons-menu:before {
+.kneeicons-yt:before {
   content: "\e908";
 }
