@@ -59,8 +59,19 @@
 }
 
 .game-category-section {
+  padding-bottom: 60px;
   .subtitle-container {
     margin-bottom: 26px;
     gap: 20px;
+  }
+}
+
+.progress-tracker-section {
+  padding: 60px 0;
+  img {
+    aspect-ratio: 16 / 6;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
   }
 }
