@@ -1,9 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap";
-.text-orange {
+.text-secondary {
   color: #ff7500 !important;
 }
 
-.bg-orange {
+.bg-secondary {
   background-color: #ff7500 !important;
 }
 
@@ -32,35 +32,35 @@
 }
 
 .text-red {
-  color: #DE195B !important;
+  color: #de195b !important;
 }
 
 .bg-red {
-  background-color: #DE195B !important;
+  background-color: #de195b !important;
 }
 
 .text-yellow {
-  color: #FFDC00 !important;
+  color: #ffdc00 !important;
 }
 
 .bg-yellow {
-  background-color: #FFDC00 !important;
+  background-color: #ffdc00 !important;
 }
 
 .text-purple-dark {
-  color: #652D88 !important;
+  color: #652d88 !important;
 }
 
 .bg-purple-dark {
-  background-color: #652D88 !important;
+  background-color: #652d88 !important;
 }
 
 .text-orange-dark {
-  color: #FF8000 !important;
+  color: #ff8000 !important;
 }
 
 .bg-orange-dark {
-  background-color: #FF8000 !important;
+  background-color: #ff8000 !important;
 }
 
 .text-active-1:active {
@@ -502,6 +502,22 @@ img {
   height: auto;
 }
 
+.font-bold {
+  font-weight: 800;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 800;
+}
+
+h5,
+h5 {
+  font-weight: 700 !important;
+}
+
 *,
 *::before,
 *::after {
@@ -538,7 +554,7 @@ hr {
 h6, h5, h4, h3, h2, h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 1.2;
   color: var(--bs-heading-color);
 }
@@ -5644,4 +5660,8 @@ progress {
     left: initial;
     right: 20px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.banner-section {
+  padding: 60px 0;
+}

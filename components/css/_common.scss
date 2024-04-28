@@ -10,6 +10,8 @@ $gray-light: #d9e4ff;
 $text-dark: #313131;
 $text-light: $white;
 
+$headings-font-weight: 800;
+
 $font-family-sans-serif: "Nunito", sans-serif;
 $link-decoration: none;
 
@@ -72,14 +74,14 @@ $text-sizes: (
 );
 
 $text-colors: (
-  orange: $secondary,
+  secondary: $secondary,
   dark: $text-dark,
   primary: $primary,
   primary-dark: $primary-dark,
-  red: #DE195B,
-  yellow: #FFDC00,
-  purple-dark: #652D88,
-  orange-dark: #FF8000,
+  red: #de195b,
+  yellow: #ffdc00,
+  purple-dark: #652d88,
+  orange-dark: #ff8000,
 );
 
 @each $color, $value in $text-colors {
@@ -130,4 +132,20 @@ img {
   max-width: 100%;
   width: 100%;
   height: auto;
+}
+
+.font-bold {
+  font-weight: 800;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 800;
+}
+
+h5,
+h5 {
+  font-weight: 700 !important;
 }
