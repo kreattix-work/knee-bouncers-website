@@ -538,6 +538,18 @@ h6 {
   text-align: center;
 }
 
+.page-content {
+  position: relative;
+  z-index: 1;
+}
+.page-content-cloud-img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 *,
 *::before,
 *::after {
@@ -1023,8 +1035,8 @@ progress {
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg: #fff;
-  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-body-bg: #f4f4f4;
+  --bs-body-bg-rgb: 244, 244, 244;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
   --bs-secondary-color: rgba(33, 37, 41, 0.75);
@@ -5598,6 +5610,7 @@ progress {
 
 .footer {
   background-color: #0078ff;
+  border-top: 2px solid #FF8000;
 }
 .footer-logo {
   max-width: 221px;
@@ -5638,6 +5651,14 @@ progress {
   list-style: none;
   padding: 0;
   margin-bottom: 0;
+}
+.footer-links-on-right {
+  text-align: right;
+}
+@media (max-width: 576px) {
+  .footer-links-on-right {
+    text-align: center;
+  }
 }
 .footer-links li a {
   color: #fff;
@@ -5680,6 +5701,38 @@ progress {
     left: initial;
     right: 20px;
   }
+}
+
+.blog-card {
+  padding: 45px 35px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+}
+.blog-card p {
+  margin: 0;
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog-card-img {
+  max-width: 170px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-card-img img {
+  max-width: 170px;
+  margin: auto;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .banner-section {
@@ -5782,4 +5835,24 @@ progress {
   margin-bottom: 16px;
   max-width: 600px;
   width: 100%;
+}
+
+.blog-section {
+  padding: 60px 0;
+}
+.blog-section-title {
+  letter-spacing: 5px;
+}
+
+.contact-us-section {
+  padding: 100px 0;
+  max-width: 687px;
+  width: 100%;
+  margin: auto;
+}
+
+.privacy-policy-section {
+  padding: 60px 0;
+  font-size: 18px;
+  color: #313131;
 }/*# sourceMappingURL=styles.css.map */

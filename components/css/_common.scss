@@ -9,6 +9,7 @@ $white: #fff;
 $gray-light: #d9e4ff;
 $text-dark: #313131;
 $text-light: $white;
+$body-bg: #f4f4f4;
 
 $headings-font-weight: 800;
 
@@ -154,4 +155,16 @@ h6 {
 
 .text-center {
   text-align: center;
+}
+
+.page-content {
+  position: relative;
+  z-index: 1;
+  &-cloud-img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 }
