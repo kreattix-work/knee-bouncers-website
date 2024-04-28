@@ -1,5 +1,5 @@
 $header-height: 135px;
-$header-height-sm: 60px;
+$header-height-sm: 80px;
 $header-logo-width: 221px;
 
 .header {
@@ -11,5 +11,9 @@ $header-logo-width: 221px;
     display: block;
     max-width: $header-logo-width;
     margin-top: -15px;
+  }
+
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    height: $header-height-sm;
   }
 }
