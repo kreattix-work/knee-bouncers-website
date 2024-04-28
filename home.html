@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KneeBouncers</title>
+    <link rel="stylesheet" href="./assets/css/kneeicons.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
@@ -28,8 +29,36 @@
                 <li><a href="#">Store</a></li>
                 <li><a href="#">Blog</a></li>
               </ul>
-              <ul class="navigation-cart"></ul>
-              <ul class="navigation-actions"></ul>
+              <ul class="navigation-cart">
+                <li>
+                  <a href="#"><span class="kneeicons-cart"></span></a>
+                </li>
+              </ul>
+              <ul class="navigation-actions">
+                <li>
+                  <a href="#" class="btn btn-default btn-sm">Log in</a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn-filled btn-lg">
+                    <span class="default-text">Start your FREE trial</span>
+                    <span class="hover-text">FREE for one week!</span>
+                    <span class="active-text">Enjoy one week FREE!</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="navigation-mobile">
+              <ul>
+                <li>
+                  <a href="#"><span class="kneeicons-cart"></span></a>
+                </li>
+                <li>
+                  <a href="#" class="menu-toggler">
+                    <span class="kneeicons-menu closed"></span>
+                    <span class="kneeicons-remove opened"></span>
+                  </a>
+                </li>
+              </ul>
             </nav>
           </div>
         </div>
@@ -37,3 +66,11 @@
     </header>
   </body>
 </html>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script src="./assets/js/script.js"></script>
