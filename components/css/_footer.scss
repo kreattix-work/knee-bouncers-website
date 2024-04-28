@@ -37,6 +37,12 @@
     list-style: none;
     padding: 0;
     margin-bottom: 0;
+    &-on-right {
+      text-align: right;
+      @media (max-width: map-get($grid-breakpoints, sm)) {
+        text-align: center;
+      }
+    }
     li a {
       color: $white;
       font-weight: 700;

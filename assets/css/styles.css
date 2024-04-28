@@ -5652,6 +5652,14 @@ progress {
   padding: 0;
   margin-bottom: 0;
 }
+.footer-links-on-right {
+  text-align: right;
+}
+@media (max-width: 576px) {
+  .footer-links-on-right {
+    text-align: center;
+  }
+}
 .footer-links li a {
   color: #fff;
   font-weight: 700;
@@ -5834,4 +5842,11 @@ progress {
 }
 .blog-section-title {
   letter-spacing: 5px;
+}
+
+.contact-us-section {
+  padding: 100px 0;
+  max-width: 687px;
+  width: 100%;
+  margin: auto;
 }/*# sourceMappingURL=styles.css.map */
