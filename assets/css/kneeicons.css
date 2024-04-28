@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'kneeicons';
-  src:  url('../fonts/kneeicons.eot?z6b88r');
-  src:  url('../fonts/kneeicons.eot?z6b88r#iefix') format('embedded-opentype'),
-    url('../fonts/kneeicons.ttf?z6b88r') format('truetype'),
-    url('../fonts/kneeicons.woff?z6b88r') format('woff'),
-    url('../fonts/kneeicons.svg?z6b88r#kneeicons') format('svg');
+  font-family: 'kneebouncers';
+  src:  url('../fonts/kneebouncers.eot?qrnmzi');
+  src:  url('../fonts/kneebouncers.eot?qrnmzi#iefix') format('embedded-opentype'),
+    url('../fonts/kneebouncers.ttf?qrnmzi') format('truetype'),
+    url('../fonts/kneebouncers.woff?qrnmzi') format('woff'),
+    url('../fonts/kneebouncers.svg?qrnmzi#kneebouncers') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="kneeicon-"], [class*=" kneeicon-"] {
+[class^="kneeicons-"], [class*=" kneeicons-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'kneeicons' !important;
+  font-family: 'kneebouncers' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,6 +25,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.kneeicon-cart:before {
+.kneeicons-cart:before {
   content: "\e900";
+}
+.kneeicons-fb:before {
+  content: "\e901";
+}
+.kneeicons-x:before {
+  content: "\e902";
+}
+.kneeicons-yt:before {
+  content: "\e903";
+}
+.kneeicons-tiktok:before {
+  content: "\e904";
+}
+.kneeicons-pinterest:before {
+  content: "\e905";
+}
+.kneeicons-ig:before {
+  content: "\e906";
+}
+.kneeicons-remove:before {
+  content: "\e907";
+}
+.kneeicons-menu:before {
+  content: "\e908";
 }
