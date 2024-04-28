@@ -5499,14 +5499,57 @@ progress {
 .footer {
   background-color: #0078ff;
 }
+.footer-logo {
+  max-width: 221px;
+}
 .footer-top {
   padding: 50px 0;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 576px) {
+  .footer-top {
+    text-align: center;
+  }
+}
+.footer-top .bubble-img {
+  position: absolute;
+  left: 25%;
+  top: 50px;
+  max-height: calc(100% - 50px);
+  width: auto;
+  z-index: -1;
+}
+.footer-contact-info {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  text-align: right;
+}
+@media (max-width: 576px) {
+  .footer-contact-info {
+    text-align: center;
+  }
+}
+.footer-contact-info p {
+  margin-bottom: 0;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.footer-links li a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
 }
 .footer-social-links {
   list-style: none;
   padding: 0;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
   gap: 12px;
 }
 .footer-social-links li a {
@@ -5523,10 +5566,18 @@ progress {
 .footer-bottom {
   padding: 14px 0px;
   position: relative;
+  z-index: 1;
 }
 .footer-bottom .crabby-img {
   position: absolute;
   width: 116px;
   left: calc(50% - 58px);
   bottom: 0;
+  z-index: -1;
+}
+@media (max-width: 768px) {
+  .footer-bottom .crabby-img {
+    left: initial;
+    right: 20px;
+  }
 }

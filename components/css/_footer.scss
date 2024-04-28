@@ -1,13 +1,53 @@
 .footer {
   background-color: $primary;
+
+  &-logo {
+    max-width: 221px;
+  }
   &-top {
     padding: 50px 0;
+    position: relative;
+    z-index: 1;
+    @media (max-width: map-get($grid-breakpoints, sm)) {
+      text-align: center;
+    }
+    .bubble-img {
+      position: absolute;
+      left: 25%;
+      top: 50px;
+      max-height: calc(100% - 50px);
+      width: auto;
+      z-index: -1;
+    }
+  }
+  &-contact-info {
+    font-weight: 700;
+    font-size: 18px;
+    color: $white;
+    text-align: right;
+    @media (max-width: map-get($grid-breakpoints, sm)) {
+      text-align: center;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+  &-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    li a {
+      color: $white;
+      font-weight: 700;
+      font-size: 18px;
+    }
   }
   &-social-links {
     list-style: none;
     padding: 0;
     display: flex;
     align-items: center;
+    margin-bottom: 0;
     gap: 12px;
     li a {
       line-height: 0;
@@ -24,12 +64,19 @@
   &-bottom {
     padding: 14px 0px;
     position: relative;
+    z-index: 1;
 
     .crabby-img {
       position: absolute;
       width: 116px;
       left: calc(50% - 58px);
       bottom: 0;
+      z-index: -1;
+
+      @media (max-width: map-get($grid-breakpoints, md)) {
+        left: initial;
+        right: 20px;
+      }
     }
   }
 }
