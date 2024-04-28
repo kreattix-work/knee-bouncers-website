@@ -1,0 +1,22 @@
+.footer {
+  background-color: $primary;
+  &-top {
+    padding: 50px 0;
+  }
+  &-copyright {
+    color: $white;
+    font-size: map-get($sizes, 3);
+    margin: 0;
+  }
+  &-bottom {
+    padding: 14px 0px;
+    position: relative;
+
+    .crabby-img {
+      position: absolute;
+      width: 116px;
+      left: calc(50% - 58px);
+      bottom: 0;
+    }
+  }
+}

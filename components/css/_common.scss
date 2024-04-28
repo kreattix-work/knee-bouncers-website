@@ -96,6 +96,13 @@ $text-sizes: (
   }
 }
 
+body {
+  padding-top: 135px;
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    padding-top: 80px;
+  }
+}
+
 .default-border-light:not(:active, :hover) {
   border-color: $white !important;
 }

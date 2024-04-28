@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap";
 .text-active-1:active {
   font-size: 13px !important;
 }
@@ -416,6 +417,15 @@
 
 .font-11 {
   font-size: 40px !important;
+}
+
+body {
+  padding-top: 135px;
+}
+@media (max-width: 1130px) {
+  body {
+    padding-top: 80px;
+  }
 }
 
 .default-border-light:not(:active, :hover) {
@@ -5484,4 +5494,26 @@ progress {
   body.menu-open .navigation-mobile ul li a.menu-toggler .closed {
     display: none;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.footer {
+  background-color: #0078ff;
+}
+.footer-top {
+  padding: 50px 0;
+}
+.footer-copyright {
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+}
+.footer-bottom {
+  padding: 14px 0px;
+  position: relative;
+}
+.footer-bottom .crabby-img {
+  position: absolute;
+  width: 116px;
+  left: calc(50% - 58px);
+  bottom: 0;
+}
