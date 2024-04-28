@@ -3,6 +3,19 @@
   &-top {
     padding: 50px 0;
   }
+  &-social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    li a {
+      line-height: 0;
+      img {
+        width: 25px;
+      }
+    }
+  }
   &-copyright {
     color: $white;
     font-size: map-get($sizes, 3);

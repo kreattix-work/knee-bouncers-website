@@ -5502,6 +5502,19 @@ progress {
 .footer-top {
   padding: 50px 0;
 }
+.footer-social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer-social-links li a {
+  line-height: 0;
+}
+.footer-social-links li a img {
+  width: 25px;
+}
 .footer-copyright {
   color: #fff;
   font-size: 14px;
