@@ -1,0 +1,42 @@
+$primary: #0078ff;
+$secondary: #ff7500;
+$teritary: #bb005a;
+$accent: #96cc16;
+$accent-v2: #ffe700;
+$primary-dark: #2638c1;
+$featured: #ab3bff;
+$white: #fff;
+$gray-light: #d9e4ff;
+$text-dark: #313131;
+$text-light: $white;
+$transition: color, background-color, border, border-color 0.2s ease-in-out;
+
+$sizes: (
+  1: 10px,
+  2: 12px,
+  3: 14px,
+  4: 16px,
+  5: 18px,
+  6: 24px,
+  7: 26px,
+  8: 28px,
+  9: 30px,
+  10: 34px,
+  11: 40px,
+);
+
+.default-border-light:not(:active, :hover) {
+  border-color: $white !important;
+}
+
+@each $size, $value in $sizes {
+  .font-active-#{$size}:active {
+    font-size: $value !important;
+  }
+  .font-hover-#{$size}:hover:not(:active) {
+    font-size: $value !important;
+  }
+  .font-#{$size} {
+    font-size: $value !important;
+  }
+}

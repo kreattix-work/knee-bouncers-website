@@ -1,0 +1,248 @@
+$btn-border-radius: 30px;
+$btn-defualt-border: 2px solid $primary;
+$btn-primary-border: 2px solid $primary;
+$btn-teritary-border: 2px solid $teritary;
+$btn-accent-v2-border: 2px solid $accent-v2;
+$btn-gray-border: 2px solid #d9e4ff;
+
+$btn-outlined-border: 2px solid $white;
+
+$btn-width: 160px;
+$btn-height: 40px;
+$btn-font-size: 16px;
+$btn-font-weight: 800;
+
+$btn-width-sm: 110px;
+$btn-height-sm: 40px;
+$btn-font-size-sm: 16px;
+$btn-font-weight-sm: 800;
+
+$btn-width-lg: 200px;
+$btn-height-lg: 40px;
+$btn-font-size-lg: 16px;
+$btn-font-weight-lg: 800;
+
+$btn-width-xl: 225px;
+$btn-height-xl: 40px;
+$btn-font-size-xl: 24px;
+$btn-font-weight-xl: 800;
+
+$btn-big-width-sm: 205px;
+$btn-big-height-sm: 60px;
+$btn-big-font-size-sm: 40px;
+$btn-big-font-weight-sm: 800;
+
+$btn-big-width-lg: 275px;
+$btn-big-height-lg: 60px;
+$btn-big-font-size-lg: 26px;
+$btn-big-font-weight-lg: 800;
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  border-radius: $btn-border-radius;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+  transition: $transition;
+  padding: 8px 8px;
+  &:not(.btn-lg, .btn-sm) {
+    width: $btn-width;
+    height: $btn-height;
+    font-size: $btn-font-size;
+    font-weight: $btn-font-weight;
+  }
+
+  .hover-text,
+  .active-text {
+    display: none;
+  }
+
+  &:hover,
+  &:active {
+    .default-text {
+      display: none;
+    }
+  }
+  &:hover:not(:active) {
+    .hover-text {
+      display: inline-block;
+    }
+  }
+  &:active {
+    .active-text {
+      display: inline-block;
+    }
+  }
+}
+.btn-featured {
+  border: $btn-gray-border;
+  background-color: $white;
+  color: $primary;
+  font-size: map-get($sizes, 10);
+
+  &:hover {
+    border-color: $featured;
+    background-color: $featured;
+    color: $white;
+    font-size: map-get($sizes, 8);
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $accent;
+    font-size: map-get($sizes, 9);
+  }
+}
+.btn-default {
+  border: $btn-defualt-border;
+  background-color: $white;
+  color: $text-dark;
+
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $accent;
+  }
+}
+.btn-default-v2 {
+  border: $btn-teritary-border;
+  background-color: $white;
+  color: $teritary;
+
+  &:hover {
+    background-color: $secondary;
+    border-color: $secondary;
+    color: $white;
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $accent;
+  }
+}
+.btn-secondary {
+  border: $btn-accent-v2-border;
+  background-color: $secondary;
+  color: $white;
+
+  &:hover {
+    background-color: $teritary;
+    border-color: $secondary;
+    color: $secondary;
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $accent;
+    color: $white;
+  }
+}
+.btn-filled {
+  border: $btn-defualt-border;
+  background-color: $primary;
+  color: $text-light;
+
+  &:hover {
+    background-color: $white;
+    color: $primary;
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $accent;
+    color: $white;
+  }
+}
+.btn-filled-light {
+  border: $btn-outlined-border;
+  background-color: $white;
+  color: $primary;
+
+  &:hover {
+    background-color: $primary;
+    border-color: $primary;
+    color: $white;
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $accent;
+    color: $white;
+  }
+}
+.btn-outlined {
+  border: $btn-outlined-border;
+  background-color: transparent;
+  color: $text-light;
+
+  &:hover {
+    background-color: $primary-dark;
+    color: $white;
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $white;
+    color: $white;
+  }
+}
+.btn-outlined-primary {
+  border: $btn-primary-border;
+  background-color: transparent;
+  color: $primary;
+
+  &:hover {
+    background-color: $primary;
+    border-color: $primary;
+    color: $white;
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $white;
+    color: $white;
+  }
+}
+
+.btn-sm {
+  width: $btn-width-sm;
+  height: $btn-height-sm;
+  font-size: $btn-font-size-sm;
+  font-weight: $btn-font-weight-sm;
+}
+.btn-lg {
+  width: $btn-width-lg;
+  height: $btn-height-lg;
+  font-size: $btn-font-size-lg;
+  font-weight: $btn-font-weight-lg;
+}
+
+.btn-xl {
+  width: $btn-width-xl;
+  height: $btn-height-xl;
+  font-size: $btn-font-size-xl;
+  font-weight: $btn-font-weight-xl;
+  &:hover,
+  &:active {
+    font-size: map-get($sizes, 9);
+  }
+}
+.btn-big {
+  width: $btn-big-width-sm;
+  height: $btn-big-height-sm;
+  font-size: $btn-big-font-size-sm;
+  font-weight: $btn-big-font-weight-sm;
+  &:hover:not(:active) {
+    font-size: map-get($sizes, 10);
+  }
+}
+.btn-big-lg {
+  width: $btn-big-width-lg;
+  height: $btn-big-height-lg;
+  font-size: $btn-big-font-size-lg;
+  font-weight: $btn-big-font-weight-lg;
+  &:hover,
+  &:active {
+    font-size: map-get($sizes, 8);
+  }
+}

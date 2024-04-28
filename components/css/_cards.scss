@@ -1,0 +1,51 @@
+$card-border-radius: 10px;
+$background-bg: $white;
+$card-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+
+.tag {
+  color: inherit;
+  padding: 4px 8px;
+  font-weight: 700;
+  border-radius: 6px;
+  border: 1px solid #d9e4ff;
+  background: rgba(217, 228, 255, 0.5);
+}
+
+.card {
+  border-radius: $card-border-radius;
+  background: $background-bg;
+  box-shadow: $card-box-shadow;
+  color: $text-dark;
+  overflow: hidden;
+
+  &-image img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 13/8.7;
+    object-fit: cover;
+    object-position: center;
+  }
+  &-content {
+    padding: 18px 20px;
+    letter-spacing: 0.32px;
+  }
+  &-title {
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-size: map-get($sizes, 5);
+    font-weight: 700;
+  }
+  &-description {
+    margin-top: 0;
+    font-size: map-get($sizes, 3);
+    font-style: italic;
+    font-weight: 600;
+  }
+  &-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px 20px 20px 20px;
+  }
+}

@@ -1,0 +1,28 @@
+@import "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap";
+
+body, a, button {
+    font-family: "Nunito",
+            sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    background-color: #313131;
+    color: #fff
+}
+
+.variant-box {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.max-width-500 {
+    max-width: 500px;
+}
+.max-width-300 {
+    max-width: 300px;
+}
