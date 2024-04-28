@@ -47,8 +47,9 @@ $btn-big-font-weight-lg: 800;
   justify-content: center;
   gap: 6px;
   text-align: center;
-  transition: $transition;
-  padding: 8px 8px;
+  transition: $transition-base;
+  padding: 8px;
+
   &:not(.btn-lg, .btn-sm) {
     width: $btn-width;
     height: $btn-height;

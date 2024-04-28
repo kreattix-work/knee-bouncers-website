@@ -9,7 +9,9 @@ $white: #fff;
 $gray-light: #d9e4ff;
 $text-dark: #313131;
 $text-light: $white;
-$transition: color, background-color, border, border-color 0.2s ease-in-out;
+
+$font-family-sans-serif: "Nunito", sans-serif;
+$link-decoration: none;
 
 $sizes: (
   1: 10px,
@@ -25,10 +27,6 @@ $sizes: (
   11: 40px,
 );
 
-.default-border-light:not(:active, :hover) {
-  border-color: $white !important;
-}
-
 @each $size, $value in $sizes {
   .font-active-#{$size}:active {
     font-size: $value !important;
@@ -39,4 +37,14 @@ $sizes: (
   .font-#{$size} {
     font-size: $value !important;
   }
+}
+
+.default-border-light:not(:active, :hover) {
+  border-color: $white !important;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
