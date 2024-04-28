@@ -1,4 +1,68 @@
 @import "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap";
+.text-orange {
+  color: #ff7500 !important;
+}
+
+.bg-orange {
+  background-color: #ff7500 !important;
+}
+
+.text-dark {
+  color: #313131 !important;
+}
+
+.bg-dark {
+  background-color: #313131 !important;
+}
+
+.text-primary {
+  color: #0078ff !important;
+}
+
+.bg-primary {
+  background-color: #0078ff !important;
+}
+
+.text-primary-dark {
+  color: #2638c1 !important;
+}
+
+.bg-primary-dark {
+  background-color: #2638c1 !important;
+}
+
+.text-red {
+  color: #DE195B !important;
+}
+
+.bg-red {
+  background-color: #DE195B !important;
+}
+
+.text-yellow {
+  color: #FFDC00 !important;
+}
+
+.bg-yellow {
+  background-color: #FFDC00 !important;
+}
+
+.text-purple-dark {
+  color: #652D88 !important;
+}
+
+.bg-purple-dark {
+  background-color: #652D88 !important;
+}
+
+.text-orange-dark {
+  color: #FF8000 !important;
+}
+
+.bg-orange-dark {
+  background-color: #FF8000 !important;
+}
+
 .text-active-1:active {
   font-size: 13px !important;
 }
@@ -5580,4 +5644,4 @@ progress {
     left: initial;
     right: 20px;
   }
-}
+}/*# sourceMappingURL=styles.css.map */

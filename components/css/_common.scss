@@ -44,7 +44,6 @@ $sizes: (
   11: 40px,
 );
 
-
 $text-sizes: (
   1: 13px,
   2: 14px,
@@ -71,6 +70,26 @@ $text-sizes: (
   23: 60px,
   24: 64px,
 );
+
+$text-colors: (
+  orange: $secondary,
+  dark: $text-dark,
+  primary: $primary,
+  primary-dark: $primary-dark,
+  red: #DE195B,
+  yellow: #FFDC00,
+  purple-dark: #652D88,
+  orange-dark: #FF8000,
+);
+
+@each $color, $value in $text-colors {
+  .text-#{$color} {
+    color: $value !important;
+  }
+  .bg-#{$color} {
+    background-color: $value !important;
+  }
+}
 
 @each $size, $value in $text-sizes {
   .text-active-#{$size}:active {
