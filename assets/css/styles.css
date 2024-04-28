@@ -5849,4 +5849,10 @@ progress {
   max-width: 687px;
   width: 100%;
   margin: auto;
+}
+
+.privacy-policy-section {
+  padding: 60px 0;
+  font-size: 18px;
+  color: #313131;
 }/*# sourceMappingURL=styles.css.map */
