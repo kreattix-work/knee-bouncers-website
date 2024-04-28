@@ -47,6 +47,14 @@
   background-color: #ffdc00 !important;
 }
 
+.text-purple {
+  color: #ab3bff !important;
+}
+
+.bg-purple {
+  background-color: #ab3bff !important;
+}
+
 .text-purple-dark {
   color: #652d88 !important;
 }
@@ -514,7 +522,7 @@ h4 {
 }
 
 h5,
-h5 {
+h6 {
   font-weight: 700 !important;
 }
 
@@ -5687,7 +5695,6 @@ progress {
 
 .testimonial-section {
   padding-bottom: 60px;
-  position: relative;
 }
 .testimonial-item {
   padding: 8px;
@@ -5709,11 +5716,7 @@ progress {
 }
 @media (max-width: 576px) {
   .testimonial-bg-images {
-    position: absolute;
-    bottom: 0;
-  }
-  .testimonial-bg-images:first-child {
-    right: 0;
+    display: none;
   }
 }
 .testimonial-card {
@@ -5731,3 +5734,8 @@ progress {
   max-width: 130px;
   margin: auto;
 }
+
+.game-category-section .subtitle-container {
+  margin-bottom: 26px;
+  gap: 20px;
+}/*# sourceMappingURL=styles.css.map */
