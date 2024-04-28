@@ -5761,4 +5761,25 @@ progress {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.play-game-section {
+  padding: 60px 0;
+}
+.play-game-section .bugaboo-img {
+  margin-bottom: -15px;
+}
+.play-game-section .bugaboo-img img {
+  max-width: 200px;
+  width: 100%;
+}
+.play-game-section .card {
+  padding: 24px;
+  max-width: 800px;
+  width: 100%;
+}
+.play-game-section .card .play-game-card-description {
+  margin-bottom: 16px;
+  max-width: 600px;
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
