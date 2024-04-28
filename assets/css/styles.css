@@ -1,4 +1,12 @@
 @import "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap";
+.text-white {
+  color: #fff !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
 .text-secondary {
   color: #ff7500 !important;
 }
@@ -5735,7 +5743,22 @@ progress {
   margin: auto;
 }
 
+.game-category-section {
+  padding-bottom: 60px;
+}
 .game-category-section .subtitle-container {
   margin-bottom: 26px;
   gap: 20px;
+}
+
+.progress-tracker-section {
+  padding: 60px 0;
+}
+.progress-tracker-section img {
+  aspect-ratio: 16/6;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }/*# sourceMappingURL=styles.css.map */
