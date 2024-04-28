@@ -44,6 +44,46 @@ $sizes: (
   11: 40px,
 );
 
+
+$text-sizes: (
+  1: 13px,
+  2: 14px,
+  3: 15px,
+  4: 16px,
+  5: 18px,
+  6: 20px,
+  7: 22px,
+  8: 24px,
+  9: 25px,
+  10: 26px,
+  11: 28px,
+  12: 30px,
+  13: 32px,
+  14: 34px,
+  15: 36px,
+  16: 38px,
+  17: 40px,
+  18: 42px,
+  19: 44px,
+  20: 46px,
+  21: 52px,
+  22: 54px,
+  23: 60px,
+  24: 64px,
+);
+
+@each $size, $value in $text-sizes {
+  .text-active-#{$size}:active {
+    font-size: $value !important;
+  }
+  .text-hover-#{$size}:hover:not(:active) {
+    font-size: $value !important;
+  }
+  .text-#{$size} {
+    font-size: $value !important;
+  }
+}
+
 @each $size, $value in $sizes {
   .font-active-#{$size}:active {
     font-size: $value !important;

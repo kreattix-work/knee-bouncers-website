@@ -50,7 +50,7 @@ $btn-big-font-weight-lg: 800;
   transition: $transition-base;
   padding: 8px;
 
-  &:not(.btn-lg, .btn-sm) {
+  &.btn-md {
     width: $btn-width;
     height: $btn-height;
     font-size: $btn-font-size;
@@ -83,18 +83,15 @@ $btn-big-font-weight-lg: 800;
   border: $btn-gray-border;
   background-color: $white;
   color: $primary;
-  font-size: map-get($sizes, 10);
 
   &:hover {
     border-color: $featured;
     background-color: $featured;
     color: $white;
-    font-size: map-get($sizes, 8);
   }
   &:active {
     background-color: $accent;
     border-color: $accent;
-    font-size: map-get($sizes, 9);
   }
 }
 .btn-default {
@@ -223,27 +220,16 @@ $btn-big-font-weight-lg: 800;
   height: $btn-height-xl;
   font-size: $btn-font-size-xl;
   font-weight: $btn-font-weight-xl;
-  &:hover,
-  &:active {
-    font-size: map-get($sizes, 9);
-  }
 }
 .btn-big {
   width: $btn-big-width-sm;
   height: $btn-big-height-sm;
   font-size: $btn-big-font-size-sm;
   font-weight: $btn-big-font-weight-sm;
-  &:hover:not(:active) {
-    font-size: map-get($sizes, 10);
-  }
 }
 .btn-big-lg {
   width: $btn-big-width-lg;
   height: $btn-big-height-lg;
   font-size: $btn-big-font-size-lg;
   font-weight: $btn-big-font-weight-lg;
-  &:hover,
-  &:active {
-    font-size: map-get($sizes, 8);
-  }
 }
