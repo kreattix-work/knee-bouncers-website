@@ -1,0 +1,26 @@
+.hero-banner-section {
+    padding: 60px 20px;
+}
+
+.educational-games-section {
+    padding: 60px 0;
+    &-card {
+        padding: 42px 30px;
+        width: 100%;
+        max-width: 340px;
+        text-align: end;
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            text-align: start;
+        }
+    }
+}
+
+.game-development-section {
+    padding: 60px 0;
+    img {
+        aspect-ratio: 1 / 1;
+        border-radius: 10px;
+        object-fit: cover;
+        object-position: center;
+    }
+}

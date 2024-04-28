@@ -15,6 +15,14 @@
   background-color: #ff7500 !important;
 }
 
+.text-secondary-light {
+  color: #FAF7F3 !important;
+}
+
+.bg-secondary-light {
+  background-color: #FAF7F3 !important;
+}
+
 .text-dark {
   color: #313131 !important;
 }
@@ -5855,4 +5863,35 @@ progress {
   padding: 60px 0;
   font-size: 18px;
   color: #313131;
+}
+
+.hero-banner-section {
+  padding: 60px 20px;
+}
+
+.educational-games-section {
+  padding: 60px 0;
+}
+.educational-games-section-card {
+  padding: 42px 30px;
+  width: 100%;
+  max-width: 340px;
+  text-align: end;
+}
+@media (max-width: 768px) {
+  .educational-games-section-card {
+    text-align: start;
+  }
+}
+
+.game-development-section {
+  padding: 60px 0;
+}
+.game-development-section img {
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }/*# sourceMappingURL=styles.css.map */
