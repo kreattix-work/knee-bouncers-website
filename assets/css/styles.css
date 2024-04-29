@@ -5922,4 +5922,46 @@ progress {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.testimonial-section {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.testimonial-section-content-title {
+  gap: 15px;
+}
+.testimonial-section-content-title img {
+  width: 100%;
+  max-width: 45px;
+}
+@media (max-width: 576px) {
+  .testimonial-section-content-title img {
+    display: none;
+  }
+}
+.testimonial-section-content {
+  margin-bottom: 60px;
+}
+.testimonial-section-card {
+  border-radius: 20px;
+  padding: 50px 42px 25px 42px;
+}
+.testimonial-section-card-description {
+  margin-bottom: 25px;
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.testimonial-section-card-bottom img {
+  width: 100%;
+  max-width: 75px;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }/*# sourceMappingURL=styles.css.map */
