@@ -138,6 +138,14 @@ img {
   height: auto;
 }
 
+.font-light {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 600;
+}
+
 .font-bold {
   font-weight: 800;
 }
@@ -168,4 +176,8 @@ h6 {
     bottom: 0;
     z-index: -1;
   }
+}
+
+.section {
+  padding: 60px 0;
 }

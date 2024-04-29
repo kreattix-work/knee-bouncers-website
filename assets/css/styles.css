@@ -526,6 +526,14 @@ img {
   height: auto;
 }
 
+.font-light {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 600;
+}
+
 .font-bold {
   font-weight: 800;
 }
@@ -556,6 +564,10 @@ h6 {
   left: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.section {
+  padding: 60px 0;
 }
 
 *,
@@ -5865,14 +5877,8 @@ progress {
   color: #313131;
 }
 
-.hero-banner-section {
-  padding: 60px 20px;
-}
-
-.educational-games-section {
-  padding: 60px 0;
-}
 .educational-games-section-card {
+  border-radius: 20px;
   padding: 42px 30px;
   width: 100%;
   max-width: 340px;
@@ -5884,10 +5890,32 @@ progress {
   }
 }
 
-.game-development-section {
-  padding: 60px 0;
+.game-development-section-images {
+  width: 100%;
+  max-width: 340px;
 }
-.game-development-section img {
+.game-development-section-images img {
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.pre-kindergarten-section-card {
+  border-radius: 20px;
+  padding: 100px;
+  width: 100%;
+  max-width: 340px;
+}
+
+.media-award-section-award-img {
+  text-align: center;
+}
+.media-award-section-award-img img {
+  width: 100%;
+  max-width: 154px;
   aspect-ratio: 1/1;
   border-radius: 10px;
   -o-object-fit: cover;

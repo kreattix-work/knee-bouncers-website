@@ -1,10 +1,6 @@
-.hero-banner-section {
-    padding: 60px 20px;
-}
-
 .educational-games-section {
-    padding: 60px 0;
     &-card {
+        border-radius: 20px;
         padding: 42px 30px;
         width: 100%;
         max-width: 340px;
@@ -16,11 +12,37 @@
 }
 
 .game-development-section {
-    padding: 60px 0;
-    img {
-        aspect-ratio: 1 / 1;
-        border-radius: 10px;
-        object-fit: cover;
-        object-position: center;
+    &-images {
+        width: 100%;
+        max-width: 340px;
+        img {
+            aspect-ratio: 1 / 1;
+            border-radius: 10px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+
+.pre-kindergarten-section {
+    &-card {
+        border-radius: 20px;
+        padding: 100px;
+        width: 100%;
+        max-width: 340px;
+    }
+}
+
+.media-award-section {
+    &-award-img {
+        text-align: center;
+        img {
+            width: 100%;
+            max-width: 154px;
+            aspect-ratio: 1 / 1;
+            border-radius: 10px;
+            object-fit: cover;
+            object-position: center;
+        }
     }
 }
