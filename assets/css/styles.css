@@ -6014,4 +6014,13 @@ progress {
 }
 .in-the-news-section-card-content-link {
   text-align: end;
+}
+
+.terms-and-condition-section {
+  padding: 60px 0;
+}
+.terms-and-condition-section p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #313131;
 }/*# sourceMappingURL=styles.css.map */
