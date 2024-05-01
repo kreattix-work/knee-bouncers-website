@@ -5394,8 +5394,27 @@ progress {
   color: #fff;
 }
 
+.btn-outlined-primary-dark {
+  border: 2px solid #d9e4ff;
+  background-color: transparent;
+  color: #2638c1;
+}
+.btn-outlined-primary-dark:hover {
+  background-color: #2638c1;
+  border-color: #2638c1;
+  color: #fff;
+}
+.btn-outlined-primary-dark:active {
+  background-color: #0078ff;
+  border-color: #0078ff;
+  color: #fff;
+}
+.btn-outlined-primary-dark:focus {
+  border-color: #2638c1;
+}
+
 .btn-sm {
-  width: 110px;
+  width: 120px;
   height: 40px;
   font-size: 16px;
   font-weight: 800;
@@ -6023,4 +6042,14 @@ progress {
   font-size: 18px;
   font-weight: 400;
   color: #313131;
+}
+
+.games-nonmember-section-btn-container {
+  padding: 60px 0;
+}
+.games-nonmember-section-btn-container-btn-groups {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=styles.css.map */

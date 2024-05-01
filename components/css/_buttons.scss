@@ -12,7 +12,7 @@ $btn-height: 40px;
 $btn-font-size: 16px;
 $btn-font-weight: 800;
 
-$btn-width-sm: 110px;
+$btn-width-sm: 120px;
 $btn-height-sm: 40px;
 $btn-font-size-sm: 16px;
 $btn-font-weight-sm: 800;
@@ -199,6 +199,25 @@ $btn-big-font-weight-lg: 800;
     background-color: $accent;
     border-color: $white;
     color: $white;
+  }
+}
+.btn-outlined-primary-dark {
+  border: $btn-gray-border;
+  background-color: transparent;
+  color: $primary-dark;
+
+  &:hover {
+    background-color: $primary-dark;
+    border-color: $primary-dark;
+    color: $white;
+  }
+  &:active {
+    background-color: $primary;
+    border-color: $primary;
+    color: $white;
+  }
+  &:focus {
+    border-color: $primary-dark;
   }
 }
 

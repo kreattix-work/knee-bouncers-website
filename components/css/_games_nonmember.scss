@@ -1,0 +1,11 @@
+.games-nonmember-section {
+    &-btn-container {
+        padding: 60px 0;
+        &-btn-groups {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+    }
+}
