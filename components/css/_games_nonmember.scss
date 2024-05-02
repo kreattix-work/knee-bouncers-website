@@ -1,11 +1,73 @@
 .games-nonmember-section {
-    &-btn-container {
-        padding: 60px 0;
-        &-btn-groups {
+    padding: 60px 0;
+    &-buttons-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    &-search {
+        margin-top: 24px;
+        &-inner {
+            display: flex;
+            justify-content: center;
+            &-input {
+                border-radius: 10px 0px 0px 10px;
+                border: 2px solid $gray-light;
+                background-color: $white;
+                padding: 6px 0 6px 14px;
+            }
+            ::placeholder{
+                color: $text-dark;
+                font-size: map-get($sizes, 4);
+                font-style: italic;
+                font-weight: 300;
+            }
+            &-button {
+                border-radius: 0px 10px 10px 0px;
+                border: 2px solid $secondary-dark;
+                background: $secondary-dark;
+                color: $white;
+                font-size: map-get($sizes, 5);
+                font-weight: 700;
+                padding: 6px;
+                &:hover {
+                    background: $secondary;
+                }
+            }
+        }
+    }
+    &-title {
+        margin-top: 60px;
+    }
+    p {
+        width: 100%;
+        max-width: 1035px;
+    }
+    &-content {
+        padding: 56px 0;
+        &-scarrymommy-img {
+            text-align: center;
+            img {
+                max-width: 200px;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+    &-pagination {
+        margin-top: 20px;
+        ul {
             display: flex;
             justify-content: center;
             gap: 10px;
-            flex-wrap: wrap;
+            list-style: none;
         }
+    }
+    &-bottom {
+        width: 100%;
+        max-width: 1068px;
+        margin-top: 44px;
     }
 }

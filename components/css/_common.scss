@@ -10,6 +10,9 @@ $gray-light: #d9e4ff;
 $text-dark: #313131;
 $text-light: $white;
 $body-bg: #f4f4f4;
+$orange-dark: #ff8000;
+$yellow: #ffdc00;
+$purple: #ab3bff;
 
 $headings-font-weight: 800;
 
@@ -82,10 +85,11 @@ $text-colors: (
   primary: $primary,
   primary-dark: $primary-dark,
   red: #de195b,
-  yellow: #ffdc00,
-  purple: #ab3bff,
+  yellow: $yellow,
+  purple: $purple,
   purple-dark: #652d88,
-  orange-dark: #ff8000,
+  orange-dark: $orange-dark,
+  gray-light: $gray-light,
 );
 
 @each $color, $value in $text-colors {

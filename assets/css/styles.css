@@ -87,6 +87,14 @@
   background-color: #ff8000 !important;
 }
 
+.text-gray-light {
+  color: #d9e4ff !important;
+}
+
+.bg-gray-light {
+  background-color: #d9e4ff !important;
+}
+
 .text-active-1:active {
   font-size: clamp(1px, 4.5vw, 13px) !important;
 }
@@ -6044,12 +6052,84 @@ progress {
   color: #313131;
 }
 
-.games-nonmember-section-btn-container {
+.games-nonmember-section {
   padding: 60px 0;
 }
-.games-nonmember-section-btn-container-btn-groups {
+.games-nonmember-section-buttons-container {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
+}
+.games-nonmember-section-search {
+  margin-top: 24px;
+}
+.games-nonmember-section-search-inner {
+  display: flex;
+  justify-content: center;
+}
+.games-nonmember-section-search-inner-input {
+  border-radius: 10px 0px 0px 10px;
+  border: 2px solid #d9e4ff;
+  background-color: #fff;
+  padding: 6px 0 6px 14px;
+}
+.games-nonmember-section-search-inner ::-moz-placeholder {
+  color: #313131;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+}
+.games-nonmember-section-search-inner ::placeholder {
+  color: #313131;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+}
+.games-nonmember-section-search-inner-button {
+  border-radius: 0px 10px 10px 0px;
+  border: 2px solid #FF8000;
+  background: #FF8000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 6px;
+}
+.games-nonmember-section-search-inner-button:hover {
+  background: #ff7500;
+}
+.games-nonmember-section-title {
+  margin-top: 60px;
+}
+.games-nonmember-section p {
+  width: 100%;
+  max-width: 1035px;
+}
+.games-nonmember-section-content {
+  padding: 56px 0;
+}
+.games-nonmember-section-content-scarrymommy-img {
+  text-align: center;
+}
+.games-nonmember-section-content-scarrymommy-img img {
+  max-width: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.games-nonmember-section-pagination {
+  margin-top: 20px;
+}
+.games-nonmember-section-pagination ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+}
+.games-nonmember-section-bottom {
+  width: 100%;
+  max-width: 1068px;
+  margin-top: 44px;
 }/*# sourceMappingURL=styles.css.map */
