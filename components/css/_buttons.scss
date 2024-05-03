@@ -154,6 +154,20 @@ $btn-big-font-weight-lg: 800;
     color: $white;
   }
 }
+.btn-filled-purple {
+  border: $btn-defualt-border;
+  background-color: $primary;
+  color: $text-light;
+
+  &:hover {
+    background-color: $purple;
+    border-color: $purple;
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $accent;
+  }
+}
 .btn-filled-light {
   border: $btn-outlined-border;
   background-color: $white;
@@ -218,6 +232,25 @@ $btn-big-font-weight-lg: 800;
   }
   &:focus {
     border-color: $primary-dark;
+  }
+}
+.btn-outlined-secondary {
+  border: 2px solid rgba(171, 59, 255, 0.20);
+  background-color: transparent;
+  color: $purple-dark;
+
+  &:hover {
+    background-color: $secondary;
+    border-color: $secondary;
+    color: $white;
+  }
+  &:active {
+    background-color: $purple;
+    border-color: $purple;
+    color: $white;
+  }
+  &:focus {
+    border-color: $purple;
   }
 }
 

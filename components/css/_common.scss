@@ -13,6 +13,9 @@ $body-bg: #f4f4f4;
 $orange-dark: #ff8000;
 $yellow: #ffdc00;
 $purple: #ab3bff;
+$purple-dark: #652d88;
+$red: #de195b;
+$red-dark: #E80000;
 
 $headings-font-weight: 800;
 
@@ -84,10 +87,11 @@ $text-colors: (
   dark: $text-dark,
   primary: $primary,
   primary-dark: $primary-dark,
-  red: #de195b,
+  red: $red,
+  red-dark: $red-dark,
   yellow: $yellow,
   purple: $purple,
-  purple-dark: #652d88,
+  purple-dark: $purple-dark,
   orange-dark: $orange-dark,
   gray-light: $gray-light,
 );
@@ -103,13 +107,13 @@ $text-colors: (
 
 @each $size, $value in $text-sizes {
   .text-active-#{$size}:active {
-    font-size: clamp($value - 12px, 4.5vw, $value) !important;
+    font-size: clamp($value - 3px, 4.5vw, $value) !important;
   }
   .text-hover-#{$size}:hover:not(:active) {
-    font-size: clamp($value - 12px, 4.5vw, $value) !important;
+    font-size: clamp($value - 3px, 4.5vw, $value) !important;
   }
   .text-#{$size} {
-    font-size: clamp($value - 12px, 4.5vw, $value) !important;
+    font-size: clamp($value - 3px, 4.5vw, $value) !important;
   }
 }
 
@@ -184,4 +188,14 @@ h6 {
 
 .section {
   padding: 60px 0;
+}
+
+.section-pagination {
+  margin-top: 20px;
+  ul {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      list-style: none;
+  }
 }

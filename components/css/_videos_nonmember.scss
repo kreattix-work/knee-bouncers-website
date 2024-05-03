@@ -1,4 +1,4 @@
-.games-nonmember-section {
+.videos-nonmember-section {
     padding: 60px 0;
     &-buttons-container {
         display: flex;
@@ -11,18 +11,26 @@
     }
     &-description {
         width: 100%;
-        max-width: 1035px;
+        max-width: 1061px;
     }
     &-content {
-        padding: 56px 0;
-        &-scarrymommy-img {
+        padding: 46px 0;
+        &-awards-image {
             text-align: center;
             img {
-                max-width: 200px;
+                max-width: 518px;
                 width: 100%;
                 object-fit: cover;
                 object-position: center;
             }
+        }
+    }
+    &-thought {
+        padding-top: 70px;
+        padding-bottom: 67px;
+        h1 {
+            width: 100%;
+            max-width: 750px;
         }
     }
     &-bottom {
