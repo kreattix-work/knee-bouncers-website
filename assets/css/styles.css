@@ -6048,11 +6048,20 @@ progress {
 .testimonial-section {
   padding-bottom: 60px;
 }
+.testimonial-slider :is(.slick-slide > div, .testimonial-item, .testimonial-card) {
+  height: 100%;
+}
 .testimonial-item {
   padding: 8px;
 }
 .testimonial-slider {
   width: calc(100% - 200px);
+}
+.testimonial-slider .slick-track {
+  display: flex !important;
+}
+.testimonial-slider .slick-track .slick-slide {
+  height: inherit;
 }
 @media (max-width: 576px) {
   .testimonial-slider {
@@ -6634,4 +6643,4 @@ progress {
 }
 .videopage-member-section-text {
   margin-top: 45px;
-}
+}/*# sourceMappingURL=styles.css.map */

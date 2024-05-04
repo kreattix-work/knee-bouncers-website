@@ -20,10 +20,19 @@
     padding-bottom: 60px;
   }
 
+  &-slider :is(.slick-slide > div, &-item, &-card) {
+    height: 100%;
+  }
   &-item {
     padding: 8px;
   }
   &-slider {
+    .slick-track {
+      display: flex !important;
+      .slick-slide {
+        height: inherit;
+      }
+    }
     width: calc(100% - 200px);
     @media (max-width: map-get($grid-breakpoints, sm)) {
       width: 100%;
