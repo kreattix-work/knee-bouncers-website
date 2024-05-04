@@ -147,6 +147,14 @@ img {
   height: auto;
 }
 
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
 .font-light {
   font-weight: 400;
 }
@@ -206,5 +214,14 @@ h6 {
       justify-content: center;
       gap: 10px;
       list-style: none;
+  }
+}
+
+.member-banner-image {
+  img {
+    width: 100%;
+    max-width: 800px;
+    object-fit: cover;
+    object-position: center;
   }
 }

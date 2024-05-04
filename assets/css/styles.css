@@ -550,6 +550,14 @@ img {
   height: auto;
 }
 
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
 .font-light {
   font-weight: 400;
 }
@@ -610,6 +618,15 @@ h6 {
   justify-content: center;
   gap: 10px;
   list-style: none;
+}
+
+.member-banner-image img {
+  width: 100%;
+  max-width: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 *,
@@ -5329,6 +5346,21 @@ progress {
   border-color: #96cc16;
 }
 
+.btn-featured-secondary {
+  border: 2px solid rgba(171, 59, 255, 0.2);
+  background-color: #fff;
+  color: #0078ff;
+}
+.btn-featured-secondary:hover {
+  border-color: #ff7500;
+  background-color: #ff7500;
+  color: #fff;
+}
+.btn-featured-secondary:active {
+  background-color: #96cc16;
+  border-color: #96cc16;
+}
+
 .btn-default {
   border: 2px solid #0078ff;
   background-color: #fff;
@@ -5354,6 +5386,20 @@ progress {
   color: #fff;
 }
 .btn-default-v2:active {
+  background-color: #96cc16;
+  border-color: #96cc16;
+}
+
+.btn-default-v3 {
+  border: 2px solid #0078ff;
+  background-color: #fff;
+  color: #0078ff;
+}
+.btn-default-v3:hover {
+  background-color: #0078ff;
+  color: #fff;
+}
+.btn-default-v3:active {
   background-color: #96cc16;
   border-color: #96cc16;
 }
@@ -5460,13 +5506,19 @@ progress {
   border-color: #2638c1;
   color: #fff;
 }
-.btn-outlined-primary-dark:active {
+.btn-outlined-primary-dark:hover:is(:focus) {
+  background-color: #2638c1;
+  border-color: #2638c1;
+  color: #fff;
+}
+.btn-outlined-primary-dark:active:is(:focus) {
   background-color: #0078ff;
   border-color: #0078ff;
   color: #fff;
 }
 .btn-outlined-primary-dark:focus {
-  border-color: #2638c1;
+  border-color: #0078ff;
+  color: #0078ff;
 }
 
 .btn-outlined-secondary {
@@ -5479,7 +5531,12 @@ progress {
   border-color: #ff7500;
   color: #fff;
 }
-.btn-outlined-secondary:active {
+.btn-outlined-secondary:hover:is(:focus) {
+  background-color: #ff7500;
+  border-color: #ff7500;
+  color: #fff;
+}
+.btn-outlined-secondary:active:is(:focus) {
   background-color: #ab3bff;
   border-color: #ab3bff;
   color: #fff;
@@ -5498,13 +5555,34 @@ progress {
   border-color: #ff7500;
   color: #fff;
 }
-.btn-outlined-teritary:active {
+.btn-outlined-teritary:hover:is(:focus) {
+  background-color: #ff7500;
+  border-color: #ff7500;
+  color: #fff;
+}
+.btn-outlined-teritary:active:is(:focus) {
   background-color: #bb005a;
   border-color: #bb005a;
   color: #fff;
 }
 .btn-outlined-teritary:focus {
   border-color: #bb005a;
+}
+
+.btn-outlined-teritary-v2 {
+  border: 2px solid rgba(222, 25, 91, 0.2);
+  background-color: transparent;
+  color: #bb005a;
+}
+.btn-outlined-teritary-v2:hover {
+  background-color: #ff7500;
+  border-color: #ff7500;
+  color: #fff;
+}
+.btn-outlined-teritary-v2:active {
+  background-color: #96cc16;
+  border-color: #96cc16;
+  color: #fff;
 }
 
 .btn-sm {
@@ -5542,6 +5620,13 @@ progress {
   font-weight: 800;
 }
 
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
 .tag {
   color: inherit;
   padding: 4px 8px;
@@ -5550,6 +5635,15 @@ progress {
   border-radius: 6px;
   border: 1px solid #d9e4ff;
   background: rgba(217, 228, 255, 0.5);
+}
+
+.card-arrow {
+  margin-left: -3px;
+  margin-bottom: 1px;
+}
+.card-arrow img {
+  width: 100%;
+  max-width: 10px;
 }
 
 .card {
@@ -6179,29 +6273,29 @@ progress {
   color: #313131;
 }
 
-.games-nonmember-section {
+.games-member-section, .games-nonmember-section {
   padding: 60px 0;
 }
-.games-nonmember-section-buttons-container {
+.games-member-section-buttons-container, .games-nonmember-section-buttons-container {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
 }
-.games-nonmember-section-title {
-  margin-top: 60px;
+.games-member-section-title, .games-nonmember-section-title {
+  margin-top: 50px;
 }
-.games-nonmember-section-description {
+.games-member-section-description, .games-nonmember-section-description {
   width: 100%;
   max-width: 1035px;
 }
-.games-nonmember-section-content {
+.games-member-section-content, .games-nonmember-section-content {
   padding: 56px 0;
 }
-.games-nonmember-section-content-scarrymommy-img {
+.games-member-section-content-scarrymommy-img, .games-nonmember-section-content-scarrymommy-img {
   text-align: center;
 }
-.games-nonmember-section-content-scarrymommy-img img {
+.games-member-section-content-scarrymommy-img img, .games-nonmember-section-content-scarrymommy-img img {
   max-width: 200px;
   width: 100%;
   -o-object-fit: cover;
@@ -6209,35 +6303,35 @@ progress {
   -o-object-position: center;
      object-position: center;
 }
-.games-nonmember-section-bottom {
+.games-member-section-bottom, .games-nonmember-section-bottom {
   width: 100%;
   max-width: 1068px;
   margin-top: 44px;
 }
 
-.videos-nonmember-section {
+.videos-member-section, .videos-nonmember-section {
   padding: 60px 0;
 }
-.videos-nonmember-section-buttons-container {
+.videos-member-section-buttons-container, .videos-nonmember-section-buttons-container {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
 }
-.videos-nonmember-section-title {
-  margin-top: 60px;
+.videos-member-section-title, .videos-nonmember-section-title {
+  margin-top: 50px;
 }
-.videos-nonmember-section-description {
+.videos-member-section-description, .videos-nonmember-section-description {
   width: 100%;
   max-width: 1061px;
 }
-.videos-nonmember-section-content {
+.videos-member-section-content, .videos-nonmember-section-content {
   padding: 46px 0;
 }
-.videos-nonmember-section-content-awards-image {
+.videos-member-section-content-awards-image, .videos-nonmember-section-content-awards-image {
   text-align: center;
 }
-.videos-nonmember-section-content-awards-image img {
+.videos-member-section-content-awards-image img, .videos-nonmember-section-content-awards-image img {
   max-width: 518px;
   width: 100%;
   -o-object-fit: cover;
@@ -6245,43 +6339,43 @@ progress {
   -o-object-position: center;
      object-position: center;
 }
-.videos-nonmember-section-thought {
+.videos-member-section-thought, .videos-nonmember-section-thought {
   padding-top: 70px;
   padding-bottom: 67px;
 }
-.videos-nonmember-section-thought h1 {
+.videos-member-section-thought h1, .videos-nonmember-section-thought h1 {
   width: 100%;
   max-width: 750px;
 }
-.videos-nonmember-section-bottom {
+.videos-member-section-bottom, .videos-nonmember-section-bottom {
   width: 100%;
   max-width: 1068px;
   margin-top: 44px;
 }
 
-.coloringsheets-nonmember-section {
+.coloringsheets-member-section, .coloringsheets-nonmember-section {
   padding: 60px 0;
 }
-.coloringsheets-nonmember-section-buttons-container {
+.coloringsheets-member-section-buttons-container, .coloringsheets-nonmember-section-buttons-container {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
 }
-.coloringsheets-nonmember-section-title {
-  margin-top: 60px;
+.coloringsheets-member-section-title, .coloringsheets-nonmember-section-title {
+  margin-top: 50px;
 }
-.coloringsheets-nonmember-section-description {
+.coloringsheets-member-section-description, .coloringsheets-nonmember-section-description {
   width: 100%;
   max-width: 1061px;
 }
-.coloringsheets-nonmember-section-content {
+.coloringsheets-member-section-content, .coloringsheets-nonmember-section-content {
   padding: 56px 0;
 }
-.coloringsheets-nonmember-section-content-scarrymommy-img {
+.coloringsheets-member-section-content-scarrymommy-img, .coloringsheets-nonmember-section-content-scarrymommy-img {
   text-align: center;
 }
-.coloringsheets-nonmember-section-content-scarrymommy-img img {
+.coloringsheets-member-section-content-scarrymommy-img img, .coloringsheets-nonmember-section-content-scarrymommy-img img {
   max-width: 200px;
   width: 100%;
   -o-object-fit: cover;
@@ -6289,22 +6383,66 @@ progress {
   -o-object-position: center;
      object-position: center;
 }
-.coloringsheets-nonmember-section-thought {
+.coloringsheets-member-section-thought, .coloringsheets-nonmember-section-thought {
   padding-top: 70px;
   padding-bottom: 67px;
 }
-.coloringsheets-nonmember-section-thought h1 {
+.coloringsheets-member-section-thought h1, .coloringsheets-nonmember-section-thought h1 {
   width: 100%;
   max-width: 750px;
 }
-.coloringsheets-nonmember-section-bottom {
+.coloringsheets-member-section-bottom, .coloringsheets-nonmember-section-bottom {
   width: 100%;
   max-width: 1068px;
   margin-top: 44px;
 }
-.coloringsheets-nonmember-section-bottom-para {
+.coloringsheets-member-section-bottom-para, .coloringsheets-nonmember-section-bottom-para {
   width: 100%;
   max-width: 750px;
   text-align: center;
   margin: auto;
+}
+
+.gamepage-member-section {
+  padding-top: 70px;
+  padding-bottom: 102px;
+}
+.gamepage-member-section-content {
+  width: 100%;
+  max-width: 800px;
+}
+.gamepage-member-section-content-button {
+  margin-left: auto;
+}
+@media (max-width: 768px) {
+  .gamepage-member-section-content-button {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+.gamepage-member-section-content-link {
+  text-decoration: underline;
+  color: #313131;
+}
+.gamepage-member-section-text {
+  margin-top: 45px;
+}
+
+.videopage-member-section {
+  padding-top: 70px;
+  padding-bottom: 102px;
+}
+.videopage-member-section-content {
+  width: 100%;
+  max-width: 800px;
+}
+.videopage-member-section-content-title {
+  margin-top: 50px;
+}
+.videopage-member-section-content-link {
+  text-decoration: underline;
+  color: #313131;
+}
+.videopage-member-section-text {
+  margin-top: 45px;
 }/*# sourceMappingURL=styles.css.map */

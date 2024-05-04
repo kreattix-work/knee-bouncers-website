@@ -94,6 +94,21 @@ $btn-big-font-weight-lg: 800;
     border-color: $accent;
   }
 }
+.btn-featured-secondary {
+  border: 2px solid rgba(171, 59, 255, 0.2);
+  background-color: $white;
+  color: $primary;
+
+  &:hover {
+    border-color: $secondary;
+    background-color: $secondary;
+    color: $white;
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $accent;
+  }
+}
 .btn-default {
   border: $btn-defualt-border;
   background-color: $white;
@@ -116,6 +131,20 @@ $btn-big-font-weight-lg: 800;
   &:hover {
     background-color: $secondary;
     border-color: $secondary;
+    color: $white;
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $accent;
+  }
+}
+.btn-default-v3 {
+  border: $btn-defualt-border;
+  background-color: $white;
+  color: $primary;
+
+  &:hover {
+    background-color: $primary;
     color: $white;
   }
   &:active {
@@ -225,13 +254,19 @@ $btn-big-font-weight-lg: 800;
     border-color: $primary-dark;
     color: $white;
   }
-  &:active {
+  &:hover:is(:focus) {
+    background-color: $primary-dark;
+    border-color: $primary-dark;
+    color: $white;
+  }
+  &:active:is(:focus) {
     background-color: $primary;
     border-color: $primary;
     color: $white;
   }
   &:focus {
-    border-color: $primary-dark;
+    border-color: $primary;
+    color: $primary
   }
 }
 .btn-outlined-secondary {
@@ -244,7 +279,12 @@ $btn-big-font-weight-lg: 800;
     border-color: $secondary;
     color: $white;
   }
-  &:active {
+  &:hover:is(:focus) {
+    background-color: $secondary;
+    border-color: $secondary;
+    color: $white;
+  }
+  &:active:is(:focus) {
     background-color: $purple;
     border-color: $purple;
     color: $white;
@@ -263,13 +303,34 @@ $btn-big-font-weight-lg: 800;
     border-color: $secondary;
     color: $white;
   }
-  &:active {
+  &:hover:is(:focus) {
+    background-color: $secondary;
+    border-color: $secondary;
+    color: $white;
+  }
+  &:active:is(:focus) {
     background-color: $teritary;
     border-color: $teritary;
     color: $white;
   }
   &:focus {
     border-color: $teritary;
+  }
+}
+.btn-outlined-teritary-v2 {
+  border: 2px solid rgba(222, 25, 91, 0.2);
+  background-color: transparent;
+  color: $teritary;
+
+  &:hover {
+    background-color: $secondary;
+    border-color: $secondary;
+    color: $white;
+  }
+  &:active {
+    background-color: $accent;
+    border-color: $accent;
+    color: $white;
   }
 }
 
@@ -303,4 +364,11 @@ $btn-big-font-weight-lg: 800;
   height: $btn-big-height-lg;
   font-size: $btn-big-font-size-lg;
   font-weight: $btn-big-font-weight-lg;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
 }

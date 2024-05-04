@@ -1,4 +1,4 @@
-.videos-nonmember-section {
+.videos-member-section, .videos-nonmember-section {
     padding: 60px 0;
     &-buttons-container {
         display: flex;
@@ -7,7 +7,7 @@
         flex-wrap: wrap;
     }
     &-title {
-        margin-top: 60px;
+        margin-top: 50px;
     }
     &-description {
         width: 100%;

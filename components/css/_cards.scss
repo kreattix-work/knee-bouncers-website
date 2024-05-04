@@ -12,6 +12,15 @@ $card-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
   background: rgba(217, 228, 255, 0.5);
 }
 
+.card-arrow {
+  margin-left: -3px;
+  margin-bottom: 1px;
+  img {
+    width: 100%;
+    max-width: 10px;
+  }
+}
+
 .card {
   border-radius: $card-border-radius;
   background: $background-bg;

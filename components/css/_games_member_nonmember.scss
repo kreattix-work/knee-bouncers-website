@@ -1,4 +1,4 @@
-.coloringsheets-nonmember-section {
+.games-member-section, .games-nonmember-section {
     padding: 60px 0;
     &-buttons-container {
         display: flex;
@@ -7,11 +7,11 @@
         flex-wrap: wrap;
     }
     &-title {
-        margin-top: 60px;
+        margin-top: 50px;
     }
     &-description {
         width: 100%;
-        max-width: 1061px;
+        max-width: 1035px;
     }
     &-content {
         padding: 56px 0;
@@ -25,23 +25,9 @@
             }
         }
     }
-    &-thought {
-        padding-top: 70px;
-        padding-bottom: 67px;
-        h1 {
-            width: 100%;
-            max-width: 750px;
-        }
-    }
     &-bottom {
         width: 100%;
         max-width: 1068px;
         margin-top: 44px;
-        &-para {
-            width: 100%;
-            max-width: 750px;
-            text-align: center;
-            margin: auto;
-        }
     }
 }
