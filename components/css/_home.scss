@@ -59,6 +59,14 @@
     .star-rating {
       max-width: 130px;
       margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 7px;
+      img {
+        max-width: 20px;
+        height: 20px;
+      }
     }
   }
 }

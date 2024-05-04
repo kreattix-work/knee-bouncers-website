@@ -16,11 +16,11 @@
 }
 
 .text-secondary-light {
-  color: #FAF7F3 !important;
+  color: #faf7f3 !important;
 }
 
 .bg-secondary-light {
-  background-color: #FAF7F3 !important;
+  background-color: #faf7f3 !important;
 }
 
 .text-dark {
@@ -64,11 +64,11 @@
 }
 
 .text-red-dark {
-  color: #E80000 !important;
+  color: #e80000 !important;
 }
 
 .bg-red-dark {
-  background-color: #E80000 !important;
+  background-color: #e80000 !important;
 }
 
 .text-yellow {
@@ -627,6 +627,10 @@ h6 {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.text-normal {
+  font-style: normal !important;
 }
 
 *,
@@ -6086,6 +6090,14 @@ progress {
 .testimonial-card .star-rating {
   max-width: 130px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.testimonial-card .star-rating img {
+  max-width: 20px;
+  height: 20px;
 }
 
 .game-category-section {
@@ -6241,6 +6253,40 @@ progress {
 .in-the-news-section {
   padding: 60px 0;
 }
+.in-the-news-section .card {
+  padding: 30px 36px 26px 36px;
+  box-shadow: 0px 0px 2px 2px rgba(167, 164, 158, 0.25);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.in-the-news-section .card-content {
+  flex: 1;
+  padding: 0;
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.in-the-news-section .card-description {
+  font-style: normal;
+}
+.in-the-news-section .card-image {
+  height: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.in-the-news-section .card-image img {
+  width: initial;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: all 0.2s ease-in-out;
+}
+.in-the-news-section .card:hover img {
+  scale: 1.1;
+}
 .in-the-news-section-content {
   width: 100%;
   max-width: 860px;
@@ -6270,6 +6316,10 @@ progress {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  transition: all 0.2s ease-in-out;
+}
+.in-the-news-section-card-image img:hover {
+  scale: 1.3;
 }
 .in-the-news-section-card-content {
   margin-top: 12px;
@@ -6333,29 +6383,36 @@ progress {
   margin-top: 44px;
 }
 
-.videos-member-section, .videos-nonmember-section {
+.videos-member-section,
+.videos-nonmember-section {
   padding: 60px 0;
 }
-.videos-member-section-buttons-container, .videos-nonmember-section-buttons-container {
+.videos-member-section-buttons-container,
+.videos-nonmember-section-buttons-container {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
 }
-.videos-member-section-title, .videos-nonmember-section-title {
+.videos-member-section-title,
+.videos-nonmember-section-title {
   margin-top: 50px;
 }
-.videos-member-section-description, .videos-nonmember-section-description {
+.videos-member-section-description,
+.videos-nonmember-section-description {
   width: 100%;
   max-width: 1061px;
 }
-.videos-member-section-content, .videos-nonmember-section-content {
+.videos-member-section-content,
+.videos-nonmember-section-content {
   padding: 46px 0;
 }
-.videos-member-section-content-awards-image, .videos-nonmember-section-content-awards-image {
+.videos-member-section-content-awards-image,
+.videos-nonmember-section-content-awards-image {
   text-align: center;
 }
-.videos-member-section-content-awards-image img, .videos-nonmember-section-content-awards-image img {
+.videos-member-section-content-awards-image img,
+.videos-nonmember-section-content-awards-image img {
   max-width: 518px;
   width: 100%;
   -o-object-fit: cover;
@@ -6363,43 +6420,100 @@ progress {
   -o-object-position: center;
      object-position: center;
 }
-.videos-member-section-thought, .videos-nonmember-section-thought {
+.videos-member-section-thought,
+.videos-nonmember-section-thought {
   padding-top: 70px;
   padding-bottom: 67px;
 }
-.videos-member-section-thought h1, .videos-nonmember-section-thought h1 {
+.videos-member-section-thought h1,
+.videos-nonmember-section-thought h1 {
   width: 100%;
   max-width: 750px;
+  position: relative;
+  padding: 0px 50px;
 }
-.videos-member-section-bottom, .videos-nonmember-section-bottom {
+@media (max-width: 768px) {
+  .videos-member-section-thought h1,
+  .videos-nonmember-section-thought h1 {
+    padding: 0px 20px;
+  }
+}
+.videos-member-section-thought h1::after,
+.videos-nonmember-section-thought h1::after {
+  position: absolute;
+  content: "";
+  background-image: url(../../assets/images/Quote_mark.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 62px;
+  height: 48px;
+  left: -10px;
+  top: -15px;
+}
+@media (max-width: 768px) {
+  .videos-member-section-thought h1::after,
+  .videos-nonmember-section-thought h1::after {
+    width: 42px;
+    height: 28px;
+  }
+}
+.videos-member-section-thought h1::before,
+.videos-nonmember-section-thought h1::before {
+  position: absolute;
+  content: "";
+  background-image: url(../../assets/images/Quote_mark.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 62px;
+  height: 48px;
+  right: -10px;
+  top: 20px;
+  rotate: 180deg;
+}
+@media (max-width: 768px) {
+  .videos-member-section-thought h1::before,
+  .videos-nonmember-section-thought h1::before {
+    width: 42px;
+    height: 28px;
+  }
+}
+.videos-member-section-bottom,
+.videos-nonmember-section-bottom {
   width: 100%;
   max-width: 1068px;
   margin-top: 44px;
 }
 
-.coloringsheets-member-section, .coloringsheets-nonmember-section {
+.coloringsheets-member-section,
+.coloringsheets-nonmember-section {
   padding: 60px 0;
 }
-.coloringsheets-member-section-buttons-container, .coloringsheets-nonmember-section-buttons-container {
+.coloringsheets-member-section-buttons-container,
+.coloringsheets-nonmember-section-buttons-container {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
 }
-.coloringsheets-member-section-title, .coloringsheets-nonmember-section-title {
+.coloringsheets-member-section-title,
+.coloringsheets-nonmember-section-title {
   margin-top: 50px;
 }
-.coloringsheets-member-section-description, .coloringsheets-nonmember-section-description {
+.coloringsheets-member-section-description,
+.coloringsheets-nonmember-section-description {
   width: 100%;
   max-width: 1061px;
 }
-.coloringsheets-member-section-content, .coloringsheets-nonmember-section-content {
+.coloringsheets-member-section-content,
+.coloringsheets-nonmember-section-content {
   padding: 56px 0;
 }
-.coloringsheets-member-section-content-scarrymommy-img, .coloringsheets-nonmember-section-content-scarrymommy-img {
+.coloringsheets-member-section-content-scarrymommy-img,
+.coloringsheets-nonmember-section-content-scarrymommy-img {
   text-align: center;
 }
-.coloringsheets-member-section-content-scarrymommy-img img, .coloringsheets-nonmember-section-content-scarrymommy-img img {
+.coloringsheets-member-section-content-scarrymommy-img img,
+.coloringsheets-nonmember-section-content-scarrymommy-img img {
   max-width: 200px;
   width: 100%;
   -o-object-fit: cover;
@@ -6407,20 +6521,71 @@ progress {
   -o-object-position: center;
      object-position: center;
 }
-.coloringsheets-member-section-thought, .coloringsheets-nonmember-section-thought {
+.coloringsheets-member-section-thought,
+.coloringsheets-nonmember-section-thought {
   padding-top: 70px;
   padding-bottom: 67px;
 }
-.coloringsheets-member-section-thought h1, .coloringsheets-nonmember-section-thought h1 {
+.coloringsheets-member-section-thought h1,
+.coloringsheets-nonmember-section-thought h1 {
   width: 100%;
   max-width: 750px;
+  position: relative;
+  padding: 0px 50px;
 }
-.coloringsheets-member-section-bottom, .coloringsheets-nonmember-section-bottom {
+@media (max-width: 768px) {
+  .coloringsheets-member-section-thought h1,
+  .coloringsheets-nonmember-section-thought h1 {
+    padding: 0px 20px;
+  }
+}
+.coloringsheets-member-section-thought h1::after,
+.coloringsheets-nonmember-section-thought h1::after {
+  position: absolute;
+  content: "";
+  background-image: url(../../assets/images/Quote_mark.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 62px;
+  height: 48px;
+  left: -10px;
+  top: -15px;
+}
+@media (max-width: 768px) {
+  .coloringsheets-member-section-thought h1::after,
+  .coloringsheets-nonmember-section-thought h1::after {
+    width: 42px;
+    height: 28px;
+  }
+}
+.coloringsheets-member-section-thought h1::before,
+.coloringsheets-nonmember-section-thought h1::before {
+  position: absolute;
+  content: "";
+  background-image: url(../../assets/images/Quote_mark.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 62px;
+  height: 48px;
+  right: -10px;
+  top: 20px;
+  rotate: 180deg;
+}
+@media (max-width: 768px) {
+  .coloringsheets-member-section-thought h1::before,
+  .coloringsheets-nonmember-section-thought h1::before {
+    width: 42px;
+    height: 28px;
+  }
+}
+.coloringsheets-member-section-bottom,
+.coloringsheets-nonmember-section-bottom {
   width: 100%;
   max-width: 1068px;
   margin-top: 44px;
 }
-.coloringsheets-member-section-bottom-para, .coloringsheets-nonmember-section-bottom-para {
+.coloringsheets-member-section-bottom-para,
+.coloringsheets-nonmember-section-bottom-para {
   width: 100%;
   max-width: 750px;
   text-align: center;
@@ -6469,4 +6634,4 @@ progress {
 }
 .videopage-member-section-text {
   margin-top: 45px;
-}/*# sourceMappingURL=styles.css.map */
+}
