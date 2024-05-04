@@ -22,8 +22,10 @@ $navigation-gap: 26px;
 
         &:hover:not(:active) {
           color: $featured;
+          transform: scale(1.1);
         }
         &:active {
+          transform: scale(0.9);
           color: $primary;
         }
       }
@@ -54,6 +56,9 @@ $navigation-gap: 26px;
     body.menu-open & {
       top: $header-height-sm;
       opacity: 1;
+    }
+    body.menu-open .header-with-title & {
+      top: $header-height-sm + 30px;
     }
 
     ul {
