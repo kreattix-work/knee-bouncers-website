@@ -1,0 +1,41 @@
+.videos-member-section, .videos-nonmember-section {
+    padding: 60px 0;
+    &-buttons-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    &-title {
+        margin-top: 50px;
+    }
+    &-description {
+        width: 100%;
+        max-width: 1061px;
+    }
+    &-content {
+        padding: 46px 0;
+        &-awards-image {
+            text-align: center;
+            img {
+                max-width: 518px;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+    &-thought {
+        padding-top: 70px;
+        padding-bottom: 67px;
+        h1 {
+            width: 100%;
+            max-width: 750px;
+        }
+    }
+    &-bottom {
+        width: 100%;
+        max-width: 1068px;
+        margin-top: 44px;
+    }
+}

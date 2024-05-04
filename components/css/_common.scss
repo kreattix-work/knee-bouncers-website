@@ -10,6 +10,12 @@ $gray-light: #d9e4ff;
 $text-dark: #313131;
 $text-light: $white;
 $body-bg: #f4f4f4;
+$orange-dark: #ff8000;
+$yellow: #ffdc00;
+$purple: #ab3bff;
+$purple-dark: #652d88;
+$red: #de195b;
+$red-dark: #E80000;
 
 $headings-font-weight: 800;
 
@@ -81,11 +87,14 @@ $text-colors: (
   dark: $text-dark,
   primary: $primary,
   primary-dark: $primary-dark,
-  red: #de195b,
-  yellow: #ffdc00,
-  purple: #ab3bff,
-  purple-dark: #652d88,
-  orange-dark: #ff8000,
+  red: $red,
+  teritary: $teritary,
+  red-dark: $red-dark,
+  yellow: $yellow,
+  purple: $purple,
+  purple-dark: $purple-dark,
+  orange-dark: $orange-dark,
+  gray-light: $gray-light,
 );
 
 @each $color, $value in $text-colors {
@@ -99,13 +108,13 @@ $text-colors: (
 
 @each $size, $value in $text-sizes {
   .text-active-#{$size}:active {
-    font-size: clamp($value - 12px, 4.5vw, $value) !important;
+    font-size: clamp($value - 3px, 4.5vw, $value) !important;
   }
   .text-hover-#{$size}:hover:not(:active) {
-    font-size: clamp($value - 12px, 4.5vw, $value) !important;
+    font-size: clamp($value - 3px, 4.5vw, $value) !important;
   }
   .text-#{$size} {
-    font-size: clamp($value - 12px, 4.5vw, $value) !important;
+    font-size: clamp($value - 3px, 4.5vw, $value) !important;
   }
 }
 
@@ -138,6 +147,14 @@ img {
   height: auto;
 }
 
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
 .font-light {
   font-weight: 400;
 }
@@ -166,6 +183,14 @@ h6 {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .page-content {
   position: relative;
   z-index: 1;
@@ -180,4 +205,23 @@ h6 {
 
 .section {
   padding: 60px 0;
+}
+
+.section-pagination {
+  margin-top: 20px;
+  ul {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      list-style: none;
+  }
+}
+
+.member-banner-image {
+  img {
+    width: 100%;
+    max-width: 800px;
+    object-fit: cover;
+    object-position: center;
+  }
 }

@@ -4,7 +4,7 @@
         padding: 42px 30px;
         width: 100%;
         max-width: 340px;
-        text-align: end;
+        text-align: right;
         @media (max-width: map-get($grid-breakpoints, md)) {
             text-align: start;
         }

@@ -55,6 +55,22 @@
   background-color: #de195b !important;
 }
 
+.text-teritary {
+  color: #bb005a !important;
+}
+
+.bg-teritary {
+  background-color: #bb005a !important;
+}
+
+.text-red-dark {
+  color: #E80000 !important;
+}
+
+.bg-red-dark {
+  background-color: #E80000 !important;
+}
+
 .text-yellow {
   color: #ffdc00 !important;
 }
@@ -87,292 +103,300 @@
   background-color: #ff8000 !important;
 }
 
+.text-gray-light {
+  color: #d9e4ff !important;
+}
+
+.bg-gray-light {
+  background-color: #d9e4ff !important;
+}
+
 .text-active-1:active {
-  font-size: clamp(1px, 4.5vw, 13px) !important;
+  font-size: clamp(10px, 4.5vw, 13px) !important;
 }
 
 .text-hover-1:hover:not(:active) {
-  font-size: clamp(1px, 4.5vw, 13px) !important;
+  font-size: clamp(10px, 4.5vw, 13px) !important;
 }
 
 .text-1 {
-  font-size: clamp(1px, 4.5vw, 13px) !important;
+  font-size: clamp(10px, 4.5vw, 13px) !important;
 }
 
 .text-active-2:active {
-  font-size: clamp(2px, 4.5vw, 14px) !important;
+  font-size: clamp(11px, 4.5vw, 14px) !important;
 }
 
 .text-hover-2:hover:not(:active) {
-  font-size: clamp(2px, 4.5vw, 14px) !important;
+  font-size: clamp(11px, 4.5vw, 14px) !important;
 }
 
 .text-2 {
-  font-size: clamp(2px, 4.5vw, 14px) !important;
+  font-size: clamp(11px, 4.5vw, 14px) !important;
 }
 
 .text-active-3:active {
-  font-size: clamp(3px, 4.5vw, 15px) !important;
+  font-size: clamp(12px, 4.5vw, 15px) !important;
 }
 
 .text-hover-3:hover:not(:active) {
-  font-size: clamp(3px, 4.5vw, 15px) !important;
+  font-size: clamp(12px, 4.5vw, 15px) !important;
 }
 
 .text-3 {
-  font-size: clamp(3px, 4.5vw, 15px) !important;
+  font-size: clamp(12px, 4.5vw, 15px) !important;
 }
 
 .text-active-4:active {
-  font-size: clamp(4px, 4.5vw, 16px) !important;
+  font-size: clamp(13px, 4.5vw, 16px) !important;
 }
 
 .text-hover-4:hover:not(:active) {
-  font-size: clamp(4px, 4.5vw, 16px) !important;
+  font-size: clamp(13px, 4.5vw, 16px) !important;
 }
 
 .text-4 {
-  font-size: clamp(4px, 4.5vw, 16px) !important;
+  font-size: clamp(13px, 4.5vw, 16px) !important;
 }
 
 .text-active-5:active {
-  font-size: clamp(6px, 4.5vw, 18px) !important;
+  font-size: clamp(15px, 4.5vw, 18px) !important;
 }
 
 .text-hover-5:hover:not(:active) {
-  font-size: clamp(6px, 4.5vw, 18px) !important;
+  font-size: clamp(15px, 4.5vw, 18px) !important;
 }
 
 .text-5 {
-  font-size: clamp(6px, 4.5vw, 18px) !important;
+  font-size: clamp(15px, 4.5vw, 18px) !important;
 }
 
 .text-active-6:active {
-  font-size: clamp(8px, 4.5vw, 20px) !important;
+  font-size: clamp(17px, 4.5vw, 20px) !important;
 }
 
 .text-hover-6:hover:not(:active) {
-  font-size: clamp(8px, 4.5vw, 20px) !important;
+  font-size: clamp(17px, 4.5vw, 20px) !important;
 }
 
 .text-6 {
-  font-size: clamp(8px, 4.5vw, 20px) !important;
+  font-size: clamp(17px, 4.5vw, 20px) !important;
 }
 
 .text-active-7:active {
-  font-size: clamp(10px, 4.5vw, 22px) !important;
+  font-size: clamp(19px, 4.5vw, 22px) !important;
 }
 
 .text-hover-7:hover:not(:active) {
-  font-size: clamp(10px, 4.5vw, 22px) !important;
+  font-size: clamp(19px, 4.5vw, 22px) !important;
 }
 
 .text-7 {
-  font-size: clamp(10px, 4.5vw, 22px) !important;
+  font-size: clamp(19px, 4.5vw, 22px) !important;
 }
 
 .text-active-8:active {
-  font-size: clamp(12px, 4.5vw, 24px) !important;
+  font-size: clamp(21px, 4.5vw, 24px) !important;
 }
 
 .text-hover-8:hover:not(:active) {
-  font-size: clamp(12px, 4.5vw, 24px) !important;
+  font-size: clamp(21px, 4.5vw, 24px) !important;
 }
 
 .text-8 {
-  font-size: clamp(12px, 4.5vw, 24px) !important;
+  font-size: clamp(21px, 4.5vw, 24px) !important;
 }
 
 .text-active-9:active {
-  font-size: clamp(13px, 4.5vw, 25px) !important;
+  font-size: clamp(22px, 4.5vw, 25px) !important;
 }
 
 .text-hover-9:hover:not(:active) {
-  font-size: clamp(13px, 4.5vw, 25px) !important;
+  font-size: clamp(22px, 4.5vw, 25px) !important;
 }
 
 .text-9 {
-  font-size: clamp(13px, 4.5vw, 25px) !important;
+  font-size: clamp(22px, 4.5vw, 25px) !important;
 }
 
 .text-active-10:active {
-  font-size: clamp(14px, 4.5vw, 26px) !important;
+  font-size: clamp(23px, 4.5vw, 26px) !important;
 }
 
 .text-hover-10:hover:not(:active) {
-  font-size: clamp(14px, 4.5vw, 26px) !important;
+  font-size: clamp(23px, 4.5vw, 26px) !important;
 }
 
 .text-10 {
-  font-size: clamp(14px, 4.5vw, 26px) !important;
+  font-size: clamp(23px, 4.5vw, 26px) !important;
 }
 
 .text-active-11:active {
-  font-size: clamp(16px, 4.5vw, 28px) !important;
+  font-size: clamp(25px, 4.5vw, 28px) !important;
 }
 
 .text-hover-11:hover:not(:active) {
-  font-size: clamp(16px, 4.5vw, 28px) !important;
+  font-size: clamp(25px, 4.5vw, 28px) !important;
 }
 
 .text-11 {
-  font-size: clamp(16px, 4.5vw, 28px) !important;
+  font-size: clamp(25px, 4.5vw, 28px) !important;
 }
 
 .text-active-12:active {
-  font-size: clamp(18px, 4.5vw, 30px) !important;
+  font-size: clamp(27px, 4.5vw, 30px) !important;
 }
 
 .text-hover-12:hover:not(:active) {
-  font-size: clamp(18px, 4.5vw, 30px) !important;
+  font-size: clamp(27px, 4.5vw, 30px) !important;
 }
 
 .text-12 {
-  font-size: clamp(18px, 4.5vw, 30px) !important;
+  font-size: clamp(27px, 4.5vw, 30px) !important;
 }
 
 .text-active-13:active {
-  font-size: clamp(20px, 4.5vw, 32px) !important;
+  font-size: clamp(29px, 4.5vw, 32px) !important;
 }
 
 .text-hover-13:hover:not(:active) {
-  font-size: clamp(20px, 4.5vw, 32px) !important;
+  font-size: clamp(29px, 4.5vw, 32px) !important;
 }
 
 .text-13 {
-  font-size: clamp(20px, 4.5vw, 32px) !important;
+  font-size: clamp(29px, 4.5vw, 32px) !important;
 }
 
 .text-active-14:active {
-  font-size: clamp(22px, 4.5vw, 34px) !important;
+  font-size: clamp(31px, 4.5vw, 34px) !important;
 }
 
 .text-hover-14:hover:not(:active) {
-  font-size: clamp(22px, 4.5vw, 34px) !important;
+  font-size: clamp(31px, 4.5vw, 34px) !important;
 }
 
 .text-14 {
-  font-size: clamp(22px, 4.5vw, 34px) !important;
+  font-size: clamp(31px, 4.5vw, 34px) !important;
 }
 
 .text-active-15:active {
-  font-size: clamp(24px, 4.5vw, 36px) !important;
+  font-size: clamp(33px, 4.5vw, 36px) !important;
 }
 
 .text-hover-15:hover:not(:active) {
-  font-size: clamp(24px, 4.5vw, 36px) !important;
+  font-size: clamp(33px, 4.5vw, 36px) !important;
 }
 
 .text-15 {
-  font-size: clamp(24px, 4.5vw, 36px) !important;
+  font-size: clamp(33px, 4.5vw, 36px) !important;
 }
 
 .text-active-16:active {
-  font-size: clamp(26px, 4.5vw, 38px) !important;
+  font-size: clamp(35px, 4.5vw, 38px) !important;
 }
 
 .text-hover-16:hover:not(:active) {
-  font-size: clamp(26px, 4.5vw, 38px) !important;
+  font-size: clamp(35px, 4.5vw, 38px) !important;
 }
 
 .text-16 {
-  font-size: clamp(26px, 4.5vw, 38px) !important;
+  font-size: clamp(35px, 4.5vw, 38px) !important;
 }
 
 .text-active-17:active {
-  font-size: clamp(28px, 4.5vw, 40px) !important;
+  font-size: clamp(37px, 4.5vw, 40px) !important;
 }
 
 .text-hover-17:hover:not(:active) {
-  font-size: clamp(28px, 4.5vw, 40px) !important;
+  font-size: clamp(37px, 4.5vw, 40px) !important;
 }
 
 .text-17 {
-  font-size: clamp(28px, 4.5vw, 40px) !important;
+  font-size: clamp(37px, 4.5vw, 40px) !important;
 }
 
 .text-active-18:active {
-  font-size: clamp(30px, 4.5vw, 42px) !important;
+  font-size: clamp(39px, 4.5vw, 42px) !important;
 }
 
 .text-hover-18:hover:not(:active) {
-  font-size: clamp(30px, 4.5vw, 42px) !important;
+  font-size: clamp(39px, 4.5vw, 42px) !important;
 }
 
 .text-18 {
-  font-size: clamp(30px, 4.5vw, 42px) !important;
+  font-size: clamp(39px, 4.5vw, 42px) !important;
 }
 
 .text-active-19:active {
-  font-size: clamp(32px, 4.5vw, 44px) !important;
+  font-size: clamp(41px, 4.5vw, 44px) !important;
 }
 
 .text-hover-19:hover:not(:active) {
-  font-size: clamp(32px, 4.5vw, 44px) !important;
+  font-size: clamp(41px, 4.5vw, 44px) !important;
 }
 
 .text-19 {
-  font-size: clamp(32px, 4.5vw, 44px) !important;
+  font-size: clamp(41px, 4.5vw, 44px) !important;
 }
 
 .text-active-20:active {
-  font-size: clamp(34px, 4.5vw, 46px) !important;
+  font-size: clamp(43px, 4.5vw, 46px) !important;
 }
 
 .text-hover-20:hover:not(:active) {
-  font-size: clamp(34px, 4.5vw, 46px) !important;
+  font-size: clamp(43px, 4.5vw, 46px) !important;
 }
 
 .text-20 {
-  font-size: clamp(34px, 4.5vw, 46px) !important;
+  font-size: clamp(43px, 4.5vw, 46px) !important;
 }
 
 .text-active-21:active {
-  font-size: clamp(40px, 4.5vw, 52px) !important;
+  font-size: clamp(49px, 4.5vw, 52px) !important;
 }
 
 .text-hover-21:hover:not(:active) {
-  font-size: clamp(40px, 4.5vw, 52px) !important;
+  font-size: clamp(49px, 4.5vw, 52px) !important;
 }
 
 .text-21 {
-  font-size: clamp(40px, 4.5vw, 52px) !important;
+  font-size: clamp(49px, 4.5vw, 52px) !important;
 }
 
 .text-active-22:active {
-  font-size: clamp(42px, 4.5vw, 54px) !important;
+  font-size: clamp(51px, 4.5vw, 54px) !important;
 }
 
 .text-hover-22:hover:not(:active) {
-  font-size: clamp(42px, 4.5vw, 54px) !important;
+  font-size: clamp(51px, 4.5vw, 54px) !important;
 }
 
 .text-22 {
-  font-size: clamp(42px, 4.5vw, 54px) !important;
+  font-size: clamp(51px, 4.5vw, 54px) !important;
 }
 
 .text-active-23:active {
-  font-size: clamp(48px, 4.5vw, 60px) !important;
+  font-size: clamp(57px, 4.5vw, 60px) !important;
 }
 
 .text-hover-23:hover:not(:active) {
-  font-size: clamp(48px, 4.5vw, 60px) !important;
+  font-size: clamp(57px, 4.5vw, 60px) !important;
 }
 
 .text-23 {
-  font-size: clamp(48px, 4.5vw, 60px) !important;
+  font-size: clamp(57px, 4.5vw, 60px) !important;
 }
 
 .text-active-24:active {
-  font-size: clamp(52px, 4.5vw, 64px) !important;
+  font-size: clamp(61px, 4.5vw, 64px) !important;
 }
 
 .text-hover-24:hover:not(:active) {
-  font-size: clamp(52px, 4.5vw, 64px) !important;
+  font-size: clamp(61px, 4.5vw, 64px) !important;
 }
 
 .text-24 {
-  font-size: clamp(52px, 4.5vw, 64px) !important;
+  font-size: clamp(61px, 4.5vw, 64px) !important;
 }
 
 .font-active-1:active {
@@ -526,6 +550,14 @@ img {
   height: auto;
 }
 
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
 .font-light {
   font-weight: 400;
 }
@@ -554,6 +586,14 @@ h6 {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .page-content {
   position: relative;
   z-index: 1;
@@ -568,6 +608,25 @@ h6 {
 
 .section {
   padding: 60px 0;
+}
+
+.section-pagination {
+  margin-top: 20px;
+}
+.section-pagination ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.member-banner-image img {
+  width: 100%;
+  max-width: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 *,
@@ -5287,6 +5346,21 @@ progress {
   border-color: #96cc16;
 }
 
+.btn-featured-secondary {
+  border: 2px solid rgba(171, 59, 255, 0.2);
+  background-color: #fff;
+  color: #0078ff;
+}
+.btn-featured-secondary:hover {
+  border-color: #ff7500;
+  background-color: #ff7500;
+  color: #fff;
+}
+.btn-featured-secondary:active {
+  background-color: #96cc16;
+  border-color: #96cc16;
+}
+
 .btn-default {
   border: 2px solid #0078ff;
   background-color: #fff;
@@ -5312,6 +5386,20 @@ progress {
   color: #fff;
 }
 .btn-default-v2:active {
+  background-color: #96cc16;
+  border-color: #96cc16;
+}
+
+.btn-default-v3 {
+  border: 2px solid #0078ff;
+  background-color: #fff;
+  color: #0078ff;
+}
+.btn-default-v3:hover {
+  background-color: #0078ff;
+  color: #fff;
+}
+.btn-default-v3:active {
   background-color: #96cc16;
   border-color: #96cc16;
 }
@@ -5345,6 +5433,20 @@ progress {
   background-color: #96cc16;
   border-color: #96cc16;
   color: #fff;
+}
+
+.btn-filled-purple {
+  border: 2px solid #0078ff;
+  background-color: #0078ff;
+  color: #fff;
+}
+.btn-filled-purple:hover {
+  background-color: #ab3bff;
+  border-color: #ab3bff;
+}
+.btn-filled-purple:active {
+  background-color: #96cc16;
+  border-color: #96cc16;
 }
 
 .btn-filled-light {
@@ -5394,8 +5496,97 @@ progress {
   color: #fff;
 }
 
+.btn-outlined-primary-dark {
+  border: 2px solid #d9e4ff;
+  background-color: transparent;
+  color: #2638c1;
+}
+.btn-outlined-primary-dark:hover {
+  background-color: #2638c1;
+  border-color: #2638c1;
+  color: #fff;
+}
+.btn-outlined-primary-dark:hover:is(:focus) {
+  background-color: #2638c1;
+  border-color: #2638c1;
+  color: #fff;
+}
+.btn-outlined-primary-dark:active:is(:focus) {
+  background-color: #0078ff;
+  border-color: #0078ff;
+  color: #fff;
+}
+.btn-outlined-primary-dark:focus {
+  border-color: #0078ff;
+  color: #0078ff;
+}
+
+.btn-outlined-secondary {
+  border: 2px solid rgba(171, 59, 255, 0.2);
+  background-color: transparent;
+  color: #652d88;
+}
+.btn-outlined-secondary:hover {
+  background-color: #ff7500;
+  border-color: #ff7500;
+  color: #fff;
+}
+.btn-outlined-secondary:hover:is(:focus) {
+  background-color: #ff7500;
+  border-color: #ff7500;
+  color: #fff;
+}
+.btn-outlined-secondary:active:is(:focus) {
+  background-color: #ab3bff;
+  border-color: #ab3bff;
+  color: #fff;
+}
+.btn-outlined-secondary:focus {
+  border-color: #ab3bff;
+}
+
+.btn-outlined-teritary {
+  border: 2px solid rgba(222, 25, 91, 0.2);
+  background-color: transparent;
+  color: #bb005a;
+}
+.btn-outlined-teritary:hover {
+  background-color: #ff7500;
+  border-color: #ff7500;
+  color: #fff;
+}
+.btn-outlined-teritary:hover:is(:focus) {
+  background-color: #ff7500;
+  border-color: #ff7500;
+  color: #fff;
+}
+.btn-outlined-teritary:active:is(:focus) {
+  background-color: #bb005a;
+  border-color: #bb005a;
+  color: #fff;
+}
+.btn-outlined-teritary:focus {
+  border-color: #bb005a;
+}
+
+.btn-outlined-teritary-v2 {
+  border: 2px solid rgba(222, 25, 91, 0.2);
+  background-color: transparent;
+  color: #bb005a;
+}
+.btn-outlined-teritary-v2:hover {
+  background-color: #ff7500;
+  border-color: #ff7500;
+  color: #fff;
+}
+.btn-outlined-teritary-v2:active {
+  background-color: #96cc16;
+  border-color: #96cc16;
+  color: #fff;
+}
+
 .btn-sm {
-  width: 110px;
+  width: 120px;
   height: 40px;
   font-size: 16px;
   font-weight: 800;
@@ -5429,6 +5620,13 @@ progress {
   font-weight: 800;
 }
 
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
 .tag {
   color: inherit;
   padding: 4px 8px;
@@ -5437,6 +5635,15 @@ progress {
   border-radius: 6px;
   border: 1px solid #d9e4ff;
   background: rgba(217, 228, 255, 0.5);
+}
+
+.card-arrow {
+  margin-left: -3px;
+  margin-bottom: 1px;
+}
+.card-arrow img {
+  width: 100%;
+  max-width: 10px;
 }
 
 .card {
@@ -5477,6 +5684,47 @@ progress {
   justify-content: center;
   gap: 12px;
   padding: 12px 20px 20px 20px;
+}
+
+.search-input-secondary {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+.search-input-secondary-input {
+  border-radius: 10px 0px 0px 10px;
+  border: 2px solid #d9e4ff;
+  background-color: #fff;
+  padding: 7px 0 7px 14px;
+  width: 100%;
+  max-width: 250px;
+  height: 35px;
+}
+.search-input-secondary ::-moz-placeholder {
+  color: #313131;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+}
+.search-input-secondary ::placeholder {
+  color: #313131;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+}
+.search-input-secondary-button {
+  border-radius: 0px 10px 10px 0px;
+  border: 2px solid #ff7500;
+  background: #ff7500;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  max-width: 90px;
+  height: 35px;
+}
+.search-input-secondary-button:hover {
+  background: #ff7500;
 }
 
 .header {
@@ -5790,7 +6038,7 @@ progress {
 }
 .testimonial-content {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 .testimonial-bg-images {
   width: 100px;
@@ -5882,7 +6130,7 @@ progress {
   padding: 42px 30px;
   width: 100%;
   max-width: 340px;
-  text-align: end;
+  text-align: right;
 }
 @media (max-width: 768px) {
   .educational-games-section-card {
@@ -5964,4 +6212,237 @@ progress {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.in-the-news-section {
+  padding: 60px 0;
+}
+.in-the-news-section-content {
+  width: 100%;
+  max-width: 860px;
+  margin-bottom: 50px;
+}
+.in-the-news-section-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 42px 36px 25px 36px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 2px rgba(167, 164, 158, 0.25);
+  height: 100%;
+}
+.in-the-news-section-card-image {
+  height: 124px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.in-the-news-section-card-image img {
+  width: 100%;
+  max-width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.in-the-news-section-card-content {
+  margin-top: 12px;
+}
+.in-the-news-section-card-content p {
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.in-the-news-section-card-content p a {
+  text-decoration: underline;
+}
+.in-the-news-section-card-content-link {
+  text-align: right;
+}
+
+.terms-and-condition-section {
+  padding: 60px 0;
+}
+.terms-and-condition-section p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #313131;
+}
+
+.games-member-section, .games-nonmember-section {
+  padding: 60px 0;
+}
+.games-member-section-buttons-container, .games-nonmember-section-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.games-member-section-title, .games-nonmember-section-title {
+  margin-top: 50px;
+}
+.games-member-section-description, .games-nonmember-section-description {
+  width: 100%;
+  max-width: 1035px;
+}
+.games-member-section-content, .games-nonmember-section-content {
+  padding: 56px 0;
+}
+.games-member-section-content-scarrymommy-img, .games-nonmember-section-content-scarrymommy-img {
+  text-align: center;
+}
+.games-member-section-content-scarrymommy-img img, .games-nonmember-section-content-scarrymommy-img img {
+  max-width: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.games-member-section-bottom, .games-nonmember-section-bottom {
+  width: 100%;
+  max-width: 1068px;
+  margin-top: 44px;
+}
+
+.videos-member-section, .videos-nonmember-section {
+  padding: 60px 0;
+}
+.videos-member-section-buttons-container, .videos-nonmember-section-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.videos-member-section-title, .videos-nonmember-section-title {
+  margin-top: 50px;
+}
+.videos-member-section-description, .videos-nonmember-section-description {
+  width: 100%;
+  max-width: 1061px;
+}
+.videos-member-section-content, .videos-nonmember-section-content {
+  padding: 46px 0;
+}
+.videos-member-section-content-awards-image, .videos-nonmember-section-content-awards-image {
+  text-align: center;
+}
+.videos-member-section-content-awards-image img, .videos-nonmember-section-content-awards-image img {
+  max-width: 518px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.videos-member-section-thought, .videos-nonmember-section-thought {
+  padding-top: 70px;
+  padding-bottom: 67px;
+}
+.videos-member-section-thought h1, .videos-nonmember-section-thought h1 {
+  width: 100%;
+  max-width: 750px;
+}
+.videos-member-section-bottom, .videos-nonmember-section-bottom {
+  width: 100%;
+  max-width: 1068px;
+  margin-top: 44px;
+}
+
+.coloringsheets-member-section, .coloringsheets-nonmember-section {
+  padding: 60px 0;
+}
+.coloringsheets-member-section-buttons-container, .coloringsheets-nonmember-section-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.coloringsheets-member-section-title, .coloringsheets-nonmember-section-title {
+  margin-top: 50px;
+}
+.coloringsheets-member-section-description, .coloringsheets-nonmember-section-description {
+  width: 100%;
+  max-width: 1061px;
+}
+.coloringsheets-member-section-content, .coloringsheets-nonmember-section-content {
+  padding: 56px 0;
+}
+.coloringsheets-member-section-content-scarrymommy-img, .coloringsheets-nonmember-section-content-scarrymommy-img {
+  text-align: center;
+}
+.coloringsheets-member-section-content-scarrymommy-img img, .coloringsheets-nonmember-section-content-scarrymommy-img img {
+  max-width: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.coloringsheets-member-section-thought, .coloringsheets-nonmember-section-thought {
+  padding-top: 70px;
+  padding-bottom: 67px;
+}
+.coloringsheets-member-section-thought h1, .coloringsheets-nonmember-section-thought h1 {
+  width: 100%;
+  max-width: 750px;
+}
+.coloringsheets-member-section-bottom, .coloringsheets-nonmember-section-bottom {
+  width: 100%;
+  max-width: 1068px;
+  margin-top: 44px;
+}
+.coloringsheets-member-section-bottom-para, .coloringsheets-nonmember-section-bottom-para {
+  width: 100%;
+  max-width: 750px;
+  text-align: center;
+  margin: auto;
+}
+
+.gamepage-member-section {
+  padding-top: 70px;
+  padding-bottom: 102px;
+}
+.gamepage-member-section-content {
+  width: 100%;
+  max-width: 800px;
+}
+.gamepage-member-section-content-button {
+  margin-left: auto;
+}
+@media (max-width: 768px) {
+  .gamepage-member-section-content-button {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+.gamepage-member-section-content-link {
+  text-decoration: underline;
+  color: #313131;
+}
+.gamepage-member-section-text {
+  margin-top: 45px;
+}
+
+.videopage-member-section {
+  padding-top: 70px;
+  padding-bottom: 102px;
+}
+.videopage-member-section-content {
+  width: 100%;
+  max-width: 800px;
+}
+.videopage-member-section-content-title {
+  margin-top: 50px;
+}
+.videopage-member-section-content-link {
+  text-decoration: underline;
+  color: #313131;
+}
+.videopage-member-section-text {
+  margin-top: 45px;
 }/*# sourceMappingURL=styles.css.map */

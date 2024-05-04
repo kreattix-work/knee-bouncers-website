@@ -1,0 +1,47 @@
+.coloringsheets-member-section, .coloringsheets-nonmember-section {
+    padding: 60px 0;
+    &-buttons-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    &-title {
+        margin-top: 50px;
+    }
+    &-description {
+        width: 100%;
+        max-width: 1061px;
+    }
+    &-content {
+        padding: 56px 0;
+        &-scarrymommy-img {
+            text-align: center;
+            img {
+                max-width: 200px;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+    &-thought {
+        padding-top: 70px;
+        padding-bottom: 67px;
+        h1 {
+            width: 100%;
+            max-width: 750px;
+        }
+    }
+    &-bottom {
+        width: 100%;
+        max-width: 1068px;
+        margin-top: 44px;
+        &-para {
+            width: 100%;
+            max-width: 750px;
+            text-align: center;
+            margin: auto;
+        }
+    }
+}
