@@ -15,7 +15,7 @@ $yellow: #ffdc00;
 $purple: #ab3bff;
 $purple-dark: #652d88;
 $red: #de195b;
-$red-dark: #E80000;
+$red-dark: #e80000;
 
 $headings-font-weight: 800;
 
@@ -83,7 +83,7 @@ $text-sizes: (
 $text-colors: (
   white: $text-light,
   secondary: $secondary,
-  secondary-light: #FAF7F3,
+  secondary-light: #faf7f3,
   dark: $text-dark,
   primary: $primary,
   primary-dark: $primary-dark,
@@ -210,10 +210,10 @@ h6 {
 .section-pagination {
   margin-top: 20px;
   ul {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
   }
 }
 
@@ -224,4 +224,7 @@ h6 {
     object-fit: cover;
     object-position: center;
   }
+}
+.text-normal {
+  font-style: normal !important;
 }
