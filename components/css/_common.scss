@@ -88,6 +88,7 @@ $text-colors: (
   primary: $primary,
   primary-dark: $primary-dark,
   red: $red,
+  teritary: $teritary,
   red-dark: $red-dark,
   yellow: $yellow,
   purple: $purple,
@@ -172,6 +173,14 @@ h6 {
 
 .text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .page-content {

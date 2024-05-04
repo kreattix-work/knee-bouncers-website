@@ -55,6 +55,14 @@
   background-color: #de195b !important;
 }
 
+.text-teritary {
+  color: #bb005a !important;
+}
+
+.bg-teritary {
+  background-color: #bb005a !important;
+}
+
 .text-red-dark {
   color: #E80000 !important;
 }
@@ -568,6 +576,14 @@ h6 {
 
 .text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .page-content {
@@ -5472,6 +5488,25 @@ progress {
   border-color: #ab3bff;
 }
 
+.btn-outlined-teritary {
+  border: 2px solid rgba(222, 25, 91, 0.2);
+  background-color: transparent;
+  color: #bb005a;
+}
+.btn-outlined-teritary:hover {
+  background-color: #ff7500;
+  border-color: #ff7500;
+  color: #fff;
+}
+.btn-outlined-teritary:active {
+  background-color: #bb005a;
+  border-color: #bb005a;
+  color: #fff;
+}
+.btn-outlined-teritary:focus {
+  border-color: #bb005a;
+}
+
 .btn-sm {
   width: 120px;
   height: 40px;
@@ -6222,4 +6257,54 @@ progress {
   width: 100%;
   max-width: 1068px;
   margin-top: 44px;
+}
+
+.coloringsheets-nonmember-section {
+  padding: 60px 0;
+}
+.coloringsheets-nonmember-section-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.coloringsheets-nonmember-section-title {
+  margin-top: 60px;
+}
+.coloringsheets-nonmember-section-description {
+  width: 100%;
+  max-width: 1061px;
+}
+.coloringsheets-nonmember-section-content {
+  padding: 56px 0;
+}
+.coloringsheets-nonmember-section-content-scarrymommy-img {
+  text-align: center;
+}
+.coloringsheets-nonmember-section-content-scarrymommy-img img {
+  max-width: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.coloringsheets-nonmember-section-thought {
+  padding-top: 70px;
+  padding-bottom: 67px;
+}
+.coloringsheets-nonmember-section-thought h1 {
+  width: 100%;
+  max-width: 750px;
+}
+.coloringsheets-nonmember-section-bottom {
+  width: 100%;
+  max-width: 1068px;
+  margin-top: 44px;
+}
+.coloringsheets-nonmember-section-bottom-para {
+  width: 100%;
+  max-width: 750px;
+  text-align: center;
+  margin: auto;
 }/*# sourceMappingURL=styles.css.map */

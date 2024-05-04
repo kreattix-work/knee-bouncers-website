@@ -253,6 +253,25 @@ $btn-big-font-weight-lg: 800;
     border-color: $purple;
   }
 }
+.btn-outlined-teritary {
+  border: 2px solid rgba(222, 25, 91, 0.2);
+  background-color: transparent;
+  color: $teritary;
+
+  &:hover {
+    background-color: $secondary;
+    border-color: $secondary;
+    color: $white;
+  }
+  &:active {
+    background-color: $teritary;
+    border-color: $teritary;
+    color: $white;
+  }
+  &:focus {
+    border-color: $teritary;
+  }
+}
 
 .btn-sm {
   width: $btn-width-sm;
