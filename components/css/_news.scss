@@ -1,4 +1,4 @@
-.in-the-news-section {
+.news-section {
   padding: 60px 0;
 
   .card {
@@ -17,6 +17,11 @@
     }
     &-description {
       font-style: normal;
+      display: -webkit-box;
+      max-width: 100%;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
     &-image {
       height: 124px;
