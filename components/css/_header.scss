@@ -12,6 +12,8 @@ $header-logo-width: 221px;
   background-color: $white;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   border-bottom: $btn-gray-border;
   &-logo {
     display: block;
@@ -21,6 +23,9 @@ $header-logo-width: 221px;
 
   @media (max-width: map-get($grid-breakpoints, xl)) {
     height: $header-height-sm;
+    &-with-title {
+      height: $header-height-sm + 30px;
+    }
   }
   @media (max-width: map-get($grid-breakpoints, sm)) {
     &-logo {

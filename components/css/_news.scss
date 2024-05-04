@@ -28,10 +28,10 @@
         width: initial;
         object-fit: contain;
         transition: $transition-base;
-        &:hover {
-          scale: 1.1;
-        }
       }
+    }
+    &:hover img {
+      scale: 1.1;
     }
   }
   &-content {

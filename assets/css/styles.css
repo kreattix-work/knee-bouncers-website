@@ -112,291 +112,291 @@
 }
 
 .text-active-1:active {
-  font-size: clamp(10px, 4.5vw, 13px) !important;
+  font-size: clamp(3px, 4.5vw, 13px) !important;
 }
 
 .text-hover-1:hover:not(:active) {
-  font-size: clamp(10px, 4.5vw, 13px) !important;
+  font-size: clamp(3px, 4.5vw, 13px) !important;
 }
 
 .text-1 {
-  font-size: clamp(10px, 4.5vw, 13px) !important;
+  font-size: clamp(3px, 4.5vw, 13px) !important;
 }
 
 .text-active-2:active {
-  font-size: clamp(11px, 4.5vw, 14px) !important;
+  font-size: clamp(4px, 4.5vw, 14px) !important;
 }
 
 .text-hover-2:hover:not(:active) {
-  font-size: clamp(11px, 4.5vw, 14px) !important;
+  font-size: clamp(4px, 4.5vw, 14px) !important;
 }
 
 .text-2 {
-  font-size: clamp(11px, 4.5vw, 14px) !important;
+  font-size: clamp(4px, 4.5vw, 14px) !important;
 }
 
 .text-active-3:active {
-  font-size: clamp(12px, 4.5vw, 15px) !important;
+  font-size: clamp(5px, 4.5vw, 15px) !important;
 }
 
 .text-hover-3:hover:not(:active) {
-  font-size: clamp(12px, 4.5vw, 15px) !important;
+  font-size: clamp(5px, 4.5vw, 15px) !important;
 }
 
 .text-3 {
-  font-size: clamp(12px, 4.5vw, 15px) !important;
+  font-size: clamp(5px, 4.5vw, 15px) !important;
 }
 
 .text-active-4:active {
-  font-size: clamp(13px, 4.5vw, 16px) !important;
+  font-size: clamp(6px, 4.5vw, 16px) !important;
 }
 
 .text-hover-4:hover:not(:active) {
-  font-size: clamp(13px, 4.5vw, 16px) !important;
+  font-size: clamp(6px, 4.5vw, 16px) !important;
 }
 
 .text-4 {
-  font-size: clamp(13px, 4.5vw, 16px) !important;
+  font-size: clamp(6px, 4.5vw, 16px) !important;
 }
 
 .text-active-5:active {
-  font-size: clamp(15px, 4.5vw, 18px) !important;
+  font-size: clamp(8px, 4.5vw, 18px) !important;
 }
 
 .text-hover-5:hover:not(:active) {
-  font-size: clamp(15px, 4.5vw, 18px) !important;
+  font-size: clamp(8px, 4.5vw, 18px) !important;
 }
 
 .text-5 {
-  font-size: clamp(15px, 4.5vw, 18px) !important;
+  font-size: clamp(8px, 4.5vw, 18px) !important;
 }
 
 .text-active-6:active {
-  font-size: clamp(17px, 4.5vw, 20px) !important;
+  font-size: clamp(10px, 4.5vw, 20px) !important;
 }
 
 .text-hover-6:hover:not(:active) {
-  font-size: clamp(17px, 4.5vw, 20px) !important;
+  font-size: clamp(10px, 4.5vw, 20px) !important;
 }
 
 .text-6 {
-  font-size: clamp(17px, 4.5vw, 20px) !important;
+  font-size: clamp(10px, 4.5vw, 20px) !important;
 }
 
 .text-active-7:active {
-  font-size: clamp(19px, 4.5vw, 22px) !important;
+  font-size: clamp(12px, 4.5vw, 22px) !important;
 }
 
 .text-hover-7:hover:not(:active) {
-  font-size: clamp(19px, 4.5vw, 22px) !important;
+  font-size: clamp(12px, 4.5vw, 22px) !important;
 }
 
 .text-7 {
-  font-size: clamp(19px, 4.5vw, 22px) !important;
+  font-size: clamp(12px, 4.5vw, 22px) !important;
 }
 
 .text-active-8:active {
-  font-size: clamp(21px, 4.5vw, 24px) !important;
+  font-size: clamp(14px, 4.5vw, 24px) !important;
 }
 
 .text-hover-8:hover:not(:active) {
-  font-size: clamp(21px, 4.5vw, 24px) !important;
+  font-size: clamp(14px, 4.5vw, 24px) !important;
 }
 
 .text-8 {
-  font-size: clamp(21px, 4.5vw, 24px) !important;
+  font-size: clamp(14px, 4.5vw, 24px) !important;
 }
 
 .text-active-9:active {
-  font-size: clamp(22px, 4.5vw, 25px) !important;
+  font-size: clamp(15px, 4.5vw, 25px) !important;
 }
 
 .text-hover-9:hover:not(:active) {
-  font-size: clamp(22px, 4.5vw, 25px) !important;
+  font-size: clamp(15px, 4.5vw, 25px) !important;
 }
 
 .text-9 {
-  font-size: clamp(22px, 4.5vw, 25px) !important;
+  font-size: clamp(15px, 4.5vw, 25px) !important;
 }
 
 .text-active-10:active {
-  font-size: clamp(23px, 4.5vw, 26px) !important;
+  font-size: clamp(16px, 4.5vw, 26px) !important;
 }
 
 .text-hover-10:hover:not(:active) {
-  font-size: clamp(23px, 4.5vw, 26px) !important;
+  font-size: clamp(16px, 4.5vw, 26px) !important;
 }
 
 .text-10 {
-  font-size: clamp(23px, 4.5vw, 26px) !important;
+  font-size: clamp(16px, 4.5vw, 26px) !important;
 }
 
 .text-active-11:active {
-  font-size: clamp(25px, 4.5vw, 28px) !important;
+  font-size: clamp(18px, 4.5vw, 28px) !important;
 }
 
 .text-hover-11:hover:not(:active) {
-  font-size: clamp(25px, 4.5vw, 28px) !important;
+  font-size: clamp(18px, 4.5vw, 28px) !important;
 }
 
 .text-11 {
-  font-size: clamp(25px, 4.5vw, 28px) !important;
+  font-size: clamp(18px, 4.5vw, 28px) !important;
 }
 
 .text-active-12:active {
-  font-size: clamp(27px, 4.5vw, 30px) !important;
+  font-size: clamp(20px, 4.5vw, 30px) !important;
 }
 
 .text-hover-12:hover:not(:active) {
-  font-size: clamp(27px, 4.5vw, 30px) !important;
+  font-size: clamp(20px, 4.5vw, 30px) !important;
 }
 
 .text-12 {
-  font-size: clamp(27px, 4.5vw, 30px) !important;
+  font-size: clamp(20px, 4.5vw, 30px) !important;
 }
 
 .text-active-13:active {
-  font-size: clamp(29px, 4.5vw, 32px) !important;
+  font-size: clamp(22px, 4.5vw, 32px) !important;
 }
 
 .text-hover-13:hover:not(:active) {
-  font-size: clamp(29px, 4.5vw, 32px) !important;
+  font-size: clamp(22px, 4.5vw, 32px) !important;
 }
 
 .text-13 {
-  font-size: clamp(29px, 4.5vw, 32px) !important;
+  font-size: clamp(22px, 4.5vw, 32px) !important;
 }
 
 .text-active-14:active {
-  font-size: clamp(31px, 4.5vw, 34px) !important;
+  font-size: clamp(24px, 4.5vw, 34px) !important;
 }
 
 .text-hover-14:hover:not(:active) {
-  font-size: clamp(31px, 4.5vw, 34px) !important;
+  font-size: clamp(24px, 4.5vw, 34px) !important;
 }
 
 .text-14 {
-  font-size: clamp(31px, 4.5vw, 34px) !important;
+  font-size: clamp(24px, 4.5vw, 34px) !important;
 }
 
 .text-active-15:active {
-  font-size: clamp(33px, 4.5vw, 36px) !important;
+  font-size: clamp(26px, 4.5vw, 36px) !important;
 }
 
 .text-hover-15:hover:not(:active) {
-  font-size: clamp(33px, 4.5vw, 36px) !important;
+  font-size: clamp(26px, 4.5vw, 36px) !important;
 }
 
 .text-15 {
-  font-size: clamp(33px, 4.5vw, 36px) !important;
+  font-size: clamp(26px, 4.5vw, 36px) !important;
 }
 
 .text-active-16:active {
-  font-size: clamp(35px, 4.5vw, 38px) !important;
+  font-size: clamp(28px, 4.5vw, 38px) !important;
 }
 
 .text-hover-16:hover:not(:active) {
-  font-size: clamp(35px, 4.5vw, 38px) !important;
+  font-size: clamp(28px, 4.5vw, 38px) !important;
 }
 
 .text-16 {
-  font-size: clamp(35px, 4.5vw, 38px) !important;
+  font-size: clamp(28px, 4.5vw, 38px) !important;
 }
 
 .text-active-17:active {
-  font-size: clamp(37px, 4.5vw, 40px) !important;
+  font-size: clamp(30px, 4.5vw, 40px) !important;
 }
 
 .text-hover-17:hover:not(:active) {
-  font-size: clamp(37px, 4.5vw, 40px) !important;
+  font-size: clamp(30px, 4.5vw, 40px) !important;
 }
 
 .text-17 {
-  font-size: clamp(37px, 4.5vw, 40px) !important;
+  font-size: clamp(30px, 4.5vw, 40px) !important;
 }
 
 .text-active-18:active {
-  font-size: clamp(39px, 4.5vw, 42px) !important;
+  font-size: clamp(32px, 4.5vw, 42px) !important;
 }
 
 .text-hover-18:hover:not(:active) {
-  font-size: clamp(39px, 4.5vw, 42px) !important;
+  font-size: clamp(32px, 4.5vw, 42px) !important;
 }
 
 .text-18 {
-  font-size: clamp(39px, 4.5vw, 42px) !important;
+  font-size: clamp(32px, 4.5vw, 42px) !important;
 }
 
 .text-active-19:active {
-  font-size: clamp(41px, 4.5vw, 44px) !important;
+  font-size: clamp(34px, 4.5vw, 44px) !important;
 }
 
 .text-hover-19:hover:not(:active) {
-  font-size: clamp(41px, 4.5vw, 44px) !important;
+  font-size: clamp(34px, 4.5vw, 44px) !important;
 }
 
 .text-19 {
-  font-size: clamp(41px, 4.5vw, 44px) !important;
+  font-size: clamp(34px, 4.5vw, 44px) !important;
 }
 
 .text-active-20:active {
-  font-size: clamp(43px, 4.5vw, 46px) !important;
+  font-size: clamp(36px, 4.5vw, 46px) !important;
 }
 
 .text-hover-20:hover:not(:active) {
-  font-size: clamp(43px, 4.5vw, 46px) !important;
+  font-size: clamp(36px, 4.5vw, 46px) !important;
 }
 
 .text-20 {
-  font-size: clamp(43px, 4.5vw, 46px) !important;
+  font-size: clamp(36px, 4.5vw, 46px) !important;
 }
 
 .text-active-21:active {
-  font-size: clamp(49px, 4.5vw, 52px) !important;
+  font-size: clamp(42px, 4.5vw, 52px) !important;
 }
 
 .text-hover-21:hover:not(:active) {
-  font-size: clamp(49px, 4.5vw, 52px) !important;
+  font-size: clamp(42px, 4.5vw, 52px) !important;
 }
 
 .text-21 {
-  font-size: clamp(49px, 4.5vw, 52px) !important;
+  font-size: clamp(42px, 4.5vw, 52px) !important;
 }
 
 .text-active-22:active {
-  font-size: clamp(51px, 4.5vw, 54px) !important;
+  font-size: clamp(44px, 4.5vw, 54px) !important;
 }
 
 .text-hover-22:hover:not(:active) {
-  font-size: clamp(51px, 4.5vw, 54px) !important;
+  font-size: clamp(44px, 4.5vw, 54px) !important;
 }
 
 .text-22 {
-  font-size: clamp(51px, 4.5vw, 54px) !important;
+  font-size: clamp(44px, 4.5vw, 54px) !important;
 }
 
 .text-active-23:active {
-  font-size: clamp(57px, 4.5vw, 60px) !important;
+  font-size: clamp(50px, 4.5vw, 60px) !important;
 }
 
 .text-hover-23:hover:not(:active) {
-  font-size: clamp(57px, 4.5vw, 60px) !important;
+  font-size: clamp(50px, 4.5vw, 60px) !important;
 }
 
 .text-23 {
-  font-size: clamp(57px, 4.5vw, 60px) !important;
+  font-size: clamp(50px, 4.5vw, 60px) !important;
 }
 
 .text-active-24:active {
-  font-size: clamp(61px, 4.5vw, 64px) !important;
+  font-size: clamp(54px, 4.5vw, 64px) !important;
 }
 
 .text-hover-24:hover:not(:active) {
-  font-size: clamp(61px, 4.5vw, 64px) !important;
+  font-size: clamp(54px, 4.5vw, 64px) !important;
 }
 
 .text-24 {
-  font-size: clamp(61px, 4.5vw, 64px) !important;
+  font-size: clamp(54px, 4.5vw, 64px) !important;
 }
 
 .font-active-1:active {
@@ -5741,6 +5741,8 @@ progress {
   background-color: #fff;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   border-bottom: 2px solid #d9e4ff;
 }
 .header-logo {
@@ -5751,6 +5753,9 @@ progress {
 @media (max-width: 1130px) {
   .header {
     height: 80px;
+  }
+  .header-with-title {
+    height: 110px;
   }
 }
 @media (max-width: 576px) {
@@ -5780,8 +5785,10 @@ progress {
 }
 .navigations ul li a:not(.btn):hover:not(:active) {
   color: #ab3bff;
+  transform: scale(1.1);
 }
 .navigations ul li a:not(.btn):active {
+  transform: scale(0.9);
   color: #0078ff;
 }
 .navigations ul.navigation-cart li a {
@@ -5809,6 +5816,9 @@ progress {
   body.menu-open .navigations {
     top: 80px;
     opacity: 1;
+  }
+  body.menu-open .header-with-title .navigations {
+    top: 110px;
   }
   .navigations ul {
     width: 100%;
@@ -5919,6 +5929,12 @@ progress {
 .footer-contact-info p {
   margin-bottom: 0;
 }
+.footer-contact-info p a {
+  color: #fff;
+}
+.footer-contact-info p a:hover {
+  color: #2638c1;
+}
 .footer-links {
   list-style: none;
   padding: 0;
@@ -5936,6 +5952,9 @@ progress {
   color: #fff;
   font-weight: 700;
   font-size: 18px;
+}
+.footer-links li a:hover {
+  color: #2638c1;
 }
 .footer-social-links {
   list-style: none;
@@ -6062,6 +6081,11 @@ progress {
   font-size: 14px;
   color: #313131;
   margin: 0;
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .testimonial-card .star-rating {
   max-width: 130px;
@@ -6260,7 +6284,7 @@ progress {
      object-fit: contain;
   transition: all 0.2s ease-in-out;
 }
-.in-the-news-section .card-image img:hover {
+.in-the-news-section .card:hover img {
   scale: 1.1;
 }
 .in-the-news-section-content {
