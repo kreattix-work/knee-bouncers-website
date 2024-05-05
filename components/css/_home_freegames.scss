@@ -1,45 +1,90 @@
 .home-freegames-section {
-    .title {
-        margin-top: 35px;
-        text-align: center;
-    }
-    .subtitle {
-        text-align: center;
-        &-days {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            background-color: $red;
-            border-radius: 50%;
-            color: $yellow;
-            aspect-ratio: 1 / 1;
-            width: 1.6em;
-        }
-    }
-    &-content {
-        padding: 56px 0;
-        &-scarrymommy-img {
-            text-align: center;
-            img {
-                max-width: 200px;
-                width: 100%;
-                object-fit: cover;
-                object-position: center;
-            }
-        }
+  &-banner {
+    background-color: $yellow;
+    .surprised-girl {
+      padding-top: 18px;
+      margin-bottom: -15px;
+      img {
+        max-width: 330px;
+      }
     }
     .card-off {
-        padding: 32px 18px 24px 18px;
-        width: 100%;
-        max-width: 310px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: $yellow;
-        border-radius: 20px;
-        box-shadow: none;
-        &-content {
-            gap: 8px;
-        }
+      background-color: #ffc800;
+      border-radius: 20px;
+      border: 2px solid #fff;
+      margin: 0 auto;
+      padding: 32px 18px 24px 18px;
+      width: 100%;
+      max-width: 310px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: none;
     }
+    .orange-line {
+      width: 100%;
+      height: 15px;
+      background: #ff8000;
+    }
+  }
+  .title {
+    margin-top: 35px;
+    text-align: center;
+  }
+  .subtitle {
+    text-align: center;
+    &-days {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $red;
+      border-radius: 50%;
+      color: $yellow;
+      aspect-ratio: 1 / 1;
+      width: 1.6em;
+    }
+  }
+  &-content {
+    padding: 56px 0;
+    &-scarrymommy-img {
+      text-align: center;
+      img {
+        max-width: 200px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+  .card-off {
+    margin: 0 auto;
+    padding: 32px 18px 24px 18px;
+    width: 100%;
+    max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $yellow;
+    border-radius: 20px;
+    box-shadow: none;
+    &-content {
+      gap: 8px;
+    }
+  }
+  &-our-blog {
+    .blog-card {
+      border: none;
+      background-color: transparent;
+      &-cow {
+        max-width: 364px;
+        align-self: flex-end;
+        margin-bottom: -2px;
+      }
+    }
+    @media (max-width: map-get($grid-breakpoints, md)) {
+      .blog-card div {
+        flex-direction: column;
+      }
+    }
+  }
 }
