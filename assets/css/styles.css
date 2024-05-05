@@ -558,6 +558,10 @@ img {
   font-weight: 700;
 }
 
+.fw-900 {
+  font-weight: 900;
+}
+
 .font-light {
   font-weight: 400;
 }
@@ -6648,4 +6652,50 @@ progress {
 }
 .videopage-member-section-text {
   margin-top: 45px;
+}
+
+.home-freegames-section .title {
+  margin-top: 35px;
+  text-align: center;
+}
+.home-freegames-section .subtitle {
+  text-align: center;
+}
+.home-freegames-section .subtitle-days {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #de195b;
+  border-radius: 50%;
+  color: #ffdc00;
+  aspect-ratio: 1/1;
+  width: 1.6em;
+}
+.home-freegames-section-content {
+  padding: 56px 0;
+}
+.home-freegames-section-content-scarrymommy-img {
+  text-align: center;
+}
+.home-freegames-section-content-scarrymommy-img img {
+  max-width: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.home-freegames-section .card-off {
+  padding: 32px 18px 24px 18px;
+  width: 100%;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffdc00;
+  border-radius: 20px;
+  box-shadow: none;
+}
+.home-freegames-section .card-off-content {
+  gap: 8px;
 }/*# sourceMappingURL=styles.css.map */

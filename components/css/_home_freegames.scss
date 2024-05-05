@@ -1,0 +1,45 @@
+.home-freegames-section {
+    .title {
+        margin-top: 35px;
+        text-align: center;
+    }
+    .subtitle {
+        text-align: center;
+        &-days {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $red;
+            border-radius: 50%;
+            color: $yellow;
+            aspect-ratio: 1 / 1;
+            width: 1.6em;
+        }
+    }
+    &-content {
+        padding: 56px 0;
+        &-scarrymommy-img {
+            text-align: center;
+            img {
+                max-width: 200px;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+    .card-off {
+        padding: 32px 18px 24px 18px;
+        width: 100%;
+        width: 310px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $yellow;
+        border-radius: 20px;
+        box-shadow: none;
+        &-content {
+            gap: 8px;
+        }
+    }
+}
