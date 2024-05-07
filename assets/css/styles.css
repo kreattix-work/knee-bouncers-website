@@ -6738,6 +6738,9 @@ progress {
   margin-bottom: -2px;
 }
 @media (max-width: 768px) {
+  .home-freegames-section-our-blog h4 {
+    text-align: center;
+  }
   .home-freegames-section-our-blog .blog-card div {
     flex-direction: column;
   }
@@ -6745,4 +6748,4 @@ progress {
 
 .home-freetrial-section-banner {
   background-color: #ff7500;
-}
+}/*# sourceMappingURL=styles.css.map */

@@ -82,6 +82,9 @@
       }
     }
     @media (max-width: map-get($grid-breakpoints, md)) {
+      h4 {
+        text-align: center;
+      }
       .blog-card div {
         flex-direction: column;
       }
