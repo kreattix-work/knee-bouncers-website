@@ -6878,7 +6878,7 @@ progress {
   z-index: 1;
 }
 .freetrial-banner-section .section-bg-overlay {
-  background-color: rgba(255, 117, 0, 0.7);
+  background-color: rgba(255, 117, 0, 0.6);
 }
 .freetrial-banner-section .section-bg-image {
   position: absolute;
@@ -6896,7 +6896,7 @@ progress {
 @media (max-width: 992px) {
   .freetrial-banner-section h1 {
     padding-top: 70px;
-    padding-bottom: 86px;
+    padding-bottom: 95px;
   }
 }
 .freetrial-banner-section .freetrial-banner-bottom {
@@ -6910,12 +6910,7 @@ progress {
 }
 @media (max-width: 768px) {
   .freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating .welcome-user {
-    width: 100%;
-    justify-content: space-between;
+    flex-direction: column;
   }
 }
 .freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating .welcome-user {
@@ -6924,7 +6919,7 @@ progress {
   align-items: center;
   gap: 28px;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating .welcome-user {
     flex-direction: column;
     gap: 10px;
