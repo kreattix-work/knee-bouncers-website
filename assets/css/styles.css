@@ -5756,7 +5756,7 @@ progress {
   border: 1px solid #d9e4ff;
   color: #313131;
   overflow: hidden;
-  padding: 30px 35px;
+  padding: 30px 35px 40px 35px;
   margin-top: 20px;
 }
 
