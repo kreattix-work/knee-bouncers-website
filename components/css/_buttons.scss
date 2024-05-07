@@ -271,11 +271,11 @@ $btn-big-font-weight-lg: 800;
   }
   &:focus {
     border-color: $primary;
-    color: $primary
+    color: $primary;
   }
 }
 .btn-outlined-secondary {
-  border: 2px solid rgba(171, 59, 255, 0.20);
+  border: 2px solid rgba(171, 59, 255, 0.2);
   background-color: transparent;
   color: $purple-dark;
 

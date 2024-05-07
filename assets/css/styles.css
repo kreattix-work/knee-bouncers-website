@@ -6014,7 +6014,7 @@ progress {
 
 .footer {
   background-color: #0078ff;
-  border-top: 2px solid #FF8000;
+  border-top: 2px solid #ff8000;
 }
 .footer-logo {
   max-width: 221px;
@@ -6501,29 +6501,36 @@ progress {
   color: #313131;
 }
 
-.games-member-section, .games-nonmember-section {
+.games-member-section,
+.games-nonmember-section {
   padding: 60px 0;
 }
-.games-member-section-buttons-container, .games-nonmember-section-buttons-container {
+.games-member-section-buttons-container,
+.games-nonmember-section-buttons-container {
   display: flex;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
 }
-.games-member-section-title, .games-nonmember-section-title {
+.games-member-section-title,
+.games-nonmember-section-title {
   margin-top: 50px;
 }
-.games-member-section-description, .games-nonmember-section-description {
+.games-member-section-description,
+.games-nonmember-section-description {
   width: 100%;
   max-width: 1035px;
 }
-.games-member-section-content, .games-nonmember-section-content {
+.games-member-section-content,
+.games-nonmember-section-content {
   padding: 56px 0;
 }
-.games-member-section-content-scarrymommy-img, .games-nonmember-section-content-scarrymommy-img {
+.games-member-section-content-scarrymommy-img,
+.games-nonmember-section-content-scarrymommy-img {
   text-align: center;
 }
-.games-member-section-content-scarrymommy-img img, .games-nonmember-section-content-scarrymommy-img img {
+.games-member-section-content-scarrymommy-img img,
+.games-nonmember-section-content-scarrymommy-img img {
   max-width: 200px;
   width: 100%;
   -o-object-fit: cover;
@@ -6531,7 +6538,8 @@ progress {
   -o-object-position: center;
      object-position: center;
 }
-.games-member-section-bottom, .games-nonmember-section-bottom {
+.games-member-section-bottom,
+.games-nonmember-section-bottom {
   width: 100%;
   max-width: 1068px;
   margin-top: 44px;

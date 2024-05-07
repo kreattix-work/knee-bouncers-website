@@ -1,46 +1,46 @@
 .search-input-secondary {
-    margin-top: 24px;
-    display: flex;
-    justify-content: center;
-    &-input {
-        border-radius: 10px 0px 0px 10px;
-        border: 2px solid $gray-light;
-        background-color: $white;
-        padding: 7px 0 7px 14px;
-        width: 100%;
-        max-width: 250px;
-        height: 35px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  &-input {
+    border-radius: 10px 0px 0px 10px;
+    border: 2px solid $gray-light;
+    background-color: $white;
+    padding: 7px 0 7px 14px;
+    width: 100%;
+    max-width: 250px;
+    height: 35px;
+  }
+  ::placeholder {
+    color: $text-dark;
+    font-size: map-get($sizes, 4);
+    font-style: italic;
+    font-weight: 300;
+  }
+  &-button {
+    border-radius: 0px 10px 10px 0px;
+    border: 2px solid $secondary;
+    background: $secondary;
+    color: $white;
+    font-size: map-get($sizes, 5);
+    font-weight: 700;
+    width: 100%;
+    max-width: 90px;
+    height: 35px;
+    &:hover {
+      background: $secondary;
     }
-    ::placeholder{
-        color: $text-dark;
-        font-size: map-get($sizes, 4);
-        font-style: italic;
-        font-weight: 300;
-    }
-    &-button {
-        border-radius: 0px 10px 10px 0px;
-        border: 2px solid $secondary;
-        background: $secondary;
-        color: $white;
-        font-size: map-get($sizes, 5);
-        font-weight: 700;
-        width: 100%;
-        max-width: 90px;
-        height: 35px;
-        &:hover {
-            background: $secondary;
-        }
-    }
+  }
 }
 
 .search-input-secondary-v2 {
-    margin-top: 5px;
-    justify-content: end;
-    .search-input-secondary-input-v2 {
-      max-width: 314px;
-      padding: 7px 0 7px 36px;
-      @media (max-width: map-get($grid-breakpoints, sm)) {
-        padding: 7px 0 7px 14px;
-      }
+  margin-top: 5px;
+  justify-content: end;
+  .search-input-secondary-input-v2 {
+    max-width: 314px;
+    padding: 7px 0 7px 36px;
+    @media (max-width: map-get($grid-breakpoints, sm)) {
+      padding: 7px 0 7px 14px;
     }
   }
+}
