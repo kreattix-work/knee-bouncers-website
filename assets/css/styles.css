@@ -6873,6 +6873,75 @@ progress {
   gap: 8px;
 }
 
+.freetrial-banner-section {
+  position: relative;
+  z-index: 1;
+}
+.freetrial-banner-section .section-bg-overlay {
+  background-color: rgba(255, 117, 0, 0.7);
+}
+.freetrial-banner-section .section-bg-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.freetrial-banner-section h1 {
+  padding-top: 96px;
+  padding-bottom: 60px;
+  max-width: 730px;
+}
+@media (max-width: 992px) {
+  .freetrial-banner-section h1 {
+    padding-top: 70px;
+    padding-bottom: 86px;
+  }
+}
+.freetrial-banner-section .freetrial-banner-bottom {
+  background-color: #fe4f03;
+}
+.freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0px;
+}
+@media (max-width: 768px) {
+  .freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating .welcome-user {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+.freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating .welcome-user {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+@media (max-width: 576px) {
+  .freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating .welcome-user {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating .welcome-user img {
+  margin-top: -100px;
+  width: 145px;
+}
+.freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating .user-rating {
+  display: flex;
+  gap: 10px;
+}
+.freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating .user-rating img {
+  max-width: 30px;
+}
+
 @media (max-width: 1130px) and (min-width: 992px) {
   .home-freetrial-welcome-section .game-fpo1-image {
     text-align: right !important;
@@ -6904,4 +6973,4 @@ progress {
 }
 .home-freetrial-welcome-section .icon-star-img {
   max-width: 41px;
-}/*# sourceMappingURL=styles.css.map */
+}
