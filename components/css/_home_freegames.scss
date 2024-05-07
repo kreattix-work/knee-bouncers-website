@@ -71,23 +71,4 @@
       gap: 8px;
     }
   }
-  &-our-blog {
-    .blog-card {
-      border: none;
-      background-color: transparent;
-      &-cow {
-        max-width: 364px;
-        align-self: flex-end;
-        margin-bottom: -2px;
-      }
-    }
-    @media (max-width: map-get($grid-breakpoints, md)) {
-      h4 {
-        text-align: center;
-      }
-      .blog-card div {
-        flex-direction: column;
-      }
-    }
-  }
 }

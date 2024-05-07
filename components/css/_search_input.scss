@@ -32,3 +32,15 @@
         }
     }
 }
+
+.search-input-secondary-v2 {
+    margin-top: 5px;
+    justify-content: end;
+    .search-input-secondary-input-v2 {
+      max-width: 314px;
+      padding: 7px 0 7px 36px;
+      @media (max-width: map-get($grid-breakpoints, sm)) {
+        padding: 7px 0 7px 14px;
+      }
+    }
+  }

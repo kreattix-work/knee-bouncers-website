@@ -12,6 +12,11 @@ $btn-height: 40px;
 $btn-font-size: 16px;
 $btn-font-weight: 800;
 
+$btn-width-xs: 90px;
+$btn-height-xs: 30px;
+$btn-font-size-xs: 12px;
+$btn-font-weight-xs: 800;
+
 $btn-width-sm: 120px;
 $btn-height-sm: 40px;
 $btn-font-size-sm: 16px;
@@ -334,6 +339,12 @@ $btn-big-font-weight-lg: 800;
   }
 }
 
+.btn-xs {
+  width: $btn-width-sm;
+  height: $btn-height-sm;
+  font-size: $btn-font-size-sm;
+  font-weight: $btn-font-weight-sm;
+}
 .btn-sm {
   width: $btn-width-sm;
   height: $btn-height-sm;
