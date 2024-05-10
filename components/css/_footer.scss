@@ -34,7 +34,7 @@
       a {
         color: $white;
         &:hover {
-          color: $primary-dark;
+          color: $accent;
         }
       }
     }
@@ -54,7 +54,7 @@
       font-weight: 700;
       font-size: 18px;
       &:hover {
-        color: $primary-dark;
+        color: $accent;
       }
     }
   }

@@ -6785,7 +6785,7 @@ progress {
   color: #fff;
 }
 .footer-contact-info p a:hover {
-  color: #2638c1;
+  color: #96cc16;
 }
 .footer-links {
   list-style: none;
@@ -6806,7 +6806,7 @@ progress {
   font-size: 18px;
 }
 .footer-links li a:hover {
-  color: #2638c1;
+  color: #96cc16;
 }
 .footer-social-links {
   list-style: none;
@@ -7428,6 +7428,18 @@ progress {
   max-width: 1068px;
   margin-top: 44px;
 }
+@media (max-width: 768px) {
+  .videos-member-section-cards .card-actions button,
+  .videos-nonmember-section-cards .card-actions button {
+    font-size: 26px !important;
+  }
+}
+@media (max-width: 768px) {
+  .videos-member-section .videos-nonmember-section-cards .card-actions button,
+  .videos-nonmember-section .videos-nonmember-section-cards .card-actions button {
+    font-size: 16px !important;
+  }
+}
 
 .coloringsheets-member-section,
 .coloringsheets-nonmember-section {
@@ -7501,6 +7513,7 @@ progress {
   height: 48px;
   left: -10px;
   top: -15px;
+  z-index: -1;
 }
 @media (max-width: 768px) {
   .coloringsheets-member-section-thought h1::after,
@@ -7521,6 +7534,7 @@ progress {
   right: -10px;
   top: 20px;
   rotate: 180deg;
+  z-index: -1;
 }
 @media (max-width: 768px) {
   .coloringsheets-member-section-thought h1::before,
@@ -7541,6 +7555,12 @@ progress {
   max-width: 750px;
   text-align: center;
   margin: auto;
+}
+@media (max-width: 768px) {
+  .coloringsheets-member-section-cards .card-actions button,
+  .coloringsheets-nonmember-section-cards .card-actions button {
+    font-size: 17px !important;
+  }
 }
 
 .gamepage-member-section {
@@ -7585,6 +7605,11 @@ progress {
 }
 .videopage-member-section-text {
   margin-top: 45px;
+}
+@media (max-width: 768px) {
+  .videopage-member-section-cards .card-actions button {
+    font-size: 26px !important;
+  }
 }
 
 .home-freegames-section-banner {

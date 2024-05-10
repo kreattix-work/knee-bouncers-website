@@ -15,4 +15,13 @@
   &-text {
     margin-top: 45px;
   }
+  &-cards {
+    .card-actions {
+      button {
+        @media (max-width: map-get($grid-breakpoints, md)) {
+          font-size: 26px !important;
+        }
+      }
+    }
+  }
 }
