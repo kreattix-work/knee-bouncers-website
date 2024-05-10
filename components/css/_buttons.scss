@@ -383,3 +383,38 @@ $btn-big-font-weight-lg: 800;
   justify-content: center;
   gap: 12px;
 }
+
+.btn-with-icon {
+  border-radius: 50px;
+  width: $btn-big-width-lg;
+  display: flex;
+  align-items: center;
+  .hover-text,
+  .active-text {
+    display: none;
+  }
+
+  &:hover,
+  &:active {
+    .default-text {
+      display: none;
+    }
+  }
+  &:hover:not(:active) {
+    .hover-text {
+      display: inline-block;
+    }
+  }
+  &:active {
+    .active-text {
+      display: inline-block;
+    }
+  }
+}
+
+.btn-circle {
+  width: 50px;
+  border-radius: 50%;
+  background-color: $white;
+  aspect-ratio: 1 / 1;
+}

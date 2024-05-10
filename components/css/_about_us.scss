@@ -1,4 +1,7 @@
 .educational-games-section {
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    padding: 40px 0;
+  }
   &-card {
     border-radius: 20px;
     padding: 42px 30px;
@@ -12,6 +15,9 @@
 }
 
 .game-development-section {
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    padding: 40px 0;
+  }
   &-images {
     width: 100%;
     max-width: 340px;
@@ -25,6 +31,9 @@
 }
 
 .pre-kindergarten-section {
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    padding: 40px 0;
+  }
   &-card {
     border-radius: 20px;
     padding: 100px;
@@ -33,7 +42,16 @@
   }
 }
 
+.kneebouncers-game-section {
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    padding: 40px 0;
+  }
+}
+
 .media-award-section {
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    padding: 40px 0;
+  }
   &-award-img {
     text-align: center;
     img {

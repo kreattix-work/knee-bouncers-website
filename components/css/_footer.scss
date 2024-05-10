@@ -95,4 +95,20 @@
       }
     }
   }
+
+  &-dark {
+    background-color: $primary-dark-v2;
+    border-top: 2px solid $primary;
+    li a,
+    p {
+      color: $primary;
+    }
+    &-top {
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+    &-bottom {
+      padding-bottom: 10px;
+    }
+  }
 }

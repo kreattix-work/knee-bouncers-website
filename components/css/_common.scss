@@ -1,9 +1,15 @@
+$header-height: 135px;
+$header-height-md: 100px;
+$header-height-sm: 80px;
+$header-logo-width: 221px;
+
 $primary: #0078ff;
 $secondary: #ff7500;
 $teritary: #bb005a;
 $accent: #96cc16;
 $accent-v2: #ffe700;
 $primary-dark: #2638c1;
+$primary-dark-v2: #002c8d;
 $featured: #ab3bff;
 $white: #fff;
 $gray-light: #d9e4ff;
@@ -28,6 +34,7 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1130px,
+  2xl: 1279px,
   xxl: 1330px,
 );
 
@@ -141,9 +148,18 @@ $text-colors: (
 }
 
 body {
-  padding-top: 135px;
+  padding-top: $header-height;
+  &:has(.header-md) {
+    padding-top: $header-height-md;
+    @media (max-width: map-get($grid-breakpoints, xl)) {
+      padding-top: $header-height-sm;
+    }
+  }
+  @media (max-width: map-get($grid-breakpoints, 2xl)) {
+    padding-top: $header-height-md;
+  }
   @media (max-width: map-get($grid-breakpoints, xl)) {
-    padding-top: 80px;
+    padding-top: $header-height-sm;
   }
 }
 

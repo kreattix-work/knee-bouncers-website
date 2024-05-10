@@ -1,6 +1,9 @@
 .coloringsheets-member-section,
 .coloringsheets-nonmember-section {
   padding: 60px 0;
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    padding: 40px 0;
+  }
   &-buttons-container {
     display: flex;
     justify-content: center;

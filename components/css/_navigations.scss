@@ -57,9 +57,6 @@ $navigation-gap: 26px;
       top: $header-height-sm;
       opacity: 1;
     }
-    body.menu-open .header-with-title & {
-      top: $header-height-sm + 30px;
-    }
 
     ul {
       width: 100%;

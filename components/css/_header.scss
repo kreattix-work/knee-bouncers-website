@@ -1,7 +1,3 @@
-$header-height: 135px;
-$header-height-sm: 80px;
-$header-logo-width: 221px;
-
 .header {
   z-index: 1000;
   position: fixed;
@@ -20,12 +16,14 @@ $header-logo-width: 221px;
     max-width: $header-logo-width;
     margin-top: -15px;
   }
-
+  &-md {
+    height: $header-height-md;
+  }
+  @media (max-width: map-get($grid-breakpoints, 2xl)) {
+    height: $header-height-md;
+  }
   @media (max-width: map-get($grid-breakpoints, xl)) {
     height: $header-height-sm;
-    &-with-title {
-      height: $header-height-sm + 30px;
-    }
   }
   @media (max-width: map-get($grid-breakpoints, sm)) {
     &-logo {
