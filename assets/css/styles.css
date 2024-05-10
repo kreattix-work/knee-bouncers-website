@@ -7949,7 +7949,9 @@ progress {
 .plan-banner .plan-teachers {
   padding: 20px 0px 50px 0px;
   text-align: center;
-  color: #ffffff;
+}
+.plan-banner .plan-teachers a {
+  color: #fff;
 }
 
 .awards-image {
@@ -7984,4 +7986,4 @@ progress {
 .books .card-4 .books-link {
   font-size: 13px;
   padding-top: 10px;
-}
+}/*# sourceMappingURL=styles.css.map */
