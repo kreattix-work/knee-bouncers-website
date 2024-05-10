@@ -13,6 +13,7 @@ $primary-dark-v2: #002c8d;
 $featured: #ab3bff;
 $white: #fff;
 $gray-light: #d9e4ff;
+$gray-light-v2: #a7a7a7;
 $text-dark: #313131;
 $text-light: $white;
 $body-bg: #f4f4f4;
@@ -102,6 +103,7 @@ $text-colors: (
   purple-dark: $purple-dark,
   orange-dark: $orange-dark,
   gray-light: $gray-light,
+  gray-light-v2: $gray-light-v2,
 );
 
 @each $color, $value in $text-colors {

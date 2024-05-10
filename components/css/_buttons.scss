@@ -401,11 +401,11 @@ $facebook-color: #005ac0;
     height: 40px;
     width: 40px;
     background-color: $white;
-    padding: 7px;
+    padding: 6px;
     border-radius: 50%;
   }
   &-google {
-    border-color: $google-color;
+    border: 2px solid $google-color;
     background-color: $google-color;
     color: $white;
 
@@ -415,7 +415,7 @@ $facebook-color: #005ac0;
     }
   }
   &-apple {
-    border-color: $apple-color;
+    border: 2px solid $apple-color;
     background-color: $apple-color;
     color: $white;
 
@@ -425,7 +425,7 @@ $facebook-color: #005ac0;
     }
   }
   &-facebook {
-    border-color: $facebook-color;
+    border: 2px solid $facebook-color;
     background-color: $facebook-color;
     color: $white;
 
