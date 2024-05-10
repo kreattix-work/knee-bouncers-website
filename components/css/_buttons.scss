@@ -384,37 +384,54 @@ $btn-big-font-weight-lg: 800;
   gap: 12px;
 }
 
-.btn-with-icon {
-  border-radius: 50px;
-  width: $btn-big-width-lg;
-  display: flex;
-  align-items: center;
-  .hover-text,
-  .active-text {
-    display: none;
-  }
+$google-color: #0078ff;
+$apple-color: #313131;
+$facebook-color: #005ac0;
 
-  &:hover,
-  &:active {
-    .default-text {
-      display: none;
-    }
-  }
-  &:hover:not(:active) {
-    .hover-text {
-      display: inline-block;
-    }
-  }
-  &:active {
-    .active-text {
-      display: inline-block;
-    }
-  }
-}
+.btn-social {
+  height: 60px;
+  width: 275px;
+  padding: 10px 10px;
+  justify-content: start;
+  font-weight: 800;
+  font-size: 16px;
+  gap: 15px;
 
-.btn-circle {
-  width: 50px;
-  border-radius: 50%;
-  background-color: $white;
-  aspect-ratio: 1 / 1;
+  img {
+    height: 40px;
+    width: 40px;
+    background-color: $white;
+    padding: 7px;
+    border-radius: 50%;
+  }
+  &-google {
+    border-color: $google-color;
+    background-color: $google-color;
+    color: $white;
+
+    &:hover:not(:active) {
+      background-color: $white;
+      color: $google-color;
+    }
+  }
+  &-apple {
+    border-color: $apple-color;
+    background-color: $apple-color;
+    color: $white;
+
+    &:hover:not(:active) {
+      background-color: $white;
+      color: $apple-color;
+    }
+  }
+  &-facebook {
+    border-color: $facebook-color;
+    background-color: $facebook-color;
+    color: $white;
+
+    &:hover:not(:active) {
+      background-color: $white;
+      color: $facebook-color;
+    }
+  }
 }
