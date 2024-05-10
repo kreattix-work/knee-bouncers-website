@@ -81,13 +81,17 @@ $card-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
 
 .card-v3 {
   border-radius: 30px;
+  width: 100%;
+  max-width: 900px;
   border: 2px solid $gray-light;
   padding: 46px 104px 36px 104px;
   &-input-sm {
     border-radius: 30px;
     border: 2px solid $gray-light;
     background: $white;
-    padding: 8px 26px;
+    padding: 8px 27px;
+    width: 275px;
+    max-width: 100%;
     &::placeholder {
       font-weight: 700;
       font-size: 16px;
