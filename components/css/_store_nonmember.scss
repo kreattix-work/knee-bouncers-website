@@ -1,9 +1,27 @@
 .plan-banner {
   position: relative;
-  background-image: url(../../assets/images/twobubbles.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  z-index: 1;
+
+  &:before,
+  &:after {
+    content: "";
+    z-index: -1;
+    display: block;
+    width: 206px;
+    background-image: url(../../assets/images/bubbles.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    aspect-ratio: 206/274;
+    top: 100px;
+  }
+  &:before {
+    left: 5%;
+  }
+  &:after {
+    right: 5%;
+  }
 
   .plan-card-wrapper {
     display: flex;

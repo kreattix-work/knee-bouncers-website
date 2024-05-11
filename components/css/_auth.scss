@@ -2,6 +2,29 @@
 .login-section {
   padding: 20px 0 60px 0;
   background-color: $primary-dark-v2;
+  position: relative;
+  z-index: 1;
+
+  &:before,
+  &:after {
+    content: "";
+    z-index: -1;
+    display: block;
+    width: 206px;
+    background-image: url(../../assets/images/bubbles.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    aspect-ratio: 206/274;
+    top: 100px;
+  }
+  &:before {
+    left: 5%;
+  }
+  &:after {
+    right: 5%;
+  }
 
   .back-arrow {
     max-width: 40px;

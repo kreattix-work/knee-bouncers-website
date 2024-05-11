@@ -7885,6 +7885,31 @@ progress {
 .login-section {
   padding: 20px 0 60px 0;
   background-color: #002c8d;
+  position: relative;
+  z-index: 1;
+}
+.signup-freetrial-section:before, .signup-freetrial-section:after,
+.login-section:before,
+.login-section:after {
+  content: "";
+  z-index: -1;
+  display: block;
+  width: 206px;
+  background-image: url(../../assets/images/bubbles.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  aspect-ratio: 206/274;
+  top: 100px;
+}
+.signup-freetrial-section:before,
+.login-section:before {
+  left: 5%;
+}
+.signup-freetrial-section:after,
+.login-section:after {
+  right: 5%;
 }
 .signup-freetrial-section .back-arrow,
 .login-section .back-arrow {
@@ -7914,10 +7939,26 @@ progress {
 
 .plan-banner {
   position: relative;
-  background-image: url(../../assets/images/twobubbles.png);
+  z-index: 1;
+}
+.plan-banner:before, .plan-banner:after {
+  content: "";
+  z-index: -1;
+  display: block;
+  width: 206px;
+  background-image: url(../../assets/images/bubbles.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  position: absolute;
+  aspect-ratio: 206/274;
+  top: 100px;
+}
+.plan-banner:before {
+  left: 5%;
+}
+.plan-banner:after {
+  right: 5%;
 }
 .plan-banner .plan-card-wrapper {
   display: flex;
