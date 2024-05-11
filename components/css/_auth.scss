@@ -1,4 +1,5 @@
 .signup-freetrial-section,
+.signup-platform-section,
 .login-section {
   padding: 20px 0 60px 0;
   background-color: $primary-dark-v2;
@@ -46,6 +47,15 @@
     }
     &-note {
       margin-top: 17px;
+    }
+  }
+}
+
+.signup-platform-section {
+  .card-v3 {
+    &-note {
+      margin-top: 74px;
+      margin-bottom: 30px;
     }
   }
 }

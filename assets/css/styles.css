@@ -7943,6 +7943,7 @@ progress {
 }
 
 .signup-freetrial-section,
+.signup-platform-section,
 .login-section {
   padding: 20px 0 60px 0;
   background-color: #002c8d;
@@ -7950,6 +7951,8 @@ progress {
   z-index: 1;
 }
 .signup-freetrial-section:before, .signup-freetrial-section:after,
+.signup-platform-section:before,
+.signup-platform-section:after,
 .login-section:before,
 .login-section:after {
   content: "";
@@ -7965,14 +7968,17 @@ progress {
   top: 100px;
 }
 .signup-freetrial-section:before,
+.signup-platform-section:before,
 .login-section:before {
   left: 5%;
 }
 .signup-freetrial-section:after,
+.signup-platform-section:after,
 .login-section:after {
   right: 5%;
 }
 .signup-freetrial-section .back-arrow,
+.signup-platform-section .back-arrow,
 .login-section .back-arrow {
   max-width: 40px;
 }
@@ -7991,6 +7997,11 @@ progress {
 }
 .login-section .card-v3-note {
   margin-top: 17px;
+}
+
+.signup-platform-section .card-v3-note {
+  margin-top: 74px;
+  margin-bottom: 30px;
 }
 
 .plan-banner {
@@ -8282,4 +8293,4 @@ progress {
 }
 .blogpage-all-section-buttons-container .btn-md {
   width: 165px;
-}
+}/*# sourceMappingURL=styles.css.map */
