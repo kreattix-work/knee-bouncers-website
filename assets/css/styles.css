@@ -6218,6 +6218,31 @@ progress {
   color: #fff;
 }
 
+.btn-outlined-primary-v2 {
+  border: 2px solid #d9e4ff;
+  background-color: transparent;
+  color: #0078ff;
+}
+.btn-outlined-primary-v2:hover {
+  background-color: #0078ff;
+  border-color: #0078ff;
+  color: #fff;
+}
+.btn-outlined-primary-v2:hover:is(:focus) {
+  background-color: #0078ff;
+  border-color: #0078ff;
+  color: #fff;
+}
+.btn-outlined-primary-v2:active:is(:focus) {
+  background-color: #96cc16;
+  border-color: #96cc16;
+  color: #fff;
+}
+.btn-outlined-primary-v2:focus {
+  border-color: #0078ff;
+  color: #0078ff;
+}
+
 .btn-outlined-primary-dark {
   border: 2px solid #d9e4ff;
   background-color: transparent;
@@ -8084,3 +8109,20 @@ progress {
   border: 2px solid #0078ff;
   outline: none;
 }
+
+.blogpage-all-section {
+  padding: 60px 0;
+}
+.blogpage-all-section-description {
+  width: 100%;
+  max-width: 1035px;
+}
+.blogpage-all-section-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.blogpage-all-section-buttons-container .btn-md {
+  width: 165px;
+}/*# sourceMappingURL=styles.css.map */

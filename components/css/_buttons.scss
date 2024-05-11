@@ -249,6 +249,31 @@ $btn-big-font-weight-lg: 800;
     color: $white;
   }
 }
+.btn-outlined-primary-v2 {
+  border: $btn-gray-border;
+  background-color: transparent;
+  color: $primary;
+
+  &:hover {
+    background-color: $primary;
+    border-color: $primary;
+    color: $white;
+  }
+  &:hover:is(:focus) {
+    background-color: $primary;
+    border-color: $primary;
+    color: $white;
+  }
+  &:active:is(:focus) {
+    background-color: $accent;
+    border-color: $accent;
+    color: $white;
+  }
+  &:focus {
+    border-color: $primary;
+    color: $primary;
+  }
+}
 .btn-outlined-primary-dark {
   border: $btn-gray-border;
   background-color: transparent;
