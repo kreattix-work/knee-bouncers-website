@@ -1,0 +1,16 @@
+.blogpage-all-section {
+  padding: 60px 0;
+  &-description {
+    width: 100%;
+    max-width: 1035px;
+  }
+  &-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    .btn-md {
+      width: 165px;
+    }
+  }
+}

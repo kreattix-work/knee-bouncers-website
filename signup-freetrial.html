@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <header class="header header-md">
+    <header class="header header-md header-desktop-only">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-auto flex-grow-1">
@@ -66,82 +66,115 @@
             </div>
             <div class="d-flex justify-content-center">
               <div class="card card-v3">
-                <div class="card-v3-top-link">
-                  <a href="" class="text-7 text-primary font-bold"
-                    >Create your account</a
-                  >
-                </div>
-                <h1 class="text-dark text-13 card-v3-title text-center">
-                  First, let’s create your account
-                </h1>
-                <div
-                  class="d-flex justify-content-between flex-md-row flex-column card-v3-content"
-                >
-                  <form class="d-flex flex-column">
-                    <input
-                      class="input-sm mb-3"
-                      type="text"
-                      placeholder="First name"
-                    />
-                    <input
-                      class="input-sm mb-3"
-                      type="text"
-                      placeholder="Last name"
-                    />
-                    <input
-                      class="input-sm mb-3"
-                      type="email"
-                      placeholder="name@example.com"
-                    />
-                    <input
-                      class="input-sm mb-3"
-                      type="password"
-                      placeholder="password"
-                    />
-                    <button
-                      type="submit"
-                      class="btn btn-filled btn-lg text-5 mx-auto mx-md-0"
+                <div class="card-wizard">
+                  <div class="card-default-content">
+                    <div class="card-v3-top-link">
+                      <a href="" class="text-7 text-primary font-bold"
+                        >Create your account</a
+                      >
+                    </div>
+                    <h1 class="text-dark text-13 card-v3-title text-center">
+                      First, let’s create your account
+                    </h1>
+                    <div
+                      class="d-flex justify-content-between flex-md-row flex-column card-v3-content"
                     >
-                      <span class="default-text">Create account</span>
-                      <span class="hover-text">Start your FREE trial</span>
-                      <span class="active-text">Create account</span>
-                    </button>
-                  </form>
-                  <div
-                    class="divider d-flex align-items-center justify-content-center text-primary text-2 fw-700"
-                  >
-                    OR
+                      <form class="d-flex flex-column">
+                        <input
+                          class="input-sm mb-3"
+                          type="text"
+                          placeholder="First name"
+                        />
+                        <input
+                          class="input-sm mb-3"
+                          type="text"
+                          placeholder="Last name"
+                        />
+                        <input
+                          class="input-sm mb-3"
+                          type="email"
+                          placeholder="name@example.com"
+                        />
+                        <input
+                          class="input-sm mb-3"
+                          type="password"
+                          placeholder="password"
+                        />
+                        <button
+                          type="button"
+                          class="btn btn-filled btn-lg text-5 mx-auto mx-md-0 wizard-go-next"
+                        >
+                          <span class="default-text">Create account</span>
+                          <span class="hover-text">Start your FREE trial</span>
+                          <span class="active-text">Create account</span>
+                        </button>
+                      </form>
+                      <div
+                        class="divider d-flex align-items-center justify-content-center text-primary text-2 fw-700"
+                      >
+                        OR
+                      </div>
+                      <div
+                        class="d-flex flex-column align-items-center align-items-md-start"
+                      >
+                        <button class="btn btn-social btn-social-google mb-4">
+                          <img src="./assets/images/Google_G.svg" alt="" />
+                          <span>Continue with Google</span>
+                        </button>
+                        <button class="btn btn-social btn-social-apple mb-4">
+                          <img src="./assets/images/Apple.svg" alt="" />
+                          <span>Continue with Apple</span>
+                        </button>
+                        <button class="btn btn-social btn-social-facebook">
+                          <img src="./assets/images/Facebook.svg" alt="" />
+                          <span>Continue with Facebook</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="text-center card-v3-bottom-link">
+                      <a href="#" class="fw-700 text-primary text-6">
+                        Teachers, click here for sign up
+                      </a>
+                    </div>
+                    <p
+                      class="text-gray-light-v2 text-2 font-medium mb-0 card-v3-note"
+                    >
+                      By signing up you agree to our
+                      <a href="#" class="text-primary fw-700"
+                        >Terms & Conditions</a
+                      >
+                      and
+                      <a href="#" class="text-primary fw-700"
+                        >Privacy Policy.</a
+                      >
+                    </p>
                   </div>
-                  <div
-                    class="d-flex flex-column align-items-center align-items-md-start"
-                  >
-                    <button class="btn btn-social btn-social-google mb-4">
-                      <img src="./assets/images/Google_G.svg" alt="" />
-                      <span>Continue with Google</span>
-                    </button>
-                    <button class="btn btn-social btn-social-apple mb-4">
-                      <img src="./assets/images/Apple.svg" alt="" />
-                      <span>Continue with Apple</span>
-                    </button>
-                    <button class="btn btn-social btn-social-facebook">
-                      <img src="./assets/images/Facebook.svg" alt="" />
-                      <span>Continue with Facebook</span>
-                    </button>
+                  <div class="card-next-content">
+                    <h1 class="text-dark text-13 text-center mt-4">
+                      Verify email
+                    </h1>
+                    <div class="text-center mt-4">
+                      <h2 class="fw-500 text-8 mb-0">
+                        Enter the 4 digit code sent to you at
+                      </h2>
+                      <h2 class="text-8 mb-0">name@example.com</h2>
+                      <a
+                        href="#"
+                        class="wizard-go-default text-primary font-bold"
+                        >Change email</a
+                      >
+                    </div>
+                    <h2 class="text-primary text-8 mt-5 mb-3 text-center">
+                      Enter Verification Code
+                    </h2>
+                    <div class="input-otp" data-name="otp"></div>
+                    <p class="mb-0 text-dark text-6 fw-500 text-center">
+                      Your code may take a few seconds to arrive. If you don’t
+                      see it, please check all of your folders in your inbox,
+                      including spam.
+                    </p>
                   </div>
                 </div>
-                <div class="text-center card-v3-bottom-link">
-                  <a href="#" class="fw-700 text-primary text-6">
-                    Teachers, click here for sign up
-                  </a>
-                </div>
-                <p
-                  class="text-gray-light-v2 text-2 font-medium mb-0 card-v3-note"
-                >
-                  By signing up you agree to our
-                  <a href="#" class="text-primary fw-700">Terms & Conditions</a>
-                  and
-                  <a href="#" class="text-primary fw-700">Privacy Policy.</a>
-                </p>
               </div>
             </div>
           </div>

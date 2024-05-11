@@ -38,11 +38,6 @@
 
 .login-section {
   .card-v3 {
-    &-top-link {
-      @media (max-width: map-get($grid-breakpoints, sm)) {
-        gap: 15px;
-      }
-    }
     &-title {
       margin: 40px 0;
     }
