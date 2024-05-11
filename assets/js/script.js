@@ -63,3 +63,10 @@ $(".testimonial-slider").slick({
     },
   ],
 });
+
+$(".wizard-go-next").click(function () {
+  $(this).parents(".card-wizard").addClass("show-next");
+});
+$(".wizard-go-default").click(function () {
+  $(this).parents(".card-wizard").removeClass("show-next");
+});
