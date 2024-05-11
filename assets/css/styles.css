@@ -7854,7 +7854,7 @@ progress {
 }
 
 @media (max-width: 1130px) {
-  .navigations {
+  header:not(.header-desktop-only) .navigations {
     z-index: 0;
     position: fixed;
     top: 80px;
@@ -7877,11 +7877,11 @@ progress {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
-  body.menu-open .navigations {
+  body.menu-open header:not(.header-desktop-only) .navigations {
     top: 80px;
     opacity: 1;
   }
-  .navigations ul {
+  header:not(.header-desktop-only) .navigations ul {
     width: 100%;
     max-width: 400px;
     -webkit-box-orient: vertical;
@@ -7894,23 +7894,23 @@ progress {
     gap: 0;
     padding: 10px;
   }
-  .navigations ul li {
+  header:not(.header-desktop-only) .navigations ul li {
     width: 100%;
     text-align: center;
     padding: 4px 0;
   }
-  .navigations ul li a {
+  header:not(.header-desktop-only) .navigations ul li a {
     border-radius: 10px;
     padding: 10px 0;
   }
-  .navigations ul li a.btn {
+  header:not(.header-desktop-only) .navigations ul li a.btn {
     width: 100%;
     border-radius: 30px;
   }
-  .navigations ul li a:hover:not(.btn) {
+  header:not(.header-desktop-only) .navigations ul li a:hover:not(.btn) {
     background-color: rgba(0, 0, 0, 0.05);
   }
-  .navigations ul.navigation-cart {
+  header:not(.header-desktop-only) .navigations ul.navigation-cart {
     display: none;
   }
 }
@@ -7920,12 +7920,12 @@ progress {
 }
 
 @media (max-width: 1130px) {
-  .navigation-mobile {
+  header:not(.header-desktop-only) .navigation-mobile {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .navigation-mobile ul {
+  header:not(.header-desktop-only) .navigation-mobile ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -7937,7 +7937,7 @@ progress {
             align-items: center;
     gap: 26px;
   }
-  .navigation-mobile ul li a {
+  header:not(.header-desktop-only) .navigation-mobile ul li a {
     display: block;
     color: #313131;
     font-size: 24px;
@@ -7949,20 +7949,20 @@ progress {
 }
 
 @media (max-width: 1130px) and (max-width: 576px) {
-  .navigation-mobile ul li a {
+  header:not(.header-desktop-only) .navigation-mobile ul li a {
     font-size: 18px;
   }
 }
 
 @media (max-width: 1130px) {
-  body.menu-open .navigation-mobile ul li a.menu-toggler {
+  body.menu-open header:not(.header-desktop-only) .navigation-mobile ul li a.menu-toggler {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
   }
-  body:not(.menu-open) .navigation-mobile ul li a.menu-toggler .opened {
+  body:not(.menu-open) header:not(.header-desktop-only) .navigation-mobile ul li a.menu-toggler .opened {
     display: none;
   }
-  body.menu-open .navigation-mobile ul li a.menu-toggler .closed {
+  body.menu-open header:not(.header-desktop-only) .navigation-mobile ul li a.menu-toggler .closed {
     display: none;
   }
 }
