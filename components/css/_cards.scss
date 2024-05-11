@@ -151,40 +151,6 @@ $card-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
     margin-top: 32px;
     text-align: center;
   }
-  &-input-sm {
-    border-radius: 30px;
-    border: 2px solid $gray-light;
-    background: $white;
-    padding: 8px 27px;
-    width: 275px;
-    max-width: 100%;
-    &::placeholder {
-      font-weight: 700;
-      font-size: 16px;
-      color: rgba(49, 49, 49, 0.38);
-    }
-    &:focus {
-      border: 2px solid $primary;
-      outline: none;
-    }
-  }
-  &-input-lg {
-    border-radius: 30px;
-    border: 2px solid $gray-light;
-    background: $white;
-    padding: 20px 27px;
-    width: 275px;
-    max-width: 100%;
-    &::placeholder {
-      font-weight: 700;
-      font-size: 16px;
-      color: rgba(49, 49, 49, 0.38);
-    }
-    &:focus {
-      border: 2px solid $primary;
-      outline: none;
-    }
-  }
 }
 
 .card-top-title {
