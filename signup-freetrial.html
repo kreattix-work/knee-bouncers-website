@@ -97,11 +97,23 @@
                           type="email"
                           placeholder="name@example.com"
                         />
-                        <input
-                          class="input-sm mb-3"
-                          type="password"
-                          placeholder="password"
-                        />
+                        <div class="form-password-control mb-3">
+                          <input
+                            class="input-sm"
+                            type="password"
+                            placeholder="password"
+                          />
+                          <img
+                            class="password-icon show"
+                            src="./assets/images/eye.svg"
+                            alt=""
+                          />
+                          <img
+                            class="password-icon hide"
+                            src="./assets/images/eye.svg"
+                            alt=""
+                          />
+                        </div>
                         <button
                           type="button"
                           class="btn btn-filled btn-lg text-5 mx-auto mx-md-0 wizard-go-next"

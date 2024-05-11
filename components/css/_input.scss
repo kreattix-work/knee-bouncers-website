@@ -57,3 +57,35 @@
     }
   }
 }
+
+.form-password-control {
+  position: relative;
+
+  input {
+    padding-right: 40px;
+  }
+
+  .show {
+    display: none;
+  }
+
+  &.show {
+    .hide {
+      display: none;
+    }
+    .show {
+      display: block !important;
+    }
+  }
+  .password-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 19px;
+    &.show {
+      display: none;
+    }
+  }
+}

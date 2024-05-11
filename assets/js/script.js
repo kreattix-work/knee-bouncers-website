@@ -48,6 +48,17 @@ $(function () {
     $("body").toggleClass("menu-open");
   });
 
+  $(".form-password-control .password-icon").on("click", function () {
+    var input = $(this).parent().find("input");
+    if (input.attr("type") === "password") {
+      input.attr("type", "text");
+      $(this).parent().addClass("show");
+    } else {
+      input.attr("type", "password");
+      $(this).parent().removeClass("show");
+    }
+  });
+
   $(".brand-items").slick({
     slidesToShow: 8,
     slidesToScroll: 1,
