@@ -1,7 +1,14 @@
 .signup-freetrial-section,
 .login-section {
-  padding: 60px 0;
+  padding: 20px 0 60px 0;
   background-color: $primary-dark-v2;
+
+  .back-arrow {
+    max-width: 40px;
+  }
+}
+.auth-container {
+  max-width: 900px;
 }
 
 .login-section {

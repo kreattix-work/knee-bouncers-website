@@ -6492,7 +6492,6 @@ progress {
 .card-v3 {
   border-radius: 30px;
   width: 100%;
-  max-width: 900px;
   border: 2px solid #d9e4ff;
   padding: 46px 104px 36px 104px;
 }
@@ -7927,8 +7926,16 @@ progress {
 
 .signup-freetrial-section,
 .login-section {
-  padding: 60px 0;
+  padding: 20px 0 60px 0;
   background-color: #002c8d;
+}
+.signup-freetrial-section .back-arrow,
+.login-section .back-arrow {
+  max-width: 40px;
+}
+
+.auth-container {
+  max-width: 900px;
 }
 
 @media (max-width: 576px) {
@@ -8030,4 +8037,4 @@ progress {
 .books .card-4 .books-link {
   font-size: 13px;
   padding-top: 10px;
-}/*# sourceMappingURL=styles.css.map */
+}
