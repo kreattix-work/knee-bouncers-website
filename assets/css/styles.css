@@ -6450,6 +6450,12 @@ progress {
   color: #005ac0;
 }
 
+@media (max-width: 576px) {
+  .btn-login {
+    width: 75px;
+  }
+}
+
 .tag {
   color: inherit;
   padding: 4px 8px;

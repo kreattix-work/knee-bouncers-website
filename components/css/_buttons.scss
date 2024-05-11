@@ -471,3 +471,9 @@ $facebook-color: #005ac0;
     }
   }
 }
+
+.btn-login {
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    width: 75px;
+  }
+}
