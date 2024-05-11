@@ -266,3 +266,12 @@ h6 {
 .body-white {
   background-color: $white;
 }
+
+.border-bottom {
+  border-bottom: 1px solid #000;
+}
+.border-bottom-light {
+  border-bottom: 1px solid $gray-light;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
