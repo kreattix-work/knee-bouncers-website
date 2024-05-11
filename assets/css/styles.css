@@ -10080,6 +10080,12 @@ progress {
   height: 20px;
 }
 
+@media (max-width: 992px) {
+  .checkout-detail {
+    text-align: center;
+  }
+}
+
 .checkout-detail h1 {
   font-size: 38px;
 }
@@ -10190,6 +10196,12 @@ progress {
   display: flex;
   gap: 10px;
   max-width: 190px;
+}
+
+.checkout-annual-wrapper {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
 }
 
 .blogpage-all-section {

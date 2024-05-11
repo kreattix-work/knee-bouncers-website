@@ -16,6 +16,9 @@
   height: 20px;
 }
 .checkout-detail {
+  @media (max-width: map-get($grid-breakpoints, lg)) {
+    text-align: center;
+  }
   h1 {
     font-size: 38px;
   }
@@ -77,4 +80,10 @@
     gap: 10px;
     max-width: 190px;
   }
+}
+
+.checkout-annual-wrapper {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
 }
