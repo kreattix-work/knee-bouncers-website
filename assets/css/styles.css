@@ -6568,7 +6568,7 @@ progress {
 .card-v3-bottom-link {
   margin-top: 54px;
 }
-.card-v3-bottom-para {
+.card-v3-note {
   margin-top: 32px;
   text-align: center;
 }
@@ -7905,7 +7905,7 @@ progress {
 .login-section .card-v3-bottom-link {
   margin-top: 80px;
 }
-.login-section .card-v3-bottom-para {
+.login-section .card-v3-note {
   margin-top: 17px;
 }
 
