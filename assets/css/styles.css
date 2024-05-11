@@ -6425,6 +6425,46 @@ progress {
   background: rgba(217, 228, 255, 0.5);
 }
 
+.divider {
+  position: relative;
+}
+.divider::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 0;
+  height: 2px;
+  width: 40%;
+  background-color: #0078ff;
+  border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .divider::before {
+    top: 0;
+    right: 50%;
+    width: 2px;
+    height: 40%;
+  }
+}
+.divider::after {
+  position: absolute;
+  content: "";
+  bottom: 50%;
+  left: 0;
+  height: 2px;
+  width: 40%;
+  background-color: #0078ff;
+  border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .divider::after {
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    height: 40%;
+  }
+}
+
 .card-arrow img {
   margin-left: -2px;
   margin-bottom: 1px;
@@ -6520,45 +6560,6 @@ progress {
 }
 .card-v3-title {
   margin: 36px 0;
-}
-.card-v3-division-section {
-  position: relative;
-}
-.card-v3-division-section::before {
-  position: absolute;
-  content: "";
-  top: 50%;
-  right: 0;
-  height: 2px;
-  width: 40%;
-  background-color: #0078ff;
-  border-radius: 20px;
-}
-@media (min-width: 768px) {
-  .card-v3-division-section::before {
-    top: 0;
-    right: 50%;
-    width: 2px;
-    height: 40%;
-  }
-}
-.card-v3-division-section::after {
-  position: absolute;
-  content: "";
-  bottom: 50%;
-  left: 0;
-  height: 2px;
-  width: 40%;
-  background-color: #0078ff;
-  border-radius: 20px;
-}
-@media (min-width: 768px) {
-  .card-v3-division-section::after {
-    bottom: 0;
-    left: 50%;
-    width: 2px;
-    height: 40%;
-  }
 }
 @media (max-width: 768px) {
   .card-v3-top-link {
