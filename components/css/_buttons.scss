@@ -245,7 +245,7 @@ $btn-big-font-weight-lg: 800;
   }
   &:active {
     background-color: $accent;
-    border-color: $white;
+    border-color: $accent;
     color: $white;
   }
 }

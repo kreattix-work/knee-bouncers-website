@@ -34,4 +34,15 @@
     max-width: 1068px;
     margin-top: 44px;
   }
+  .games-nonmember-section {
+    &-cards {
+      .card-actions {
+        button {
+          @media (max-width: map-get($grid-breakpoints, md)) and (min-width: map-get($grid-breakpoints, sm)) {
+            font-size: 15px !important;
+          }
+        }
+      }
+    }
+  }
 }

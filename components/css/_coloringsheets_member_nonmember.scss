@@ -86,11 +86,13 @@
       margin: auto;
     }
   }
-  &-cards {
-    .card-actions {
-      button {
-        @media (max-width: map-get($grid-breakpoints, md)) {
-          font-size: 17px !important;
+  .coloringsheets-nonmember-section {
+    &-cards {
+      .card-actions {
+        button {
+          @media (max-width: map-get($grid-breakpoints, md)) {
+            font-size: 17px !important;
+          }
         }
       }
     }

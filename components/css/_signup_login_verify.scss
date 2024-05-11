@@ -1,0 +1,24 @@
+.signup-freetrial-section,
+.login-section {
+  padding: 60px 0;
+  background-color: $primary-dark-v2;
+}
+
+.login-section {
+  .card-v3 {
+    &-top-link {
+      @media (max-width: map-get($grid-breakpoints, sm)) {
+        gap: 15px;
+      }
+    }
+    &-title {
+      margin: 40px 0;
+    }
+    &-bottom-link {
+      margin-top: 80px;
+    }
+    &-bottom-para {
+      margin-top: 17px;
+    }
+  }
+}

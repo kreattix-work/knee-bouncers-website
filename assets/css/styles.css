@@ -6214,7 +6214,7 @@ progress {
 }
 .btn-outlined-primary:active {
   background-color: #96cc16;
-  border-color: #fff;
+  border-color: #96cc16;
   color: #fff;
 }
 
@@ -6519,6 +6519,60 @@ progress {
     width: 100%;
   }
 }
+.card-v3-title {
+  margin: 36px 0;
+}
+.card-v3-division-section {
+  position: relative;
+}
+.card-v3-division-section::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 0;
+  height: 2px;
+  width: 40%;
+  background-color: #0078ff;
+  border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .card-v3-division-section::before {
+    top: 0;
+    right: 50%;
+    width: 2px;
+    height: 40%;
+  }
+}
+.card-v3-division-section::after {
+  position: absolute;
+  content: "";
+  bottom: 50%;
+  left: 0;
+  height: 2px;
+  width: 40%;
+  background-color: #0078ff;
+  border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .card-v3-division-section::after {
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    height: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .card-v3-top-link {
+    text-align: center;
+  }
+}
+.card-v3-bottom-link {
+  margin-top: 54px;
+}
+.card-v3-bottom-para {
+  margin-top: 32px;
+  text-align: center;
+}
 .card-v3-input-sm {
   border-radius: 30px;
   border: 2px solid #d9e4ff;
@@ -6538,6 +6592,28 @@ progress {
   color: rgba(49, 49, 49, 0.38);
 }
 .card-v3-input-sm:focus {
+  border: 2px solid #0078ff;
+  outline: none;
+}
+.card-v3-input-lg {
+  border-radius: 30px;
+  border: 2px solid #d9e4ff;
+  background: #fff;
+  padding: 20px 27px;
+  width: 275px;
+  max-width: 100%;
+}
+.card-v3-input-lg::-moz-placeholder {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(49, 49, 49, 0.38);
+}
+.card-v3-input-lg::placeholder {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(49, 49, 49, 0.38);
+}
+.card-v3-input-lg:focus {
   border: 2px solid #0078ff;
   outline: none;
 }
@@ -7375,6 +7451,12 @@ progress {
   max-width: 1068px;
   margin-top: 44px;
 }
+@media (max-width: 768px) and (min-width: 576px) {
+  .games-member-section .games-nonmember-section-cards .card-actions button,
+  .games-nonmember-section .games-nonmember-section-cards .card-actions button {
+    font-size: 15px !important;
+  }
+}
 
 .videos-member-section,
 .videos-nonmember-section {
@@ -7611,8 +7693,8 @@ progress {
   margin: auto;
 }
 @media (max-width: 768px) {
-  .coloringsheets-member-section-cards .card-actions button,
-  .coloringsheets-nonmember-section-cards .card-actions button {
+  .coloringsheets-member-section .coloringsheets-nonmember-section-cards .card-actions button,
+  .coloringsheets-nonmember-section .coloringsheets-nonmember-section-cards .card-actions button {
     font-size: 17px !important;
   }
 }
@@ -7843,63 +7925,25 @@ progress {
   max-width: 41px;
 }
 
-.signup-freetrial-section {
+.signup-freetrial-section,
+.login-section {
   padding: 60px 0;
   background-color: #002c8d;
 }
-.signup-freetrial-section-title {
-  margin: 36px 0;
-}
-.signup-freetrial-section .division-section {
-  position: relative;
-}
-.signup-freetrial-section .division-section::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 50%;
-  width: 2px;
-  height: 40%;
-  background-color: #0078ff;
-  border-radius: 20px;
-}
-@media (max-width: 768px) {
-  .signup-freetrial-section .division-section::before {
-    top: 50%;
-    right: 0;
-    height: 2px;
-    width: 40%;
+
+@media (max-width: 576px) {
+  .login-section .card-v3-top-link {
+    gap: 15px;
   }
 }
-.signup-freetrial-section .division-section::after {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  left: 50%;
-  width: 2px;
-  height: 40%;
-  background-color: #0078ff;
-  border-radius: 20px;
+.login-section .card-v3-title {
+  margin: 40px 0;
 }
-@media (max-width: 768px) {
-  .signup-freetrial-section .division-section::after {
-    bottom: 50%;
-    left: 0;
-    height: 2px;
-    width: 40%;
-  }
+.login-section .card-v3-bottom-link {
+  margin-top: 80px;
 }
-@media (max-width: 768px) {
-  .signup-freetrial-section-top-link {
-    text-align: center;
-  }
-}
-.signup-freetrial-section-link {
-  margin-top: 54px;
-}
-.signup-freetrial-section-para {
-  margin-top: 32px;
-  text-align: center;
+.login-section .card-v3-bottom-para {
+  margin-top: 17px;
 }
 
 .plan-banner {
