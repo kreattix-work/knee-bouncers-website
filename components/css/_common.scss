@@ -29,6 +29,10 @@ $headings-font-weight: 800;
 $font-family-sans-serif: "Nunito", sans-serif;
 $link-decoration: none;
 
+$modal-content-border-radius: 30px;
+$modal-content-bg: $white;
+$modal-md: 900px;
+
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -274,4 +278,8 @@ h6 {
   border-bottom: 1px solid $gray-light;
   padding-bottom: 20px;
   margin-bottom: 20px;
+}
+
+.modal-dialog {
+  overflow: hidden;
 }
