@@ -7893,6 +7893,8 @@ progress {
 
 .auth-container {
   max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 576px) {
@@ -8040,4 +8042,4 @@ progress {
 .input-lg:focus {
   border: 2px solid #0078ff;
   outline: none;
-}/*# sourceMappingURL=styles.css.map */
+}
