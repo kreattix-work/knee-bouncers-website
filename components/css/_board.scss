@@ -1,0 +1,88 @@
+.board-section {
+  padding: 60px 0;
+  background-color: $primary-dark-v2;
+  position: relative;
+  .arrow-img {
+    max-width: 19px;
+    width: 100%;
+  }
+  &-top-buttons {
+    span,
+    a {
+      font-size: 24px;
+    }
+  }
+  a:hover {
+    color: inherit;
+  }
+  z-index: 1;
+  .board-container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    z-index: -1;
+    display: block;
+    width: 206px;
+    background-image: url(../../assets/images/bubbles.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    aspect-ratio: 206/274;
+    top: 100px;
+  }
+  &:before {
+    left: 5%;
+  }
+  &:after {
+    right: 5%;
+  }
+
+  .back-arrow {
+    max-width: 40px;
+  }
+  .board-card {
+    border-radius: 30px;
+    width: 100%;
+    border: 2px solid #ffbd00;
+    background-color: $primary;
+    color: $white;
+    @media (max-width: map-get($grid-breakpoints, lg)) {
+      .board-card-img-1 {
+        display: none;
+      }
+    }
+    @media (max-width: map-get($grid-breakpoints, md)) {
+      .board-card-img-2 {
+        display: none;
+        @media (min-width: map-get($grid-breakpoints, md)) {
+          display: block;
+        }
+      }
+    }
+    @media (max-width: map-get($grid-breakpoints, xs)) {
+      .board-card-img-3 {
+        display: none;
+      }
+    }
+    &-input {
+      max-width: 440px;
+      width: 100%;
+      margin-bottom: 58px;
+    }
+    &-bottom-img-container {
+      img {
+        max-width: 218px;
+        width: 100%;
+        @media (max-width: map-get($grid-breakpoints, xs)) {
+          max-width: none;
+        }
+      }
+    }
+  }
+}

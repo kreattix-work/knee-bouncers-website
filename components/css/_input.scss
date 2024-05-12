@@ -89,3 +89,44 @@
     }
   }
 }
+
+.self-submit-input {
+  position: relative;
+  width: 440px;
+  max-width: 100%;
+  input {
+    border-radius: 35px;
+    border: 2px solid #ffbd00;
+    background: #fff;
+    padding: 12px 70px 12px 25px;
+    width: 100%;
+    font-size: map-get($text-sizes, 7);
+    font-weight: 700;
+    color: $text-dark;
+    @media (max-width: map-get($grid-breakpoints, xs)) {
+      font-size: 16px;
+      padding: 12px 70px 12px 15px;
+    }
+    &::placeholder {
+      color: $primary;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    border: none;
+    outline: none;
+    width: auto;
+    padding: 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    img {
+      @media (max-width: map-get($grid-breakpoints, xs)) {
+        max-width: 40px;
+      }
+    }
+  }
+}

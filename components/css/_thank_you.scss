@@ -1,0 +1,27 @@
+.thank-you-section {
+  &-card {
+    padding: 60px 90px;
+    background-color: #faf7f3 !important;
+    @media (max-width: map-get($grid-breakpoints, lg)) {
+      padding: 60px;
+    }
+    @media (max-width: map-get($grid-breakpoints, sm)) {
+      padding: 50px 30px;
+    }
+    &-title {
+      letter-spacing: -1px;
+      text-align: center;
+    }
+    &-img {
+      max-width: 514px;
+      width: 100%;
+      margin: 28px 0;
+    }
+    &-btn {
+      @media (max-width: map-get($grid-breakpoints, xs)) {
+        width: 230px;
+        height: 50px;
+      }
+    }
+  }
+}
