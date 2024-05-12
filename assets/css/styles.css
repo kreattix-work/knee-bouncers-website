@@ -732,6 +732,12 @@ h6 {
   overflow: hidden;
 }
 
+.orange-line {
+  width: 100%;
+  height: 15px;
+  background: #ff8000;
+}
+
 *,
 *::before,
 *::after {
@@ -7796,6 +7802,73 @@ progress {
   }
 }
 
+.games-nonmember-banner {
+  background-image: url(../../assets/images/gamenonmemberbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.games-nonmember-banner-abc {
+  max-width: 172px;
+  margin-bottom: 12px;
+}
+@media (max-width: 576px) {
+  .games-nonmember-banner-abc {
+    display: none;
+  }
+}
+
+.games-nonmember-banner-puppies {
+  padding-top: 44px;
+  margin-bottom: -2%;
+}
+@media (max-width: 1330px) {
+  .games-nonmember-banner-puppies {
+    padding-top: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .games-nonmember-banner-puppies {
+    display: none;
+  }
+}
+
+.games-nonmember-banner-girlhappy {
+  margin-bottom: -9%;
+}
+@media (max-width: 576px) {
+  .games-nonmember-banner-girlhappy {
+    display: none;
+  }
+}
+
+.games-nonmember-banner-girlhappy-mobile {
+  max-width: 100%;
+  margin-bottom: -5%;
+  padding-top: 18px;
+  display: none;
+}
+@media (max-width: 576px) {
+  .games-nonmember-banner-girlhappy-mobile {
+    display: block;
+  }
+}
+
+.games-nonmember-banner-traindinosaur {
+  margin-bottom: -1%;
+}
+@media (max-width: 1130px) {
+  .games-nonmember-banner-traindinosaur {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .games-nonmember-banner-traindinosaur {
+    display: none;
+  }
+}
+
 .videos-member-section,
 .videos-nonmember-section {
   padding: 60px 0;
@@ -7915,6 +7988,87 @@ progress {
   .videos-nonmember-section .videos-nonmember-section-cards .card-actions button {
     font-size: 16px !important;
   }
+}
+
+.video-nonmember-banner {
+  background-image: url(../../assets/images/bg-purple.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-nonmember-banner-abc {
+  max-width: 172px;
+  margin-bottom: 30px;
+}
+@media (max-width: 992px) {
+  .video-nonmember-banner-abc {
+    display: none;
+  }
+}
+
+.video-nonmember-banner-threecartoons {
+  padding-top: 0px;
+  margin-left: -32px;
+}
+@media (max-width: 1130px) {
+  .video-nonmember-banner-threecartoons {
+    margin-left: -32px;
+  }
+}
+@media (max-width: 768px) {
+  .video-nonmember-banner-threecartoons {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .video-nonmember-banner-threecartoons {
+    display: none;
+  }
+}
+
+.video-nonmember-banner-boyhappy {
+  margin-left: -32px;
+}
+@media (max-width: 1130px) {
+  .video-nonmember-banner-boyhappy {
+    margin-left: 0px;
+    margin-right: -23px;
+  }
+}
+@media (max-width: 576px) {
+  .video-nonmember-banner-boyhappy {
+    display: none;
+  }
+}
+
+.video-nonmember-banner-boyhappy-mobile {
+  max-width: 100%;
+  padding-top: 18px;
+  margin-bottom: 8px;
+  display: none;
+}
+@media (max-width: 576px) {
+  .video-nonmember-banner-boyhappy-mobile {
+    display: block;
+  }
+}
+
+.video-nonmember-banner-girldinosaur {
+  margin-left: -80px;
+  margin-right: -22px;
+}
+@media (max-width: 1330px) {
+  .video-nonmember-banner-girldinosaur {
+    display: none;
+  }
+}
+
+.purple-line {
+  width: 100%;
+  height: 15px;
+  background: #a220df;
+  margin-top: -14px;
 }
 
 .coloringsheets-member-section,
@@ -8096,19 +8250,12 @@ progress {
     padding-top: 25px;
   }
 }
-.home-freegames-section-banner .surprised-girl {
-  padding-top: 18px;
-  margin-bottom: -15px;
-}
-.home-freegames-section-banner .surprised-girl img {
-  max-width: 330px;
-}
 .home-freegames-section-banner .card-off {
   background-color: #ffc800;
   border-radius: 20px;
   border: 2px solid #fff;
   margin: 0 auto;
-  padding: 32px 18px 24px 18px;
+  padding: 32px 16px 24px 16px;
   width: 100%;
   max-width: 310px;
   display: flex;
@@ -8116,10 +8263,20 @@ progress {
   align-items: center;
   box-shadow: none;
 }
-.home-freegames-section-banner .orange-line {
-  width: 100%;
-  height: 15px;
-  background: #ff8000;
+@media (max-width: 768px) {
+  .home-freegames-section-banner .card-off {
+    display: none;
+  }
+}
+.home-freegames-section-banner .card-off-content {
+  gap: 8px;
+}
+.home-freegames-section-banner .surprised-girl {
+  padding-top: 18px;
+  margin-bottom: -15px;
+}
+.home-freegames-section-banner .surprised-girl img {
+  max-width: 330px;
 }
 .home-freegames-section .title {
   margin-top: 35px;
@@ -8152,20 +8309,39 @@ progress {
   -o-object-position: center;
      object-position: center;
 }
-.home-freegames-section .card-off {
+
+.home-freegames-section-content .card-off {
+  background-color: #ffc800;
+  border-radius: 20px;
+  border: 2px solid #fff;
   margin: 0 auto;
-  padding: 32px 18px 24px 18px;
+  padding: 32px 16px 24px 16px;
   width: 100%;
   max-width: 310px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffdc00;
-  border-radius: 20px;
   box-shadow: none;
 }
-.home-freegames-section .card-off-content {
-  gap: 8px;
+
+.home-freegames-section .card-off {
+  background-color: #ffc800;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  margin: 0 auto;
+  padding: 32px 16px 24px 16px;
+  width: 100%;
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: none;
+  margin-top: 16px;
+}
+@media (min-width: 768px) {
+  .home-freegames-section .card-off {
+    display: none;
+  }
 }
 
 .freetrial-banner-section {
@@ -8265,6 +8441,31 @@ progress {
   max-width: 41px;
 }
 
+.freetrial-banner-mobile-section {
+  display: none;
+  background-image: url(../../assets/images/orangemobilebg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.user-rating {
+  background-color: #fe4f03;
+  padding: 8px 0;
+}
+.user-rating img {
+  margin-left: 8px;
+  max-width: 25px;
+}
+
+@media (max-width: 768px) {
+  .freetrial-banner-section {
+    display: none;
+  }
+  .freetrial-banner-mobile-section {
+    display: block;
+  }
+}
 .signup-freetrial-section,
 .signup-platform-section,
 .login-section {
@@ -8707,4 +8908,4 @@ progress {
 }
 .blogpage-all-section-buttons-container .btn-md {
   width: 165px;
-}/*# sourceMappingURL=styles.css.map */
+}

@@ -4,30 +4,31 @@
     @media (max-width: map-get($grid-breakpoints, xl)) {
       padding-top: 25px;
     }
-    .surprised-girl {
-      padding-top: 18px;
-      margin-bottom: -15px;
-      img {
-        max-width: 330px;
-      }
-    }
     .card-off {
       background-color: #ffc800;
       border-radius: 20px;
       border: 2px solid #fff;
       margin: 0 auto;
-      padding: 32px 18px 24px 18px;
+      padding: 32px 16px 24px 16px;
       width: 100%;
       max-width: 310px;
       display: flex;
       flex-direction: column;
       align-items: center;
       box-shadow: none;
+      @media (max-width: map-get($grid-breakpoints, md)) {
+        display: none;
+      }
+      &-content {
+        gap: 8px;
+      }
     }
-    .orange-line {
-      width: 100%;
-      height: 15px;
-      background: #ff8000;
+    .surprised-girl {
+      padding-top: 18px;
+      margin-bottom: -15px;
+      img {
+        max-width: 330px;
+      }
     }
   }
   .title {
@@ -59,19 +60,40 @@
       }
     }
   }
+}
+
+.home-freegames-section-content {
   .card-off {
+    background-color: #ffc800;
+    border-radius: 20px;
+    border: 2px solid #fff;
     margin: 0 auto;
-    padding: 32px 18px 24px 18px;
+    padding: 32px 16px 24px 16px;
     width: 100%;
     max-width: 310px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $yellow;
-    border-radius: 20px;
     box-shadow: none;
-    &-content {
-      gap: 8px;
+  }
+}
+
+.home-freegames-section {
+  .card-off {
+    background-color: #ffc800;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    padding: 32px 16px 24px 16px;
+    width: 100%;
+    max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: none;
+    margin-top: 16px;
+    @media (min-width: map-get($grid-breakpoints, md)) {
+      display: none;
     }
   }
 }

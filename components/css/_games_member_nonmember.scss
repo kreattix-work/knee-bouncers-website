@@ -46,3 +46,51 @@
     }
   }
 }
+
+.games-nonmember-banner {
+  background-image: url(../../assets/images/gamenonmemberbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.games-nonmember-banner-abc {
+  max-width: 172px;
+  margin-bottom: 12px;
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    display: none;
+  }
+}
+.games-nonmember-banner-puppies {
+  padding-top: 44px;
+  margin-bottom: -2%;
+  @media (max-width: map-get($grid-breakpoints, xxl)) {
+    padding-top: 18px;
+  }
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    display: none;
+  }
+}
+.games-nonmember-banner-girlhappy {
+  margin-bottom: -9%;
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    display: none;
+  }
+}
+.games-nonmember-banner-girlhappy-mobile {
+  max-width: 100%;
+  margin-bottom: -5%;
+  padding-top: 18px;
+  display: none;
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    display: block;
+  }
+}
+.games-nonmember-banner-traindinosaur {
+  margin-bottom: -1%;
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    display: none;
+  }
+  @media (max-width: map-get($grid-breakpoints, md)) {
+    display: none;
+  }
+}

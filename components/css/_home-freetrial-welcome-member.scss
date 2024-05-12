@@ -89,3 +89,27 @@
     max-width: 41px;
   }
 }
+
+.freetrial-banner-mobile-section {
+  display: none;
+  background-image: url(../../assets/images/orangemobilebg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+.user-rating {
+  background-color: #fe4f03;
+  padding: 8px 0;
+  img {
+    margin-left: 8px;
+    max-width: 25px;
+  }
+}
+@media (max-width: map-get($grid-breakpoints, md)) {
+  .freetrial-banner-section {
+    display: none;
+  }
+  .freetrial-banner-mobile-section {
+    display: block;
+  }
+}
