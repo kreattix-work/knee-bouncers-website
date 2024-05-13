@@ -1,6 +1,9 @@
 .gamepage-member-section {
   padding-top: 70px;
   padding-bottom: 102px;
+  @media (max-width: map-get($grid-breakpoints, md)) {
+    padding-top: 50px;
+  }
   &-content {
     width: 100%;
     max-width: 800px;

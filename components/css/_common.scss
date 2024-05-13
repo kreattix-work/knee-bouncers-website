@@ -91,6 +91,7 @@ $text-sizes: (
   22: 54px,
   23: 60px,
   24: 64px,
+  25: 17px,
 );
 
 $text-colors: (
@@ -133,6 +134,9 @@ $text-colors: (
 }
 
 @each $size, $value in $text-sizes {
+  // .text-#{$size} {
+  //   font-size: $value !important;
+  // }
   .text-active-#{$size}:active {
     font-size: clamp($value - 10px, 4.5vw, $value) !important;
   }

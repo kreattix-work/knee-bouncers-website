@@ -1,6 +1,10 @@
 .videopage-member-section {
   padding-top: 70px;
   padding-bottom: 102px;
+  @media (max-width: map-get($grid-breakpoints, md)) {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
   &-content {
     width: 100%;
     max-width: 800px;

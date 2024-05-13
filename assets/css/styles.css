@@ -463,6 +463,18 @@
   font-size: clamp(54px, 4.5vw, 64px) !important;
 }
 
+.text-active-25:active {
+  font-size: clamp(7px, 4.5vw, 17px) !important;
+}
+
+.text-hover-25:hover:not(:active) {
+  font-size: clamp(7px, 4.5vw, 17px) !important;
+}
+
+.text-25 {
+  font-size: clamp(7px, 4.5vw, 17px) !important;
+}
+
 .font-active-1:active {
   font-size: 10px !important;
 }
@@ -7630,7 +7642,7 @@ progress {
 }
 @media (max-width: 768px) {
   .card-wizard.show-next {
-    max-height: 650px;
+    max-height: 680px;
   }
 }
 .card-default-content, .card-next-content {
@@ -8630,18 +8642,6 @@ progress {
   max-width: 1068px;
   margin-top: 44px;
 }
-@media (max-width: 768px) {
-  .videos-member-section-cards .card-actions button,
-  .videos-nonmember-section-cards .card-actions button {
-    font-size: 26px !important;
-  }
-}
-@media (max-width: 768px) {
-  .videos-member-section .videos-nonmember-section-cards .card-actions button,
-  .videos-nonmember-section .videos-nonmember-section-cards .card-actions button {
-    font-size: 16px !important;
-  }
-}
 
 .video-nonmember-banner {
   background-image: url(../../assets/images/bg-purple.png);
@@ -8850,6 +8850,11 @@ progress {
   padding-top: 70px;
   padding-bottom: 102px;
 }
+@media (max-width: 768px) {
+  .gamepage-member-section {
+    padding-top: 50px;
+  }
+}
 .gamepage-member-section-content {
   width: 100%;
   max-width: 800px;
@@ -8874,6 +8879,12 @@ progress {
 .videopage-member-section {
   padding-top: 70px;
   padding-bottom: 102px;
+}
+@media (max-width: 768px) {
+  .videopage-member-section {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
 }
 .videopage-member-section-content {
   width: 100%;
@@ -9834,4 +9845,4 @@ progress {
     width: 230px;
     height: 50px;
   }
-}
+}/*# sourceMappingURL=styles.css.map */
