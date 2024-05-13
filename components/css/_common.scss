@@ -138,13 +138,13 @@ $text-colors: (
   //   font-size: $value !important;
   // }
   .text-active-#{$size}:active {
-    font-size: clamp($value - 10px, 4.5vw, $value) !important;
+    font-size: clamp($value - 5px, 4.5vw, $value) !important;
   }
   .text-hover-#{$size}:hover:not(:active) {
-    font-size: clamp($value - 10px, 4.5vw, $value) !important;
+    font-size: clamp($value - 5px, 4.5vw, $value) !important;
   }
   .text-#{$size} {
-    font-size: clamp($value - 10px, 4.5vw, $value) !important;
+    font-size: clamp($value - 5px, 4.5vw, $value) !important;
   }
 }
 

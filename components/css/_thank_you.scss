@@ -11,6 +11,9 @@
     &-title {
       letter-spacing: -1px;
       text-align: center;
+      @media (max-width: map-get($grid-breakpoints, sm)) {
+        font-size: 26px !important;
+      }
     }
     &-img {
       max-width: 514px;
