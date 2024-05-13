@@ -178,301 +178,526 @@
 .text-active-1:active {
   font-size: clamp(8px, 4.5vw, 13px) !important;
 }
+.text-active-1:active.btn, .btn .text-active-1:active.span {
+  font-size: 13px !important;
+}
 
 .text-hover-1:hover:not(:active) {
   font-size: clamp(8px, 4.5vw, 13px) !important;
+}
+.text-hover-1:hover:not(:active).btn, .btn .text-hover-1:hover:not(:active).span {
+  font-size: 13px !important;
 }
 
 .text-1 {
   font-size: clamp(8px, 4.5vw, 13px) !important;
 }
+.text-1.btn, .btn .text-1.span {
+  font-size: 13px !important;
+}
 
 .text-active-2:active {
   font-size: clamp(9px, 4.5vw, 14px) !important;
+}
+.text-active-2:active.btn, .btn .text-active-2:active.span {
+  font-size: 14px !important;
 }
 
 .text-hover-2:hover:not(:active) {
   font-size: clamp(9px, 4.5vw, 14px) !important;
 }
+.text-hover-2:hover:not(:active).btn, .btn .text-hover-2:hover:not(:active).span {
+  font-size: 14px !important;
+}
 
 .text-2 {
   font-size: clamp(9px, 4.5vw, 14px) !important;
+}
+.text-2.btn, .btn .text-2.span {
+  font-size: 14px !important;
 }
 
 .text-active-3:active {
   font-size: clamp(10px, 4.5vw, 15px) !important;
 }
+.text-active-3:active.btn, .btn .text-active-3:active.span {
+  font-size: 15px !important;
+}
 
 .text-hover-3:hover:not(:active) {
   font-size: clamp(10px, 4.5vw, 15px) !important;
+}
+.text-hover-3:hover:not(:active).btn, .btn .text-hover-3:hover:not(:active).span {
+  font-size: 15px !important;
 }
 
 .text-3 {
   font-size: clamp(10px, 4.5vw, 15px) !important;
 }
+.text-3.btn, .btn .text-3.span {
+  font-size: 15px !important;
+}
 
 .text-active-4:active {
   font-size: clamp(11px, 4.5vw, 16px) !important;
+}
+.text-active-4:active.btn, .btn .text-active-4:active.span {
+  font-size: 16px !important;
 }
 
 .text-hover-4:hover:not(:active) {
   font-size: clamp(11px, 4.5vw, 16px) !important;
 }
+.text-hover-4:hover:not(:active).btn, .btn .text-hover-4:hover:not(:active).span {
+  font-size: 16px !important;
+}
 
 .text-4 {
   font-size: clamp(11px, 4.5vw, 16px) !important;
+}
+.text-4.btn, .btn .text-4.span {
+  font-size: 16px !important;
 }
 
 .text-active-5:active {
   font-size: clamp(13px, 4.5vw, 18px) !important;
 }
+.text-active-5:active.btn, .btn .text-active-5:active.span {
+  font-size: 18px !important;
+}
 
 .text-hover-5:hover:not(:active) {
   font-size: clamp(13px, 4.5vw, 18px) !important;
+}
+.text-hover-5:hover:not(:active).btn, .btn .text-hover-5:hover:not(:active).span {
+  font-size: 18px !important;
 }
 
 .text-5 {
   font-size: clamp(13px, 4.5vw, 18px) !important;
 }
+.text-5.btn, .btn .text-5.span {
+  font-size: 18px !important;
+}
 
 .text-active-6:active {
   font-size: clamp(15px, 4.5vw, 20px) !important;
+}
+.text-active-6:active.btn, .btn .text-active-6:active.span {
+  font-size: 20px !important;
 }
 
 .text-hover-6:hover:not(:active) {
   font-size: clamp(15px, 4.5vw, 20px) !important;
 }
+.text-hover-6:hover:not(:active).btn, .btn .text-hover-6:hover:not(:active).span {
+  font-size: 20px !important;
+}
 
 .text-6 {
   font-size: clamp(15px, 4.5vw, 20px) !important;
+}
+.text-6.btn, .btn .text-6.span {
+  font-size: 20px !important;
 }
 
 .text-active-7:active {
   font-size: clamp(17px, 4.5vw, 22px) !important;
 }
+.text-active-7:active.btn, .btn .text-active-7:active.span {
+  font-size: 22px !important;
+}
 
 .text-hover-7:hover:not(:active) {
   font-size: clamp(17px, 4.5vw, 22px) !important;
+}
+.text-hover-7:hover:not(:active).btn, .btn .text-hover-7:hover:not(:active).span {
+  font-size: 22px !important;
 }
 
 .text-7 {
   font-size: clamp(17px, 4.5vw, 22px) !important;
 }
+.text-7.btn, .btn .text-7.span {
+  font-size: 22px !important;
+}
 
 .text-active-8:active {
   font-size: clamp(19px, 4.5vw, 24px) !important;
+}
+.text-active-8:active.btn, .btn .text-active-8:active.span {
+  font-size: 24px !important;
 }
 
 .text-hover-8:hover:not(:active) {
   font-size: clamp(19px, 4.5vw, 24px) !important;
 }
+.text-hover-8:hover:not(:active).btn, .btn .text-hover-8:hover:not(:active).span {
+  font-size: 24px !important;
+}
 
 .text-8 {
   font-size: clamp(19px, 4.5vw, 24px) !important;
+}
+.text-8.btn, .btn .text-8.span {
+  font-size: 24px !important;
 }
 
 .text-active-9:active {
   font-size: clamp(20px, 4.5vw, 25px) !important;
 }
+.text-active-9:active.btn, .btn .text-active-9:active.span {
+  font-size: 25px !important;
+}
 
 .text-hover-9:hover:not(:active) {
   font-size: clamp(20px, 4.5vw, 25px) !important;
+}
+.text-hover-9:hover:not(:active).btn, .btn .text-hover-9:hover:not(:active).span {
+  font-size: 25px !important;
 }
 
 .text-9 {
   font-size: clamp(20px, 4.5vw, 25px) !important;
 }
+.text-9.btn, .btn .text-9.span {
+  font-size: 25px !important;
+}
 
 .text-active-10:active {
   font-size: clamp(21px, 4.5vw, 26px) !important;
+}
+.text-active-10:active.btn, .btn .text-active-10:active.span {
+  font-size: 26px !important;
 }
 
 .text-hover-10:hover:not(:active) {
   font-size: clamp(21px, 4.5vw, 26px) !important;
 }
+.text-hover-10:hover:not(:active).btn, .btn .text-hover-10:hover:not(:active).span {
+  font-size: 26px !important;
+}
 
 .text-10 {
   font-size: clamp(21px, 4.5vw, 26px) !important;
+}
+.text-10.btn, .btn .text-10.span {
+  font-size: 26px !important;
 }
 
 .text-active-11:active {
   font-size: clamp(23px, 4.5vw, 28px) !important;
 }
+.text-active-11:active.btn, .btn .text-active-11:active.span {
+  font-size: 28px !important;
+}
 
 .text-hover-11:hover:not(:active) {
   font-size: clamp(23px, 4.5vw, 28px) !important;
+}
+.text-hover-11:hover:not(:active).btn, .btn .text-hover-11:hover:not(:active).span {
+  font-size: 28px !important;
 }
 
 .text-11 {
   font-size: clamp(23px, 4.5vw, 28px) !important;
 }
+.text-11.btn, .btn .text-11.span {
+  font-size: 28px !important;
+}
 
 .text-active-12:active {
   font-size: clamp(25px, 4.5vw, 30px) !important;
+}
+.text-active-12:active.btn, .btn .text-active-12:active.span {
+  font-size: 30px !important;
 }
 
 .text-hover-12:hover:not(:active) {
   font-size: clamp(25px, 4.5vw, 30px) !important;
 }
+.text-hover-12:hover:not(:active).btn, .btn .text-hover-12:hover:not(:active).span {
+  font-size: 30px !important;
+}
 
 .text-12 {
   font-size: clamp(25px, 4.5vw, 30px) !important;
+}
+.text-12.btn, .btn .text-12.span {
+  font-size: 30px !important;
 }
 
 .text-active-13:active {
   font-size: clamp(27px, 4.5vw, 32px) !important;
 }
+.text-active-13:active.btn, .btn .text-active-13:active.span {
+  font-size: 32px !important;
+}
 
 .text-hover-13:hover:not(:active) {
   font-size: clamp(27px, 4.5vw, 32px) !important;
+}
+.text-hover-13:hover:not(:active).btn, .btn .text-hover-13:hover:not(:active).span {
+  font-size: 32px !important;
 }
 
 .text-13 {
   font-size: clamp(27px, 4.5vw, 32px) !important;
 }
+.text-13.btn, .btn .text-13.span {
+  font-size: 32px !important;
+}
 
 .text-active-14:active {
   font-size: clamp(29px, 4.5vw, 34px) !important;
+}
+.text-active-14:active.btn, .btn .text-active-14:active.span {
+  font-size: 34px !important;
 }
 
 .text-hover-14:hover:not(:active) {
   font-size: clamp(29px, 4.5vw, 34px) !important;
 }
+.text-hover-14:hover:not(:active).btn, .btn .text-hover-14:hover:not(:active).span {
+  font-size: 34px !important;
+}
 
 .text-14 {
   font-size: clamp(29px, 4.5vw, 34px) !important;
+}
+.text-14.btn, .btn .text-14.span {
+  font-size: 34px !important;
 }
 
 .text-active-15:active {
   font-size: clamp(31px, 4.5vw, 36px) !important;
 }
+.text-active-15:active.btn, .btn .text-active-15:active.span {
+  font-size: 36px !important;
+}
 
 .text-hover-15:hover:not(:active) {
   font-size: clamp(31px, 4.5vw, 36px) !important;
+}
+.text-hover-15:hover:not(:active).btn, .btn .text-hover-15:hover:not(:active).span {
+  font-size: 36px !important;
 }
 
 .text-15 {
   font-size: clamp(31px, 4.5vw, 36px) !important;
 }
+.text-15.btn, .btn .text-15.span {
+  font-size: 36px !important;
+}
 
 .text-active-16:active {
   font-size: clamp(33px, 4.5vw, 38px) !important;
+}
+.text-active-16:active.btn, .btn .text-active-16:active.span {
+  font-size: 38px !important;
 }
 
 .text-hover-16:hover:not(:active) {
   font-size: clamp(33px, 4.5vw, 38px) !important;
 }
+.text-hover-16:hover:not(:active).btn, .btn .text-hover-16:hover:not(:active).span {
+  font-size: 38px !important;
+}
 
 .text-16 {
   font-size: clamp(33px, 4.5vw, 38px) !important;
+}
+.text-16.btn, .btn .text-16.span {
+  font-size: 38px !important;
 }
 
 .text-active-17:active {
   font-size: clamp(35px, 4.5vw, 40px) !important;
 }
+.text-active-17:active.btn, .btn .text-active-17:active.span {
+  font-size: 40px !important;
+}
 
 .text-hover-17:hover:not(:active) {
   font-size: clamp(35px, 4.5vw, 40px) !important;
+}
+.text-hover-17:hover:not(:active).btn, .btn .text-hover-17:hover:not(:active).span {
+  font-size: 40px !important;
 }
 
 .text-17 {
   font-size: clamp(35px, 4.5vw, 40px) !important;
 }
+.text-17.btn, .btn .text-17.span {
+  font-size: 40px !important;
+}
 
 .text-active-18:active {
   font-size: clamp(37px, 4.5vw, 42px) !important;
+}
+.text-active-18:active.btn, .btn .text-active-18:active.span {
+  font-size: 42px !important;
 }
 
 .text-hover-18:hover:not(:active) {
   font-size: clamp(37px, 4.5vw, 42px) !important;
 }
+.text-hover-18:hover:not(:active).btn, .btn .text-hover-18:hover:not(:active).span {
+  font-size: 42px !important;
+}
 
 .text-18 {
   font-size: clamp(37px, 4.5vw, 42px) !important;
+}
+.text-18.btn, .btn .text-18.span {
+  font-size: 42px !important;
 }
 
 .text-active-19:active {
   font-size: clamp(39px, 4.5vw, 44px) !important;
 }
+.text-active-19:active.btn, .btn .text-active-19:active.span {
+  font-size: 44px !important;
+}
 
 .text-hover-19:hover:not(:active) {
   font-size: clamp(39px, 4.5vw, 44px) !important;
+}
+.text-hover-19:hover:not(:active).btn, .btn .text-hover-19:hover:not(:active).span {
+  font-size: 44px !important;
 }
 
 .text-19 {
   font-size: clamp(39px, 4.5vw, 44px) !important;
 }
+.text-19.btn, .btn .text-19.span {
+  font-size: 44px !important;
+}
 
 .text-active-20:active {
   font-size: clamp(41px, 4.5vw, 46px) !important;
+}
+.text-active-20:active.btn, .btn .text-active-20:active.span {
+  font-size: 46px !important;
 }
 
 .text-hover-20:hover:not(:active) {
   font-size: clamp(41px, 4.5vw, 46px) !important;
 }
+.text-hover-20:hover:not(:active).btn, .btn .text-hover-20:hover:not(:active).span {
+  font-size: 46px !important;
+}
 
 .text-20 {
   font-size: clamp(41px, 4.5vw, 46px) !important;
+}
+.text-20.btn, .btn .text-20.span {
+  font-size: 46px !important;
 }
 
 .text-active-21:active {
   font-size: clamp(47px, 4.5vw, 52px) !important;
 }
+.text-active-21:active.btn, .btn .text-active-21:active.span {
+  font-size: 52px !important;
+}
 
 .text-hover-21:hover:not(:active) {
   font-size: clamp(47px, 4.5vw, 52px) !important;
+}
+.text-hover-21:hover:not(:active).btn, .btn .text-hover-21:hover:not(:active).span {
+  font-size: 52px !important;
 }
 
 .text-21 {
   font-size: clamp(47px, 4.5vw, 52px) !important;
 }
+.text-21.btn, .btn .text-21.span {
+  font-size: 52px !important;
+}
 
 .text-active-22:active {
   font-size: clamp(49px, 4.5vw, 54px) !important;
+}
+.text-active-22:active.btn, .btn .text-active-22:active.span {
+  font-size: 54px !important;
 }
 
 .text-hover-22:hover:not(:active) {
   font-size: clamp(49px, 4.5vw, 54px) !important;
 }
+.text-hover-22:hover:not(:active).btn, .btn .text-hover-22:hover:not(:active).span {
+  font-size: 54px !important;
+}
 
 .text-22 {
   font-size: clamp(49px, 4.5vw, 54px) !important;
+}
+.text-22.btn, .btn .text-22.span {
+  font-size: 54px !important;
 }
 
 .text-active-23:active {
   font-size: clamp(55px, 4.5vw, 60px) !important;
 }
+.text-active-23:active.btn, .btn .text-active-23:active.span {
+  font-size: 60px !important;
+}
 
 .text-hover-23:hover:not(:active) {
   font-size: clamp(55px, 4.5vw, 60px) !important;
+}
+.text-hover-23:hover:not(:active).btn, .btn .text-hover-23:hover:not(:active).span {
+  font-size: 60px !important;
 }
 
 .text-23 {
   font-size: clamp(55px, 4.5vw, 60px) !important;
 }
+.text-23.btn, .btn .text-23.span {
+  font-size: 60px !important;
+}
 
 .text-active-24:active {
   font-size: clamp(59px, 4.5vw, 64px) !important;
+}
+.text-active-24:active.btn, .btn .text-active-24:active.span {
+  font-size: 64px !important;
 }
 
 .text-hover-24:hover:not(:active) {
   font-size: clamp(59px, 4.5vw, 64px) !important;
 }
+.text-hover-24:hover:not(:active).btn, .btn .text-hover-24:hover:not(:active).span {
+  font-size: 64px !important;
+}
 
 .text-24 {
   font-size: clamp(59px, 4.5vw, 64px) !important;
+}
+.text-24.btn, .btn .text-24.span {
+  font-size: 64px !important;
 }
 
 .text-active-25:active {
   font-size: clamp(12px, 4.5vw, 17px) !important;
 }
+.text-active-25:active.btn, .btn .text-active-25:active.span {
+  font-size: 17px !important;
+}
 
 .text-hover-25:hover:not(:active) {
   font-size: clamp(12px, 4.5vw, 17px) !important;
 }
+.text-hover-25:hover:not(:active).btn, .btn .text-hover-25:hover:not(:active).span {
+  font-size: 17px !important;
+}
 
 .text-25 {
   font-size: clamp(12px, 4.5vw, 17px) !important;
+}
+.text-25.btn, .btn .text-25.span {
+  font-size: 17px !important;
 }
 
 .font-active-1:active {
