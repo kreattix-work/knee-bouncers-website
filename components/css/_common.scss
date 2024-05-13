@@ -136,19 +136,22 @@ $text-colors: (
 @each $size, $value in $text-sizes {
   .text-active-#{$size}:active {
     font-size: clamp($value - 5px, 4.5vw, $value) !important;
-    &.btn, .btn &.span {
+    &.btn,
+    .btn &.span {
       font-size: $value !important;
     }
   }
   .text-hover-#{$size}:hover:not(:active) {
     font-size: clamp($value - 5px, 4.5vw, $value) !important;
-    &.btn, .btn &.span {
+    &.btn,
+    .btn &.span {
       font-size: $value !important;
     }
   }
   .text-#{$size} {
     font-size: clamp($value - 5px, 4.5vw, $value) !important;
-    &.btn, .btn &.span {
+    &.btn,
+    .btn &.span {
       font-size: $value !important;
     }
   }
@@ -299,4 +302,14 @@ h6 {
   width: 100%;
   height: 15px;
   background: #ff8000;
+}
+
+.red-line {
+  width: 100%;
+  height: 15px;
+  background: #ff0000;
+  margin-top: -15px;
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    margin-top: -1.7%;
+  }
 }

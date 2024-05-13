@@ -975,6 +975,18 @@ h6 {
   background: #ff8000;
 }
 
+.red-line {
+  width: 100%;
+  height: 15px;
+  background: #ff0000;
+  margin-top: -15px;
+}
+@media (max-width: 1130px) {
+  .red-line {
+    margin-top: -1.7%;
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -9071,6 +9083,88 @@ progress {
   }
 }
 
+.coloringsheets-nonmember-banner {
+  background-image: url(../../assets/images/coloringsheetsbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coloringsheets-nonmember-banner-title {
+  margin-right: -14%;
+  padding-left: 21%;
+}
+.coloringsheets-nonmember-banner-title h1 {
+  max-width: 356px;
+}
+@media (max-width: 992px) {
+  .coloringsheets-nonmember-banner-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.coloringsheets-nonmember-abc {
+  max-width: 172px;
+  margin-bottom: 25px;
+}
+@media (max-width: 768px) {
+  .coloringsheets-nonmember-abc {
+    display: none;
+  }
+}
+
+.coloringsheets-nonmember-cow {
+  margin-left: -30%;
+  margin-top: -35%;
+}
+@media (max-width: 992px) {
+  .coloringsheets-nonmember-cow {
+    display: none;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  .coloringsheets-nonmember-happygirl {
+    display: none;
+  }
+}
+
+@media (max-width: 1130px) {
+  .coloringsheets-nonmember-elephant {
+    display: none;
+  }
+}
+
+.coloringsheets-nonmember-girlhappy-mobile {
+  max-width: 100%;
+  padding-top: 18px;
+  display: none;
+}
+@media (max-width: 768px) {
+  .coloringsheets-nonmember-girlhappy-mobile {
+    display: block;
+  }
+}
+
+.coloringsheets-nonmember-traindinosaur {
+  margin-bottom: -1%;
+}
+@media (max-width: 1130px) {
+  .coloringsheets-nonmember-traindinosaur {
+    display: none;
+  }
+}
+@media (max-width: 1130px) {
+  .coloringsheets-nonmember-traindinosaur {
+    display: none;
+  }
+}
+
 .gamepage-member-section {
   padding-top: 70px;
   padding-bottom: 102px;
@@ -10075,4 +10169,4 @@ progress {
     width: 230px;
     height: 50px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}

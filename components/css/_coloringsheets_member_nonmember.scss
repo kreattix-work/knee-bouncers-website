@@ -98,3 +98,66 @@
     }
   }
 }
+
+.coloringsheets-nonmember-banner {
+  background-image: url(../../assets/images/coloringsheetsbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.coloringsheets-nonmember-banner-title {
+  margin-right: -14%;
+  padding-left: 21%;
+  h1 {
+    max-width: 356px;
+  }
+  @media (max-width: map-get($grid-breakpoints, lg)) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+}
+.coloringsheets-nonmember-abc {
+  max-width: 172px;
+  margin-bottom: 25px;
+  @media (max-width: map-get($grid-breakpoints, md)) {
+    display: none;
+  }
+}
+.coloringsheets-nonmember-cow {
+  margin-left: -30%;
+  margin-top: -35%;
+  @media (max-width: map-get($grid-breakpoints, lg)) {
+    display: none;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+}
+.coloringsheets-nonmember-happygirl {
+  @media (max-width: map-get($grid-breakpoints, md)) {
+    display: none;
+  }
+}
+.coloringsheets-nonmember-elephant {
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    display: none;
+  }
+}
+.coloringsheets-nonmember-girlhappy-mobile {
+  max-width: 100%;
+  padding-top: 18px;
+  display: none;
+  @media (max-width: map-get($grid-breakpoints, md)) {
+    display: block;
+  }
+}
+.coloringsheets-nonmember-traindinosaur {
+  margin-bottom: -1%;
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    display: none;
+  }
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    display: none;
+  }
+}
