@@ -8425,6 +8425,14 @@ progress {
   margin: auto;
 }
 
+.page-content-vector-img {
+  background-image: url(../../assets/images/lightbottomgroup.svg);
+  height: 200px;
+  background-repeat: repeat;
+  background-size: contain;
+  margin: 10px;
+}
+
 .privacy-policy-section {
   padding: 60px 0;
   font-size: 18px;
@@ -9096,11 +9104,15 @@ progress {
 }
 .coloringsheets-nonmember-banner-title h1 {
   max-width: 356px;
+  z-index: 2;
+}
+.coloringsheets-nonmember-banner-title button {
+  z-index: 2;
 }
 @media (max-width: 992px) {
   .coloringsheets-nonmember-banner-title {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
     padding-left: 0px;
     margin-right: 0px;
   }
