@@ -97,3 +97,20 @@
     }
   }
 }
+
+.card-off-mobile-only {
+  background-color: #ffc800;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  margin: 0 auto;
+  padding: 32px 16px 24px 16px;
+  width: 100%;
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: none;
+  &-content {
+    gap: 8px;
+  }
+}
