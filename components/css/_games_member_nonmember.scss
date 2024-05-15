@@ -37,9 +37,9 @@
   .games-nonmember-section {
     &-cards {
       .card-actions {
-        button {
-          @media (max-width: map-get($grid-breakpoints, md)) and (min-width: map-get($grid-breakpoints, sm)) {
-            font-size: 15px !important;
+        .active-text {
+          @media (max-width: map-get($grid-breakpoints, xs)) {
+            font-size: map-get($text-sizes, 4) !important;
           }
         }
       }

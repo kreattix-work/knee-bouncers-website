@@ -8705,10 +8705,10 @@ progress {
   max-width: 1068px;
   margin-top: 44px;
 }
-@media (max-width: 768px) and (min-width: 576px) {
-  .games-member-section .games-nonmember-section-cards .card-actions button,
-  .games-nonmember-section .games-nonmember-section-cards .card-actions button {
-    font-size: 15px !important;
+@media (max-width: 460px) {
+  .games-member-section .games-nonmember-section-cards .card-actions .active-text,
+  .games-nonmember-section .games-nonmember-section-cards .card-actions .active-text {
+    font-size: 16px !important;
   }
 }
 
@@ -8886,6 +8886,28 @@ progress {
   width: 100%;
   max-width: 1068px;
   margin-top: 44px;
+}
+.videos-member-section .videos-nonmember-section-cards .card-actions .active-text,
+.videos-nonmember-section .videos-nonmember-section-cards .card-actions .active-text {
+  font-size: 22px;
+}
+@media (max-width: 768px) {
+  .videos-member-section .videos-nonmember-section-cards .card-actions .default-text,
+  .videos-nonmember-section .videos-nonmember-section-cards .card-actions .default-text {
+    font-size: 17px !important;
+  }
+}
+@media (max-width: 768px) {
+  .videos-member-section .videos-nonmember-section-cards .card-actions .hover-text,
+  .videos-nonmember-section .videos-nonmember-section-cards .card-actions .hover-text {
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 1330px) {
+  .videos-member-section .videos-nonmember-section-cards .card-actions .hover-text,
+  .videos-nonmember-section .videos-nonmember-section-cards .card-actions .hover-text {
+    font-size: 17px !important;
+  }
 }
 
 .video-nonmember-banner {
@@ -10181,4 +10203,4 @@ progress {
     width: 230px;
     height: 50px;
   }
-}
+}/*# sourceMappingURL=styles.css.map */
