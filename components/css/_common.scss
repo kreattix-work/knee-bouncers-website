@@ -37,7 +37,7 @@ $grid-breakpoints: (
   xxs: 0,
   xs: 460px,
   sm: 576px,
-  md: 768px,
+  md: 767px,
   lg: 992px,
   xl: 1130px,
   2xl: 1279px,
@@ -309,7 +309,4 @@ h6 {
   height: 15px;
   background: #ff0000;
   margin-top: -15px;
-  @media (max-width: map-get($grid-breakpoints, xl)) {
-    margin-top: -1.7%;
-  }
 }

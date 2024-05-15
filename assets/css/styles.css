@@ -981,11 +981,6 @@ h6 {
   background: #ff0000;
   margin-top: -15px;
 }
-@media (max-width: 1130px) {
-  .red-line {
-    margin-top: -1.7%;
-  }
-}
 
 *,
 *::before,
@@ -1599,7 +1594,7 @@ progress {
     max-width: 540px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .container-md, .container-sm, .container-xs, .container {
     max-width: 720px;
   }
@@ -1623,7 +1618,7 @@ progress {
   --bs-breakpoint-xxs: 0;
   --bs-breakpoint-xs: 460px;
   --bs-breakpoint-sm: 576px;
-  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-md: 767px;
   --bs-breakpoint-lg: 992px;
   --bs-breakpoint-xl: 1130px;
   --bs-breakpoint-2xl: 1279px;
@@ -2195,7 +2190,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .col-md {
     flex: 1 0 0%;
   }
@@ -4572,7 +4567,7 @@ progress {
     padding-left: 3rem !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .d-md-inline {
     display: inline !important;
   }
@@ -7153,7 +7148,7 @@ progress {
     overflow-y: auto;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 766.98px) {
   .modal-fullscreen-md-down {
     width: 100vw;
     max-width: none;
@@ -7702,7 +7697,7 @@ progress {
   background-color: #0078ff;
   border-radius: 20px;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .divider::before {
     top: 0;
     right: 50%;
@@ -7720,7 +7715,7 @@ progress {
   background-color: #0078ff;
   border-radius: 20px;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .divider::after {
     bottom: 0;
     left: 50%;
@@ -7798,7 +7793,7 @@ progress {
   width: 100%;
   border: 2px solid #d9e4ff;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .card-v3-content {
     gap: 30px;
   }
@@ -7809,12 +7804,12 @@ progress {
 .card-v3-title {
   margin: 36px 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .card-v3-top-link {
     text-align: center;
   }
 }
-@media (max-width: 768px) and (max-width: 576px) {
+@media (max-width: 767px) and (max-width: 576px) {
   .card-v3-top-link {
     gap: 15px;
   }
@@ -7877,7 +7872,7 @@ progress {
     max-height: 580px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .card-wizard.show-next {
     max-height: 680px;
   }
@@ -7891,7 +7886,7 @@ progress {
     padding: 40px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .card-default-content, .card-next-content {
     padding: 50px;
   }
@@ -8215,7 +8210,7 @@ progress {
   bottom: 0;
   z-index: -1;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer-bottom .crabby-img {
     left: initial;
     right: 20px;
@@ -8278,7 +8273,7 @@ progress {
   align-self: flex-end;
   margin-bottom: -2px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .our-blog-section h4 {
     text-align: center;
   }
@@ -8451,7 +8446,7 @@ progress {
   max-width: 340px;
   text-align: right;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .educational-games-section-card {
     text-align: start;
   }
@@ -8705,7 +8700,7 @@ progress {
   max-width: 1068px;
   margin-top: 44px;
 }
-@media (max-width: 768px) and (min-width: 576px) {
+@media (max-width: 767px) and (min-width: 576px) {
   .games-member-section .games-nonmember-section-cards .card-actions button,
   .games-nonmember-section .games-nonmember-section-cards .card-actions button {
     font-size: 15px !important;
@@ -8773,7 +8768,7 @@ progress {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .games-nonmember-banner-traindinosaur {
     display: none;
   }
@@ -8834,7 +8829,7 @@ progress {
   position: relative;
   padding: 0px 50px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .videos-member-section-thought h1,
   .videos-nonmember-section-thought h1 {
     padding: 0px 20px;
@@ -8852,7 +8847,7 @@ progress {
   left: -10px;
   top: -15px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .videos-member-section-thought h1::after,
   .videos-nonmember-section-thought h1::after {
     width: 42px;
@@ -8873,7 +8868,7 @@ progress {
   rotate: 180deg;
   top: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .videos-member-section-thought h1::before,
   .videos-nonmember-section-thought h1::before {
     top: 90px;
@@ -8914,7 +8909,7 @@ progress {
     margin-left: -32px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .video-nonmember-banner-threecartoons {
     margin-left: 0px;
   }
@@ -9024,7 +9019,7 @@ progress {
   position: relative;
   padding: 0px 50px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .coloringsheets-member-section-thought h1,
   .coloringsheets-nonmember-section-thought h1 {
     padding: 0px 20px;
@@ -9043,7 +9038,7 @@ progress {
   top: -15px;
   z-index: -1;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .coloringsheets-member-section-thought h1::after,
   .coloringsheets-nonmember-section-thought h1::after {
     width: 42px;
@@ -9064,7 +9059,7 @@ progress {
   rotate: 180deg;
   z-index: -1;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .coloringsheets-member-section-thought h1::before,
   .coloringsheets-nonmember-section-thought h1::before {
     width: 42px;
@@ -9084,7 +9079,7 @@ progress {
   text-align: center;
   margin: auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .coloringsheets-member-section .coloringsheets-nonmember-section-cards .card-actions button,
   .coloringsheets-nonmember-section .coloringsheets-nonmember-section-cards .card-actions button {
     font-size: 17px !important;
@@ -9122,7 +9117,7 @@ progress {
   max-width: 172px;
   margin-bottom: 25px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .coloringsheets-nonmember-abc {
     display: none;
   }
@@ -9140,7 +9135,7 @@ progress {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .coloringsheets-nonmember-happygirl {
     display: none;
   }
@@ -9157,15 +9152,12 @@ progress {
   padding-top: 18px;
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .coloringsheets-nonmember-girlhappy-mobile {
     display: block;
   }
 }
 
-.coloringsheets-nonmember-traindinosaur {
-  margin-bottom: -1%;
-}
 @media (max-width: 1130px) {
   .coloringsheets-nonmember-traindinosaur {
     display: none;
@@ -9181,7 +9173,7 @@ progress {
   padding-top: 70px;
   padding-bottom: 102px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .gamepage-member-section {
     padding-top: 50px;
   }
@@ -9193,7 +9185,7 @@ progress {
 .gamepage-member-section-content-button {
   margin-left: auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .gamepage-member-section-content-button {
     margin: auto;
     margin-bottom: 20px;
@@ -9211,7 +9203,7 @@ progress {
   padding-top: 70px;
   padding-bottom: 102px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .videopage-member-section {
     padding-top: 50px;
     padding-bottom: 80px;
@@ -9231,7 +9223,7 @@ progress {
 .videopage-member-section-text {
   margin-top: 45px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .videopage-member-section-cards .card-actions button {
     font-size: 26px !important;
   }
@@ -9258,7 +9250,7 @@ progress {
   align-items: center;
   box-shadow: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .home-freegames-section-banner .card-off {
     display: none;
   }
@@ -9333,7 +9325,7 @@ progress {
   box-shadow: none;
   margin-top: 16px;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .home-freegames-section .card-off {
     display: none;
   }
@@ -9374,7 +9366,7 @@ progress {
   align-items: center;
   padding: 14px 0px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating {
     flex-direction: column;
   }
@@ -9385,7 +9377,7 @@ progress {
   align-items: center;
   gap: 28px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .freetrial-banner-section .freetrial-banner-bottom .freetrial-user-rating .welcome-user {
     flex-direction: column;
     gap: 10px;
@@ -9453,7 +9445,7 @@ progress {
   max-width: 25px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .freetrial-banner-section {
     display: none;
   }
@@ -9552,7 +9544,7 @@ progress {
   align-items: center;
   gap: 50px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .plan-banner .plan-card-wrapper {
     gap: 20px;
     flex-direction: column;
@@ -9677,7 +9669,7 @@ progress {
   gap: 20px;
   margin-bottom: 80px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .input-otp {
     gap: 10px;
   }
@@ -9693,7 +9685,7 @@ progress {
   font-size: 32px;
   text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .input-otp input {
     font-size: 20px;
     padding: 10px;
@@ -9891,7 +9883,7 @@ progress {
   position: relative;
   padding: 0px 50px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .checkout-thought h1 {
     padding: 0px 20px;
   }
@@ -9907,7 +9899,7 @@ progress {
   left: -10px;
   top: -15px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .checkout-thought h1::after {
     width: 42px;
     height: 28px;
@@ -9926,7 +9918,7 @@ progress {
   top: 20px;
   rotate: 180deg;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .checkout-thought h1::before {
     width: 42px;
     height: 28px;
@@ -10007,12 +9999,12 @@ progress {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .board-section .board-card .board-card-img-2 {
     display: none;
   }
 }
-@media (max-width: 768px) and (min-width: 768px) {
+@media (max-width: 767px) and (min-width: 767px) {
   .board-section .board-card .board-card-img-2 {
     display: block;
   }
@@ -10050,7 +10042,7 @@ progress {
 .onboard-01-section-card-title {
   margin-top: 108px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .onboard-01-section-card-title {
     margin-top: 80px;
   }
@@ -10125,7 +10117,7 @@ progress {
   left: -5%;
   margin-bottom: -60px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .onboard-02-section .onboard-02-section-card-container .onboard-02-section-card-image-container {
     left: -2%;
   }
