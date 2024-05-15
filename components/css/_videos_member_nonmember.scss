@@ -89,17 +89,27 @@
   //     }
   //   }
   // }
-  // .videos-nonmember-section-cards {
-  //   .card-actions {
-  //     button {
-  //       @media (max-width: map-get($grid-breakpoints, md)) {
-  //         font-size: 16px !important;
-  //       }
-  //     }
-  //   }
-  // }
+  .videos-nonmember-section-cards {
+    .card-actions {
+      .active-text {
+        font-size: 22px;
+      }
+      .default-text {
+        @media (max-width: map-get($grid-breakpoints, md)) {
+          font-size: 17px !important;
+        }
+      }
+      .hover-text {
+        @media (max-width: map-get($grid-breakpoints, md)) {
+          font-size: 16px !important;
+        }
+        @media (max-width: map-get($grid-breakpoints, xxl)) {
+          font-size: 17px !important;
+        }
+      }
+    }
+  }
 }
-// 0079FF -purple
 
 .video-nonmember-banner {
   background-image: url(../../assets/images/bg-purple.png);
