@@ -112,6 +112,7 @@ $text-colors: (
   orange-dark: $orange-dark,
   gray-light: $gray-light,
   gray-light-v2: $gray-light-v2,
+  blue: #2fbdeb,
 );
 
 @each $color, $value in $text-colors {
