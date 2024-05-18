@@ -10468,5 +10468,88 @@ progress {
 }
 
 .profile-detail-section {
+  background: #faf7f3;
+}
+.profile-detail-section .parent-profile {
+  padding: 40px 14px 0px 0px;
+}
+.profile-detail-section .parent-profile .profile-title {
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.profile-detail-section .parent-profile .profile-title h5 {
+  color: #0078ff;
+  font-size: 18px;
+  font-weight: 800 !important;
+  line-height: 18px; /* 100% */
+  letter-spacing: 4px;
+  margin: 0;
+}
+.profile-detail-section .parent-profile .profile-title span {
+  color: #0078ff;
+  text-align: right;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.profile-detail-section .parent-profile .profile-detail {
+  color: #313131;
+  font-size: 18px;
+  font-weight: 700;
+}
+.profile-detail-section .parent-profile .profile-detail p {
+  margin-bottom: 30px;
+}
+.profile-detail-section .parent-profile .profile-change-password {
+  margin-top: -26px;
+  color: #0078ff;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.membership-detail {
+  margin-right: calc(-1 * (100vw - 100%) / 2);
+  padding-right: calc(1 * (100vw - 100%) / 2);
+  padding-left: 68px;
+  padding-top: 40px;
+  background: #ffffff;
+}
+.membership-detail .membership-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.membership-detail .membership-title h5 {
+  color: #0078ff;
+  font-size: 18px;
+  font-weight: 800 !important;
+  line-height: 18px;
+  letter-spacing: 4px;
+}
+.membership-detail .membership-title p {
+  color: #de0059;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+.membership-detail .membership-description {
+  padding-right: 70px;
+  font-size: 18px;
+}
+.membership-detail .membership-description p {
+  font-weight: 500;
+}
+
+.upgrade {
+  margin-right: calc(-1 * (100vw - 100%) / 2);
+  padding-right: calc(1 * (100vw - 100%) / 2);
+  background: #ffdc00;
+  padding: 18px 0px 18px 0px;
 }
