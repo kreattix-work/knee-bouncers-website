@@ -55,6 +55,10 @@
       font-size: 20px;
       padding: 10px;
     }
+    &:focus {
+      outline: none;
+      border-color: $primary;
+    }
   }
 }
 

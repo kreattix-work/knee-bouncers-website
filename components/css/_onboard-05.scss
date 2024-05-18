@@ -1,0 +1,75 @@
+.onboard-05-section {
+  padding-top: 15px;
+  &-card {
+    position: relative;
+    padding: 15px 20px;
+    button {
+      margin-bottom: 90px;
+    }
+    &-img-container {
+      .gang-img {
+        position: absolute;
+        bottom: -13%;
+        left: -18%;
+        width: 100%;
+        max-width: 440px;
+        @media (max-width: map-get($grid-breakpoints, xxl)) {
+          left: -10%;
+        }
+        @media (max-width: map-get($grid-breakpoints, xl)) {
+          left: -3%;
+        }
+        @media (max-width: map-get($grid-breakpoints, lg)) {
+          max-width: 380px;
+          left: -3%;
+        }
+        @media (max-width: map-get($grid-breakpoints, md)) {
+          display: none;
+        }
+      }
+      .sammy-img {
+        position: absolute;
+        top: -10%;
+        right: -2%;
+        width: 100%;
+        max-width: 148px;
+        @media (max-width: map-get($grid-breakpoints, lg)) {
+          display: none;
+        }
+      }
+    }
+  }
+  &-title {
+    margin-top: 55px;
+    margin-bottom: 75px;
+    max-width: 700px;
+    width: 100%;
+    @media (max-width: map-get($grid-breakpoints, xs)) {
+      font-size: 30px !important;
+    }
+  }
+  .btn-big {
+    border: 3px solid $yellow;
+    @media (max-width: map-get($grid-breakpoints, sm)) {
+      .hover-text {
+        font-size: 34px !important;
+      }
+    }
+    &:hover {
+      border-color: $secondary !important;
+    }
+    &:active {
+      border-color: $accent !important;
+    }
+  }
+  .input-otp {
+    margin-bottom: 65px;
+    input {
+      border: 3px solid $yellow;
+      outline: none;
+      &:focus {
+        border-color: $accent;
+      }
+    }
+  }
+}
