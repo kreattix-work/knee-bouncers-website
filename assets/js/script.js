@@ -130,8 +130,8 @@ $(function () {
 
   $(".single-item").slick({
     prevArrow:
-      '<div class="onboard-02-slider-button-left"> <img class="img-fluid" src="./assets/images/arroworange.svg" alt=""/></div>',
+      '<div class="slider-button-left"> <img class="img-fluid" src="./assets/images/arroworange.svg" alt=""/></div>',
     nextArrow:
-      '<div class="onboard-02-slider-button-right"> <img class="img-fluid" src="./assets/images/arroworange.svg" alt="" /></div>',
+      '<div class="slider-button-right"> <img class="img-fluid" src="./assets/images/arroworange.svg" alt="" /></div>',
   });
 });
