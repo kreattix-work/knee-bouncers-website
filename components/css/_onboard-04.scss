@@ -1,0 +1,72 @@
+.onboard-04-section {
+  padding-top: 15px;
+  &-card {
+    padding: 15px 20px;
+    position: relative;
+    &-image-container {
+      position: absolute;
+      top: 5%;
+      right: -11%;
+      @media (max-width: map-get($grid-breakpoints, xl)) {
+        right: -4%;
+      }
+      img {
+        width: 100%;
+        max-width: 200px;
+        @media (max-width: map-get($grid-breakpoints, lg)) {
+          display: none;
+        }
+      }
+    }
+  }
+  &-title {
+    margin-top: 45px;
+    max-width: 631px;
+    width: 100%;
+  }
+  .forward-btn {
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    img {
+      width: 48px;
+      max-width: 100%;
+      aspect-ratio: 1 / 1;
+    }
+  }
+  &-button-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    button {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 40px;
+      border: 1px solid $yellow;
+      background: $primary-dark;
+      padding: 10px 25px 10px 30px;
+      transition: $transition-base;
+      @media (max-width: map-get($grid-breakpoints, xs)) {
+        padding: 10px 15px;
+      }
+      img {
+        display: none;
+        width: 28px;
+        aspect-ratio: 1 / 1;
+      }
+    }
+    button:hover {
+      background: $primary-dark-v2;
+      img {
+        display: block;
+      }
+    }
+    button:focus {
+      background: $primary-dark-v3;
+      img {
+        display: block;
+      }
+    }
+  }
+}

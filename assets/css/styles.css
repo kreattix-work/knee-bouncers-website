@@ -10255,6 +10255,85 @@ progress {
   }
 }
 
+.onboard-04-section {
+  padding-top: 15px;
+}
+.onboard-04-section-card {
+  padding: 15px 20px;
+  position: relative;
+}
+.onboard-04-section-card-image-container {
+  position: absolute;
+  top: 5%;
+  right: -11%;
+}
+@media (max-width: 1130px) {
+  .onboard-04-section-card-image-container {
+    right: -4%;
+  }
+}
+.onboard-04-section-card-image-container img {
+  width: 100%;
+  max-width: 200px;
+}
+@media (max-width: 992px) {
+  .onboard-04-section-card-image-container img {
+    display: none;
+  }
+}
+.onboard-04-section-title {
+  margin-top: 45px;
+  max-width: 631px;
+  width: 100%;
+}
+.onboard-04-section .forward-btn {
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+}
+.onboard-04-section .forward-btn img {
+  width: 48px;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+}
+.onboard-04-section-button-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.onboard-04-section-button-container button {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 40px;
+  border: 1px solid #ffdc00;
+  background: #2638c1;
+  padding: 10px 25px 10px 30px;
+  transition: all 0.2s ease-in-out;
+}
+@media (max-width: 460px) {
+  .onboard-04-section-button-container button {
+    padding: 10px 15px;
+  }
+}
+.onboard-04-section-button-container button img {
+  display: none;
+  width: 28px;
+  aspect-ratio: 1/1;
+}
+.onboard-04-section-button-container button:hover {
+  background: #002c8d;
+}
+.onboard-04-section-button-container button:hover img {
+  display: block;
+}
+.onboard-04-section-button-container button:focus {
+  background: #002574;
+}
+.onboard-04-section-button-container button:focus img {
+  display: block;
+}
+
 .thank-you-section-card {
   padding: 60px 90px;
   background-color: #faf7f3 !important;
@@ -10288,4 +10367,4 @@ progress {
     width: 230px;
     height: 50px;
   }
-}
+}/*# sourceMappingURL=styles.css.map */
