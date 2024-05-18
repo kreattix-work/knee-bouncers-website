@@ -9806,6 +9806,10 @@ progress {
     padding: 10px;
   }
 }
+.input-otp input:focus {
+  outline: none;
+  border-color: #0078ff;
+}
 
 .form-password-control {
   position: relative;
@@ -10439,6 +10443,92 @@ progress {
 }
 .onboard-04-section-button-container button:focus img {
   display: block;
+}
+
+.onboard-05-section {
+  padding-top: 15px;
+}
+.onboard-05-section-card {
+  position: relative;
+  padding: 15px 20px;
+}
+.onboard-05-section-card button {
+  margin-bottom: 90px;
+}
+.onboard-05-section-card-img-container .gang-img {
+  position: absolute;
+  bottom: -13%;
+  left: -18%;
+  width: 100%;
+  max-width: 440px;
+}
+@media (max-width: 1330px) {
+  .onboard-05-section-card-img-container .gang-img {
+    left: -10%;
+  }
+}
+@media (max-width: 1130px) {
+  .onboard-05-section-card-img-container .gang-img {
+    left: -3%;
+  }
+}
+@media (max-width: 992px) {
+  .onboard-05-section-card-img-container .gang-img {
+    max-width: 380px;
+    left: -3%;
+  }
+}
+@media (max-width: 767px) {
+  .onboard-05-section-card-img-container .gang-img {
+    display: none;
+  }
+}
+.onboard-05-section-card-img-container .sammy-img {
+  position: absolute;
+  top: -10%;
+  right: -2%;
+  width: 100%;
+  max-width: 148px;
+}
+@media (max-width: 992px) {
+  .onboard-05-section-card-img-container .sammy-img {
+    display: none;
+  }
+}
+.onboard-05-section-title {
+  margin-top: 55px;
+  margin-bottom: 75px;
+  max-width: 700px;
+  width: 100%;
+}
+@media (max-width: 460px) {
+  .onboard-05-section-title {
+    font-size: 30px !important;
+  }
+}
+.onboard-05-section .btn-big {
+  border: 3px solid #ffdc00;
+}
+@media (max-width: 576px) {
+  .onboard-05-section .btn-big .hover-text {
+    font-size: 34px !important;
+  }
+}
+.onboard-05-section .btn-big:hover {
+  border-color: #ff7500 !important;
+}
+.onboard-05-section .btn-big:active {
+  border-color: #96cc16 !important;
+}
+.onboard-05-section .input-otp {
+  margin-bottom: 65px;
+}
+.onboard-05-section .input-otp input {
+  border: 3px solid #ffdc00;
+  outline: none;
+}
+.onboard-05-section .input-otp input:focus {
+  border-color: #96cc16;
 }
 
 .thank-you-section-card {
