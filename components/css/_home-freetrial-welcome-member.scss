@@ -1,19 +1,20 @@
 .freetrial-banner-section {
-  // position: relative;
-  // z-index: 1;
-  // .section-bg-overlay {
+  position: relative;
   background-image: url(../../assets/images/orangeleafbg.svg);
-  background-size: cover;
-  // background-color: rgba(255, 117, 0, 0.6);
-  // height: 40vh;
-  // }
+  z-index: 1;
+  .section-bg-overlay {
+    background-size: cover;
+    background-color: rgba(255, 117, 0, 0.6);
+    height: 30vh;
+  }
   .section-bg-image {
-    // position: absolute;
-    // height: 100%;
-    // width: 100%;
-    // top: 0;
-    // left: 0;
-    // z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-bottom: 65px;
+    z-index: -1;
   }
   h1 {
     padding-top: 96px;
