@@ -40,7 +40,6 @@
     }
     button {
       max-width: 126px;
-      min-width: 90px;
       width: 100%;
       border-radius: 50%;
       background: transparent;
@@ -69,7 +68,7 @@
   }
   .slider-button-left {
     left: 10px;
-    top: 45%;
+    top: 40%;
     @media (max-width: map-get($grid-breakpoints, sm)) {
       left: 0px;
     }
@@ -86,5 +85,12 @@
   .slick-arrow {
     display: none;
     margin: 0px;
+  }
+}
+
+.onboard-03-section .onboard-03-slider .slick-list {
+  margin-left: 70px !important;
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    margin-left: 55px !important;
   }
 }
