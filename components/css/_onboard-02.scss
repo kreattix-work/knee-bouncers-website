@@ -10,8 +10,11 @@
   .age-container {
     gap: 16px;
     margin-bottom: 230px;
-    @media (max-width: map-get($grid-breakpoints, sm)) {
+    @media (max-width: map-get($grid-breakpoints, lg)) {
       margin-bottom: 100px;
+    }
+    @media (max-width: map-get($grid-breakpoints, xs)) {
+      margin-bottom: 50px;
     }
     button {
       max-width: 135px;

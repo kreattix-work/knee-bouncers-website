@@ -10192,9 +10192,14 @@ progress {
   gap: 16px;
   margin-bottom: 230px;
 }
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .onboard-02-section .age-container {
     margin-bottom: 100px;
+  }
+}
+@media (max-width: 460px) {
+  .onboard-02-section .age-container {
+    margin-bottom: 50px;
   }
 }
 .onboard-02-section .age-container button {
