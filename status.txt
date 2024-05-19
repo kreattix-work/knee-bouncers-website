@@ -1,54 +1,66 @@
-home
-about-us
-coloringsheets-member
-coloringsheets-nonmember
-contact-us
-gamepage-member
-games-member
-games-nonmember
-home-freegames
-home-freetrial-welcome-member
-home-freetrail-welcome
-news
-privacy-policy
-terms-and-conditions
-testimonials
-videopage-member
-videos-member
-videos-nonmember
-Home_member_MonthlyAnnual
+** old pages:-
+about-us - done
+Checkout_Annual - done
+Checkout_FreeTrial_monthly_credit card - done
+Checkout_FreeTrial_monthly - done
+Checkout_nonmemb_monthly_credit card - done
+Checkout_nonmemb_monthly - done
+coloringsheets-member - done
+coloringsheets-nonmember - done
+contact-us - done
+gamepage-member - done
+games-member - done
+games-nonmember - done
+home-freegames - done
+home-freetrial-welcome-member - done
+home-freetrail-welcome - done
+home_member_monthly-annual - done
+home - done
+Login - done
+news - done
+OnBoard_01 - done
+OnBoard_02 - done
+OnBoard_03 - done
+OnBoard_04 - done
+OnBoard_05 - done
+OnBoard_ADD CHILD - done
+privacy-policy - done
+SignUp_FreeTrial - done
+store-nonmember - done
+terms-and-conditions - done
+testimonials - done
+Thank you - done
+videopage-member - done
+videos-member - done
+videos-nonmember - done
+Verify Email - done
+Signup_FreeGames - done
 
 
-store-nonmember
-Checkout_nonmemb_monthly_overlay
-Checkout_nonmemb_monthly
-Checkout_nonmemb_monthly_credit card
-Thank you
-OnBoard_01
-OnBoard_02
-OnBoard_03
-OnBoard_04
-OnBoard_05
-OnBoard_ADD CHILD
-Checkout_FreeTrial_monthly
-Checkout_FreeTrial_monthly_credit card
-Checkout_Annual
-Signup_FreeGames
-Verify Email
-SignUp_FreeTrial
-Login
-PlayCenter_Game01
-PlayCenter_Game02_memb
-PlayCenter_Game02_non
-PlayCenter_Game03
-PlayCenter_Game04_memb
-PlayCenter_Game04_non
-PlayCenter_Game05
-PlayCenter_Home
-PlayCenter_Overlay
-Parents_Section_FreeTrial
-Parents_Section_FreeTrial_Edit
-Parents_Section_Member
-Parents_Section_Member_Edit
-Teachers_Dashboard_01
-Teachers_Dashboard_02
+PlayCenter_Game01 - pending
+PlayCenter_Game02_memb - pending
+PlayCenter_Game02_non - pending
+PlayCenter_Game03 - pending
+PlayCenter_Game04_memb - pending
+PlayCenter_Game04_non - pending
+PlayCenter_Game05 - pending
+PlayCenter_Home - pending
+PlayCenter_Overlay - pending
+Parents_Section_FreeTrial - pending
+Parents_Section_FreeTrial_Edit - pending
+Parents_Section_Member - pending
+Parents_Section_Member_Edit - pending
+Teachers_Dashboard_02 - pending
+
+
+
+
+**new things:-
+blogpage-all - done
+BlogPage_Article - pending
+footer layout change - pending
+onBoard_VerifyEditChildren - pending
+OnBoard_VerifyEditChildren_Edit - pending
+Parents_Section_FreeTrial - pending
+Teachers_Dashboard_01 - pending
+Teachers_Dashboard_overlay - pending
