@@ -998,6 +998,10 @@ h6 {
   line-height: 32px;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 *,
 *::before,
 *::after {
@@ -9856,7 +9860,7 @@ progress {
 @media (max-width: 460px) {
   .self-submit-input input {
     font-size: 16px;
-    padding: 12px 70px 12px 15px;
+    padding: 12px 60px 12px 20px;
   }
 }
 .self-submit-input input::-moz-placeholder {
