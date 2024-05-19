@@ -128,6 +128,27 @@ $(function () {
     $(this).parents(".card-wizard").removeClass("show-next");
   });
 
+  $("[data-slidenext]").click(function (e) {
+    e.preventDefault();
+    const wrapper = $(this).data("slidenext");
+    if (wrapper) {
+      const count = Number($(wrapper).attr("data-count")) || 0;
+      $(wrapper).css("translate", `-${100 * (count + 1)}% 0px`);
+      $(wrapper).attr("data-count", count + 1);
+    }
+  });
+  $("[data-slideprev]").click(function (e) {
+    e.preventDefault();
+    const wrapper = $(this).data("slideprev");
+    if (wrapper) {
+      const count = Number($(wrapper).attr("data-count"));
+      if (count) {
+        $(wrapper).css("translate", `-${100 * (count - 1)}% 0px`);
+        $(wrapper).attr("data-count", count - 1);
+      }
+    }
+  });
+
   $(".single-item").slick({
     slidesToShow: 5,
     slidesToScroll: 5,

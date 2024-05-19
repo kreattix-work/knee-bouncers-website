@@ -77,8 +77,10 @@
   }
 }
 .upgrade {
+  margin-left: 0;
   margin-right: calc(-1 * (100vw - 100%) / 2);
   padding-right: calc(1 * (100vw - 100%) / 2);
   background: $yellow;
-  padding: 18px 0px 18px 0px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }

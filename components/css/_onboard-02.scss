@@ -45,11 +45,11 @@
   }
   .onboard-02-section-card-container {
     position: relative;
+    padding-bottom: 60px;
     .onboard-02-section-card-image-container {
       position: absolute;
       bottom: 0;
       left: -5%;
-      margin-bottom: -60px;
       @media (max-width: map-get($grid-breakpoints, md)) {
         left: -2%;
         .dino-foofoo-image {

@@ -7897,6 +7897,9 @@ progress {
     max-height: 680px;
   }
 }
+.card-slider-content {
+  min-width: 100%;
+}
 .card-default-content, .card-next-content {
   min-width: 100%;
   padding: 46px 104px 36px 104px;
@@ -10067,9 +10070,9 @@ progress {
 }
 
 .board-section {
-  padding: 60px 0;
   background-color: #002c8d;
   position: relative;
+  overflow: hidden;
   z-index: 1;
 }
 .board-section .arrow-img {
@@ -10186,6 +10189,40 @@ progress {
   margin-bottom: 25px;
 }
 
+.onboard-01-section {
+  padding-top: 15px;
+}
+.onboard-01-section-card {
+  padding: 0 20px 15px 20px;
+}
+.onboard-01-section-card-title, .onboard-01-section-card-description {
+  max-width: 515px;
+  width: 100%;
+}
+.onboard-01-section-card-title {
+  margin-top: 108px;
+}
+@media (max-width: 767px) {
+  .onboard-01-section-card-title {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 576px) {
+  .onboard-01-section-card-title {
+    margin-top: 60px;
+  }
+}
+
+.onboard-add-child .onboard-01-section-card-title {
+  margin-top: 0;
+}
+.onboard-add-child .add-child-title {
+  color: #ffbd00;
+  letter-spacing: 10px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
 .onboard-02-section {
   padding-top: 15px;
 }
@@ -10238,12 +10275,12 @@ progress {
 }
 .onboard-02-section .onboard-02-section-card-container {
   position: relative;
+  padding-bottom: 60px;
 }
 .onboard-02-section .onboard-02-section-card-container .onboard-02-section-card-image-container {
   position: absolute;
   bottom: 0;
   left: -5%;
-  margin-bottom: -60px;
 }
 @media (max-width: 767px) {
   .onboard-02-section .onboard-02-section-card-container .onboard-02-section-card-image-container {
@@ -10659,8 +10696,10 @@ progress {
 }
 
 .upgrade {
+  margin-left: 0;
   margin-right: calc(-1 * (100vw - 100%) / 2);
   padding-right: calc(1 * (100vw - 100%) / 2);
   background: #ffdc00;
-  padding: 18px 0px 18px 0px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
