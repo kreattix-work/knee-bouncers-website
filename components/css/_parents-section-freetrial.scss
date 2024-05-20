@@ -264,7 +264,9 @@
             }
           }
           .literacy-car-table {
-            overflow-x: scroll;
+            @media (max-width: map-get($grid-breakpoints, md)) {
+              overflow-x: scroll;
+            }
             table {
               min-width: 500px;
               width: 100%;
@@ -298,7 +300,7 @@
     padding-right: calc(1 * (100vw - 100%) / 2);
     background: #faf7f3;
     height: 100%;
-    @media (max-width: map-get($grid-breakpoints, xxl)) {
+    @media (max-width: map-get($grid-breakpoints, lg)) {
       margin-right: calc(-1 * (100vw - 100%) / 2);
       padding-right: calc(1 * (100vw - 100%) / 2);
       margin-left: calc(-1 * (100vw - 100%) / 2);
@@ -312,7 +314,7 @@
     padding-left: 48px;
     @media (max-width: map-get($grid-breakpoints, xl)) {
       padding-left: 20px;
-      @media (max-width: map-get($grid-breakpoints, xl)) {
+      @media (max-width: map-get($grid-breakpoints, lg)) {
         padding-left: 0px;
       }
     }

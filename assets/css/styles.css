@@ -10919,8 +10919,10 @@ progress {
 .foundation-section .foundation-left .literacy-tabel-wrapper .literacy-card .literacy-card-inner .literacy-card-top img {
   max-width: 128px;
 }
-.foundation-section .foundation-left .literacy-tabel-wrapper .literacy-card .literacy-card-inner .literacy-car-table {
-  overflow-x: scroll;
+@media (max-width: 767px) {
+  .foundation-section .foundation-left .literacy-tabel-wrapper .literacy-card .literacy-card-inner .literacy-car-table {
+    overflow-x: scroll;
+  }
 }
 .foundation-section .foundation-left .literacy-tabel-wrapper .literacy-card .literacy-card-inner .literacy-car-table table {
   min-width: 500px;
@@ -10951,7 +10953,7 @@ progress {
   background: #faf7f3;
   height: 100%;
 }
-@media (max-width: 1330px) {
+@media (max-width: 992px) {
   .foundation-section .foundation-right {
     margin-right: calc(-1 * (100vw - 100%) / 2);
     padding-right: calc(1 * (100vw - 100%) / 2);
@@ -10969,7 +10971,7 @@ progress {
     padding-left: 20px;
   }
 }
-@media (max-width: 1130px) and (max-width: 1130px) {
+@media (max-width: 1130px) and (max-width: 992px) {
   .foundation-right .proficiency-wrapper {
     padding-left: 0px;
   }
