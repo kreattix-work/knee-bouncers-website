@@ -134,6 +134,8 @@ $(function () {
     if (wrapper) {
       const count = Number($(wrapper).attr("data-count")) || 0;
       $(wrapper).css("translate", `-${100 * (count + 1)}% 0px`);
+      $(wrapper).children(`.card-slider-content`).removeClass('active');
+      $(wrapper).children(`.card-slider-content:nth-child(${count + 2})`).addClass('active');
       $(wrapper).attr("data-count", count + 1);
     }
   });
@@ -143,6 +145,8 @@ $(function () {
     if (wrapper) {
       const count = Number($(wrapper).attr("data-count"));
       if (count) {
+        $(wrapper).children(`.card-slider-content`).removeClass('active');
+        $(wrapper).children(`.card-slider-content:nth-child(${count})`).addClass('active');
         $(wrapper).css("translate", `-${100 * (count - 1)}% 0px`);
         $(wrapper).attr("data-count", count - 1);
       }
