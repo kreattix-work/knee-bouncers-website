@@ -1,13 +1,11 @@
 .blogpage-article-section {
-  padding-top: 70px;
+  padding-top: 46px;
   padding-bottom: 102px;
   @media (max-width: map-get($grid-breakpoints, md)) {
     padding-top: 50px;
     padding-bottom: 80px;
   }
   &-content {
-    width: 100%;
-    max-width: 800px;
     &-title {
       margin-top: 50px;
     }

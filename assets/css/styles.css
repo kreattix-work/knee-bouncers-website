@@ -10997,7 +10997,7 @@ progress {
 }
 
 .blogpage-article-section {
-  padding-top: 70px;
+  padding-top: 46px;
   padding-bottom: 102px;
 }
 @media (max-width: 767px) {
@@ -11005,10 +11005,6 @@ progress {
     padding-top: 50px;
     padding-bottom: 80px;
   }
-}
-.blogpage-article-section-content {
-  width: 100%;
-  max-width: 800px;
 }
 .blogpage-article-section-content-title {
   margin-top: 50px;
