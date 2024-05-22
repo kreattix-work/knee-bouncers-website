@@ -134,8 +134,10 @@ $(function () {
     if (wrapper) {
       const count = Number($(wrapper).attr("data-count")) || 0;
       $(wrapper).css("translate", `-${100 * (count + 1)}% 0px`);
-      $(wrapper).children(`.card-slider-content`).removeClass('active');
-      $(wrapper).children(`.card-slider-content:nth-child(${count + 2})`).addClass('active');
+      $(wrapper).children(`.card-slider-content`).removeClass("active");
+      $(wrapper)
+        .children(`.card-slider-content:nth-child(${count + 2})`)
+        .addClass("active");
       $(wrapper).attr("data-count", count + 1);
     }
   });
@@ -145,8 +147,10 @@ $(function () {
     if (wrapper) {
       const count = Number($(wrapper).attr("data-count"));
       if (count) {
-        $(wrapper).children(`.card-slider-content`).removeClass('active');
-        $(wrapper).children(`.card-slider-content:nth-child(${count})`).addClass('active');
+        $(wrapper).children(`.card-slider-content`).removeClass("active");
+        $(wrapper)
+          .children(`.card-slider-content:nth-child(${count})`)
+          .addClass("active");
         $(wrapper).css("translate", `-${100 * (count - 1)}% 0px`);
         $(wrapper).attr("data-count", count - 1);
       }
@@ -191,4 +195,24 @@ $(function () {
     nextArrow:
       '<div class="slider-button-right"> <img class="img-fluid" src="./assets/images/arroworange.svg" alt="" /></div>',
   });
+
+  // $(document).ready(function () {
+  //   $("#editButton").click(function () {
+  //     $(".profile-view").hide();
+  //     $(".profile-edit").show();
+  //   });
+
+  //   $("#updateButton").click(function () {
+  //     var firstName = $("#editFirstName").val();
+  //     var lastName = $("#editLastName").val();
+  //     var email = $("#editEmail").val();
+
+  //     $("#firstName").text(firstName);
+  //     $("#lastName").text(lastName);
+  //     $("#email").text(email);
+
+  //     $(".profile-edit").hide();
+  //     $(".profile-view").show();
+  //   });
+  // });
 });

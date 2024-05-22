@@ -18,45 +18,14 @@
       @media (max-width: map-get($grid-breakpoints, lg)) {
         flex-direction: column;
       }
-      h5 {
+      button {
         color: $primary;
-        font-size: 18px;
-        font-weight: 800 !important;
-        line-height: 18px; /* 100% */
-        letter-spacing: 4px;
-        margin: 0;
-      }
-      span {
-        color: #0078ff;
-        font-family: Nunito;
         font-size: 16px;
         font-style: italic;
         font-weight: 600;
-        line-height: 24px; /* 150% */
         letter-spacing: 0.32px;
-      }
-    }
-    .profile-detail {
-      color: #313131;
-      font-size: 18px;
-      font-weight: 700;
-      p {
-        margin-bottom: 30px;
-        @media (max-width: map-get($grid-breakpoints, lg)) {
-          font-size: 16px;
-          margin-bottom: 10px;
-        }
-      }
-    }
-    .profile-change-password {
-      margin-top: -26px;
-      color: $primary;
-      font-size: 16px;
-      font-style: italic;
-      font-weight: 600;
-      line-height: 24px;
-      @media (max-width: map-get($grid-breakpoints, lg)) {
-        margin-top: -15px;
+        border: none;
+        background: transparent;
       }
     }
   }
@@ -145,22 +114,6 @@
         }
       }
     }
-  }
-}
-.profile-username {
-  padding-top: 26px;
-  .profile-username-option {
-    margin-bottom: 28px;
-    border-radius: 30px;
-    border: 2px solid $primary;
-    background: #fff;
-
-    color: $primary;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    padding: 5px 10px 5px 10px;
   }
 }
 
@@ -374,4 +327,13 @@
       text-align: center;
     }
   }
+}
+
+.profile-detail input {
+  border-radius: 30px;
+  border: 2px solid #d9e4ff;
+  background: #fff;
+  width: 100%;
+  height: 40px;
+  padding-left: 15px;
 }
