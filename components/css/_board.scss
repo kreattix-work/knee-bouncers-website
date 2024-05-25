@@ -29,7 +29,7 @@
   }
   z-index: 1;
   .board-container {
-    max-width: 900px;
+    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -85,11 +85,11 @@
     &-input {
       max-width: 440px;
       width: 100%;
-      margin-bottom: 58px;
+      margin-bottom: 50px;
     }
     &-bottom-img-container {
       img {
-        max-width: 218px;
+        max-width: 205px;
         width: 100%;
         @media (max-width: map-get($grid-breakpoints, xs)) {
           max-width: none;
@@ -100,7 +100,7 @@
 }
 
 .onboard-01-section {
-  padding-top: 25px;
+  padding-top: 15px;
   padding-bottom: 60px;
   &-card {
     padding: 0 20px 15px 20px;
@@ -110,10 +110,7 @@
       width: 100%;
     }
     &-title {
-      margin-top: 100px;
-      @media (max-width: map-get($grid-breakpoints, md)) {
-        margin-top: 80px;
-      }
+      margin-top: 90px;
       @media (max-width: map-get($grid-breakpoints, sm)) {
         margin-top: 60px;
       }
@@ -140,12 +137,12 @@
     padding: 15px 20px;
   }
   &-title {
-    margin-top: 80px;
-    margin-bottom: 45px;
+    margin-top: 60px;
+    margin-bottom: 35px;
   }
   .age-container {
     gap: 16px;
-    margin-bottom: 200px;
+    margin-bottom: 140px;
     @media (max-width: map-get($grid-breakpoints, lg)) {
       margin-bottom: 100px;
     }

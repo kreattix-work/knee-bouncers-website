@@ -7824,7 +7824,7 @@ progress {
   }
 }
 .card-v3-title {
-  margin: 25px 0;
+  margin: 42px 0;
 }
 @media (max-width: 767px) {
   .card-v3-top-link {
@@ -7904,7 +7904,7 @@ progress {
 }
 .card-default-content, .card-next-content {
   min-width: 100%;
-  padding: 38px 100px 35px 100px;
+  padding: 50px 100px 50px 100px;
 }
 @media (max-width: 992px) {
   .card-default-content, .card-next-content {
@@ -9606,13 +9606,13 @@ progress {
 }
 
 .auth-container {
-  max-width: 900px;
+  max-width: 850px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .login-section .card-v3-title {
-  margin: 28px 0;
+  margin: 30px 0;
 }
 .login-section .card-v3-bottom-link {
   margin-top: 58px;
@@ -9622,7 +9622,7 @@ progress {
 }
 
 .signup-platform-section .card-v3-note {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .plan-banner {
@@ -9791,7 +9791,7 @@ progress {
   border-radius: 10px;
   border: 2px solid #d9e4ff;
   background: #fff;
-  padding: 30px;
+  padding: 25px;
   font-size: 32px;
   text-align: center;
 }
@@ -9842,17 +9842,11 @@ progress {
   border-radius: 35px;
   border: 2px solid #ffbd00;
   background: #fff;
-  padding: 12px 70px 12px 25px;
+  padding: 10px 70px 10px 25px;
   width: 100%;
   font-size: 22px;
   font-weight: 700;
   color: #313131;
-}
-@media (max-width: 460px) {
-  .self-submit-input input {
-    font-size: 16px;
-    padding: 12px 60px 12px 20px;
-  }
 }
 .self-submit-input input::-moz-placeholder {
   color: #0078ff;
@@ -9873,10 +9867,8 @@ progress {
   top: 6px;
   right: 8px;
 }
-@media (max-width: 460px) {
-  .self-submit-input button img {
-    max-width: 40px;
-  }
+.self-submit-input button img {
+  max-width: 44px;
 }
 
 .card-order {
@@ -10084,7 +10076,7 @@ progress {
   color: inherit;
 }
 .board-section .board-container {
-  max-width: 900px;
+  max-width: 850px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -10140,10 +10132,10 @@ progress {
 .board-section .board-card-input {
   max-width: 440px;
   width: 100%;
-  margin-bottom: 58px;
+  margin-bottom: 50px;
 }
 .board-section .board-card-bottom-img-container img {
-  max-width: 218px;
+  max-width: 205px;
   width: 100%;
 }
 @media (max-width: 460px) {
@@ -10153,7 +10145,7 @@ progress {
 }
 
 .onboard-01-section {
-  padding-top: 25px;
+  padding-top: 15px;
   padding-bottom: 60px;
 }
 .onboard-01-section-card {
@@ -10164,12 +10156,7 @@ progress {
   width: 100%;
 }
 .onboard-01-section-card-title {
-  margin-top: 100px;
-}
-@media (max-width: 767px) {
-  .onboard-01-section-card-title {
-    margin-top: 80px;
-  }
+  margin-top: 90px;
 }
 @media (max-width: 576px) {
   .onboard-01-section-card-title {
@@ -10195,12 +10182,12 @@ progress {
   padding: 15px 20px;
 }
 .onboard-02-section-title {
-  margin-top: 80px;
-  margin-bottom: 45px;
+  margin-top: 60px;
+  margin-bottom: 35px;
 }
 .onboard-02-section .age-container {
   gap: 16px;
-  margin-bottom: 200px;
+  margin-bottom: 140px;
 }
 @media (max-width: 992px) {
   .onboard-02-section .age-container {
@@ -11113,4 +11100,4 @@ progress {
 }
 .blogpage-card .blogpage-card-link img {
   max-width: 10px;
-}
+}/*# sourceMappingURL=styles.css.map */
