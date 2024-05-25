@@ -16,15 +16,6 @@
     max-width: $header-logo-width;
     margin-top: -15px;
   }
-  &-md {
-    height: $header-height-md;
-  }
-  @media (max-width: map-get($grid-breakpoints, 2xl)) {
-    height: $header-height-md;
-  }
-  @media (max-width: map-get($grid-breakpoints, xl)) {
-    height: $header-height-sm;
-  }
   @media (max-width: map-get($grid-breakpoints, sm)) {
     &-logo {
       max-width: $header-logo-width - 40;

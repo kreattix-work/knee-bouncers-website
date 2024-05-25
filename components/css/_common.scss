@@ -1,6 +1,4 @@
-$header-height: 135px;
-$header-height-md: 100px;
-$header-height-sm: 80px;
+$header-height: 80px;
 $header-logo-width: 221px;
 
 $primary: #0078ff;
@@ -41,7 +39,7 @@ $grid-breakpoints: (
   md: 767px,
   lg: 992px,
   xl: 1130px,
-  2xl: 1279px,
+  2xl: 1280px,
   xxl: 1330px,
 );
 
@@ -49,8 +47,8 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1090px,
-  xxl: 1290px,
+  xl: 1140px,
+  xxl: 1320px,
 );
 
 $sizes: (
@@ -174,18 +172,18 @@ $text-colors: (
 
 body {
   padding-top: $header-height;
-  &:has(.header-md) {
-    padding-top: $header-height-md;
-    @media (max-width: map-get($grid-breakpoints, xl)) {
-      padding-top: $header-height-sm;
-    }
-  }
-  @media (max-width: map-get($grid-breakpoints, 2xl)) {
-    padding-top: $header-height-md;
-  }
-  @media (max-width: map-get($grid-breakpoints, xl)) {
-    padding-top: $header-height-sm;
-  }
+  // &:has(.header-md) {
+  //   padding-top: $header-height;
+  //   @media (max-width: map-get($grid-breakpoints, xl)) {
+  //     padding-top: $header-height;
+  //   }
+  // }
+  // @media (max-width: map-get($grid-breakpoints, 2xl)) {
+  //   padding-top: $header-height;
+  // }
+  // @media (max-width: map-get($grid-breakpoints, xl)) {
+  //   padding-top: $header-height;
+  // }
 }
 
 .default-border-light:not(:active, :hover) {
@@ -330,4 +328,7 @@ h6 {
 }
 .text-underline {
   text-decoration: underline;
+}
+.overflow-hidden {
+  overflow: hidden;
 }
