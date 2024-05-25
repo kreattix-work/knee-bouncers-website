@@ -10620,6 +10620,10 @@ progress {
   width: 100px;
   height: 40px;
 }
+.onboard-06-section-card-table .onboard-06-button:hover {
+  background: #00c500;
+  color: white;
+}
 .onboard-06-section-card-bottom {
   max-width: 652px;
   margin: 0px auto;
@@ -10633,8 +10637,12 @@ progress {
   font-size: 16px;
   font-weight: 600;
 }
-.onboard-06-section-card-bottom .onboard-06-button {
+.onboard-06-section-card-bottom .onboard-06-button-varify {
   border: 1px solid white;
+}
+.onboard-06-section-card-bottom .onboard-06-button-varify:hover {
+  background: #00c500 !important;
+  color: white;
 }
 
 .onboard-button-left img,

@@ -521,6 +521,10 @@
         background: #fff;
         width: 100px;
         height: 40px;
+        &:hover {
+          background: #00c500;
+          color: white;
+        }
       }
     }
     &-bottom {
@@ -535,8 +539,12 @@
         font-size: 16px;
         font-weight: 600;
       }
-      .onboard-06-button {
+      .onboard-06-button-varify {
         border: 1px solid white;
+        &:hover {
+          background: #00c500 !important;
+          color: white;
+        }
       }
     }
   }
