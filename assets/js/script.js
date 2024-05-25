@@ -196,6 +196,13 @@ $(function () {
       '<div class="slider-button-right"> <img class="img-fluid" src="./assets/images/arroworange.svg" alt="" /></div>',
   });
 
+  $(".table-logo").slick({
+    prevArrow:
+      '<div class="onboard-button-left"> <img class="img-fluid" src="./assets/images/arrow_r.svg" alt=""/></div>',
+    nextArrow:
+      '<div class="onboard-button-right"> <img class="img-fluid" src="./assets/images/arrow_r.svg" alt="" /></div>',
+  });
+
   // $(document).ready(function () {
   //   $("#editButton").click(function () {
   //     $(".profile-view").hide();

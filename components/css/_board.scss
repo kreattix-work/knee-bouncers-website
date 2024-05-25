@@ -457,3 +457,101 @@
     }
   }
 }
+
+.onboard-06-section {
+  padding-top: 25px;
+  padding-bottom: 60px;
+  &-card {
+    padding: 15px 20px;
+    position: relative;
+    overflow: hidden;
+    h5 {
+      line-height: 40px;
+      letter-spacing: 10px;
+    }
+    &-table-wrapper {
+      padding-left: 5px;
+      padding-right: 5px;
+      overflow: auto;
+    }
+    &-table {
+      margin: 0px auto;
+      max-width: 652px;
+      min-width: 550px;
+      max-height: 270px;
+      height: 100%;
+      .onboard-06-table-img {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        .table-logo {
+          img {
+            max-width: 66px;
+          }
+          width: 100%;
+          @media (max-width: map-get($grid-breakpoints, md)) {
+            max-width: 45px;
+            width: 45px;
+          }
+        }
+      }
+      .onboard-06-table-username {
+        input {
+          border-radius: 20px;
+          border: 2px solid #fff;
+          height: 40px;
+          background-color: $primary;
+          width: 260px;
+          height: 40px;
+        }
+      }
+      .onboard-06-table-number {
+        input {
+          border-radius: 20px;
+          border: 2px solid #fff;
+          height: 40px;
+          background-color: $primary;
+          width: 66px;
+          height: 40px;
+        }
+      }
+      .onboard-06-button {
+        border-radius: 20px;
+        border: 2px solid #fff;
+        background: #fff;
+        width: 100px;
+        height: 40px;
+      }
+    }
+    &-bottom {
+      max-width: 652px;
+      margin: 0px auto;
+      .onboard-06-more {
+        background: none;
+        border: none;
+        text-align: right;
+        color: #fff;
+        text-align: right;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .onboard-06-button {
+        border: 1px solid white;
+      }
+    }
+  }
+}
+
+.onboard-button-left img,
+.onboard-button-right img {
+  position: absolute;
+  width: 10px;
+  top: 36%;
+}
+.onboard-button-right img {
+  right: -5px;
+}
+.onboard-button-left img {
+  rotate: 180deg;
+  left: -5px;
+}
