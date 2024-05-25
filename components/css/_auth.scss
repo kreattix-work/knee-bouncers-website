@@ -1,7 +1,7 @@
 .signup-freetrial-section,
 .signup-platform-section,
 .login-section {
-  padding: 20px 0 60px 0;
+  padding: 15px 0 54px 0;
   background-color: $primary-dark-v2;
   position: relative;
   z-index: 1;
@@ -28,7 +28,7 @@
   }
 
   .back-arrow {
-    max-width: 40px;
+    max-width: 34px;
   }
 }
 .auth-container {
@@ -40,10 +40,10 @@
 .login-section {
   .card-v3 {
     &-title {
-      margin: 40px 0;
+      margin: 28px 0;
     }
     &-bottom-link {
-      margin-top: 80px;
+      margin-top: 58px;
     }
     &-note {
       margin-top: 17px;
@@ -54,8 +54,7 @@
 .signup-platform-section {
   .card-v3 {
     &-note {
-      margin-top: 74px;
-      margin-bottom: 30px;
+      margin-top: 60px;
     }
   }
 }

@@ -128,7 +128,7 @@ $card-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
     }
   }
   &-title {
-    margin: 36px 0;
+    margin: 25px 0;
   }
   @media (max-width: map-get($grid-breakpoints, md)) {
     &-top-link {
@@ -201,7 +201,7 @@ $card-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
   &-default-content,
   &-next-content {
     min-width: 100%;
-    padding: 46px 104px 36px 104px;
+    padding: 38px 100px 35px 100px;
     @media (max-width: map-get($grid-breakpoints, lg)) {
       padding: 40px;
     }

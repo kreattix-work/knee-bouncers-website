@@ -849,25 +849,7 @@
 }
 
 body {
-  padding-top: 135px;
-}
-body:has(.header-md) {
-  padding-top: 100px;
-}
-@media (max-width: 1130px) {
-  body:has(.header-md) {
-    padding-top: 80px;
-  }
-}
-@media (max-width: 1279px) {
-  body {
-    padding-top: 100px;
-  }
-}
-@media (max-width: 1130px) {
-  body {
-    padding-top: 80px;
-  }
+  padding-top: 80px;
 }
 
 .default-border-light:not(:active, :hover) {
@@ -1008,6 +990,10 @@ h6 {
 
 .w-100 {
   width: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 *,
@@ -1634,12 +1620,12 @@ progress {
 }
 @media (min-width: 1130px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container-xs, .container {
-    max-width: 1090px;
+    max-width: 1140px;
   }
 }
 @media (min-width: 1330px) {
   .container-xxl, .container-2xl, .container-xl, .container-lg, .container-md, .container-sm, .container-xs, .container {
-    max-width: 1290px;
+    max-width: 1320px;
   }
 }
 :root {
@@ -1649,7 +1635,7 @@ progress {
   --bs-breakpoint-md: 767px;
   --bs-breakpoint-lg: 992px;
   --bs-breakpoint-xl: 1130px;
-  --bs-breakpoint-2xl: 1279px;
+  --bs-breakpoint-2xl: 1280px;
   --bs-breakpoint-xxl: 1330px;
 }
 
@@ -2725,7 +2711,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 1279px) {
+@media (min-width: 1280px) {
   .col-2xl {
     flex: 1 0 0%;
   }
@@ -5984,7 +5970,7 @@ progress {
     padding-left: 3rem !important;
   }
 }
-@media (min-width: 1279px) {
+@media (min-width: 1280px) {
   .d-2xl-inline {
     display: inline !important;
   }
@@ -7236,7 +7222,7 @@ progress {
     overflow-y: auto;
   }
 }
-@media (max-width: 1278.98px) {
+@media (max-width: 1279.98px) {
   .modal-fullscreen-2xl-down {
     width: 100vw;
     max-width: none;
@@ -7638,9 +7624,9 @@ progress {
 }
 
 .btn-social {
-  height: 60px;
+  height: 58px;
   width: 275px;
-  padding: 10px 10px;
+  padding: 10px 8px;
   justify-content: start;
   font-weight: 800;
   font-size: 16px;
@@ -7830,7 +7816,7 @@ progress {
   }
 }
 .card-v3-title {
-  margin: 36px 0;
+  margin: 25px 0;
 }
 @media (max-width: 767px) {
   .card-v3-top-link {
@@ -7910,7 +7896,7 @@ progress {
 }
 .card-default-content, .card-next-content {
   min-width: 100%;
-  padding: 46px 104px 36px 104px;
+  padding: 38px 100px 35px 100px;
 }
 @media (max-width: 992px) {
   .card-default-content, .card-next-content {
@@ -7989,7 +7975,7 @@ progress {
   width: 100%;
   left: 0;
   top: 0;
-  height: 135px;
+  height: 80px;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -8001,19 +7987,6 @@ progress {
   display: block;
   max-width: 221px;
   margin-top: -15px;
-}
-.header-md {
-  height: 100px;
-}
-@media (max-width: 1279px) {
-  .header {
-    height: 100px;
-  }
-}
-@media (max-width: 1130px) {
-  .header {
-    height: 80px;
-  }
 }
 @media (max-width: 576px) {
   .header-logo {
@@ -8152,7 +8125,7 @@ progress {
   max-width: 221px;
 }
 .footer-top {
-  padding: 50px 0;
+  padding: 40px 0;
   position: relative;
   z-index: 1;
 }
@@ -8445,7 +8418,7 @@ progress {
 }
 
 .contact-us-section {
-  padding: 100px 0;
+  padding: 70px 0;
   max-width: 687px;
   width: 100%;
   margin: auto;
@@ -9586,7 +9559,7 @@ progress {
 .signup-freetrial-section,
 .signup-platform-section,
 .login-section {
-  padding: 20px 0 60px 0;
+  padding: 15px 0 54px 0;
   background-color: #002c8d;
   position: relative;
   z-index: 1;
@@ -9621,7 +9594,7 @@ progress {
 .signup-freetrial-section .back-arrow,
 .signup-platform-section .back-arrow,
 .login-section .back-arrow {
-  max-width: 40px;
+  max-width: 34px;
 }
 
 .auth-container {
@@ -9631,18 +9604,17 @@ progress {
 }
 
 .login-section .card-v3-title {
-  margin: 40px 0;
+  margin: 28px 0;
 }
 .login-section .card-v3-bottom-link {
-  margin-top: 80px;
+  margin-top: 58px;
 }
 .login-section .card-v3-note {
   margin-top: 17px;
 }
 
 .signup-platform-section .card-v3-note {
-  margin-top: 74px;
-  margin-bottom: 30px;
+  margin-top: 60px;
 }
 
 .plan-banner {
@@ -9774,7 +9746,7 @@ progress {
   border-radius: 30px;
   border: 2px solid #d9e4ff;
   background: #fff;
-  padding: 20px 27px;
+  padding: 15px 27px;
   width: 275px;
   max-width: 100%;
 }
@@ -9797,7 +9769,7 @@ progress {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 @media (max-width: 767px) {
   .input-otp {
@@ -9939,11 +9911,11 @@ progress {
   background: #fff;
   box-shadow: none;
   overflow: hidden;
-  padding: 28px 45px;
+  padding: 25px 45px;
 }
 @media (max-width: 576px) {
   .checkout-payment {
-    padding: 28px 16px;
+    padding: 25px 16px;
   }
 }
 .checkout-payment-title {
@@ -10008,8 +9980,7 @@ progress {
 }
 
 .checkout-thought {
-  padding-top: 70px;
-  padding-bottom: 67px;
+  padding: 80px 0;
 }
 .checkout-thought h1 {
   width: 100%;
@@ -10576,8 +10547,11 @@ progress {
   border-color: #96cc16;
 }
 
+.thank-you-section {
+  padding: 25px 0;
+}
 .thank-you-section-card {
-  padding: 60px 90px;
+  padding: 35px 80px;
   background-color: #faf7f3 !important;
 }
 @media (max-width: 992px) {
@@ -10600,7 +10574,7 @@ progress {
   }
 }
 .thank-you-section-card-img {
-  max-width: 514px;
+  max-width: 460px;
   width: 100%;
   margin: 28px 0;
 }
@@ -11032,4 +11006,4 @@ progress {
   .profile-userinfo i {
     text-align: center;
   }
-}
+}/*# sourceMappingURL=styles.css.map */
