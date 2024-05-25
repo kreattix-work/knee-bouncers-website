@@ -523,12 +523,12 @@
         height: 40px;
         &:hover {
           background: #00c500;
-          color: white;
+          color: white !important;
         }
       }
     }
     &-bottom {
-      max-width: 652px;
+      max-width: 595px;
       margin: 0px auto;
       .onboard-06-more {
         background: none;

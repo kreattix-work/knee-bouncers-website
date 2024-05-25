@@ -10622,10 +10622,10 @@ progress {
 }
 .onboard-06-section-card-table .onboard-06-button:hover {
   background: #00c500;
-  color: white;
+  color: white !important;
 }
 .onboard-06-section-card-bottom {
-  max-width: 652px;
+  max-width: 595px;
   margin: 0px auto;
 }
 .onboard-06-section-card-bottom .onboard-06-more {
