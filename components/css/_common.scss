@@ -172,18 +172,6 @@ $text-colors: (
 
 body {
   padding-top: $header-height;
-  // &:has(.header-md) {
-  //   padding-top: $header-height;
-  //   @media (max-width: map-get($grid-breakpoints, xl)) {
-  //     padding-top: $header-height;
-  //   }
-  // }
-  // @media (max-width: map-get($grid-breakpoints, 2xl)) {
-  //   padding-top: $header-height;
-  // }
-  // @media (max-width: map-get($grid-breakpoints, xl)) {
-  //   padding-top: $header-height;
-  // }
 }
 
 .default-border-light:not(:active, :hover) {

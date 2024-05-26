@@ -202,24 +202,4 @@ $(function () {
     nextArrow:
       '<div class="onboard-button-right"> <img class="img-fluid" src="./assets/images/arrow_r.svg" alt="" /></div>',
   });
-
-  // $(document).ready(function () {
-  //   $("#editButton").click(function () {
-  //     $(".profile-view").hide();
-  //     $(".profile-edit").show();
-  //   });
-
-  //   $("#updateButton").click(function () {
-  //     var firstName = $("#editFirstName").val();
-  //     var lastName = $("#editLastName").val();
-  //     var email = $("#editEmail").val();
-
-  //     $("#firstName").text(firstName);
-  //     $("#lastName").text(lastName);
-  //     $("#email").text(email);
-
-  //     $(".profile-edit").hide();
-  //     $(".profile-view").show();
-  //   });
-  // });
 });

@@ -45,6 +45,12 @@
   }
   &-bg-images {
     width: 100px;
+    position: relative;
+    #canvas-chicky {
+      position: absolute;
+      bottom: -25px;
+      left: -60px;
+    }
     @media (max-width: map-get($grid-breakpoints, sm)) {
       display: none;
     }

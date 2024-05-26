@@ -8342,6 +8342,12 @@ progress {
 }
 .testimonial-bg-images {
   width: 100px;
+  position: relative;
+}
+.testimonial-bg-images #canvas-chicky {
+  position: absolute;
+  bottom: -25px;
+  left: -60px;
 }
 @media (max-width: 576px) {
   .testimonial-bg-images {
@@ -10646,6 +10652,11 @@ progress {
 .onboard-button-left img {
   rotate: 180deg;
   left: -5px;
+}
+
+.onboard-container-inner {
+  overflow-y: visible;
+  overflow-x: hidden;
 }
 
 .thank-you-section {
