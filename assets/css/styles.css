@@ -10397,7 +10397,7 @@ progress {
 }
 @media (max-width: 1130px) {
   .onboard-04-section-card-image-container {
-    right: -3%;
+    right: -6%;
   }
 }
 .onboard-04-section-card-image-container img {
@@ -10410,7 +10410,7 @@ progress {
   }
 }
 .onboard-04-section-title {
-  margin-top: 45px;
+  margin-top: 26px;
   max-width: 631px;
   width: 100%;
 }
@@ -10427,12 +10427,13 @@ progress {
 .onboard-04-section-button-container {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
 }
 .onboard-04-section-button-container button {
   width: 100%;
-  max-width: 400px;
+  max-width: 304px;
   border-radius: 40px;
   border: 1px solid #ffdc00;
   background: #2638c1;
@@ -10513,8 +10514,8 @@ progress {
   }
 }
 .onboard-05-section-title {
-  margin-top: 55px;
-  margin-bottom: 75px;
+  margin-top: 45px;
+  margin-bottom: 45px;
   max-width: 700px;
   width: 100%;
 }
@@ -10538,7 +10539,7 @@ progress {
   border-color: #96cc16 !important;
 }
 .onboard-05-section .input-otp {
-  margin-bottom: 65px;
+  margin-bottom: 48px;
 }
 .onboard-05-section .input-otp input {
   border: 3px solid #ffdc00;
@@ -11111,4 +11112,4 @@ progress {
 }
 .blogpage-card .blogpage-card-link img {
   max-width: 10px;
-}/*# sourceMappingURL=styles.css.map */
+}

@@ -316,7 +316,8 @@
       top: 5%;
       right: -8%;
       @media (max-width: map-get($grid-breakpoints, xl)) {
-        right: -3%;
+        // right: -3%;
+        right: -6%;
       }
       img {
         width: 100%;
@@ -328,7 +329,8 @@
     }
   }
   &-title {
-    margin-top: 45px;
+    // margin-top: 45px;
+    margin-top: 26px;
     max-width: 631px;
     width: 100%;
   }
@@ -345,11 +347,14 @@
   &-button-container {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    // flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
     button {
       width: 100%;
-      max-width: 400px;
+      // max-width: 400px;
+      max-width: 304px;
       border-radius: 40px;
       border: 1px solid $yellow;
       background: $primary-dark;
@@ -421,8 +426,8 @@
     }
   }
   &-title {
-    margin-top: 55px;
-    margin-bottom: 75px;
+    margin-top: 45px;
+    margin-bottom: 45px;
     max-width: 700px;
     width: 100%;
     @media (max-width: map-get($grid-breakpoints, xs)) {
@@ -444,7 +449,7 @@
     }
   }
   .input-otp {
-    margin-bottom: 65px;
+    margin-bottom: 48px;
     input {
       border: 3px solid $yellow;
       outline: none;
