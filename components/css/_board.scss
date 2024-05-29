@@ -145,6 +145,7 @@
     margin-bottom: 140px;
     @media (max-width: map-get($grid-breakpoints, lg)) {
       margin-bottom: 100px;
+      gap: 9px;
     }
     @media (max-width: map-get($grid-breakpoints, xs)) {
       margin-bottom: 50px;
@@ -157,6 +158,9 @@
       border: 8px solid transparent;
       padding: 0;
       transition: $transition-base;
+      @media (max-width: map-get($grid-breakpoints, lg)) {
+        max-width: 128px;
+      }
       &:hover {
         border-color: $yellow;
       }
@@ -219,6 +223,9 @@
   }
   &-title {
     padding: 25px 0px;
+    @media (max-width: map-get($grid-breakpoints, lg)) {
+      padding: 15px 0px;
+    }
   }
   .onboard-03-slider {
     display: flex;
