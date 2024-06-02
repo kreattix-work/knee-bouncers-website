@@ -1004,6 +1004,11 @@ h6 {
   overflow: hidden;
 }
 
+.kidsafe-img {
+  width: 100%;
+  max-width: 114px;
+}
+
 *,
 *::before,
 *::after {
@@ -8228,6 +8233,11 @@ progress {
     right: 20px;
   }
 }
+@media (max-width: 460px) {
+  .footer-bottom .crabby-img {
+    display: none;
+  }
+}
 .footer-dark {
   background-color: #002c8d;
   border-top: 2px solid #0078ff;
@@ -8295,7 +8305,7 @@ progress {
 }
 
 .banner-section {
-  padding: 60px 0;
+  padding: 50px 0;
 }
 .banner-section .awards-img {
   max-width: 285px;
@@ -8339,18 +8349,34 @@ progress {
 .testimonial-content {
   display: flex;
   align-items: flex-end;
-}
-.testimonial-bg-images {
-  width: 100px;
+  justify-content: center;
   position: relative;
 }
-.testimonial-bg-images #canvas-chicky {
+.testimonial-content #canvas-chicky {
   position: absolute;
   bottom: -25px;
   left: -60px;
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  max-height: 200px;
 }
 @media (max-width: 576px) {
-  .testimonial-bg-images {
+  .testimonial-content #canvas-chicky {
+    display: none;
+  }
+}
+.testimonial-content #canvas-froggy {
+  position: absolute;
+  bottom: -14px;
+  right: -40px;
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 150px;
+}
+@media (max-width: 576px) {
+  .testimonial-content #canvas-froggy {
     display: none;
   }
 }
@@ -8404,17 +8430,22 @@ progress {
 }
 
 .play-game-section {
-  padding: 60px 0;
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
-.play-game-section .bugaboo-img {
-  margin-bottom: -15px;
+.play-game-section .bugaboo-canvas {
+  position: relative;
 }
-.play-game-section .bugaboo-img img {
-  max-width: 200px;
+.play-game-section .bugaboo-canvas #canvas-bugaboo {
+  position: absolute;
+  top: -65px;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
+  max-width: 400px;
 }
 .play-game-section .card {
-  padding: 24px;
+  padding: 40px 24px 40px 24px;
   max-width: 800px;
   width: 100%;
 }
@@ -8518,8 +8549,7 @@ progress {
 }
 
 .testimonial-section {
-  padding-top: 60px;
-  padding-bottom: 120px;
+  padding: 60px 0;
 }
 .testimonial-section-content-title {
   gap: 15px;
@@ -9384,6 +9414,12 @@ progress {
   gap: 8px;
 }
 
+#canvas-cow {
+  width: 100%;
+  align-self: flex-end;
+  margin-bottom: -2px;
+}
+
 .freetrial-banner-section {
   position: relative;
   background-image: url(../../assets/images/orangeleafbg.svg);
@@ -9568,6 +9604,12 @@ progress {
   .home-freetrial-banner-end-image {
     display: none;
   }
+}
+
+#canvas-trex {
+  width: 100%;
+  align-self: flex-end;
+  margin-bottom: -2px;
 }
 
 .signup-freetrial-section,
@@ -11354,4 +11396,4 @@ progress {
 }
 .blogpage-card .blogpage-card-link img {
   max-width: 10px;
-}
+}/*# sourceMappingURL=styles.css.map */

@@ -93,6 +93,9 @@
         left: initial;
         right: 20px;
       }
+      @media (max-width: map-get($grid-breakpoints, xs)) {
+        display: none;
+      }
     }
   }
 

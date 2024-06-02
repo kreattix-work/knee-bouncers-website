@@ -203,3 +203,73 @@ $(function () {
       '<div class="onboard-button-right"> <img class="img-fluid" src="./assets/images/arrow_r.svg" alt="" /></div>',
   });
 });
+
+const froggyCanvas = document.getElementById("canvas-froggy");
+if (froggyCanvas) {
+  const r1 = new rive.Rive({
+    src: "./assets/riv/froggy.riv",
+    canvas: froggyCanvas,
+    autoplay: true,
+    stateMachines: "State Machine 1",
+    fit: rive.Fit.none,
+    onLoad: () => {
+      r1.resizeDrawingSurfaceToCanvas();
+    },
+  });
+}
+
+const chickyCanvas = document.getElementById("canvas-chicky");
+if (chickyCanvas) {
+  const r2 = new rive.Rive({
+    src: "./assets/riv/chicky.riv",
+    canvas: chickyCanvas,
+    autoplay: true,
+    stateMachines: "State Machine 1",
+    fit: rive.Fit.FitWidth,
+    onLoad: () => {
+      r2.resizeDrawingSurfaceToCanvas();
+    },
+  });
+}
+
+const bugabooCanvas = document.getElementById("canvas-bugaboo");
+if (bugabooCanvas) {
+  const r3 = new rive.Rive({
+    src: "./assets/riv/bugaboo.riv",
+    canvas: bugabooCanvas,
+    autoplay: true,
+    stateMachines: "State Machine 1",
+    fit: rive.Fit.FitWidth,
+    onLoad: () => {
+      r3.resizeDrawingSurfaceToCanvas();
+    },
+  });
+}
+
+const cowCanvas = document.getElementById("canvas-cow");
+if (cowCanvas) {
+  const r4 = new rive.Rive({
+    src: "./assets/riv/cow.riv",
+    canvas: cowCanvas,
+    autoplay: true,
+    stateMachines: "State Machine 1",
+    fit: rive.Fit.FitWidth,
+    onLoad: () => {
+      r4.resizeDrawingSurfaceToCanvas();
+    },
+  });
+}
+
+const trexCanvas = document.getElementById("canvas-trex");
+if (trexCanvas) {
+  const r5 = new rive.Rive({
+    src: "./assets/riv/trex.riv",
+    canvas: trexCanvas,
+    autoplay: true,
+    stateMachines: "State Machine 1",
+    fit: rive.Fit.FitWidth,
+    onLoad: () => {
+      r5.resizeDrawingSurfaceToCanvas();
+    },
+  });
+}
