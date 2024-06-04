@@ -10936,6 +10936,9 @@ progress {
     margin-top: 4vh !important;
     margin-bottom: 4vh !important;
   }
+  .board-card .onboard-04-section-card {
+    height: 74vh;
+  }
 }
 @media (max-height: 704px) {
   .onboard-01-section,
