@@ -1009,6 +1009,18 @@ h6 {
   max-width: 114px;
 }
 
+.btn-xxl {
+  height: 70px;
+  font-weight: 700;
+  border-radius: 24px !important;
+  width: 180px;
+  font-size: 24px;
+  line-height: 22px;
+}
+.btn-xxl:hover {
+  color: #ffffff;
+}
+
 *,
 *::before,
 *::after {
