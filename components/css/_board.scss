@@ -888,7 +888,7 @@
 }
 
 .popup {
-  display: none;
+  // display: none;
   position: fixed;
   left: 50%;
   top: 55%;
@@ -906,6 +906,19 @@
       line-height: 34px;
     }
   }
+}
+
+.popup-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(90, 90, 90, 0.9);
+  mix-blend-mode: multiply;
+  z-index: 988;
 }
 
 @media (max-height: 704px) {
