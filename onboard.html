@@ -857,8 +857,14 @@
                             </select>
                           </div>
                           <div
-                            class="onboard-06-section-card-bottom-orange-varify d-flex justify-content-end pt-3 mt-md-4 mb-2"
+                            class="onboard-06-section-card-bottom-orange-varify d-flex justify-content-between pt-3 mt-md-4 mb-2"
                           >
+                            <button
+                              id="add-child"
+                              class="btn onboard-06-button-varify bg-green text-white btn-sm m-sm-0 m-auto"
+                            >
+                              <span>ADD CHILD</span>
+                            </button>
                             <button
                               class="btn onboard-06-button-varify bg-secondary text-white btn-sm m-sm-0 m-auto"
                             >
@@ -868,6 +874,33 @@
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <!-- popup -->
+                  <div id="popup" class="popup display-none">
+                    <div class="popup-content">
+                      <h3 class="text-red-dark text-center pb-2">ADD CHILD</h3>
+                      <p class="text-dark text-8 fw-700">
+                        Please note, adding a child will change your
+                        monthly/yearly billing. The new amount will be adjusted
+                        automatically, but you will need to confirm that you
+                        approve this transaction below.
+                      </p>
+                      <div class="d-flex align-items-start py-2">
+                        <input class="mt-2" type="checkbox" name="" id="" />
+                        <p class="ps-2 text-dark text-6 font-medium">
+                          I agree to pay the adjusted cost for adding another
+                          child to the account, and by doing this I also agree
+                          to the KneeBouncers.com Terms & Conditions
+                        </p>
+                      </div>
+                    </div>
+                    <button
+                      class="btn btn-filled text-8 font-medium btn-sm m-sm-0 m-auto"
+                    >
+                      <span class="default-text">Confirm</span>
+                      <span class="hover-text">Confirm</span>
+                      <span class="active-text">Confirm</span>
+                    </button>
                   </div>
                 </div>
               </div>
