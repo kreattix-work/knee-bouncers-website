@@ -282,8 +282,8 @@ if (trexCanvas) {
 //     $("#add-child-popup").addClass("visible");
 //   });
 // });
-$(document).ready(function () {
-  $("#add-child").click(() => {
-    $("#popup").css({ display: "block" });
-  });
-});
+// $(document).ready(function () {
+//   $("#add-child").click(() => {
+//     $("#popup").css({ display: "block" });
+//   });
+// });

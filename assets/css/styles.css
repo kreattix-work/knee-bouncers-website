@@ -1026,6 +1026,10 @@ h6 {
   line-height: 22px;
 }
 
+.border-none {
+  border: none !important;
+}
+
 *,
 *::before,
 *::after {
