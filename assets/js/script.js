@@ -287,3 +287,38 @@ if (trexCanvas) {
 //     $("#popup").css({ display: "block" });
 //   });
 // });
+
+$(".responsive").slick({
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+      },
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+  prevArrow:
+    "<img class='played-arrow prev slick-prev' src='./assets/images/arrow_scroll_L.svg'>",
+  nextArrow:
+    "<img class='played-arrow next slick-next' src='./assets/images/arrow_scroll_R.svg'>",
+});

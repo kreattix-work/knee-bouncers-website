@@ -1,0 +1,139 @@
+.play-center-banner-section {
+  position: relative;
+  background-image: url(../../assets/images/orangeleafbg.svg);
+  z-index: 1;
+  .play-section-bg-overlay {
+    background-size: cover;
+    height: 30vh;
+  }
+  .play-section-bg-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-bottom: 65px;
+    z-index: -1;
+  }
+  .play-center-banner-bottom {
+    z-index: 1;
+    background-color: #fe4f03;
+    .play-center-user-rating {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0px;
+      @media (max-width: map-get($grid-breakpoints, md)) {
+        flex-direction: column;
+      }
+      .welcome-user {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        @media (max-width: map-get($grid-breakpoints, md)) {
+          flex-direction: column;
+          gap: 10px;
+        }
+        img {
+          margin-top: -100px;
+          width: 145px;
+        }
+      }
+      .play-user-rating {
+        display: flex;
+        gap: 3px;
+        img {
+          max-width: 30px;
+        }
+      }
+    }
+  }
+}
+
+.play-center-content {
+  .play-side-bar img {
+    max-width: 57px;
+    width: 100%;
+  }
+  .recently-played {
+    border-radius: 10px;
+    border: 1px solid #d9e4ff;
+    box-shadow: none;
+    &-inner {
+      padding: 18px 30px;
+      gap: 18px;
+      display: flex;
+      align-items: center;
+      h4 {
+        @media (max-width: map-get($grid-breakpoints,sm)) {
+          font-size: 16px;
+        }
+      }
+      img {
+        max-width: 34px;
+        @media (max-width: map-get($grid-breakpoints,md)) {
+          max-width: 28px;
+          @media (max-width: map-get($grid-breakpoints,sm)) {
+            max-width: 20px;
+          }
+        }
+      }
+      @media (max-width: map-get($grid-breakpoints, md)) {
+        padding: 12px 12px;
+        gap: 5px;
+      }
+    }
+    &-slider {
+      padding-bottom: 20px;
+      max-width: 89%;
+      @media (max-width: map-get($grid-breakpoints, lg)) {
+        max-width: 84%;
+      }
+      margin: 0px auto;
+      .responsive .slick-track .slick-slide {
+        display: flex;
+        justify-content: center;
+      }
+      .played-arrow {
+        width: 38px;
+        height: 38px;
+        @media (max-width: map-get($grid-breakpoints, lg)) {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      .played-arrow.prev {
+        left: -40px;
+        @media (max-width: map-get($grid-breakpoints, lg)) {
+          left: -30px;
+          @media (max-width: map-get($grid-breakpoints, sm)) {
+            left: -24px;
+          }
+        }
+      }
+      .played-arrow.next {
+        right: -40px;
+        @media (max-width: map-get($grid-breakpoints, lg)) {
+          right: -30px;
+          @media (max-width: map-get($grid-breakpoints, sm)) {
+            right: -24px;
+          }
+        }
+      }
+      &-img {
+        max-width: 245px;
+        width: 100%;
+        @media (max-width: map-get($grid-breakpoints, xl)) {
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: map-get($grid-breakpoints, md)) {
+  .play-center-banner-section {
+    display: none;
+  }
+}
