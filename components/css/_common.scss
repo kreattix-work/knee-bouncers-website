@@ -340,3 +340,7 @@ h6 {
 .border-none {
   border: none !important;
 }
+
+.border-bottom-gray-light {
+  border-bottom: 3px solid $gray-light;
+}

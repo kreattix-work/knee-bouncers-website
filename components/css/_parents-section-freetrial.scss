@@ -337,3 +337,55 @@
   height: 40px;
   padding-left: 15px;
 }
+
+// new
+.child-profile-img {
+  max-width: 50px;
+}
+
+.child-profile-inner {
+  table {
+    width: 100%;
+    tr {
+      @media (max-width: map-get($grid-breakpoints, md)) {
+        font-size: 16px !important;
+        @media (max-width: map-get($grid-breakpoints, sm)) {
+          font-size: 12px !important;
+          th {
+            @media (max-width: map-get($grid-breakpoints, sm)) {
+              padding: 0px 2px;
+            }
+          }
+        }
+      }
+      td {
+        padding: 8px 0px !important;
+        button {
+          max-width: 100px;
+          @media (max-width: map-get($grid-breakpoints, md)) {
+            max-width: 60px;
+            span {
+              font-size: 15px;
+            }
+            @media (max-width: map-get($grid-breakpoints, sm)) {
+              max-width: 50px;
+              span {
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.child-profile-image {
+  max-width: 50px;
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    margin-left: -6px;
+  }
+}
+.table-data {
+  max-width: 300px;
+}
