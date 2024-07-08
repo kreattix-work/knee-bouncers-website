@@ -37,7 +37,15 @@
   .games-nonmember-section {
     &-cards {
       .card-actions {
+        .hover-text {
+          @media (max-width: map-get($grid-breakpoints, xl)) {
+            font-size: 17px !important;
+          }
+        }
         .active-text {
+          @media (max-width: map-get($grid-breakpoints, xxl)) {
+            font-size: 17px !important;
+          }
           @media (max-width: map-get($grid-breakpoints, xs)) {
             font-size: map-get($text-sizes, 4) !important;
           }
