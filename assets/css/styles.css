@@ -11596,6 +11596,65 @@ progress {
   max-width: 10px;
 }
 
+.play-body {
+  padding-top: 50px;
+}
+.play-body .profile-header {
+  height: 50px;
+  background: #0078ff;
+}
+.play-body .profile-header:not(.header-desktop-only) .navigations {
+  top: 50px;
+}
+.play-body .profile-header button {
+  padding: 6px 8px;
+}
+@media (max-width: 1130px) {
+  .play-body .profile-header button {
+    width: 100%;
+    border-color: #0078ff;
+    color: #0078ff;
+  }
+  .play-body .profile-header button:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+}
+.play-body .profile-header .dropdown-arrow {
+  position: relative;
+}
+.play-body .profile-header .dropdown-arrow::after {
+  position: absolute;
+  content: "";
+  background-image: url(../../assets/images/polygon.svg);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-25%);
+}
+.play-body .profile-header .dropdown-arrow select {
+  text-align: start;
+  width: 166px;
+  padding: 6px 23px;
+  height: 38px;
+  font-size: 18px;
+  font-weight: 600;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+@media (max-width: 1130px) {
+  .play-body .profile-header .dropdown-arrow select {
+    width: 100%;
+  }
+}
+.play-body .profile-header .dropdown-arrow select:hover {
+  background: #fff;
+  color: #0078ff;
+}
+
 .play-center-banner-section {
   position: relative;
   background-image: url(../../assets/images/orangeleafbg.svg);

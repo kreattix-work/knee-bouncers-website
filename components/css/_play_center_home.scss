@@ -1,3 +1,55 @@
+.play-body {
+  padding-top: 50px;
+  .profile-header {
+    &:not(.header-desktop-only) .navigations {
+      top: 50px;
+    }
+    height: 50px;
+    background: $primary;
+    button {
+      padding: 6px 8px;
+      @media (max-width: map-get($grid-breakpoints, xl)) {
+        width: 100%;
+        border-color: $primary;
+        color: $primary;
+        &:hover {
+          border-color: #ffffff;
+          color: #ffffff;
+        }
+      }
+    }
+    .dropdown-arrow {
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        background-image: url(../../assets/images/polygon.svg);
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        right: 13px;
+        top: 50%;
+        transform: translateY(-25%);
+      }
+      select {
+        @media (max-width: map-get($grid-breakpoints, xl)) {
+          width: 100%;
+        }
+        text-align: start;
+        width: 166px;
+        padding: 6px 23px;
+        height: 38px;
+        font-size: 18px;
+        font-weight: 600;
+        appearance: none;
+        &:hover {
+          background: #fff;
+          color: $primary;
+        }
+      }
+    }
+  }
+}
 .play-center-banner-section {
   position: relative;
   background-image: url(../../assets/images/orangeleafbg.svg);
