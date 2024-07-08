@@ -16,11 +16,12 @@
   &-card {
     border-radius: 20px;
     padding: 50px 42px 25px 42px;
+    height: 100%;
     &-description {
       margin-bottom: 25px;
       display: -webkit-box;
       max-width: 100%;
-      -webkit-line-clamp: 4;
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }

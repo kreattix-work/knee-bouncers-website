@@ -126,7 +126,7 @@ $text-colors: (
   }
 }
 
-@for $i from 1 through 5 {
+@for $i from 1 through 8 {
   .ellipsis-#{$i} {
     display: -webkit-box;
     max-width: 100%;
@@ -258,6 +258,12 @@ h6 {
     gap: 10px;
     list-style: none;
   }
+  li a:hover {
+    color: $featured !important;
+  }
+  li a:focus {
+    color: $primary !important;
+  }
 }
 
 .member-banner-image {
@@ -343,4 +349,14 @@ h6 {
 
 .border-bottom-gray-light {
   border-bottom: 3px solid $gray-light;
+}
+
+.navigation-profile {
+  img {
+    width: 32px;
+    aspect-ratio: 1/1;
+    @media (max-width: map-get($grid-breakpoints, xs)) {
+      width: 26px;
+    }
+  }
 }

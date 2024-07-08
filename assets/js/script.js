@@ -274,6 +274,20 @@ if (trexCanvas) {
   });
 }
 
+const crabbyCanvas = document.getElementById("canvas-crabby");
+if (crabbyCanvas) {
+  const r4 = new rive.Rive({
+    src: './assets/riv/crabby.riv',
+    canvas: crabbyCanvas,
+    autoplay: true,
+    stateMachines: "Crabbier",
+    fit: rive.Fit.FitWidth,
+    onLoad: () => {
+      r4.resizeDrawingSurfaceToCanvas();
+    },
+  });
+}
+
 // $(document).ready(function () {
 //   $("#add-child").click(function () {
 //     $("#add-child-popup").removeClass("visible");

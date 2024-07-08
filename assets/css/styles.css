@@ -199,6 +199,30 @@
   overflow: hidden;
 }
 
+.ellipsis-6 {
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ellipsis-7 {
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ellipsis-8 {
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .text-active-1:active {
   font-size: clamp(8px, 4.5vw, 13px) !important;
 }
@@ -943,6 +967,12 @@ h6 {
   gap: 10px;
   list-style: none;
 }
+.section-pagination li a:hover {
+  color: #ab3bff !important;
+}
+.section-pagination li a:focus {
+  color: #0078ff !important;
+}
 
 .member-banner-image img {
   width: 100%;
@@ -1032,6 +1062,16 @@ h6 {
 
 .border-bottom-gray-light {
   border-bottom: 3px solid #d9e4ff;
+}
+
+.navigation-profile img {
+  width: 32px;
+  aspect-ratio: 1/1;
+}
+@media (max-width: 460px) {
+  .navigation-profile img {
+    width: 26px;
+  }
 }
 
 *,
@@ -7796,6 +7836,7 @@ progress {
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
   color: #313131;
   overflow: hidden;
+  height: 100%;
 }
 .card-image img {
   width: 100%;
@@ -8031,6 +8072,11 @@ progress {
     max-width: 181px;
   }
 }
+@media (max-width: 460px) {
+  .header-logo {
+    max-width: 146px;
+  }
+}
 
 .navigations {
   display: flex;
@@ -8110,6 +8156,9 @@ progress {
     background-color: rgba(0, 0, 0, 0.05);
   }
   header:not(.header-desktop-only) .navigations ul.navigation-cart {
+    display: none;
+  }
+  header:not(.header-desktop-only) .navigations ul.navigation-profile {
     display: none;
   }
 }
@@ -8487,6 +8536,10 @@ progress {
   letter-spacing: 5px;
 }
 
+.blog-card {
+  height: 100%;
+}
+
 .contact-us-section {
   padding: 70px 0;
   max-width: 687px;
@@ -8594,12 +8647,13 @@ progress {
 .testimonial-section-card {
   border-radius: 20px;
   padding: 50px 42px 25px 42px;
+  height: 100%;
 }
 .testimonial-section-card-description {
   margin-bottom: 25px;
   display: -webkit-box;
   max-width: 100%;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -8764,6 +8818,18 @@ progress {
   width: 100%;
   max-width: 1068px;
   margin-top: 44px;
+}
+@media (max-width: 1130px) {
+  .games-member-section .games-nonmember-section-cards .card-actions .hover-text,
+  .games-nonmember-section .games-nonmember-section-cards .card-actions .hover-text {
+    font-size: 17px !important;
+  }
+}
+@media (max-width: 1330px) {
+  .games-member-section .games-nonmember-section-cards .card-actions .active-text,
+  .games-nonmember-section .games-nonmember-section-cards .card-actions .active-text {
+    font-size: 17px !important;
+  }
 }
 @media (max-width: 460px) {
   .games-member-section .games-nonmember-section-cards .card-actions .active-text,
@@ -11907,4 +11973,4 @@ progress {
   max-width: 260px;
   flex-wrap: wrap;
   display: flex;
-}
+}/*# sourceMappingURL=styles.css.map */
