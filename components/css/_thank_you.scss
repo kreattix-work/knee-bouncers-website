@@ -29,3 +29,36 @@
     }
   }
 }
+
+@media (max-height: 704px) {
+  .thank-you-section-card {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .thank-you-section-card-img {
+    max-width: 372px;
+    margin: 15px 0;
+  }
+}
+
+.thank-popup {
+  max-width: 450px;
+  border-radius: 30px;
+  border: 2px solid #ffbd00;
+  background: #fff;
+  padding: 70px 20px 40px 20px;
+  img {
+    max-width: 209px;
+  }
+  button {
+    margin-top: 28px;
+    width: 160px;
+    height: 40px;
+  }
+}
+
+@media (max-height: 704px) {
+  .thank-popup {
+    padding: 20px 11px 20px 11px;
+  }
+}

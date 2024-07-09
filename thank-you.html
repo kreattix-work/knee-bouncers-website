@@ -55,6 +55,8 @@
                   />
                 </div>
                 <button
+                  data-bs-toggle="modal"
+                  data-bs-target="#verify-model2"
                   class="btn btn-filled text-8 default-border-light btn-big-lg mx-auto thank-you-section-card-btn"
                 >
                   <span class="default-text">Let’s get started!</span>
@@ -68,6 +70,34 @@
       </div>
     </div>
 
+    <div
+      class="modal fade"
+      id="verify-model2"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered justify-content-center">
+        <div class="m-3 modal-content border-none thank-popup">
+          <div class="text-center">
+            <h3 class="text-20 text-red">Woohoo!</h3>
+            <h4 class="text-15 text-primary">
+              You’ve earned your first sticker!
+            </h4>
+            <img src="./assets/images/star_face.svg" alt="" />
+            <h4 class="text-15 text-primary">Congratulations!</h4>
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#verify-model2"
+              class="btn btn-filled text-8 default-border-light btn-big-lg mx-auto thank-you-section-card-btn"
+            >
+              <span class="default-text">Continue</span>
+              <span class="hover-text">Continue</span>
+              <span class="active-text">woohoo!</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="footer footer-dark">
       <div class="footer-top footer-dark-top">
         <div class="container">
@@ -121,5 +151,6 @@
 </html>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script src="./assets/js/script.js"></script>

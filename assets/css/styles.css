@@ -11188,6 +11188,37 @@ progress {
   }
 }
 
+@media (max-height: 704px) {
+  .thank-you-section-card {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .thank-you-section-card-img {
+    max-width: 372px;
+    margin: 15px 0;
+  }
+}
+.thank-popup {
+  max-width: 450px;
+  border-radius: 30px;
+  border: 2px solid #ffbd00;
+  background: #fff;
+  padding: 70px 20px 40px 20px;
+}
+.thank-popup img {
+  max-width: 209px;
+}
+.thank-popup button {
+  margin-top: 28px;
+  width: 160px;
+  height: 40px;
+}
+
+@media (max-height: 704px) {
+  .thank-popup {
+    padding: 20px 11px 20px 11px;
+  }
+}
 .page-content {
   overflow-x: hidden;
 }
@@ -11682,7 +11713,6 @@ progress {
     color: #0078ff;
   }
   .play-body .profile-header button:hover {
-    border-color: #ffffff;
     color: #ffffff;
   }
 }
@@ -11892,13 +11922,13 @@ progress {
   .verify-popup-inner {
     padding: 20px;
   }
+  .verify-popup-inner h3 {
+    font-size: clamp(30px, 4.5vw, 25px) !important;
+  }
 }
 @media (max-width: 767px) and (max-width: 576px) {
   .verify-popup-inner {
     padding: 0px;
-  }
-  .verify-popup-inner h3 {
-    font-size: clamp(30px, 4.5vw, 25px) !important;
   }
 }
 
@@ -11973,4 +12003,23 @@ progress {
   max-width: 260px;
   flex-wrap: wrap;
   display: flex;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+@media (max-height: 704px) {
+  .verify-popup-inner {
+    padding: 0px 20px;
+  }
+  .verify-popup-inner .input-verify {
+    max-width: 320px;
+    margin-bottom: 18px;
+  }
+}
+@media (max-width: 767px) and (max-height: 704px) {
+  .verify-popup-inner {
+    padding: 0px 10px;
+  }
+  .verify-popup-inner .input-verify {
+    max-width: 320px;
+    margin-bottom: 18px;
+  }
+}
