@@ -39,11 +39,19 @@
     width: 100%;
     max-width: 340px;
   }
+  .pre-kindergarten-img {
+    width: 284px;
+    max-width: 100%;
+  }
 }
 
 .kneebouncers-game-section {
   @media (max-width: map-get($grid-breakpoints, xl)) {
     padding: 40px 0;
+  }
+  .kneebouncers-game-img {
+    width: 330px;
+    max-width: 100%;
   }
 }
 
