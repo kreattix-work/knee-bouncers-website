@@ -179,7 +179,7 @@
       &-img {
         max-width: 245px;
         width: 100%;
-        @media (max-width: map-get($grid-breakpoints, xl)) {
+        @media (max-width: 1330px) {
           padding: 5px;
         }
       }

@@ -8600,11 +8600,19 @@ progress {
   width: 100%;
   max-width: 340px;
 }
+.pre-kindergarten-section .pre-kindergarten-img {
+  width: 284px;
+  max-width: 100%;
+}
 
 @media (max-width: 1130px) {
   .kneebouncers-game-section {
     padding: 40px 0;
   }
+}
+.kneebouncers-game-section .kneebouncers-game-img {
+  width: 330px;
+  max-width: 100%;
 }
 
 @media (max-width: 1130px) {
@@ -11893,7 +11901,7 @@ progress {
   max-width: 245px;
   width: 100%;
 }
-@media (max-width: 1130px) {
+@media (max-width: 1330px) {
   .play-center-content .recently-played-slider-img {
     padding: 5px;
   }
