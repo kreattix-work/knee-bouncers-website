@@ -10576,6 +10576,7 @@ progress {
   gap: 10px;
 }
 .onboard-04-section-button-container button {
+  min-height: 50px;
   width: 100%;
   max-width: 304px;
   border-radius: 40px;
@@ -11011,6 +11012,7 @@ progress {
     font-size: 23px !important;
   }
   .onboard-04-section-button-container button {
+    min-height: auto;
     padding: 3px 15px;
   }
   .onboard-04-section-card {
@@ -11021,7 +11023,7 @@ progress {
     margin-bottom: 4vh !important;
   }
 }
-@media (max-width: 512px) {
+@media (max-width: 530px) {
   .onboard-04-section-title {
     font-size: 23px !important;
   }
@@ -11604,7 +11606,11 @@ progress {
   max-width: 50px;
 }
 
+.child-profile-inner {
+  overflow-x: auto;
+}
 .child-profile-inner table {
+  min-width: 400px;
   width: 100%;
 }
 @media (max-width: 767px) {
@@ -11613,13 +11619,8 @@ progress {
   }
 }
 @media (max-width: 767px) and (max-width: 576px) {
-  .child-profile-inner table tr {
-    font-size: 12px !important;
-  }
-}
-@media (max-width: 767px) and (max-width: 576px) and (max-width: 576px) {
   .child-profile-inner table tr th {
-    padding: 0px 2px;
+    padding: 0px 5px;
   }
 }
 .child-profile-inner table tr td {
@@ -11628,34 +11629,24 @@ progress {
 .child-profile-inner table tr td button {
   max-width: 100px;
 }
-@media (max-width: 767px) {
-  .child-profile-inner table tr td button {
-    max-width: 60px;
-  }
-  .child-profile-inner table tr td button span {
-    font-size: 15px;
-  }
-}
-@media (max-width: 767px) and (max-width: 576px) {
-  .child-profile-inner table tr td button {
-    max-width: 50px;
-  }
-  .child-profile-inner table tr td button span {
-    font-size: 13px;
-  }
-}
 
 .child-profile-image {
   max-width: 50px;
+  min-width: 48px;
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .child-profile-image {
-    margin-left: -6px;
+    margin-left: 6px;
+    padding-right: 5px;
   }
 }
 
 .table-data {
-  max-width: 300px;
+  width: 200px;
+}
+
+.table-last-item {
+  width: 120px;
 }
 
 .blogpage-article-section-image {
@@ -11700,9 +11691,6 @@ progress {
   height: 50px;
   background: #0078ff;
 }
-.play-body .profile-header:not(.header-desktop-only) .navigations {
-  top: 50px;
-}
 .play-body .profile-header button {
   padding: 6px 8px;
 }
@@ -11714,6 +11702,7 @@ progress {
   }
   .play-body .profile-header button:hover {
     color: #ffffff;
+    border-color: #001677;
   }
 }
 .play-body .profile-header .dropdown-arrow {
@@ -12022,4 +12011,8 @@ progress {
     max-width: 320px;
     margin-bottom: 18px;
   }
+}
+body.menu-open header:not(.header-desktop-only) .navigations {
+  top: 50px;
+  opacity: 1;
 }

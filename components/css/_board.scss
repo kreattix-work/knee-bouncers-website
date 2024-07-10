@@ -359,6 +359,7 @@
     flex-wrap: wrap;
     gap: 10px;
     button {
+      min-height: 50px;
       width: 100%;
       // max-width: 400px;
       max-width: 304px;
@@ -798,6 +799,7 @@
     font-size: 23px !important;
   }
   .onboard-04-section-button-container button {
+    min-height: auto;
     padding: 3px 15px;
   }
   .onboard-04-section-card {
@@ -808,7 +810,7 @@
     margin-bottom: 4vh !important;
   }
 }
-@media (max-width: 512px) {
+@media (max-width: 530px) {
   .onboard-04-section-title {
     font-size: 23px !important;
   }
