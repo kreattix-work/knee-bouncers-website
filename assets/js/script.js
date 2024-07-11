@@ -288,20 +288,6 @@ if (crabbyCanvas) {
   });
 }
 
-// $(document).ready(function () {
-//   $("#add-child").click(function () {
-//     $("#add-child-popup").removeClass("visible");
-//   });
-//   $(".close-popup").click(function () {
-//     $("#add-child-popup").addClass("visible");
-//   });
-// });
-// $(document).ready(function () {
-//   $("#add-child").click(() => {
-//     $("#popup").css({ display: "block" });
-//   });
-// });
-
 $(".responsive").slick({
   infinite: false,
   speed: 300,

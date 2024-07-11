@@ -8,6 +8,7 @@
     }
     height: 50px;
     background: $primary;
+    border-bottom: 2px solid transparent;
     button {
       padding: 6px 8px;
       @media (max-width: map-get($grid-breakpoints, xl)) {
@@ -271,19 +272,7 @@
   flex-wrap: wrap;
   display: flex;
   justify-content: flex-end;
-
-  button {
-  }
 }
-// .modal-backdrop {
-//   display: none;
-// }
-
-// @media (max-height: 704px) {
-//   .verify-popup-inner {
-//     padding: 0px 25px 0px 25px;
-//   }
-// }
 
 @media (max-height: 704px) {
   .verify-popup-inner {
@@ -302,9 +291,4 @@
       margin-bottom: 18px;
     }
   }
-}
-
-body.menu-open header:not(.header-desktop-only) .navigations {
-  top: 50px;
-  opacity: 1;
 }

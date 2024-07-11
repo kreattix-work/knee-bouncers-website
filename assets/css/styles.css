@@ -8114,7 +8114,6 @@ progress {
     z-index: 0;
     position: fixed;
     top: 80px;
-    top: 100vh;
     opacity: 0;
     gap: 0;
     left: 0;
@@ -8160,6 +8159,15 @@ progress {
   }
   header:not(.header-desktop-only) .navigations ul.navigation-profile {
     display: none;
+  }
+}
+@media (max-width: 1130px) {
+  header.profile-header:not(.header-desktop-only) .navigations {
+    height: calc(100vh - 50px);
+  }
+  body.menu-open header.profile-header:not(.header-desktop-only) .navigations {
+    top: 50px;
+    opacity: 1;
   }
 }
 
@@ -11711,6 +11719,10 @@ progress {
 .play-body .profile-header {
   height: 50px;
   background: #0078ff;
+  border-bottom: 2px solid transparent;
+}
+.play-body .profile-header .navigation-mobile .menu-toggler {
+  color: #fff;
 }
 .play-body .profile-header button {
   padding: 6px 8px;
@@ -11969,13 +11981,16 @@ progress {
   flex-direction: column;
   align-items: end;
 }
-.input-verify-button a {
+.input-verify-button button {
   padding: 2px 3px;
   width: 100%;
   max-width: 86px;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 @media (max-width: 767px) {
-  .input-verify-button a {
+  .input-verify-button button {
     max-width: 70px;
   }
 }
@@ -11996,6 +12011,7 @@ progress {
   font-size: 22px;
   text-align: center;
   outline: none;
+  color: #fff;
 }
 
 .verify-popup-inner-image {
@@ -12009,10 +12025,10 @@ progress {
 }
 
 .input-verify-button-inner {
-  direction: rtl;
   max-width: 260px;
   flex-wrap: wrap;
   display: flex;
+  justify-content: flex-end;
 }
 
 @media (max-height: 704px) {
@@ -12032,8 +12048,4 @@ progress {
     max-width: 320px;
     margin-bottom: 18px;
   }
-}
-body.menu-open header:not(.header-desktop-only) .navigations {
-  top: 50px;
-  opacity: 1;
 }/*# sourceMappingURL=styles.css.map */
