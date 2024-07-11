@@ -308,3 +308,21 @@ body.menu-open header:not(.header-desktop-only) .navigations {
   top: 50px;
   opacity: 1;
 }
+
+.profile-detail {
+  .editable-label {
+    display: flex;
+    height: 40px;
+    align-items: center;
+  }
+  &.editable {
+    .editable-label {
+      display: none;
+    }
+  }
+  &:not(.editable) {
+    .editable-input {
+      display: none;
+    }
+  }
+}

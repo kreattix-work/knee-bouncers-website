@@ -372,3 +372,8 @@ function showOtpInputValue(values) {
   }
   InputOtp.updateHiddenInput();
 }
+
+$("[data-toggle=element]").on("click", function () {
+  const wrapper = $(this).data("target");
+  $(wrapper).toggleClass("editable");
+});

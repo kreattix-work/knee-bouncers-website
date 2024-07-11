@@ -11259,7 +11259,7 @@ progress {
 }
 @media (max-width: 992px) and (max-width: 576px) {
   .profile-detail-section .parent-profile {
-    padding: 30px 12px 0px 12px;
+    padding: 30px 12px 20px 12px;
   }
 }
 .profile-detail-section .parent-profile .profile-title {
@@ -11712,6 +11712,9 @@ progress {
   height: 50px;
   background: #0078ff;
 }
+.play-body .profile-header .navigation-mobile .menu-toggler {
+  color: #fff;
+}
 .play-body .profile-header button {
   padding: 6px 8px;
 }
@@ -11969,13 +11972,16 @@ progress {
   flex-direction: column;
   align-items: end;
 }
-.input-verify-button a {
+.input-verify-button button {
   padding: 2px 3px;
   width: 100%;
   max-width: 86px;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 @media (max-width: 767px) {
-  .input-verify-button a {
+  .input-verify-button button {
     max-width: 70px;
   }
 }
@@ -11996,6 +12002,7 @@ progress {
   font-size: 22px;
   text-align: center;
   outline: none;
+  color: #fff;
 }
 
 .verify-popup-inner-image {
@@ -12009,12 +12016,11 @@ progress {
 }
 
 .input-verify-button-inner {
-  direction: rtl;
   max-width: 260px;
   flex-wrap: wrap;
   display: flex;
+  justify-content: flex-end;
 }
-
 @media (max-height: 704px) {
   .verify-popup-inner {
     padding: 0px 20px;
@@ -12036,4 +12042,16 @@ progress {
 body.menu-open header:not(.header-desktop-only) .navigations {
   top: 50px;
   opacity: 1;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.profile-detail .editable-label {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+.profile-detail.editable .editable-label {
+  display: none;
+}
+.profile-detail:not(.editable) .editable-input {
+  display: none;
+}
