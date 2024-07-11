@@ -16,6 +16,7 @@
       flex-direction: column;
       align-items: center;
       box-shadow: none;
+      height: auto !important;
       @media (max-width: map-get($grid-breakpoints, md)) {
         display: none;
       }
@@ -110,6 +111,7 @@
   flex-direction: column;
   align-items: center;
   box-shadow: none;
+  height: auto;
   &-content {
     gap: 8px;
   }

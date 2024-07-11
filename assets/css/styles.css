@@ -970,7 +970,7 @@ h6 {
 .section-pagination li a:hover {
   color: #ab3bff !important;
 }
-.section-pagination li a:focus {
+.section-pagination .active {
   color: #0078ff !important;
 }
 
@@ -9414,6 +9414,7 @@ progress {
   flex-direction: column;
   align-items: center;
   box-shadow: none;
+  height: auto !important;
 }
 @media (max-width: 767px) {
   .home-freegames-section-banner .card-off {
@@ -9508,6 +9509,7 @@ progress {
   flex-direction: column;
   align-items: center;
   box-shadow: none;
+  height: auto;
 }
 .card-off-mobile-only-content {
   gap: 8px;
@@ -11216,7 +11218,18 @@ progress {
   padding: 70px 20px 40px 20px;
 }
 .thank-popup img {
+  width: 100%;
   max-width: 209px;
+}
+@media (max-width: 1330px) {
+  .thank-popup img {
+    max-width: 160px;
+  }
+}
+@media (max-width: 576px) {
+  .thank-popup img {
+    max-width: 120px;
+  }
 }
 .thank-popup button {
   margin-top: 28px;
@@ -12023,4 +12036,4 @@ progress {
 body.menu-open header:not(.header-desktop-only) .navigations {
   top: 50px;
   opacity: 1;
-}
+}/*# sourceMappingURL=styles.css.map */
