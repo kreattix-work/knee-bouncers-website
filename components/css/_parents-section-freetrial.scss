@@ -6,12 +6,16 @@
   .parent-profile {
     padding: 40px 14px 0px 12px;
     @media (max-width: map-get($grid-breakpoints, lg)) {
-      padding: 40px 0px 0px 12px;
+      padding: 40px 0px 0px 0px;
       @media (max-width: map-get($grid-breakpoints, sm)) {
         padding: 30px 12px 20px 12px;
       }
     }
     .profile-title {
+      h5 {
+        line-height: 18px;
+        letter-spacing: 4px;
+      }
       display: flex;
       justify-content: space-between;
       padding-bottom: 30px;
@@ -62,7 +66,7 @@
       line-height: 18px;
       letter-spacing: 4px;
     }
-    p {
+    a {
       color: #de0059;
       font-size: 18px;
       font-weight: 800;
