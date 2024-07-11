@@ -277,7 +277,7 @@ if (trexCanvas) {
 const crabbyCanvas = document.getElementById("canvas-crabby");
 if (crabbyCanvas) {
   const r4 = new rive.Rive({
-    src: './assets/riv/crabby.riv',
+    src: "./assets/riv/crabby.riv",
     canvas: crabbyCanvas,
     autoplay: true,
     stateMachines: "Crabbier",
@@ -336,3 +336,39 @@ $(".responsive").slick({
   nextArrow:
     "<img class='played-arrow next slick-next' src='./assets/images/arrow_scroll_R.svg'>",
 });
+
+let otpInputValue = [];
+
+$(".input-verify-button [data-value]").on("click", function () {
+  const currentValue = $(this).data("value");
+  if (currentValue === "erase") {
+    otpInputValue.pop();
+  } else if (otpInputValue.length < 4) {
+    otpInputValue.push(currentValue.toString());
+  } else {
+    const firstEmptySlot = otpInputValue.findIndex((item) => !item);
+    if (firstEmptySlot >= 0) {
+      otpInputValue[firstEmptySlot] = currentValue.toString();
+    }
+  }
+  showOtpInputValue(otpInputValue);
+});
+
+$(document).on("keyup", ".js-input-verify-container .otp-input", function () {
+  const inputs = $(".js-input-verify-container .otp-input");
+  otpInputValue = [];
+  $(inputs).each((index, element) => {
+    otpInputValue.push($(element).val());
+  });
+  InputOtp.updateHiddenInput();
+});
+
+function showOtpInputValue(values) {
+  const inputs = $(".js-input-verify-container .otp-input");
+  for (let index = 0; index < 4; index++) {
+    const value = values[index];
+    const input = inputs[index];
+    $(input).val(value);
+  }
+  InputOtp.updateHiddenInput();
+}

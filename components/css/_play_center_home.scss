@@ -1,9 +1,11 @@
 .play-body {
   padding-top: 50px;
   .profile-header {
-    // &:not(.header-desktop-only) .navigations {
-    //   top: 50px;
-    // }
+    .navigation-mobile {
+      .menu-toggler {
+        color: $white;
+      }
+    }
     height: 50px;
     background: $primary;
     button {
@@ -227,10 +229,13 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  a {
+  button {
     padding: 2px 3px;
     width: 100%;
     max-width: 86px;
+    background-color: transparent;
+    border: none;
+    outline: none;
     @media (max-width: map-get($grid-breakpoints, md)) {
       max-width: 70px;
     }
@@ -252,6 +257,7 @@
   font-size: 22px;
   text-align: center;
   outline: none;
+  color: $white;
 }
 .verify-popup-inner-image {
   max-width: 204px;
@@ -261,10 +267,13 @@
   }
 }
 .input-verify-button-inner {
-  direction: rtl;
   max-width: 260px;
   flex-wrap: wrap;
   display: flex;
+  justify-content: flex-end;
+
+  button {
+  }
 }
 // .modal-backdrop {
 //   display: none;

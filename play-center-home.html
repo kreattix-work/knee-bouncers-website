@@ -115,14 +115,12 @@
                 <a
                   class="col-3 col-sm-12 mt-4 d-flex justify-content-between justify-content-center align-items-center flex-column text-center"
                   href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#verify-model"
                 >
-                  <strong
-                    data-bs-toggle="modal"
-                    data-bs-target="#verify-model1"
-                    class="play-side-bar"
-                  >
-                    <img src="./assets/images/home_icon.svg" alt=""
-                  /></strong>
+                  <strong class="play-side-bar">
+                    <img src="./assets/images/home_icon.svg" alt="" />
+                  </strong>
                   <span class="font-3 font-bold">HOME</span>
                 </a>
                 <a
@@ -332,9 +330,11 @@
 
     <div
       class="modal fade"
-      id="verify-model1"
+      id="verify-model"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
     >
       <div class="modal-dialog modal-dialog-centered">
         <div class="m-3 modal-content border-none">
@@ -353,48 +353,46 @@
               <div
                 class="col-12 col-md-6 d-flex flex-column align-items-center"
               >
-                <div class="input-verify" data-name="otp">
-                  <input
-                    type="text"
-                    maxlength="1"
-                    class="otp-input"
-                    oninput="this.value=this.value.replace(/[^0-9]/g,'');"
-                  />
-                  <input
-                    type="text"
-                    maxlength="1"
-                    class="otp-input"
-                    oninput="this.value=this.value.replace(/[^0-9]/g,'');"
-                  />
-                  <input
-                    type="text"
-                    maxlength="1"
-                    class="otp-input"
-                    oninput="this.value=this.value.replace(/[^0-9]/g,'');"
-                  />
-                  <input
-                    type="text"
-                    maxlength="1"
-                    class="otp-input"
-                    oninput="this.value=this.value.replace(/[^0-9]/g,'');"
-                  />
-                  <input name="otp" type="hidden" id="otp-value" />
-                </div>
+                <div
+                  class="input-otp input-verify js-input-verify-container"
+                  data-name="otp"
+                ></div>
+
                 <div class="input-verify-button d-flex">
                   <div class="input-verify-button-inner">
-                    <a href=""><img src="./assets/images/3.svg" alt="" /></a>
-                    <a href=""><img src="./assets/images/2.svg" alt="" /></a>
-                    <a href=""><img src="./assets/images/1.svg" alt="" /></a>
-                    <a href=""><img src="./assets/images/6.svg" alt="" /></a>
-                    <a href=""><img src="./assets/images/5.svg" alt="" /></a>
-                    <a href=""><img src="./assets/images/4.svg" alt="" /></a>
-                    <a href=""><img src="./assets/images/9.svg" alt="" /></a>
-                    <a href=""><img src="./assets/images/8.svg" alt="" /></a>
-                    <a href=""><img src="./assets/images/7.svg" alt="" /></a>
-                    <a href=""
-                      ><img src="./assets/images/oneback.svg" alt=""
-                    /></a>
-                    <a href=""><img src="./assets/images/0.svg" alt="" /></a>
+                    <button data-value="1">
+                      <img src="./assets/images/1.svg" alt="" />
+                    </button>
+                    <button data-value="2">
+                      <img src="./assets/images/2.svg" alt="" />
+                    </button>
+                    <button data-value="3">
+                      <img src="./assets/images/3.svg" alt="" />
+                    </button>
+                    <button data-value="4">
+                      <img src="./assets/images/4.svg" alt="" />
+                    </button>
+                    <button data-value="5">
+                      <img src="./assets/images/5.svg" alt="" />
+                    </button>
+                    <button data-value="6">
+                      <img src="./assets/images/6.svg" alt="" />
+                    </button>
+                    <button data-value="7">
+                      <img src="./assets/images/7.svg" alt="" />
+                    </button>
+                    <button data-value="8">
+                      <img src="./assets/images/8.svg" alt="" />
+                    </button>
+                    <button data-value="9">
+                      <img src="./assets/images/9.svg" alt="" />
+                    </button>
+                    <button data-value="0">
+                      <img src="./assets/images/0.svg" alt="" />
+                    </button>
+                    <button data-value="erase">
+                      <img src="./assets/images/oneback.svg" alt="" />
+                    </button>
                   </div>
                   <button data-bs-dismiss="modal" class="verify-enter">
                     <img src="./assets/images/enterButton.svg" alt="" />
