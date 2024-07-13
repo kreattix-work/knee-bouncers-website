@@ -364,6 +364,6 @@ $("[data-toggle=element]").on("click", function () {
   $(wrapper).toggleClass("editable");
 });
 
-$(".navigation-profile li").on("click", function () {
+$(".navigation-profile-star").on("click", function () {
   $(".navigation-profile-show-details").toggleClass("remove");
 });
