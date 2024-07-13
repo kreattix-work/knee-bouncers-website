@@ -364,6 +364,13 @@ $("[data-toggle=element]").on("click", function () {
   $(wrapper).toggleClass("editable");
 });
 
-$(".navigation-profile-star").on("click", function () {
+$(".navigation-profile-star").on("click", function (e) {
+  e.preventDefault();
   $(".navigation-profile-show-details").toggleClass("remove");
+});
+
+$(document).on("click", function (e) {
+  if (!$(e.target).closest(".navigation-profile-show-details, .navigation-profile-star").length) {
+    $(".navigation-profile-show-details").addClass("remove");
+  }
 });

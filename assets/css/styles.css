@@ -8181,7 +8181,7 @@ progress {
   display: block;
   color: #313131;
   font-weight: 800;
-  transition: all 0.2s ease-in-out;
+  transition: 0.2s all;
 }
 .navigations ul li a:not(.btn):hover:not(:active) {
   color: #ab3bff;
@@ -8211,7 +8211,7 @@ progress {
     background-color: rgba(255, 255, 255, 0.9);
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
-    transition: all 0.5s;
+    transition: all 0.2s ease-in-out;
   }
   body.menu-open header:not(.header-desktop-only) .navigations {
     top: 80px;
@@ -9823,13 +9823,15 @@ progress {
 .star-details .navigation-profile-show-details {
   background: #000;
   position: absolute;
+  border-radius: 8px;
   top: 178%;
   right: 0%;
   width: 150px;
   transform: translateX(0%);
   background-color: #fff;
+  border: 1px solid #0078ff;
   z-index: 1;
-  transition: 0.5s ease;
+  overflow: hidden;
 }
 .star-details .navigation-profile-show-details a {
   line-height: 1 !important;
@@ -9845,6 +9847,7 @@ progress {
 .navigation-profile-show-details.remove {
   height: 0;
   padding: 0;
+  border: none;
 }
 .navigation-profile-show-details.remove a {
   display: none !important;
@@ -12198,4 +12201,4 @@ progress {
 }
 .profile-detail:not(.editable) .editable-input {
   display: none;
-}
+}/*# sourceMappingURL=styles.css.map */
