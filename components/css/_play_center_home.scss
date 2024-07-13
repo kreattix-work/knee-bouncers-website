@@ -106,9 +106,12 @@
 }
 
 .play-center-content {
-  .play-side-bar img {
-    max-width: 57px;
-    width: 100%;
+  .play-side-bar {
+    img {
+      max-width: 57px;
+      width: 100%;
+      min-width: 34px;
+    }
   }
   .recently-played {
     border-radius: 10px;
@@ -116,7 +119,7 @@
     box-shadow: none;
     &-inner {
       &-images {
-        min-width: 70px;
+        min-width: 93px;
       }
       padding: 18px 30px;
       gap: 18px;
@@ -131,9 +134,7 @@
         max-width: 34px;
         @media (max-width: map-get($grid-breakpoints,md)) {
           max-width: 28px;
-          @media (max-width: map-get($grid-breakpoints,sm)) {
-            max-width: 20px;
-          }
+          min-width: 25px;
         }
       }
       @media (max-width: map-get($grid-breakpoints, md)) {

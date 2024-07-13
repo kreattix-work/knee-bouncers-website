@@ -21,6 +21,10 @@
       padding-bottom: 30px;
       @media (max-width: map-get($grid-breakpoints, lg)) {
         flex-direction: column;
+        padding-bottom: 5px;
+        a {
+          padding-top: 10px;
+        }
       }
       button {
         color: $primary;
