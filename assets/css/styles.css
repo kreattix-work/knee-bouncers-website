@@ -8122,7 +8122,6 @@ progress {
     z-index: 0;
     position: fixed;
     top: 80px;
-    top: 100vh;
     opacity: 0;
     gap: 0;
     left: 0;
@@ -8168,6 +8167,15 @@ progress {
   }
   header:not(.header-desktop-only) .navigations ul.navigation-profile {
     display: none;
+  }
+}
+@media (max-width: 1130px) {
+  header.profile-header:not(.header-desktop-only) .navigations {
+    height: calc(100vh - 50px);
+  }
+  body.menu-open header.profile-header:not(.header-desktop-only) .navigations {
+    top: 50px;
+    opacity: 1;
   }
 }
 
@@ -9350,10 +9358,6 @@ progress {
   .gamepage-member-section {
     padding-top: 50px;
   }
-}
-.gamepage-member-section-content {
-  width: 100%;
-  max-width: 800px;
 }
 .gamepage-member-section-content-button {
   margin-left: auto;
