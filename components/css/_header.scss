@@ -27,3 +27,20 @@
     }
   }
 }
+
+.header-with-profile {
+  @media (max-width: map-get($grid-breakpoints, sm)) {
+    .logout-btn {
+      width: 120px;
+    }
+  }
+  @media (max-width: map-get($grid-breakpoints, xs)) {
+    .navigations {
+      gap: 8px;
+    }
+    .logout-btn {
+      width: 72px;
+      font-size: 14px;
+    }
+  }
+}

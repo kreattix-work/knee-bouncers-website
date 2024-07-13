@@ -8149,6 +8149,21 @@ progress {
   }
 }
 
+@media (max-width: 576px) {
+  .header-with-profile .logout-btn {
+    width: 120px;
+  }
+}
+@media (max-width: 460px) {
+  .header-with-profile .navigations {
+    gap: 8px;
+  }
+  .header-with-profile .logout-btn {
+    width: 72px;
+    font-size: 14px;
+  }
+}
+
 .navigations {
   display: flex;
   align-items: center;
