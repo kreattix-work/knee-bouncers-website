@@ -156,6 +156,7 @@
         justify-content: center;
       }
       .played-arrow {
+        z-index: 11;
         width: 38px;
         height: 38px;
         @media (max-width: map-get($grid-breakpoints, lg)) {
@@ -167,8 +168,8 @@
         left: -40px;
         @media (max-width: map-get($grid-breakpoints, lg)) {
           left: -30px;
-          @media (max-width: map-get($grid-breakpoints, sm)) {
-            left: -24px;
+          @media (max-width: 480px) {
+            left: -20px;
           }
         }
       }
@@ -176,8 +177,8 @@
         right: -40px;
         @media (max-width: map-get($grid-breakpoints, lg)) {
           right: -30px;
-          @media (max-width: map-get($grid-breakpoints, sm)) {
-            right: -24px;
+          @media (max-width: 480px) {
+            right: -20px;
           }
         }
       }
@@ -185,7 +186,7 @@
         max-width: 245px;
         width: 100%;
         @media (max-width: 1330px) {
-          padding: 5px;
+          padding: 10px;
         }
       }
     }
