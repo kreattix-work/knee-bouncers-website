@@ -9839,6 +9839,7 @@ progress {
 .star-details .navigation-profile-show-details a:hover {
   background-color: #f4f4f4;
   transform: scale(1) !important;
+  color: #ab3bff;
 }
 
 .navigation-profile-show-details.remove {
