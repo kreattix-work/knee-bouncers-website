@@ -7870,6 +7870,7 @@ progress {
   color: #313131;
   overflow: hidden;
   height: 100%;
+  transition: all 0.2s ease-in-out;
 }
 .card-image img {
   width: 100%;
@@ -8026,6 +8027,41 @@ progress {
   }
 }
 
+.card-hover-primary {
+  border: 2px solid transparent !important;
+}
+.card-hover-primary:hover {
+  border: 2px solid #0078ff !important;
+}
+
+.card-hover-teritary {
+  border: 2px solid transparent !important;
+}
+.card-hover-teritary:hover {
+  border: 2px solid #bb005a !important;
+}
+
+.card-hover-purple {
+  border: 2px solid transparent !important;
+}
+.card-hover-purple:hover {
+  border: 2px solid #ab3bff !important;
+}
+
+.card-hover-purple-dark {
+  border: 2px solid transparent !important;
+}
+.card-hover-purple-dark:hover {
+  border: 2px solid #652d88 !important;
+}
+
+.card-hover-red {
+  border: 2px solid transparent !important;
+}
+.card-hover-red:hover {
+  border: 2px solid #de195b !important;
+}
+
 .search-input-secondary {
   margin-top: 24px;
   display: flex;
@@ -8062,9 +8098,11 @@ progress {
   width: 100%;
   max-width: 90px;
   height: 35px;
+  transition: all 0.2s ease-in-out;
 }
 .search-input-secondary-button:hover {
-  background: #ff7500;
+  background: #bb005a;
+  border-color: #bb005a;
 }
 
 .search-input-secondary-v2 {
@@ -8590,6 +8628,9 @@ progress {
   width: 100%;
   margin: auto;
 }
+.contact-us-section-email:hover, .contact-us-section-phone:hover {
+  color: #96cc16 !important;
+}
 
 .privacy-policy-section {
   padding: 60px 0;
@@ -8719,6 +8760,9 @@ progress {
   -o-object-position: center;
      object-position: center;
 }
+.testimonial-section-card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px !important;
+}
 
 .news-section {
   padding: 60px 0;
@@ -8729,6 +8773,7 @@ progress {
   height: 100%;
   display: flex;
   flex-direction: column;
+  border: 2px solid transparent !important;
 }
 .news-section .card-content {
   flex: 1;
@@ -8758,6 +8803,10 @@ progress {
   -o-object-fit: contain;
      object-fit: contain;
   transition: all 0.2s ease-in-out;
+}
+.news-section .card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px !important;
+  border: 2px solid #ff7500 !important;
 }
 .news-section .card:hover img {
   scale: 1.1;
@@ -9880,6 +9929,9 @@ progress {
 }
 .plan-banner .plan-teachers a {
   color: #fff;
+}
+.plan-banner .plan-teachers a:hover {
+  color: #96cc16;
 }
 
 .awards-image {

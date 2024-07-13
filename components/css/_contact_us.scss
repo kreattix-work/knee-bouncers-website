@@ -3,4 +3,10 @@
   max-width: 687px;
   width: 100%;
   margin: auto;
+  &-email,
+  &-phone {
+    &:hover {
+      color: $accent !important;
+    }
+  }
 }
