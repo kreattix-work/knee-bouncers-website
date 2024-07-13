@@ -477,3 +477,29 @@ $facebook-color: #005ac0;
     width: 75px;
   }
 }
+
+.select {
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  border-radius: $btn-border-radius;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+  transition: $transition-base;
+  padding: 6px;
+}
+
+.select-filled-light {
+  border: $btn-outlined-border;
+  background-color: $white;
+  border-color: $primary;
+  color: $primary;
+
+  &:hover {
+    border-color: $primary-dark !important;
+    color: $primary-dark !important;
+  }
+}

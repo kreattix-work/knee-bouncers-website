@@ -7774,6 +7774,31 @@ progress {
   }
 }
 
+.select {
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  padding: 6px;
+}
+
+.select-filled-light {
+  border: 2px solid #fff;
+  background-color: #fff;
+  border-color: #0078ff;
+  color: #0078ff;
+}
+.select-filled-light:hover {
+  border-color: #2638c1 !important;
+  color: #2638c1 !important;
+}
+
 .tag {
   color: inherit;
   padding: 4px 8px;
@@ -8123,6 +8148,7 @@ progress {
     position: fixed;
     top: 80px;
     opacity: 0;
+    pointer-events: none;
     gap: 0;
     left: 0;
     width: 100%;
@@ -8137,6 +8163,7 @@ progress {
   body.menu-open header:not(.header-desktop-only) .navigations {
     top: 80px;
     opacity: 1;
+    pointer-events: all;
   }
   header:not(.header-desktop-only) .navigations ul {
     width: 100%;
@@ -8171,11 +8198,12 @@ progress {
 }
 @media (max-width: 1130px) {
   header.profile-header:not(.header-desktop-only) .navigations {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 60px);
   }
   body.menu-open header.profile-header:not(.header-desktop-only) .navigations {
-    top: 50px;
+    top: 60px;
     opacity: 1;
+    pointer-events: all;
   }
 }
 
@@ -11725,8 +11753,9 @@ progress {
   padding-top: 50px;
 }
 .play-body .profile-header {
-  height: 50px;
+  height: 60px;
   background: #0078ff;
+  border: 2px solid transparent;
 }
 .play-body .profile-header .navigation-mobile .menu-toggler {
   color: #fff;
@@ -11734,15 +11763,18 @@ progress {
 .play-body .profile-header button {
   padding: 6px 8px;
 }
+.play-body .profile-header button:hover {
+  color: white;
+  border-color: #2638c1;
+}
+.play-body .profile-header button:active {
+  border-color: #96cc16;
+}
 @media (max-width: 1130px) {
   .play-body .profile-header button {
     width: 100%;
     border-color: #0078ff;
     color: #0078ff;
-  }
-  .play-body .profile-header button:hover {
-    color: #ffffff;
-    border-color: #001677;
   }
 }
 .play-body .profile-header .dropdown-arrow {
@@ -11756,16 +11788,14 @@ progress {
   height: 20px;
   width: 20px;
   right: 13px;
-  top: 50%;
+  top: 48%;
   transform: translateY(-25%);
 }
 .play-body .profile-header .dropdown-arrow select {
   text-align: start;
   width: 166px;
-  padding: 6px 23px;
+  padding: 5px 24px;
   height: 38px;
-  font-size: 18px;
-  font-weight: 600;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -12037,6 +12067,7 @@ progress {
   display: flex;
   justify-content: flex-end;
 }
+
 @media (max-height: 704px) {
   .verify-popup-inner {
     padding: 0px 20px;
@@ -12055,11 +12086,6 @@ progress {
     margin-bottom: 18px;
   }
 }
-body.menu-open header:not(.header-desktop-only) .navigations {
-  top: 50px;
-  opacity: 1;
-}
-
 .profile-detail .editable-label {
   display: flex;
   height: 40px;
@@ -12070,4 +12096,4 @@ body.menu-open header:not(.header-desktop-only) .navigations {
 }
 .profile-detail:not(.editable) .editable-input {
   display: none;
-}
+}/*# sourceMappingURL=styles.css.map */

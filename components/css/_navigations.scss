@@ -43,6 +43,7 @@ $navigation-gap: 26px;
       position: fixed;
       top: $header-height;
       opacity: 0;
+      pointer-events: none;
       gap: 0;
       left: 0;
       width: 100%;
@@ -56,6 +57,7 @@ $navigation-gap: 26px;
       body.menu-open & {
         top: $header-height;
         opacity: 1;
+        pointer-events: all;
       }
 
       ul {
@@ -97,10 +99,11 @@ $navigation-gap: 26px;
   }
   header.profile-header:not(.header-desktop-only) & {
     @media (max-width: map-get($grid-breakpoints, xl)) {
-      height: calc(100vh - 50px);
+      height: calc(100vh - 60px);
       body.menu-open & {
-        top: 50px;
+        top: 60px;
         opacity: 1;
+        pointer-events: all;
       }
     }
   }
