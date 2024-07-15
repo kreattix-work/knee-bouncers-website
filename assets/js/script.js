@@ -274,16 +274,30 @@ if (trexCanvas) {
   });
 }
 
+const bubbleCanvas = document.getElementById("canvas-bubble");
+if (bubbleCanvas) {
+  const r5 = new rive.Rive({
+    src: "./assets/riv/bubble.riv",
+    canvas: bubbleCanvas,
+    autoplay: true,
+    stateMachines: "Bubble",
+    fit: rive.Fit.none,
+    onLoad: () => {
+      r5.resizeDrawingSurfaceToCanvas();
+    },
+  });
+}
+
 const crabbyCanvas = document.getElementById("canvas-crabby");
 if (crabbyCanvas) {
-  const r4 = new rive.Rive({
+  const r6 = new rive.Rive({
     src: "./assets/riv/crabby.riv",
     canvas: crabbyCanvas,
     autoplay: true,
     stateMachines: "Crabbier",
     fit: rive.Fit.FitWidth,
     onLoad: () => {
-      r4.resizeDrawingSurfaceToCanvas();
+      r6.resizeDrawingSurfaceToCanvas();
     },
   });
 }

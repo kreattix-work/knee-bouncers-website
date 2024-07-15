@@ -8637,6 +8637,10 @@ progress {
   height: 100%;
 }
 
+#canvas-bubble {
+  width: 100%;
+}
+
 .contact-us-section {
   padding: 70px 0;
   max-width: 687px;
@@ -8935,16 +8939,34 @@ progress {
   max-width: 1068px;
   margin-top: 44px;
 }
+@media (max-width: 767px) {
+  .games-member-section .games-nonmember-section-cards .card-actions button,
+  .games-nonmember-section .games-nonmember-section-cards .card-actions button {
+    font-size: 17px !important;
+  }
+}
 @media (max-width: 1130px) {
   .games-member-section .games-nonmember-section-cards .card-actions .hover-text,
   .games-nonmember-section .games-nonmember-section-cards .card-actions .hover-text {
     font-size: 17px !important;
   }
 }
+@media (max-width: 767px) {
+  .games-member-section .games-nonmember-section-cards .card-actions .hover-text,
+  .games-nonmember-section .games-nonmember-section-cards .card-actions .hover-text {
+    font-size: 15px !important;
+  }
+}
 @media (max-width: 1330px) {
   .games-member-section .games-nonmember-section-cards .card-actions .active-text,
   .games-nonmember-section .games-nonmember-section-cards .card-actions .active-text {
     font-size: 17px !important;
+  }
+}
+@media (max-width: 767px) {
+  .games-member-section .games-nonmember-section-cards .card-actions .active-text,
+  .games-nonmember-section .games-nonmember-section-cards .card-actions .active-text {
+    font-size: 15px !important;
   }
 }
 @media (max-width: 460px) {
