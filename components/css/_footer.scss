@@ -118,3 +118,42 @@
     width: 50%;
   }
 }
+// crab
+.footer-crab {
+  position: relative;
+  height: 70px;
+  padding-top: 40px !important;
+  canvas {
+    position: absolute;
+  }
+}
+.footer-bottom {
+  overflow: hidden;
+}
+.footer-top {
+  padding-bottom: 0px;
+}
+.crabby-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: -179px;
+  @media (max-width: 1329px) {
+    margin-top: -148px;
+    @media (max-width: 1129px) {
+      margin-top: -122px;
+      #canvas-crabby {
+        margin-left: 100px !important;
+      }
+      @media (max-width: 991px) {
+        margin-top: -85px;
+        justify-content: flex-end;
+        @media (max-width: 991px) {
+          margin-top: -61px;
+          @media (max-width: 991px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
