@@ -8424,6 +8424,9 @@ progress {
 .footer-dark-bottom {
   padding-bottom: 10px;
 }
+.footer #canvas-crabby {
+  width: 50%;
+}
 
 .blog-card {
   padding: 45px 35px;

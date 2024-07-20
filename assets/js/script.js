@@ -295,7 +295,7 @@ if (crabbyCanvas) {
     canvas: crabbyCanvas,
     autoplay: true,
     stateMachines: "Crabbier",
-    fit: rive.Fit.FitWidth,
+    fit: rive.Fit.None,
     onLoad: () => {
       r6.resizeDrawingSurfaceToCanvas();
     },
