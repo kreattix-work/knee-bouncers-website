@@ -8469,12 +8469,12 @@ progress {
     justify-content: flex-end;
   }
 }
-@media (max-width: 1329px) and (max-width: 1129px) and (max-width: 991px) and (max-width: 991px) {
+@media (max-width: 1329px) and (max-width: 1129px) and (max-width: 991px) and (max-width: 766px) {
   .crabby-wrapper {
     margin-top: -61px;
   }
 }
-@media (max-width: 1329px) and (max-width: 1129px) and (max-width: 991px) and (max-width: 991px) and (max-width: 991px) {
+@media (max-width: 1329px) and (max-width: 1129px) and (max-width: 991px) and (max-width: 766px) and (max-width: 577px) {
   .crabby-wrapper {
     display: none;
   }
