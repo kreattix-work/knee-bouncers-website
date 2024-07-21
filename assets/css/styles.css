@@ -9105,7 +9105,7 @@ progress {
 @media (max-width: 1330px) {
   .games-nonmember-section-buttons-container {
     height: 99px;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 }
 .videos-member-section,
@@ -9323,13 +9323,13 @@ progress {
 @media (max-width: 1330px) {
   .videos-member-section-buttons-container {
     height: 99px;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 }
 @media (max-width: 1330px) {
   .videos-nonmember-section-buttons-container {
     height: 99px;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 }
 .coloringsheets-member-section,
@@ -9540,13 +9540,13 @@ progress {
 @media (max-width: 1330px) {
   .coloringsheets-member-section-buttons-container {
     height: 99px;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 }
 @media (max-width: 1330px) {
   .coloringsheets-nonmember-section-buttons-container {
     height: 99px;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 }
 .gamepage-member-section {
@@ -9578,7 +9578,7 @@ progress {
 @media (max-width: 1330px) {
   .games-member-section-buttons-container {
     height: 99px;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 }
 .videopage-member-section {
