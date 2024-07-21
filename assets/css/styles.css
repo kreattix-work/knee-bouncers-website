@@ -7668,8 +7668,8 @@ progress {
 }
 
 .btn-sm {
-  width: 120px;
-  height: 40px;
+  min-width: 120px;
+  min-height: 40px;
   font-size: 16px;
   font-weight: 800;
 }
@@ -12278,4 +12278,4 @@ progress {
 }
 .profile-detail:not(.editable) .editable-input {
   display: none;
-}
+}/*# sourceMappingURL=styles.css.map */

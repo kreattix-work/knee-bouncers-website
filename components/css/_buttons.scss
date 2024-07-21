@@ -371,8 +371,8 @@ $btn-big-font-weight-lg: 800;
   font-weight: $btn-font-weight-sm;
 }
 .btn-sm {
-  width: $btn-width-sm;
-  height: $btn-height-sm;
+  min-width: $btn-width-sm;
+  min-height: $btn-height-sm;
   font-size: $btn-font-size-sm;
   font-weight: $btn-font-weight-sm;
 }
