@@ -160,3 +160,16 @@
   background: #a220df;
   margin-top: -14px;
 }
+
+@media (max-width: map-get($grid-breakpoints, xxl)) {
+  .videos-member-section-buttons-container {
+    height: 99px;
+    overflow: scroll;
+  }
+}
+@media (max-width: map-get($grid-breakpoints, xxl)) {
+  .videos-nonmember-section-buttons-container {
+    height: 99px;
+    overflow: scroll;
+  }
+}

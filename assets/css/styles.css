@@ -9102,6 +9102,12 @@ progress {
   margin: 0px -10px;
 }
 
+@media (max-width: 1330px) {
+  .games-nonmember-section-buttons-container {
+    height: 99px;
+    overflow: scroll;
+  }
+}
 .videos-member-section,
 .videos-nonmember-section {
   padding: 60px 0;
@@ -9314,6 +9320,18 @@ progress {
   margin-top: -14px;
 }
 
+@media (max-width: 1330px) {
+  .videos-member-section-buttons-container {
+    height: 99px;
+    overflow: scroll;
+  }
+}
+@media (max-width: 1330px) {
+  .videos-nonmember-section-buttons-container {
+    height: 99px;
+    overflow: scroll;
+  }
+}
 .coloringsheets-member-section,
 .coloringsheets-nonmember-section {
   padding: 60px 0;
@@ -9519,6 +9537,18 @@ progress {
   }
 }
 
+@media (max-width: 1330px) {
+  .coloringsheets-member-section-buttons-container {
+    height: 99px;
+    overflow: scroll;
+  }
+}
+@media (max-width: 1330px) {
+  .coloringsheets-nonmember-section-buttons-container {
+    height: 99px;
+    overflow: scroll;
+  }
+}
 .gamepage-member-section {
   padding-top: 70px;
   padding-bottom: 102px;
@@ -9545,6 +9575,12 @@ progress {
   margin-top: 45px;
 }
 
+@media (max-width: 1330px) {
+  .games-member-section-buttons-container {
+    height: 99px;
+    overflow: scroll;
+  }
+}
 .videopage-member-section {
   padding-top: 70px;
   padding-bottom: 102px;
@@ -12278,4 +12314,4 @@ progress {
 }
 .profile-detail:not(.editable) .editable-input {
   display: none;
-}/*# sourceMappingURL=styles.css.map */
+}

@@ -21,3 +21,9 @@
     margin-top: 45px;
   }
 }
+@media (max-width: map-get($grid-breakpoints, xxl)) {
+  .games-member-section-buttons-container {
+    height: 99px;
+    overflow: scroll;
+  }
+}
