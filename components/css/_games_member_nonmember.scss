@@ -118,7 +118,8 @@
 }
 @media (max-width: map-get($grid-breakpoints, xxl)) {
   .games-nonmember-section-buttons-container {
-    height: 99px;
-    overflow-y: scroll;
+    height: 100%;
+    max-height: 99px;
+    overflow-y: auto;
   }
 }

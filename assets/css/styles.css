@@ -1018,12 +1018,28 @@ h6 {
   margin-top: -15px;
 }
 
+.lh-0 {
+  line-height: 0;
+}
+
 .lh-7 {
   line-height: 22px;
 }
 
 .lh-13 {
   line-height: 32px;
+}
+
+.lh-21 {
+  line-height: 48px;
+}
+
+.mgt-3 {
+  margin-top: 15px;
+}
+
+.mgb-15 {
+  margin-bottom: 35px;
 }
 
 .w-100 {
@@ -7801,7 +7817,7 @@ progress {
 
 .tag {
   color: inherit;
-  padding: 4px 8px;
+  padding: 2px 8px;
   font-size: 14px;
   font-weight: 700;
   border-radius: 6px;
@@ -8344,7 +8360,7 @@ progress {
   color: #fff;
 }
 .footer-contact-info p a:hover {
-  color: #96cc16;
+  color: #ffdc00;
 }
 .footer-links {
   list-style: none;
@@ -8365,7 +8381,7 @@ progress {
   font-size: 18px;
 }
 .footer-links li a:hover {
-  color: #96cc16;
+  color: #ffdc00;
 }
 .footer-social-links {
   list-style: none;
@@ -8472,11 +8488,6 @@ progress {
 @media (max-width: 1329px) and (max-width: 1129px) and (max-width: 991px) and (max-width: 766px) {
   .crabby-wrapper {
     margin-top: -61px;
-  }
-}
-@media (max-width: 1329px) and (max-width: 1129px) and (max-width: 991px) and (max-width: 766px) and (max-width: 577px) {
-  .crabby-wrapper {
-    display: none;
   }
 }
 
@@ -8696,6 +8707,11 @@ progress {
   width: 100%;
 }
 
+.kidsafe-home-img {
+  width: 100%;
+  max-width: 90px;
+}
+
 .contact-us-section {
   padding: 70px 0;
   max-width: 687px;
@@ -8801,7 +8817,9 @@ progress {
 }
 .testimonial-section-content-title img {
   width: 100%;
+  aspect-ratio: 1/1;
   max-width: 45px;
+  max-height: 45px;
 }
 @media (max-width: 576px) {
   .testimonial-section-content-title img {
@@ -9104,8 +9122,9 @@ progress {
 
 @media (max-width: 1330px) {
   .games-nonmember-section-buttons-container {
-    height: 99px;
-    overflow-y: scroll;
+    height: 100%;
+    max-height: 99px;
+    overflow-y: auto;
   }
 }
 .videos-member-section,
@@ -9322,14 +9341,16 @@ progress {
 
 @media (max-width: 1330px) {
   .videos-member-section-buttons-container {
-    height: 99px;
+    height: 100%;
+    max-height: 99px;
     overflow-y: scroll;
   }
 }
 @media (max-width: 1330px) {
   .videos-nonmember-section-buttons-container {
-    height: 99px;
-    overflow-y: scroll;
+    height: 100%;
+    max-height: 99px;
+    overflow-y: auto;
   }
 }
 .coloringsheets-member-section,
@@ -9539,14 +9560,16 @@ progress {
 
 @media (max-width: 1330px) {
   .coloringsheets-member-section-buttons-container {
-    height: 99px;
+    height: 100%;
+    max-height: 99px;
     overflow-y: scroll;
   }
 }
 @media (max-width: 1330px) {
   .coloringsheets-nonmember-section-buttons-container {
-    height: 99px;
-    overflow-y: scroll;
+    height: 100%;
+    max-height: 99px;
+    overflow-y: auto;
   }
 }
 .gamepage-member-section {
@@ -9949,7 +9972,7 @@ progress {
 .star-details .navigation-profile-show-details a {
   line-height: 1 !important;
   font-size: 16px !important;
-  padding: 15px 10px;
+  padding: 10px 10px;
 }
 .star-details .navigation-profile-show-details a:hover {
   background-color: #f4f4f4;
@@ -12314,4 +12337,4 @@ progress {
 }
 .profile-detail:not(.editable) .editable-input {
   display: none;
-}
+}/*# sourceMappingURL=styles.css.map */

@@ -34,7 +34,7 @@
       a {
         color: $white;
         &:hover {
-          color: $accent;
+          color: $yellow;
         }
       }
     }
@@ -54,7 +54,7 @@
       font-weight: 700;
       font-size: 18px;
       &:hover {
-        color: $accent;
+        color: $yellow;
       }
     }
   }
@@ -149,9 +149,9 @@
         justify-content: flex-end;
         @media (max-width: 766px) {
           margin-top: -61px;
-          @media (max-width: 577px) {
-            display: none;
-          }
+          // @media (max-width: 577px) {
+          //   display: none;
+          // }
         }
       }
     }
