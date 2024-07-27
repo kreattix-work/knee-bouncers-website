@@ -129,7 +129,7 @@
 }
 .footer-bottom {
   overflow: hidden;
-  @media (max-width: 768px) {
+  @media (max-width: 766px) {
     padding: 14px 0px 80px 0px;
     @media (max-width: 575px) {
       padding: 14px 0px 39px 0px;
@@ -153,7 +153,7 @@
       @media (max-width: 991px) {
         margin-top: -85px;
         justify-content: flex-end;
-        @media (max-width: 768px) {
+        @media (max-width: 766px) {
           margin-top: -61px;
           justify-content: center;
           margin-top: -73px;
