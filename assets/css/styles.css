@@ -8044,38 +8044,38 @@ progress {
 }
 
 .card-hover-primary {
-  border: 2px solid transparent !important;
+  transition: 0.1s all !important;
 }
 .card-hover-primary:hover {
-  border: 2px solid #0078ff !important;
+  box-shadow: #0078ff 0px 1px 3px 0px, #0078ff 0px 0px 0px 2px;
 }
 
 .card-hover-teritary {
-  border: 2px solid transparent !important;
+  transition: 0.1s all !important;
 }
 .card-hover-teritary:hover {
-  border: 2px solid #bb005a !important;
+  box-shadow: #bb005a 0px 1px 3px 0px, #bb005a 0px 0px 0px 2px;
 }
 
 .card-hover-purple {
-  border: 2px solid transparent !important;
+  transition: 0.1s all !important;
 }
 .card-hover-purple:hover {
-  border: 2px solid #ab3bff !important;
+  box-shadow: #ab3bff 0px 1px 3px 0px, #ab3bff 0px 0px 0px 2px;
 }
 
 .card-hover-purple-dark {
-  border: 2px solid transparent !important;
+  transition: 0.1s all !important;
 }
 .card-hover-purple-dark:hover {
-  border: 2px solid #652d88 !important;
+  box-shadow: #652d88 0px 1px 3px 0px, #652d88 0px 0px 0px 2px;
 }
 
 .card-hover-red {
-  border: 2px solid transparent !important;
+  transition: 0.1s all !important;
 }
 .card-hover-red:hover {
-  border: 2px solid #de195b !important;
+  box-shadow: #de195b 0px 1px 3px 0px, #de195b 0px 0px 0px 2px;
 }
 
 .search-input-secondary {
