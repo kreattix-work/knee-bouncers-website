@@ -11961,13 +11961,15 @@ progress {
   max-width: 500px;
   margin: 0 auto;
 }
-.blogpage-article-section-ads-order-1 {
-  order: 1;
-  margin: 24px 0px;
-}
-.blogpage-article-section-ads-order-2 {
-  order: 2;
-  margin: 24px 0px;
+@media (max-width: 992px) {
+  .blogpage-article-section-ads-order-1 {
+    order: 1;
+    margin: 24px 0px;
+  }
+  .blogpage-article-section-ads-order-2 {
+    order: 2;
+    margin: 24px 0px;
+  }
 }
 
 .writter-img {
