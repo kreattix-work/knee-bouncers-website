@@ -8456,6 +8456,16 @@ progress {
 .footer-bottom {
   overflow: hidden;
 }
+@media (max-width: 768px) {
+  .footer-bottom {
+    padding: 14px 0px 80px 0px;
+  }
+}
+@media (max-width: 768px) and (max-width: 575px) {
+  .footer-bottom {
+    padding: 14px 0px 39px 0px;
+  }
+}
 
 .footer-top {
   padding-bottom: 0px;
@@ -8485,9 +8495,23 @@ progress {
     justify-content: flex-end;
   }
 }
-@media (max-width: 1329px) and (max-width: 1129px) and (max-width: 991px) and (max-width: 766px) {
+@media (max-width: 1329px) and (max-width: 1129px) and (max-width: 991px) and (max-width: 768px) {
   .crabby-wrapper {
     margin-top: -61px;
+    justify-content: center;
+    margin-top: -73px;
+  }
+  .crabby-wrapper #canvas-crabby {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 1329px) and (max-width: 1129px) and (max-width: 991px) and (max-width: 768px) and (max-width: 575px) {
+  .crabby-wrapper {
+    margin-top: -50px;
+  }
+  .crabby-wrapper #canvas-crabby {
+    width: 320px;
   }
 }
 
@@ -12339,4 +12363,4 @@ progress {
 }
 .profile-detail:not(.editable) .editable-input {
   display: none;
-}/*# sourceMappingURL=styles.css.map */
+}
