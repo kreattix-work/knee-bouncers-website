@@ -150,3 +150,9 @@ $navigation-gap: 26px;
     }
   }
 }
+
+.one-btn {
+  @media (max-width: map-get($grid-breakpoints, xs)) {
+    min-width: 70px;
+  }
+}

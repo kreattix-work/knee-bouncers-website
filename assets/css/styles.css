@@ -8317,6 +8317,12 @@ progress {
   }
 }
 
+@media (max-width: 460px) {
+  .one-btn {
+    min-width: 70px;
+  }
+}
+
 .footer {
   background-color: #0078ff;
   border-top: 2px solid #ff8000;
@@ -12363,4 +12369,4 @@ progress {
 }
 .profile-detail:not(.editable) .editable-input {
   display: none;
-}
+}/*# sourceMappingURL=styles.css.map */
