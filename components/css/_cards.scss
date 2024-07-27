@@ -219,34 +219,34 @@ $card-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
 .card-hover-primary {
   transition: 0.1s all !important;
   &:hover {
-    box-shadow: $primary 0px 1px 3px 0px, $primary 0px 0px 0px 2px;
+    box-shadow: $primary 0px 1px 3px 0px, $primary 0px 0px 0px 2px !important;
   }
 }
 
 .card-hover-teritary {
   transition: 0.1s all !important;
   &:hover {
-    box-shadow: $teritary 0px 1px 3px 0px, $teritary 0px 0px 0px 2px;
+    box-shadow: $teritary 0px 1px 3px 0px, $teritary 0px 0px 0px 2px !important;
   }
 }
 
 .card-hover-purple {
   transition: 0.1s all !important;
   &:hover {
-    box-shadow: $purple 0px 1px 3px 0px, $purple 0px 0px 0px 2px;
+    box-shadow: $purple 0px 1px 3px 0px, $purple 0px 0px 0px 2px !important;
   }
 }
 
 .card-hover-purple-dark {
   transition: 0.1s all !important;
   &:hover {
-    box-shadow: $purple-dark 0px 1px 3px 0px, $purple-dark 0px 0px 0px 2px;
+    box-shadow: $purple-dark 0px 1px 3px 0px, $purple-dark 0px 0px 0px 2px !important;
   }
 }
 
 .card-hover-red {
-  transition: 0.1s all !important;
+  border: 2px solid transparent !important;
   &:hover {
-    box-shadow: $red 0px 1px 3px 0px, $red 0px 0px 0px 2px;
+    border: 2px solid $red !important;
   }
 }
