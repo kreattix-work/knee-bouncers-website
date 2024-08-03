@@ -962,7 +962,10 @@
     background: #df0059;
     width: 195px;
     height: 90px;
-    border: 0;
+    border: 5px solid transparent;
+    &:hover {
+      border-color: #ffdc00;
+    }
   }
   .class-green {
     background: #96cc16;
