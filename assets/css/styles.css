@@ -11564,7 +11564,7 @@ progress {
   text-align: center;
   font-size: 24px !important;
   font-weight: 700;
-  line-height: 34px; /* 141.667% */
+  line-height: 34px;
   border-radius: 20px;
   background: #2638c0;
   width: 140px;
