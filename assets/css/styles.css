@@ -10798,6 +10798,11 @@ progress {
   width: 100%;
   aspect-ratio: 1/1;
 }
+.onboard-03-section .avatar-container canvas {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .onboard-03-section .slider-button-right,
 .onboard-03-section .slider-button-left {
   max-width: 40px;
