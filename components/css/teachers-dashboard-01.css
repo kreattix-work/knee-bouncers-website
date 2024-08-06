@@ -1,0 +1,17 @@
+.preschool-banner {
+  margin-bottom: 55px;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+.preschool-banner .preschool-banner-inner img {
+  max-width: 109px;
+  margin-bottom: -55px;
+}
+.preschool-banner .preschool-banner-inner h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 18px; /* 75% */
+  letter-spacing: 4px;
+  margin-bottom: 0;
+}

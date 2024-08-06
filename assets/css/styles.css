@@ -12471,3 +12471,103 @@ progress {
 .profile-detail:not(.editable) .editable-input {
   display: none;
 }
+
+.preschool-banner {
+  margin-bottom: 50px;
+}
+.preschool-banner .preschool-banner-inner {
+  padding-top: 17px;
+}
+.preschool-banner .preschool-banner-inner img {
+  max-width: 109px;
+  margin-bottom: -50px;
+}
+.preschool-banner .preschool-banner-inner h4 {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  display: inline;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 18px; /* 75% */
+  letter-spacing: 4px;
+  margin-bottom: 0;
+}
+
+.class-activity .class-activity-details {
+  padding-top: 40px;
+}
+.class-activity .class-activity-details .card {
+  border-radius: 20px;
+  border: 2px solid #ff7500;
+  background: #fff;
+  box-shadow: none;
+  padding: 22px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.class-activity .class-activity-details .card p {
+  margin-bottom: 0;
+  line-height: 28px;
+  letter-spacing: 0.32px;
+}
+.class-activity .class-activity-details .card h5 {
+  line-height: 28px;
+  letter-spacing: 0.32px;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.class-activity .class-activity-details .card a {
+  color: #056de2;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
+.class-activity .class-activity-score h4 {
+  color: #0078ff;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 4px;
+  margin-bottom: 13px;
+}
+.class-activity .class-activity-score p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.class-activity .class-activity-score .student-activity {
+  justify-content: space-evenly;
+  padding: 22px 27px;
+}
+.class-activity .class-activity-score .student-activity .student-activity-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.class-activity .class-activity-score .student-activity .student-activity-inner h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 0;
+}
+.class-activity .class-activity-score .student-activity .student-activity-inner h5 {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+}
+.class-activity .class-activity-score .student-activity .student-activity-inner p {
+  color: #606060;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.class-activity .class-activity-score .student-activity .student-activity-orange-divider {
+  width: 2px;
+  height: auto;
+  background: #ff7500;
+}
