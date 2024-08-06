@@ -76,7 +76,7 @@
       <div class="profile-detail-section">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-sm-5 col-md-4 col-lg-5 parent-profile">
+            <div class="col-12 col-sm-5 col-md-4 parent-profile">
               <div class="profile-title text-primary">
                 <h5>PARENT PROFILE</h5>
                 <a
@@ -88,7 +88,7 @@
                 >
               </div>
               <div class="profile-detail">
-                <div class="row align-items-center g-lg-3">
+                <div class="row align-items-center g-lg-3 fw-700">
                   <div class="pb-2 pb-md-0 col-12 col-md-12 col-lg-4">
                     <span>First name:</span>
                   </div>
@@ -141,11 +141,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-7 col-md-8 col-lg-7">
+            <div class="col-12 col-sm-7 col-md-8">
               <div class="membership-detail">
                 <div class="membership-title">
                   <h5 class="text-25 text-md-5">MEMBERSHIP DETAILS</h5>
-                  <p class="text-25 text-md-5">UPGRADE AND SAVE!</p>
+                  <p class="text-25 text-md-5 text-red">UPGRADE AND SAVE!</p>
                 </div>
                 <div class="membership-description row pe-md-0">
                   <div class="col-md-5 col-lg-4">
@@ -172,8 +172,10 @@
                   <div class="col-md-5 col-lg-4">
                     <strong>Manage Subscription:</strong>
                   </div>
-                  <div class="col-md-7 col-lg-8 text-primary">
-                    <p>Cancel my free trial</p>
+                  <div class="col-md-7 col-lg-8">
+                    <p>
+                      <a class="text-primary" href="#">Cancel my free trial</a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -225,26 +227,18 @@
           </div>
         </div>
       </div>
-      <div class="user-detail-section">
+      <div class="user-detail-section user-detail-section-2">
         <div class="container">
           <div class="row">
             <div
-              class="col-12 col-sm-5 user-detail-info align-items-center align-items-start"
+              class="col-12 col-sm-5 col-md-4 user-detail-info align-items-center align-items-md-start"
             >
-              <select
-                class="username-option"
-                name="View another child"
-                id="View another child"
-              >
-                <option value="">View another child</option>
-                <option value="">View another child</option>
-              </select>
-              <div class="profile-userinfo row justify-content-center">
-                <div class="col-12 col-md-6">
+              <div class="profile-userinfo row align-items-center">
+                <div class="col-12 col-lg-7">
                   <img src="./assets/images/userlogo.svg" alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-6 d-flex justify-content-center flex-column"
+                  class="col-12 col-lg-5 d-flex justify-content-center flex-column"
                 >
                   <h3
                     class="text-center text-md-left text-left text-dark text-8 m-0 fw-700"
@@ -258,8 +252,19 @@
                 </div>
               </div>
               <h2 class="profile-text">Keep up the great work!</h2>
+              <div class="username-option-outer">
+                <img src="./assets/images/bluepolygon.svg" alt="" />
+                <select
+                  class="username-option"
+                  name="View another child"
+                  id="View another child"
+                >
+                  <option value="">View another child</option>
+                  <option value="">View another child</option>
+                </select>
+              </div>
             </div>
-            <div class="col-12 col-sm-7">
+            <div class="col-12 col-sm-7 col-md-8">
               <div class="weekly-activity">
                 <div
                   class="weekly-activity-top d-flex align-items-center justify-content-between flex-wrap flex-lg-nowrap"
@@ -278,7 +283,7 @@
                 </p>
                 <div class="row weekly-activity-score">
                   <div
-                    class="col-12 col-md-6 col-xl-3 mb-4 mb-xl-0 text-center"
+                    class="col-12 col-sm-6 col-md-4 col-xl-4 mb-4 mb-xl-0 text-center"
                   >
                     <div class="weekly-activity-score-item card-6">
                       <h1 class="text-23 mb-0">4</h1>
@@ -289,18 +294,7 @@
                     </div>
                   </div>
                   <div
-                    class="col-12 col-md-6 col-xl-3 mb-4 mb-xl-0 text-center"
-                  >
-                    <div class="weekly-activity-score-item card-6">
-                      <h1 class="text-23 mb-0">2</h1>
-                      <h4 class="text-5 fw-800">Skills mastered</h4>
-                      <p class="mb-0 text-2 font-medium text-gray-light-v3">
-                        Previous week: 0
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    class="col-12 col-md-6 col-xl-3 mb-4 mb-xl-0 text-center"
+                    class="col-12 col-sm-6 col-md-4 col-xl-4 mb-4 mb-xl-0 text-center"
                   >
                     <div class="weekly-activity-score-item card-6">
                       <h1 class="text-23 mb-0">85%</h1>
@@ -311,7 +305,7 @@
                     </div>
                   </div>
                   <div
-                    class="col-12 col-md-6 col-xl-3 mb-4 mb-xl-0 text-center"
+                    class="col-12 col-sm-6 col-md-4 col-xl-4 mb-4 mb-xl-0 text-center"
                   >
                     <div class="weekly-activity-score-item card-6">
                       <h1 class="text-23 mb-0">2</h1>

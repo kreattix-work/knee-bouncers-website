@@ -11784,7 +11784,6 @@ progress {
   color: #fff;
   font-size: 24px;
   font-weight: 800;
-  line-height: 18px;
   letter-spacing: 4px;
   margin: 0px;
 }
@@ -11960,6 +11959,9 @@ progress {
   }
 }
 
+.foundation-right {
+  padding-bottom: 40px;
+}
 .foundation-right .proficiency-wrapper {
   padding-top: 48px;
   padding-left: 48px;
@@ -12570,4 +12572,59 @@ progress {
   width: 2px;
   height: auto;
   background: #ff7500;
+}
+
+.text-red {
+  color: #de0059;
+  font-size: 18px;
+  font-weight: 800 !important;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 992px) {
+  .user-detail-section-2 .profile-text {
+    text-align: center;
+  }
+}
+.user-detail-section-2 .user-detail-info {
+  padding-top: 34px !important;
+  padding-bottom: 28px !important;
+}
+.user-detail-section-2 .profile-text {
+  padding-bottom: 0 !important;
+}
+.user-detail-section-2 .username-option-outer {
+  position: relative;
+}
+.user-detail-section-2 .username-option-outer select {
+  -webkit-appearance: none;
+  padding: 5px 33px 5px 20px !important;
+}
+.user-detail-section-2 .username-option-outer img {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  z-index: 3;
+  right: 12px;
+  top: 10px;
+}
+@media (max-width: 992px) {
+  .user-detail-section-2 .profile-userinfo div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.user-detail-section-2 .profile-userinfo img {
+  max-width: 150px;
+}
+.user-detail-section-2 .weekly-activity-score-item {
+  max-width: 200px;
+  margin: 0 auto;
+}
+@media (max-width: 992px) {
+  .user-detail-section-2 .weekly-activity-score-item h1 {
+    font-size: 45px !important;
+  }
 }

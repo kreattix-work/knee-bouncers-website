@@ -107,7 +107,7 @@
     color: #fff;
     font-size: 24px;
     font-weight: 800;
-    line-height: 18px;
+    // line-height: 18px;
     letter-spacing: 4px;
     margin: 0px;
   }
@@ -270,6 +270,7 @@
   }
 }
 .foundation-right {
+  padding-bottom: 40px;
   .proficiency-wrapper {
     padding-top: 48px;
     padding-left: 48px;
