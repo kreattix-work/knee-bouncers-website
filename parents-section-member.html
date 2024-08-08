@@ -145,7 +145,7 @@
               <div class="membership-detail">
                 <div class="membership-title">
                   <h5 class="text-25 text-md-5">MEMBERSHIP DETAILS</h5>
-                  <p class="text-25 text-md-5">UPGRADE AND SAVE!</p>
+                  <p class="text-25 text-md-5 text-red">UPGRADE AND SAVE!</p>
                 </div>
                 <div class="membership-description row pe-md-0">
                   <div class="col-md-5 col-lg-4">
@@ -173,7 +173,9 @@
                     <strong>Manage Subscription:</strong>
                   </div>
                   <div class="col-md-7 col-lg-8 text-primary">
-                    <p>Cancel my free trial</p>
+                    <p>
+                      <a class="text-primary" href="#">Cancel my free trial</a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -225,26 +227,18 @@
           </div>
         </div>
       </div>
-      <div class="user-detail-section">
+      <div class="user-detail-section user-detail-section-2">
         <div class="container">
           <div class="row">
             <div
-              class="col-12 col-sm-5 user-detail-info align-items-center align-items-start"
+              class="col-12 col-sm-5 col-md-4 user-detail-info align-items-center align-items-md-start"
             >
-              <select
-                class="username-option"
-                name="View another child"
-                id="View another child"
-              >
-                <option value="">View another child</option>
-                <option value="">View another child</option>
-              </select>
-              <div class="profile-userinfo row justify-content-center">
-                <div class="col-12 col-md-6">
+              <div class="profile-userinfo row align-items-center">
+                <div class="col-12 col-lg-7">
                   <img src="./assets/images/userlogo.svg" alt="" />
                 </div>
                 <div
-                  class="col-12 col-md-6 d-flex justify-content-center flex-column"
+                  class="col-12 col-lg-5 d-flex justify-content-center flex-column"
                 >
                   <h3
                     class="text-center text-md-left text-left text-dark text-8 m-0 fw-700"
@@ -258,8 +252,19 @@
                 </div>
               </div>
               <h2 class="profile-text">Keep up the great work!</h2>
+              <div class="username-option-outer">
+                <img src="./assets/images/bluepolygon.svg" alt="" />
+                <select
+                  class="username-option"
+                  name="View another child"
+                  id="View another child"
+                >
+                  <option value="">View another child</option>
+                  <option value="">View another child</option>
+                </select>
+              </div>
             </div>
-            <div class="col-12 col-sm-7">
+            <div class="col-12 col-sm-7 col-md-8">
               <div class="weekly-activity">
                 <div
                   class="weekly-activity-top d-flex align-items-center justify-content-between flex-wrap flex-lg-nowrap"
@@ -278,7 +283,7 @@
                 </p>
                 <div class="row weekly-activity-score">
                   <div
-                    class="col-12 col-md-6 col-xl-3 mb-4 mb-xl-0 text-center"
+                    class="col-12 col-sm-6 col-md-4 col-xl-4 mb-4 mb-xl-0 text-center"
                   >
                     <div class="weekly-activity-score-item card-6">
                       <h1 class="text-23 mb-0">4</h1>
@@ -289,18 +294,7 @@
                     </div>
                   </div>
                   <div
-                    class="col-12 col-md-6 col-xl-3 mb-4 mb-xl-0 text-center"
-                  >
-                    <div class="weekly-activity-score-item card-6">
-                      <h1 class="text-23 mb-0">2</h1>
-                      <h4 class="text-5 fw-800">Skills mastered</h4>
-                      <p class="mb-0 text-2 font-medium text-gray-light-v3">
-                        Previous week: 0
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    class="col-12 col-md-6 col-xl-3 mb-4 mb-xl-0 text-center"
+                    class="col-12 col-sm-6 col-md-4 col-xl-4 mb-4 mb-xl-0 text-center"
                   >
                     <div class="weekly-activity-score-item card-6">
                       <h1 class="text-23 mb-0">85%</h1>
@@ -311,7 +305,7 @@
                     </div>
                   </div>
                   <div
-                    class="col-12 col-md-6 col-xl-3 mb-4 mb-xl-0 text-center"
+                    class="col-12 col-sm-6 col-md-4 col-xl-4 mb-4 mb-xl-0 text-center"
                   >
                     <div class="weekly-activity-score-item card-6">
                       <h1 class="text-23 mb-0">2</h1>
@@ -640,17 +634,19 @@
                   </div>
                   <div class="our-blog-section">
                     <h5 class="text-teritary">FROM OUR BLOG</h5>
-                    <img src="./assets/images/blankimg.svg" alt="" />
-                    <h4 class="text-purple-dark">
-                      Blog Headline Goes Here in This Space
-                    </h4>
-                    <p>
-                      The spring is an excellent time for the outdoors. Botanic
-                      gardens, parks, and zoos were always...
-                    </p>
-                    <h6 class="text-6 font-bold text-orange-dark">
-                      read the article
-                    </h6>
+                    <div class="">
+                      <img src="./assets/images/blankimg.svg" alt="" />
+                      <h4 class="text-purple-dark">
+                        Blog Headline Goes Here in This Space
+                      </h4>
+                      <p>
+                        The spring is an excellent time for the outdoors.
+                        Botanic gardens, parks, and zoos were always...
+                      </p>
+                      <h6 class="text-6 font-bold text-orange-dark">
+                        read the article
+                      </h6>
+                    </div>
                   </div>
                 </div>
               </div>

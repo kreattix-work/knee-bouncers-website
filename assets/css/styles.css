@@ -12480,7 +12480,23 @@ progress {
 .preschool-banner .preschool-banner-inner {
   padding-top: 17px;
 }
+@media (max-width: 767px) {
+  .preschool-banner .preschool-banner-inner {
+    flex-direction: column-reverse;
+    align-items: center;
+    display: flex;
+  }
+  .preschool-banner .preschool-banner-inner h4 {
+    text-align: center;
+    line-height: 130% !important;
+  }
+  .preschool-banner .preschool-banner-inner img {
+    margin-right: 0 !important;
+  }
+}
 .preschool-banner .preschool-banner-inner img {
+  margin-left: -14px;
+  margin-right: 28px;
   max-width: 109px;
   margin-bottom: -50px;
 }
@@ -12498,6 +12514,12 @@ progress {
 
 .class-activity .class-activity-details {
   padding-top: 40px;
+  padding-right: 28px;
+}
+@media (max-width: 992px) {
+  .class-activity .class-activity-details {
+    padding-right: 12px;
+  }
 }
 .class-activity .class-activity-details .card {
   border-radius: 20px;
@@ -12508,6 +12530,11 @@ progress {
   display: flex;
   flex-direction: column;
   gap: 6px;
+}
+@media (max-width: 1130px) {
+  .class-activity .class-activity-details .card {
+    padding: 22px 20px;
+  }
 }
 .class-activity .class-activity-details .card p {
   margin-bottom: 0;
@@ -12528,6 +12555,14 @@ progress {
   line-height: 20px;
   text-decoration-line: underline;
 }
+.class-activity .class-activity-score {
+  margin-right: 48px;
+}
+@media (max-width: 992px) {
+  .class-activity .class-activity-score {
+    margin: 0;
+  }
+}
 .class-activity .class-activity-score h4 {
   color: #0078ff;
   font-size: 18px;
@@ -12546,10 +12581,52 @@ progress {
   justify-content: space-evenly;
   padding: 22px 27px;
 }
+@media (max-width: 992px) {
+  .class-activity .class-activity-score .student-activity {
+    padding: 12px 8px;
+    flex-wrap: wrap;
+  }
+  .class-activity .class-activity-score .student-activity .student-activity-orange-divider:nth-child(4) {
+    display: none;
+  }
+}
+@media (max-width: 992px) and (max-width: 576px) {
+  .class-activity .class-activity-score .student-activity .student-activity-orange-divider {
+    display: none;
+  }
+}
+.class-activity .class-activity-score .student-activity .student-activity-orange-divider {
+  width: 2px;
+  height: auto;
+  background: #ff7500;
+}
 .class-activity .class-activity-score .student-activity .student-activity-inner {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+@media (max-width: 992px) {
+  .class-activity .class-activity-score .student-activity .student-activity-inner {
+    min-width: 194px;
+  }
+}
+@media (max-width: 992px) and (max-width: 767px) {
+  .class-activity .class-activity-score .student-activity .student-activity-inner {
+    min-width: 55px;
+  }
+}
+@media (max-width: 992px) and (max-width: 767px) and (max-width: 992px) {
+  .class-activity .class-activity-score .student-activity .student-activity-inner {
+    min-width: 194px;
+  }
+}
+@media (max-width: 992px) and (max-width: 767px) {
+  .class-activity .class-activity-score .student-activity .student-activity-inner h2 {
+    font-size: 30px !important;
+  }
+  .class-activity .class-activity-score .student-activity .student-activity-inner p {
+    font-size: 17px;
+  }
 }
 .class-activity .class-activity-score .student-activity .student-activity-inner h2 {
   font-size: 48px;
@@ -12568,10 +12645,159 @@ progress {
   font-weight: 600;
   line-height: 24px;
 }
-.class-activity .class-activity-score .student-activity .student-activity-orange-divider {
-  width: 2px;
-  height: auto;
-  background: #ff7500;
+
+.class-reward-stickers {
+  padding-top: 50px;
+}
+.class-reward-stickers img {
+  max-width: 356px;
+}
+.class-reward-stickers .class-reward-stickers-inner {
+  padding-right: 60px;
+}
+@media (max-width: 992px) {
+  .class-reward-stickers .class-reward-stickers-inner {
+    padding-right: 12px;
+  }
+}
+@media (max-width: 992px) and (max-width: 767px) {
+  .class-reward-stickers .class-reward-stickers-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.game-recommendations-inner {
+  padding: 35px 58px 25px 60px;
+  border-radius: 20px;
+  border: 2px solid #ff7500;
+  margin-top: 50px;
+  margin-bottom: 44px;
+}
+@media (max-width: 992px) {
+  .game-recommendations-inner {
+    padding: 25px 25px 25px 25px;
+  }
+}
+@media (max-width: 992px) and (max-width: 992px) {
+  .game-recommendations-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.class-list-inner {
+  padding: 50px 116px 90px 72px;
+  margin-bottom: 88px;
+}
+@media (max-width: 1130px) {
+  .class-list-inner {
+    padding: 30px 50px 60px 50px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 992px) {
+  .class-list-inner {
+    padding: 20px 20px 20px 20px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 992px) and (max-width: 767px) {
+  .class-list-inner {
+    margin-bottom: 50px;
+  }
+  .class-list-inner button {
+    width: 160px;
+  }
+}
+@media (max-width: 1130px) and (max-width: 992px) {
+  .class-list-inner table {
+    min-width: 656px;
+  }
+}
+.class-list-inner h4.spacing-text {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px; /* 100% */
+  letter-spacing: 4px;
+}
+.class-list-inner table {
+  width: 100%;
+}
+.class-list-inner table thead {
+  background: #eaf0ff;
+}
+.class-list-inner table thead th {
+  padding-top: 16px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: #313131;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.class-list-inner table thead th:last-child {
+  border-radius: 0px 20px 0px 0px;
+}
+.class-list-inner table thead th:first-child {
+  border-radius: 20px 0px 0px 0px;
+}
+.class-list-inner table tbody tr .table-last-item {
+  background: #eaf0ff;
+  border: none;
+  padding: 25px;
+}
+.class-list-inner table tbody tr .table-last-item:last-child {
+  border-radius: 0px 0px 20px 0px;
+}
+.class-list-inner table tbody tr .table-last-item:first-child {
+  border-radius: 0px 0px 0px 20px;
+}
+.class-list-inner table tbody tr td.class-table {
+  text-align: center;
+}
+.class-list-inner table tbody tr td {
+  color: #313131;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px; /* 133.333% */
+  padding-top: 16px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #d9e4ff;
+  text-align: center;
+}
+.class-list-inner table tbody tr td a {
+  color: #056de2;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+  text-decoration-line: underline;
+}
+.class-list-inner table .table-item-menu {
+  max-width: 40px;
+}
+.class-list-inner table .table-item-menu button {
+  border: none;
+  padding: 0px;
+  background: transparent;
+}
+.class-list-inner table .table-item-menu button img {
+  width: 25px;
+}
+
+.first-table-item {
+  width: 186px;
+  padding-left: 26px;
+  text-align: start !important;
+}
+
+.second-table-item {
+  text-align: start !important;
+  width: 323px;
+}
+
+.class-table {
+  overflow-x: scroll;
 }
 
 .text-red {

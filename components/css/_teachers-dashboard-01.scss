@@ -1,8 +1,22 @@
 .preschool-banner {
   margin-bottom: 50px;
   .preschool-banner-inner {
+    @media (max-width: map-get($grid-breakpoints, md)) {
+      flex-direction: column-reverse;
+      align-items: center;
+      display: flex;
+      h4 {
+        text-align: center;
+        line-height: 130% !important;
+      }
+      img {
+        margin-right: 0 !important;
+      }
+    }
     padding-top: 17px;
     img {
+      margin-left: -14px;
+      margin-right: 28px;
       max-width: 109px;
       margin-bottom: -50px;
     }
@@ -22,6 +36,10 @@
 .class-activity {
   .class-activity-details {
     padding-top: 40px;
+    padding-right: 28px;
+    @media (max-width: map-get($grid-breakpoints, lg)) {
+      padding-right: 12px;
+    }
     .card {
       border-radius: 20px;
       border: 2px solid #ff7500;
@@ -31,6 +49,9 @@
       display: flex;
       flex-direction: column;
       gap: 6px;
+      @media (max-width: map-get($grid-breakpoints, xl)) {
+        padding: 22px 20px;
+      }
       p {
         margin-bottom: 0;
         line-height: 28px;
@@ -53,6 +74,11 @@
     }
   }
   .class-activity-score {
+    @media (max-width: map-get($grid-breakpoints, lg)) {
+      margin: 0;
+    }
+    // margin-left: 28px;
+    margin-right: 48px;
     h4 {
       color: #0078ff;
       font-size: 18px;
@@ -68,9 +94,41 @@
       letter-spacing: 0.32px;
     }
     .student-activity {
+      @media (max-width: map-get($grid-breakpoints, lg)) {
+        padding: 12px 8px;
+        flex-wrap: wrap;
+        .student-activity-orange-divider:nth-child(4) {
+          display: none;
+        }
+        @media (max-width: map-get($grid-breakpoints, sm)) {
+          .student-activity-orange-divider {
+            display: none;
+          }
+        }
+      }
       justify-content: space-evenly;
       padding: 22px 27px;
+      .student-activity-orange-divider {
+        width: 2px;
+        height: auto;
+        background: #ff7500;
+      }
       .student-activity-inner {
+        @media (max-width: map-get($grid-breakpoints, lg)) {
+          min-width: 194px;
+          @media (max-width: map-get($grid-breakpoints, md)) {
+            @media (max-width: map-get($grid-breakpoints, lg)) {
+              min-width: 194px;
+            }
+            min-width: 55px;
+            h2 {
+              font-size: 30px !important;
+            }
+            p {
+              font-size: 17px;
+            }
+          }
+        }
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -92,11 +150,147 @@
           line-height: 24px;
         }
       }
-      .student-activity-orange-divider {
-        width: 2px;
-        height: auto;
-        background: #ff7500;
+    }
+  }
+}
+
+.class-reward-stickers {
+  padding-top: 50px;
+  img {
+    max-width: 356px;
+  }
+  .class-reward-stickers-inner {
+    padding-right: 60px;
+    @media (max-width: map-get($grid-breakpoints, lg)) {
+      padding-right: 12px;
+      @media (max-width: map-get($grid-breakpoints, md)) {
+        flex-direction: column;
+        text-align: center;
       }
     }
   }
+}
+
+.game-recommendations-inner {
+  padding: 35px 58px 25px 60px;
+  border-radius: 20px;
+  border: 2px solid #ff7500;
+  margin-top: 50px;
+  margin-bottom: 44px;
+  @media (max-width: map-get($grid-breakpoints, lg)) {
+    padding: 25px 25px 25px 25px;
+    @media (max-width: map-get($grid-breakpoints, lg)) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}
+
+.class-list-inner {
+  @media (max-width: map-get($grid-breakpoints, xl)) {
+    padding: 30px 50px 60px 50px;
+    @media (max-width: map-get($grid-breakpoints, lg)) {
+      padding: 20px 20px 20px 20px;
+      @media (max-width: map-get($grid-breakpoints, md)) {
+        button {
+          width: 160px;
+        }
+        margin-bottom: 50px;
+      }
+      table {
+        min-width: 656px;
+      }
+    }
+  }
+  padding: 50px 116px 90px 72px;
+  margin-bottom: 88px;
+  h4.spacing-text {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 18px; /* 100% */
+    letter-spacing: 4px;
+  }
+  table {
+    width: 100%;
+    thead {
+      background: #eaf0ff;
+      th {
+        padding-top: 16px;
+        padding-bottom: 8px;
+        text-align: center;
+        color: #313131;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.32px;
+      }
+      th:last-child {
+        border-radius: 0px 20px 0px 0px;
+        // padding-right: 28px;
+      }
+      th:first-child {
+        border-radius: 20px 0px 0px 0px;
+      }
+    }
+    tbody {
+      tr {
+        .table-last-item {
+          background: #eaf0ff;
+          border: none;
+          padding: 25px;
+        }
+        .table-last-item:last-child {
+          border-radius: 0px 0px 20px 0px;
+        }
+        .table-last-item:first-child {
+          border-radius: 0px 0px 0px 20px;
+        }
+        td.class-table {
+          text-align: center;
+        }
+        td {
+          color: #313131;
+          font-size: 18px;
+          font-weight: 800;
+          line-height: 24px; /* 133.333% */
+          padding-top: 16px;
+          padding-bottom: 13px;
+          border-bottom: 1px solid #d9e4ff;
+          text-align: center;
+          a {
+            color: #056de2;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: 20px; /* 125% */
+            text-decoration-line: underline;
+          }
+        }
+      }
+    }
+    .table-item-menu {
+      max-width: 40px;
+      button {
+        border: none;
+        padding: 0px;
+        background: transparent;
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
+}
+
+.first-table-item {
+  width: 186px;
+  padding-left: 26px;
+  text-align: start !important;
+}
+.second-table-item {
+  text-align: start !important;
+  width: 323px;
+}
+.class-table {
+  overflow-x: scroll;
 }
